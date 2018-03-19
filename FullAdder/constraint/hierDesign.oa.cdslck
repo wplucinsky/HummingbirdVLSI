@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      wtp27
+HostName                       xunil-03.coe.drexel.edu
+ProcessIdentifier              26393
+ProcessCreationTime_UTC        1519226218
+ProcessCreationTime_Readable   Wed Feb 21 10:16:58 2018 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/DREXEL/wtp27/NCSU_FreePDK45/TeamProject/FullAdder/constraint/hierDesign.oa.cdslck
+TimeEditLocked                 Wed Feb 21 10:49:21 2018 EST

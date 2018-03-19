@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rm885
+HostName                       xunil-03.coe.drexel.edu
+ProcessIdentifier              28376
+ProcessCreationTime_UTC        1519829016
+ProcessCreationTime_Readable   Wed Feb 28 09:43:36 2018 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/DREXEL/rm885/NCSU_FreePDK45/Hummingbird/16BitAdder/symbol/symbol.oa.cdslck
+TimeEditLocked                 Wed Feb 28 10:25:58 2018 EST

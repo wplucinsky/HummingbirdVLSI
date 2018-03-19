@@ -1,0 +1,36 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  NangateOpenCellLibrary
+* Top Cell Name: OR2_X1
+* View Name:     schematic
+* Netlisted on:  Mar 12 09:42:09 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
+
+*.PIN VSS!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    OR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2_X1 A1 A2 VDD! VSS! ZN
+*.PININFO A1:I A2:I VDD!:I VSS!:I ZN:O
+MM_i_2 ZN_neg A1 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_3 VSS! A2 ZN_neg VSS! NM W=2.1E-07 L=5E-08
+MM_i_0 ZN ZN_neg VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_4 net_0 A1 ZN_neg VDD! PM W=3.15E-07 L=5E-08
+MM_i_5 VDD! A2 net_0 VDD! PM W=3.15E-07 L=5E-08
+MM_i_1 ZN ZN_neg VDD! VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+

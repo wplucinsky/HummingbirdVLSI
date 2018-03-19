@@ -1,0 +1,116 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: LFSR
+* View Name:     schematic
+* Netlisted on:  Mar 18 19:18:59 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        gnd!
++        VDD!
+
+*.PIN VSS!
+*+    gnd!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B Z
+*.PININFO A:I B:I Z:O
+MM_i_19 net_001 A Z VSS! NM W=4.15E-07 L=5E-08
+MM_i_24 VSS! B net_001 VSS! NM W=4.15E-07 L=5E-08
+MM_i_0 net_000 A VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_13 Z net_000 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 VSS! B net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_30 net_002 A net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_35 VDD! B net_002 VDD! PM W=3.15E-07 L=5E-08
+MM_i_41 net_003 net_000 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_47 Z A net_003 VDD! PM W=6.3E-07 L=5E-08
+MM_i_53 net_003 B Z VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    DFFR_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DFFR_X1 CK D Q QN RN
+*.PININFO CK:I D:I RN:I Q:O QN:O
+MM_i_108 net_003 net_001 net_012 VDD! PM W=4.2E-07 L=5E-08
+MM_i_103 net_012 D VDD! VDD! PM W=4.2E-07 L=5E-08
+MM_i_89 VDD! CK net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_143 net_015 net_003 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_147 net_008 net_000 net_015 VDD! PM W=3.15E-07 L=5E-08
+MM_i_153 net_016 net_001 net_008 VDD! PM W=9E-08 L=5E-08
+MM_i_159 VDD! net_011 net_016 VDD! PM W=9E-08 L=5E-08
+MM_i_180 VDD! net_008 QN VDD! PM W=6.3E-07 L=5E-08
+MM_i_187 Q net_011 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_96 net_001 net_000 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_114 net_013 net_000 net_003 VDD! PM W=9E-08 L=5E-08
+MM_i_119 VDD! net_006 net_013 VDD! PM W=9E-08 L=5E-08
+MM_i_125 net_013 RN VDD! VDD! PM W=9E-08 L=5E-08
+MM_i_136 VDD! net_003 net_006 VDD! PM W=3.15E-07 L=5E-08
+MM_i_165 net_011 RN VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_172 VDD! net_008 net_011 VDD! PM W=3.15E-07 L=5E-08
+MM_i_13 net_002 D VSS! VSS! NM W=2.75E-07 L=5E-08
+MM_i_18 net_003 net_000 net_002 VSS! NM W=2.75E-07 L=5E-08
+MM_i_28 net_005 net_006 net_004 VSS! NM W=9E-08 L=5E-08
+MM_i_32 VSS! RN net_005 VSS! NM W=9E-08 L=5E-08
+MM_i_24 net_004 net_001 net_003 VSS! NM W=9E-08 L=5E-08
+MM_i_0 VSS! CK net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_45 net_007 net_003 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_49 net_008 net_001 net_007 VSS! NM W=2.1E-07 L=5E-08
+MM_i_55 net_009 net_000 net_008 VSS! NM W=9E-08 L=5E-08
+MM_i_59 VSS! net_011 net_009 VSS! NM W=9E-08 L=5E-08
+MM_i_65 net_010 RN VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_70 net_011 net_008 net_010 VSS! NM W=2.1E-07 L=5E-08
+MM_i_76 VSS! net_008 QN VSS! NM W=4.15E-07 L=5E-08
+MM_i_83 Q net_011 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 net_001 net_000 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_38 VSS! net_003 net_006 VSS! NM W=2.1E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    LFSR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LFSR Out<0> Out<1> Out<2> Out<3> Out<4> Out<5> Out<6> Out<7> Out<8> 
++ Out<9> Out<10> Out<11> Out<12> Out<13> Out<14> Out<15>
+*.PININFO Out<0>:O Out<1>:O Out<2>:O Out<3>:O Out<4>:O Out<5>:O Out<6>:O 
+*.PININFO Out<7>:O Out<8>:O Out<9>:O Out<10>:O Out<11>:O Out<12>:O Out<13>:O 
+*.PININFO Out<14>:O Out<15>:O
+XI72 net024 Out<0> Out<11> / XOR2_X1
+XI70 net026 Out<0> Out<14> / XOR2_X1
+XI71 net025 Out<0> Out<13> / XOR2_X1
+XI58 ck Out<8> Out<7> net36 VDD! / DFFR_X1
+XI57 ck Out<10> Out<9> net38 VDD! / DFFR_X1
+XI56 ck Out<11> Out<10> net39 VDD! / DFFR_X1
+XI55 ck Out<12> net024 net40 VDD! / DFFR_X1
+XI54 ck Out<13> Out<12> net41 VDD! / DFFR_X1
+XI59 ck Out<9> Out<8> net37 VDD! / DFFR_X1
+XI60 ck Out<7> Out<6> net35 VDD! / DFFR_X1
+XI61 ck Out<6> Out<5> net34 VDD! / DFFR_X1
+XI62 ck Out<5> Out<4> net33 VDD! / DFFR_X1
+XI63 ck Out<4> Out<3> net29 VDD! / DFFR_X1
+XI64 ck Out<3> Out<2> net30 VDD! / DFFR_X1
+XI65 ck Out<2> Out<1> net31 VDD! / DFFR_X1
+XI66 ck Out<1> Out<0> net32 VDD! / DFFR_X1
+XI53 ck Out<14> net025 net42 VDD! / DFFR_X1
+XI52 ck Out<15> net026 net43 VDD! / DFFR_X1
+XI50 ck Out<0> Out<15> net044 VDD! / DFFR_X1
+.ENDS
+

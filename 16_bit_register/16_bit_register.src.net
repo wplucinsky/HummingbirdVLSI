@@ -1,0 +1,96 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: 16_bit_register
+* View Name:     schematic
+* Netlisted on:  Mar 18 16:23:08 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
+
+*.PIN VSS!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    DFFR_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DFFR_X1 CK D Q QN RN
+*.PININFO CK:I D:I RN:I Q:O QN:O
+MM_i_108 net_003 net_001 net_012 VDD! PM W=4.2E-07 L=5E-08
+MM_i_103 net_012 D VDD! VDD! PM W=4.2E-07 L=5E-08
+MM_i_89 VDD! CK net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_143 net_015 net_003 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_147 net_008 net_000 net_015 VDD! PM W=3.15E-07 L=5E-08
+MM_i_153 net_016 net_001 net_008 VDD! PM W=9E-08 L=5E-08
+MM_i_159 VDD! net_011 net_016 VDD! PM W=9E-08 L=5E-08
+MM_i_180 VDD! net_008 QN VDD! PM W=6.3E-07 L=5E-08
+MM_i_187 Q net_011 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_96 net_001 net_000 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_114 net_013 net_000 net_003 VDD! PM W=9E-08 L=5E-08
+MM_i_119 VDD! net_006 net_013 VDD! PM W=9E-08 L=5E-08
+MM_i_125 net_013 RN VDD! VDD! PM W=9E-08 L=5E-08
+MM_i_136 VDD! net_003 net_006 VDD! PM W=3.15E-07 L=5E-08
+MM_i_165 net_011 RN VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_172 VDD! net_008 net_011 VDD! PM W=3.15E-07 L=5E-08
+MM_i_13 net_002 D VSS! VSS! NM W=2.75E-07 L=5E-08
+MM_i_18 net_003 net_000 net_002 VSS! NM W=2.75E-07 L=5E-08
+MM_i_28 net_005 net_006 net_004 VSS! NM W=9E-08 L=5E-08
+MM_i_32 VSS! RN net_005 VSS! NM W=9E-08 L=5E-08
+MM_i_24 net_004 net_001 net_003 VSS! NM W=9E-08 L=5E-08
+MM_i_0 VSS! CK net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_45 net_007 net_003 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_49 net_008 net_001 net_007 VSS! NM W=2.1E-07 L=5E-08
+MM_i_55 net_009 net_000 net_008 VSS! NM W=9E-08 L=5E-08
+MM_i_59 VSS! net_011 net_009 VSS! NM W=9E-08 L=5E-08
+MM_i_65 net_010 RN VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_70 net_011 net_008 net_010 VSS! NM W=2.1E-07 L=5E-08
+MM_i_76 VSS! net_008 QN VSS! NM W=4.15E-07 L=5E-08
+MM_i_83 Q net_011 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 net_001 net_000 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_38 VSS! net_003 net_006 VSS! NM W=2.1E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    16_bit_register
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 16_bit_register CLK D<0> D<1> D<2> D<3> D<4> D<5> D<6> D<7> D<8> D<9> 
++ D<10> D<11> D<12> D<13> D<14> D<15> Q<0> Q<1> Q<2> Q<3> Q<4> Q<5> Q<6> Q<7> 
++ Q<8> Q<9> Q<10> Q<11> Q<12> Q<13> Q<14> Q<15> QN<0> QN<1> QN<2> QN<3> QN<4> 
++ QN<5> QN<6> QN<7> QN<8> QN<9> QN<10> QN<11> QN<12> QN<13> QN<14> QN<15> RN
+*.PININFO CLK:I D<0>:I D<1>:I D<2>:I D<3>:I D<4>:I D<5>:I D<6>:I D<7>:I D<8>:I 
+*.PININFO D<9>:I D<10>:I D<11>:I D<12>:I D<13>:I D<14>:I D<15>:I RN:I Q<0>:O 
+*.PININFO Q<1>:O Q<2>:O Q<3>:O Q<4>:O Q<5>:O Q<6>:O Q<7>:O Q<8>:O Q<9>:O 
+*.PININFO Q<10>:O Q<11>:O Q<12>:O Q<13>:O Q<14>:O Q<15>:O QN<0>:O QN<1>:O 
+*.PININFO QN<2>:O QN<3>:O QN<4>:O QN<5>:O QN<6>:O QN<7>:O QN<8>:O QN<9>:O 
+*.PININFO QN<10>:O QN<11>:O QN<12>:O QN<13>:O QN<14>:O QN<15>:O
+XI15 CLK D<8> Q<8> QN<8> RN / DFFR_X1
+XI14 CLK D<12> Q<12> QN<12> RN / DFFR_X1
+XI13 CLK D<14> Q<14> QN<14> RN / DFFR_X1
+XI12 CLK D<15> Q<15> QN<15> RN / DFFR_X1
+XI11 CLK D<13> Q<13> QN<13> RN / DFFR_X1
+XI10 CLK D<10> Q<10> QN<10> RN / DFFR_X1
+XI9 CLK D<11> Q<11> QN<11> RN / DFFR_X1
+XI8 CLK D<9> Q<9> QN<9> RN / DFFR_X1
+XI7 CLK D<4> Q<4> QN<4> RN / DFFR_X1
+XI6 CLK D<6> Q<6> QN<6> RN / DFFR_X1
+XI5 CLK D<7> Q<7> QN<7> RN / DFFR_X1
+XI4 CLK D<5> Q<5> QN<5> RN / DFFR_X1
+XI3 CLK D<2> Q<2> QN<2> RN / DFFR_X1
+XI2 CLK D<3> Q<3> QN<3> RN / DFFR_X1
+XI1 CLK D<1> Q<1> QN<1> RN / DFFR_X1
+XI0 CLK D<0> Q<0> QN<0> RN / DFFR_X1
+.ENDS
+

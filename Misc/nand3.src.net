@@ -1,0 +1,47 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECEC471_lib
+* Top Cell Name: nand3
+* View Name:     schematic
+* Netlisted on:  Dec 15 13:07:44 2017
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    nand_gate
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand_gate a b out
+*.PININFO a:I b:I out:O
+MM1 out a net14 gnd! NMOS_VTH W=200n L=50n m=1
+MM0 net14 b gnd! gnd! NMOS_VTH W=200n L=50n m=1
+MM3 out b vdd! vdd! PMOS_VTH W=200n L=50n m=1
+MM2 out a vdd! vdd! PMOS_VTH W=200n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    nand3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand3 a b c out
+*.PININFO a:I b:I c:I out:O
+XI2 net7 net7 net9 / nand_gate
+XI1 net9 c out / nand_gate
+XI0 a b net7 / nand_gate
+.ENDS
+

@@ -1,0 +1,9573 @@
+16B_XOR 1000
+Well.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of well = 0.2
+Poly.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of poly = 0.025
+Poly.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of gate poly = 0.07
+Poly.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min extension of poly past active = 0.025
+Poly.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of gate = 0.0525
+Poly.5
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of poly to active = 0.025
+Poly.6
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of field poly = 0.05
+Active.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum well enclosure of active = 0.055
+Active.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Active must be inside well
+Implant.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of contact = 0.0325
+Contact.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact = 0.0375
+Contact.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of contact = 0.0025
+Contact.5
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum poly enclosure of contact = 0.0025
+Contact.6
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact to poly = 0.0175
+Metal1.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal1 = 0.035
+Metal1.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 = 0.0325
+Metal1.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past contact by 0.0175 on two opposite sides
+Metal1.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+Via1.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal1
+Via1.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 Mar 18 17:06:39 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+192 192 2 Mar 18 17:06:40 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29422 337 -29422 1337
+-29422 337 -29107 337
+e 2 2
+-29107 337 -29422 337
+-29107 337 -29107 757
+e 3 2
+-29107 757 -29107 337
+-29107 757 -28792 757
+e 4 2
+-28792 757 -29107 757
+-28792 757 -28792 1362
+e 5 2
+-28792 1362 -28792 757
+-28792 1362 -29422 1362
+e 6 2
+-29422 1362 -28792 1362
+-29422 1362 -29422 362
+e 7 2
+-28617 757 -28617 1362
+-28617 757 -28412 757
+e 8 2
+-28412 757 -28617 757
+-28412 757 -28412 337
+e 9 2
+-28412 337 -28412 757
+-28412 337 -28202 337
+e 10 2
+-28202 337 -28412 337
+-28202 337 -28202 1337
+e 11 2
+-28202 1362 -28202 362
+-28202 1362 -28617 1362
+e 12 2
+-28617 1362 -28202 1362
+-28617 1362 -28617 757
+e 13 2
+-27562 337 -27562 1337
+-27562 337 -27247 337
+e 14 2
+-27247 337 -27562 337
+-27247 337 -27247 757
+e 15 2
+-27247 757 -27247 337
+-27247 757 -26932 757
+e 16 2
+-26932 757 -27247 757
+-26932 757 -26932 1362
+e 17 2
+-26932 1362 -26932 757
+-26932 1362 -27562 1362
+e 18 2
+-27562 1362 -26932 1362
+-27562 1362 -27562 362
+e 19 2
+-26757 757 -26757 1362
+-26757 757 -26552 757
+e 20 2
+-26552 757 -26757 757
+-26552 757 -26552 337
+e 21 2
+-26552 337 -26552 757
+-26552 337 -26342 337
+e 22 2
+-26342 337 -26552 337
+-26342 337 -26342 1337
+e 23 2
+-26342 1362 -26342 362
+-26342 1362 -26757 1362
+e 24 2
+-26757 1362 -26342 1362
+-26757 1362 -26757 757
+e 25 2
+-25702 337 -25702 1337
+-25702 337 -25387 337
+e 26 2
+-25387 337 -25702 337
+-25387 337 -25387 757
+e 27 2
+-25387 757 -25387 337
+-25387 757 -25072 757
+e 28 2
+-25072 757 -25387 757
+-25072 757 -25072 1362
+e 29 2
+-25072 1362 -25072 757
+-25072 1362 -25702 1362
+e 30 2
+-25702 1362 -25072 1362
+-25702 1362 -25702 362
+e 31 2
+-24897 757 -24897 1362
+-24897 757 -24692 757
+e 32 2
+-24692 757 -24897 757
+-24692 757 -24692 337
+e 33 2
+-24692 337 -24692 757
+-24692 337 -24482 337
+e 34 2
+-24482 337 -24692 337
+-24482 337 -24482 1337
+e 35 2
+-24482 1362 -24482 362
+-24482 1362 -24897 1362
+e 36 2
+-24897 1362 -24482 1362
+-24897 1362 -24897 757
+e 37 2
+-23842 337 -23842 1337
+-23842 337 -23527 337
+e 38 2
+-23527 337 -23842 337
+-23527 337 -23527 757
+e 39 2
+-23527 757 -23527 337
+-23527 757 -23212 757
+e 40 2
+-23212 757 -23527 757
+-23212 757 -23212 1362
+e 41 2
+-23212 1362 -23212 757
+-23212 1362 -23842 1362
+e 42 2
+-23842 1362 -23212 1362
+-23842 1362 -23842 362
+e 43 2
+-23037 757 -23037 1362
+-23037 757 -22832 757
+e 44 2
+-22832 757 -23037 757
+-22832 757 -22832 337
+e 45 2
+-22832 337 -22832 757
+-22832 337 -22622 337
+e 46 2
+-22622 337 -22832 337
+-22622 337 -22622 1337
+e 47 2
+-22622 1362 -22622 362
+-22622 1362 -23037 1362
+e 48 2
+-23037 1362 -22622 1362
+-23037 1362 -23037 757
+e 49 2
+-21982 337 -21982 1337
+-21982 337 -21667 337
+e 50 2
+-21667 337 -21982 337
+-21667 337 -21667 757
+e 51 2
+-21667 757 -21667 337
+-21667 757 -21352 757
+e 52 2
+-21352 757 -21667 757
+-21352 757 -21352 1362
+e 53 2
+-21352 1362 -21352 757
+-21352 1362 -21982 1362
+e 54 2
+-21982 1362 -21352 1362
+-21982 1362 -21982 362
+e 55 2
+-21177 757 -21177 1362
+-21177 757 -20972 757
+e 56 2
+-20972 757 -21177 757
+-20972 757 -20972 337
+e 57 2
+-20972 337 -20972 757
+-20972 337 -20762 337
+e 58 2
+-20762 337 -20972 337
+-20762 337 -20762 1337
+e 59 2
+-20762 1362 -20762 362
+-20762 1362 -21177 1362
+e 60 2
+-21177 1362 -20762 1362
+-21177 1362 -21177 757
+e 61 2
+-20122 337 -20122 1337
+-20122 337 -19807 337
+e 62 2
+-19807 337 -20122 337
+-19807 337 -19807 757
+e 63 2
+-19807 757 -19807 337
+-19807 757 -19492 757
+e 64 2
+-19492 757 -19807 757
+-19492 757 -19492 1362
+e 65 2
+-19492 1362 -19492 757
+-19492 1362 -20122 1362
+e 66 2
+-20122 1362 -19492 1362
+-20122 1362 -20122 362
+e 67 2
+-19317 757 -19317 1362
+-19317 757 -19112 757
+e 68 2
+-19112 757 -19317 757
+-19112 757 -19112 337
+e 69 2
+-19112 337 -19112 757
+-19112 337 -18902 337
+e 70 2
+-18902 337 -19112 337
+-18902 337 -18902 1337
+e 71 2
+-18902 1362 -18902 362
+-18902 1362 -19317 1362
+e 72 2
+-19317 1362 -18902 1362
+-19317 1362 -19317 757
+e 73 2
+-18262 337 -18262 1337
+-18262 337 -17947 337
+e 74 2
+-17947 337 -18262 337
+-17947 337 -17947 757
+e 75 2
+-17947 757 -17947 337
+-17947 757 -17632 757
+e 76 2
+-17632 757 -17947 757
+-17632 757 -17632 1362
+e 77 2
+-17632 1362 -17632 757
+-17632 1362 -18262 1362
+e 78 2
+-18262 1362 -17632 1362
+-18262 1362 -18262 362
+e 79 2
+-17457 757 -17457 1362
+-17457 757 -17252 757
+e 80 2
+-17252 757 -17457 757
+-17252 757 -17252 337
+e 81 2
+-17252 337 -17252 757
+-17252 337 -17042 337
+e 82 2
+-17042 337 -17252 337
+-17042 337 -17042 1337
+e 83 2
+-17042 1362 -17042 362
+-17042 1362 -17457 1362
+e 84 2
+-17457 1362 -17042 1362
+-17457 1362 -17457 757
+e 85 2
+-16402 337 -16402 1337
+-16402 337 -16087 337
+e 86 2
+-16087 337 -16402 337
+-16087 337 -16087 757
+e 87 2
+-16087 757 -16087 337
+-16087 757 -15772 757
+e 88 2
+-15772 757 -16087 757
+-15772 757 -15772 1362
+e 89 2
+-15772 1362 -15772 757
+-15772 1362 -16402 1362
+e 90 2
+-16402 1362 -15772 1362
+-16402 1362 -16402 362
+e 91 2
+-15597 757 -15597 1362
+-15597 757 -15392 757
+e 92 2
+-15392 757 -15597 757
+-15392 757 -15392 337
+e 93 2
+-15392 337 -15392 757
+-15392 337 -15182 337
+e 94 2
+-15182 337 -15392 337
+-15182 337 -15182 1337
+e 95 2
+-15182 1362 -15182 362
+-15182 1362 -15597 1362
+e 96 2
+-15597 1362 -15182 1362
+-15597 1362 -15597 757
+e 97 2
+-14542 337 -14542 1337
+-14542 337 -14227 337
+e 98 2
+-14227 337 -14542 337
+-14227 337 -14227 757
+e 99 2
+-14227 757 -14227 337
+-14227 757 -13912 757
+e 100 2
+-13912 757 -14227 757
+-13912 757 -13912 1362
+e 101 2
+-13912 1362 -13912 757
+-13912 1362 -14542 1362
+e 102 2
+-14542 1362 -13912 1362
+-14542 1362 -14542 362
+e 103 2
+-13737 757 -13737 1362
+-13737 757 -13532 757
+e 104 2
+-13532 757 -13737 757
+-13532 757 -13532 337
+e 105 2
+-13532 337 -13532 757
+-13532 337 -13322 337
+e 106 2
+-13322 337 -13532 337
+-13322 337 -13322 1337
+e 107 2
+-13322 1362 -13322 362
+-13322 1362 -13737 1362
+e 108 2
+-13737 1362 -13322 1362
+-13737 1362 -13737 757
+e 109 2
+-12682 337 -12682 1337
+-12682 337 -12367 337
+e 110 2
+-12367 337 -12682 337
+-12367 337 -12367 757
+e 111 2
+-12367 757 -12367 337
+-12367 757 -12052 757
+e 112 2
+-12052 757 -12367 757
+-12052 757 -12052 1362
+e 113 2
+-12052 1362 -12052 757
+-12052 1362 -12682 1362
+e 114 2
+-12682 1362 -12052 1362
+-12682 1362 -12682 362
+e 115 2
+-11877 757 -11877 1362
+-11877 757 -11672 757
+e 116 2
+-11672 757 -11877 757
+-11672 757 -11672 337
+e 117 2
+-11672 337 -11672 757
+-11672 337 -11462 337
+e 118 2
+-11462 337 -11672 337
+-11462 337 -11462 1337
+e 119 2
+-11462 1362 -11462 362
+-11462 1362 -11877 1362
+e 120 2
+-11877 1362 -11462 1362
+-11877 1362 -11877 757
+e 121 2
+-10822 337 -10822 1337
+-10822 337 -10507 337
+e 122 2
+-10507 337 -10822 337
+-10507 337 -10507 757
+e 123 2
+-10507 757 -10507 337
+-10507 757 -10192 757
+e 124 2
+-10192 757 -10507 757
+-10192 757 -10192 1362
+e 125 2
+-10192 1362 -10192 757
+-10192 1362 -10822 1362
+e 126 2
+-10822 1362 -10192 1362
+-10822 1362 -10822 362
+e 127 2
+-10017 757 -10017 1362
+-10017 757 -9812 757
+e 128 2
+-9812 757 -10017 757
+-9812 757 -9812 337
+e 129 2
+-9812 337 -9812 757
+-9812 337 -9602 337
+e 130 2
+-9602 337 -9812 337
+-9602 337 -9602 1337
+e 131 2
+-9602 1362 -9602 362
+-9602 1362 -10017 1362
+e 132 2
+-10017 1362 -9602 1362
+-10017 1362 -10017 757
+e 133 2
+-8962 337 -8962 1337
+-8962 337 -8647 337
+e 134 2
+-8647 337 -8962 337
+-8647 337 -8647 757
+e 135 2
+-8647 757 -8647 337
+-8647 757 -8332 757
+e 136 2
+-8332 757 -8647 757
+-8332 757 -8332 1362
+e 137 2
+-8332 1362 -8332 757
+-8332 1362 -8962 1362
+e 138 2
+-8962 1362 -8332 1362
+-8962 1362 -8962 362
+e 139 2
+-8157 757 -8157 1362
+-8157 757 -7952 757
+e 140 2
+-7952 757 -8157 757
+-7952 757 -7952 337
+e 141 2
+-7952 337 -7952 757
+-7952 337 -7742 337
+e 142 2
+-7742 337 -7952 337
+-7742 337 -7742 1337
+e 143 2
+-7742 1362 -7742 362
+-7742 1362 -8157 1362
+e 144 2
+-8157 1362 -7742 1362
+-8157 1362 -8157 757
+e 145 2
+-7102 337 -7102 1337
+-7102 337 -6787 337
+e 146 2
+-6787 337 -7102 337
+-6787 337 -6787 757
+e 147 2
+-6787 757 -6787 337
+-6787 757 -6472 757
+e 148 2
+-6472 757 -6787 757
+-6472 757 -6472 1362
+e 149 2
+-6472 1362 -6472 757
+-6472 1362 -7102 1362
+e 150 2
+-7102 1362 -6472 1362
+-7102 1362 -7102 362
+e 151 2
+-6297 757 -6297 1362
+-6297 757 -6092 757
+e 152 2
+-6092 757 -6297 757
+-6092 757 -6092 337
+e 153 2
+-6092 337 -6092 757
+-6092 337 -5882 337
+e 154 2
+-5882 337 -6092 337
+-5882 337 -5882 1337
+e 155 2
+-5882 1362 -5882 362
+-5882 1362 -6297 1362
+e 156 2
+-6297 1362 -5882 1362
+-6297 1362 -6297 757
+e 157 2
+-5242 337 -5242 1337
+-5242 337 -4927 337
+e 158 2
+-4927 337 -5242 337
+-4927 337 -4927 757
+e 159 2
+-4927 757 -4927 337
+-4927 757 -4612 757
+e 160 2
+-4612 757 -4927 757
+-4612 757 -4612 1362
+e 161 2
+-4612 1362 -4612 757
+-4612 1362 -5242 1362
+e 162 2
+-5242 1362 -4612 1362
+-5242 1362 -5242 362
+e 163 2
+-4437 757 -4437 1362
+-4437 757 -4232 757
+e 164 2
+-4232 757 -4437 757
+-4232 757 -4232 337
+e 165 2
+-4232 337 -4232 757
+-4232 337 -4022 337
+e 166 2
+-4022 337 -4232 337
+-4022 337 -4022 1337
+e 167 2
+-4022 1362 -4022 362
+-4022 1362 -4437 1362
+e 168 2
+-4437 1362 -4022 1362
+-4437 1362 -4437 757
+e 169 2
+-3382 337 -3382 1337
+-3382 337 -3067 337
+e 170 2
+-3067 337 -3382 337
+-3067 337 -3067 757
+e 171 2
+-3067 757 -3067 337
+-3067 757 -2752 757
+e 172 2
+-2752 757 -3067 757
+-2752 757 -2752 1362
+e 173 2
+-2752 1362 -2752 757
+-2752 1362 -3382 1362
+e 174 2
+-3382 1362 -2752 1362
+-3382 1362 -3382 362
+e 175 2
+-2577 757 -2577 1362
+-2577 757 -2372 757
+e 176 2
+-2372 757 -2577 757
+-2372 757 -2372 337
+e 177 2
+-2372 337 -2372 757
+-2372 337 -2162 337
+e 178 2
+-2162 337 -2372 337
+-2162 337 -2162 1337
+e 179 2
+-2162 1362 -2162 362
+-2162 1362 -2577 1362
+e 180 2
+-2577 1362 -2162 1362
+-2577 1362 -2577 757
+e 181 2
+-1522 337 -1522 1337
+-1522 337 -1207 337
+e 182 2
+-1207 337 -1522 337
+-1207 337 -1207 757
+e 183 2
+-1207 757 -1207 337
+-1207 757 -892 757
+e 184 2
+-892 757 -1207 757
+-892 757 -892 1362
+e 185 2
+-892 1362 -892 757
+-892 1362 -1522 1362
+e 186 2
+-1522 1362 -892 1362
+-1522 1362 -1522 362
+e 187 2
+-717 757 -717 1362
+-717 757 -512 757
+e 188 2
+-512 757 -717 757
+-512 757 -512 337
+e 189 2
+-512 337 -512 757
+-512 337 -302 337
+e 190 2
+-302 337 -512 337
+-302 337 -302 1337
+e 191 2
+-302 1362 -302 362
+-302 1362 -717 1362
+e 192 2
+-717 1362 -302 1362
+-717 1362 -717 757
+Grid.2
+64 64 2 Mar 18 17:06:40 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29537 272 -29537 1272
+-29537 272 -28537 272
+e 2 2
+-28087 272 -29087 272
+-28087 272 -28087 1272
+e 3 2
+-28087 1462 -28087 462
+-28087 1462 -29087 1462
+e 4 2
+-29537 1462 -28537 1462
+-29537 1462 -29537 462
+e 5 2
+-27677 272 -27677 1272
+-27677 272 -26677 272
+e 6 2
+-26227 272 -27227 272
+-26227 272 -26227 1272
+e 7 2
+-26227 1462 -26227 462
+-26227 1462 -27227 1462
+e 8 2
+-27677 1462 -26677 1462
+-27677 1462 -27677 462
+e 9 2
+-25817 272 -25817 1272
+-25817 272 -24817 272
+e 10 2
+-24367 272 -25367 272
+-24367 272 -24367 1272
+e 11 2
+-24367 1462 -24367 462
+-24367 1462 -25367 1462
+e 12 2
+-25817 1462 -24817 1462
+-25817 1462 -25817 462
+e 13 2
+-23957 272 -23957 1272
+-23957 272 -22957 272
+e 14 2
+-22507 272 -23507 272
+-22507 272 -22507 1272
+e 15 2
+-22507 1462 -22507 462
+-22507 1462 -23507 1462
+e 16 2
+-23957 1462 -22957 1462
+-23957 1462 -23957 462
+e 17 2
+-22097 272 -22097 1272
+-22097 272 -21097 272
+e 18 2
+-20647 272 -21647 272
+-20647 272 -20647 1272
+e 19 2
+-20647 1462 -20647 462
+-20647 1462 -21647 1462
+e 20 2
+-22097 1462 -21097 1462
+-22097 1462 -22097 462
+e 21 2
+-20237 272 -20237 1272
+-20237 272 -19237 272
+e 22 2
+-18787 272 -19787 272
+-18787 272 -18787 1272
+e 23 2
+-18787 1462 -18787 462
+-18787 1462 -19787 1462
+e 24 2
+-20237 1462 -19237 1462
+-20237 1462 -20237 462
+e 25 2
+-18377 272 -18377 1272
+-18377 272 -17377 272
+e 26 2
+-16927 272 -17927 272
+-16927 272 -16927 1272
+e 27 2
+-16927 1462 -16927 462
+-16927 1462 -17927 1462
+e 28 2
+-18377 1462 -17377 1462
+-18377 1462 -18377 462
+e 29 2
+-16517 272 -16517 1272
+-16517 272 -15517 272
+e 30 2
+-15067 272 -16067 272
+-15067 272 -15067 1272
+e 31 2
+-15067 1462 -15067 462
+-15067 1462 -16067 1462
+e 32 2
+-16517 1462 -15517 1462
+-16517 1462 -16517 462
+e 33 2
+-14657 272 -14657 1272
+-14657 272 -13657 272
+e 34 2
+-13207 272 -14207 272
+-13207 272 -13207 1272
+e 35 2
+-13207 1462 -13207 462
+-13207 1462 -14207 1462
+e 36 2
+-14657 1462 -13657 1462
+-14657 1462 -14657 462
+e 37 2
+-12797 272 -12797 1272
+-12797 272 -11797 272
+e 38 2
+-11347 272 -12347 272
+-11347 272 -11347 1272
+e 39 2
+-11347 1462 -11347 462
+-11347 1462 -12347 1462
+e 40 2
+-12797 1462 -11797 1462
+-12797 1462 -12797 462
+e 41 2
+-10937 272 -10937 1272
+-10937 272 -9937 272
+e 42 2
+-9487 272 -10487 272
+-9487 272 -9487 1272
+e 43 2
+-9487 1462 -9487 462
+-9487 1462 -10487 1462
+e 44 2
+-10937 1462 -9937 1462
+-10937 1462 -10937 462
+e 45 2
+-9077 272 -9077 1272
+-9077 272 -8077 272
+e 46 2
+-7627 272 -8627 272
+-7627 272 -7627 1272
+e 47 2
+-7627 1462 -7627 462
+-7627 1462 -8627 1462
+e 48 2
+-9077 1462 -8077 1462
+-9077 1462 -9077 462
+e 49 2
+-7217 272 -7217 1272
+-7217 272 -6217 272
+e 50 2
+-5767 272 -6767 272
+-5767 272 -5767 1272
+e 51 2
+-5767 1462 -5767 462
+-5767 1462 -6767 1462
+e 52 2
+-7217 1462 -6217 1462
+-7217 1462 -7217 462
+e 53 2
+-5357 272 -5357 1272
+-5357 272 -4357 272
+e 54 2
+-3907 272 -4907 272
+-3907 272 -3907 1272
+e 55 2
+-3907 1462 -3907 462
+-3907 1462 -4907 1462
+e 56 2
+-5357 1462 -4357 1462
+-5357 1462 -5357 462
+e 57 2
+-3497 272 -3497 1272
+-3497 272 -2497 272
+e 58 2
+-2047 272 -3047 272
+-2047 272 -2047 1272
+e 59 2
+-2047 1462 -2047 462
+-2047 1462 -3047 1462
+e 60 2
+-3497 1462 -2497 1462
+-3497 1462 -3497 462
+e 61 2
+-1637 272 -1637 1272
+-1637 272 -637 272
+e 62 2
+-187 272 -1187 272
+-187 272 -187 1272
+e 63 2
+-187 1462 -187 462
+-187 1462 -1187 1462
+e 64 2
+-1637 1462 -637 1462
+-1637 1462 -1637 462
+Grid.3
+64 64 2 Mar 18 17:06:40 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29627 182 -29627 1182
+-29627 182 -28627 182
+e 2 2
+-27997 182 -28997 182
+-27997 182 -27997 1182
+e 3 2
+-27997 1552 -27997 552
+-27997 1552 -28997 1552
+e 4 2
+-29627 1552 -28627 1552
+-29627 1552 -29627 552
+e 5 2
+-27767 182 -27767 1182
+-27767 182 -26767 182
+e 6 2
+-26137 182 -27137 182
+-26137 182 -26137 1182
+e 7 2
+-26137 1552 -26137 552
+-26137 1552 -27137 1552
+e 8 2
+-27767 1552 -26767 1552
+-27767 1552 -27767 552
+e 9 2
+-25907 182 -25907 1182
+-25907 182 -24907 182
+e 10 2
+-24277 182 -25277 182
+-24277 182 -24277 1182
+e 11 2
+-24277 1552 -24277 552
+-24277 1552 -25277 1552
+e 12 2
+-25907 1552 -24907 1552
+-25907 1552 -25907 552
+e 13 2
+-24047 182 -24047 1182
+-24047 182 -23047 182
+e 14 2
+-22417 182 -23417 182
+-22417 182 -22417 1182
+e 15 2
+-22417 1552 -22417 552
+-22417 1552 -23417 1552
+e 16 2
+-24047 1552 -23047 1552
+-24047 1552 -24047 552
+e 17 2
+-22187 182 -22187 1182
+-22187 182 -21187 182
+e 18 2
+-20557 182 -21557 182
+-20557 182 -20557 1182
+e 19 2
+-20557 1552 -20557 552
+-20557 1552 -21557 1552
+e 20 2
+-22187 1552 -21187 1552
+-22187 1552 -22187 552
+e 21 2
+-20327 182 -20327 1182
+-20327 182 -19327 182
+e 22 2
+-18697 182 -19697 182
+-18697 182 -18697 1182
+e 23 2
+-18697 1552 -18697 552
+-18697 1552 -19697 1552
+e 24 2
+-20327 1552 -19327 1552
+-20327 1552 -20327 552
+e 25 2
+-18467 182 -18467 1182
+-18467 182 -17467 182
+e 26 2
+-16837 182 -17837 182
+-16837 182 -16837 1182
+e 27 2
+-16837 1552 -16837 552
+-16837 1552 -17837 1552
+e 28 2
+-18467 1552 -17467 1552
+-18467 1552 -18467 552
+e 29 2
+-16607 182 -16607 1182
+-16607 182 -15607 182
+e 30 2
+-14977 182 -15977 182
+-14977 182 -14977 1182
+e 31 2
+-14977 1552 -14977 552
+-14977 1552 -15977 1552
+e 32 2
+-16607 1552 -15607 1552
+-16607 1552 -16607 552
+e 33 2
+-14747 182 -14747 1182
+-14747 182 -13747 182
+e 34 2
+-13117 182 -14117 182
+-13117 182 -13117 1182
+e 35 2
+-13117 1552 -13117 552
+-13117 1552 -14117 1552
+e 36 2
+-14747 1552 -13747 1552
+-14747 1552 -14747 552
+e 37 2
+-12887 182 -12887 1182
+-12887 182 -11887 182
+e 38 2
+-11257 182 -12257 182
+-11257 182 -11257 1182
+e 39 2
+-11257 1552 -11257 552
+-11257 1552 -12257 1552
+e 40 2
+-12887 1552 -11887 1552
+-12887 1552 -12887 552
+e 41 2
+-11027 182 -11027 1182
+-11027 182 -10027 182
+e 42 2
+-9397 182 -10397 182
+-9397 182 -9397 1182
+e 43 2
+-9397 1552 -9397 552
+-9397 1552 -10397 1552
+e 44 2
+-11027 1552 -10027 1552
+-11027 1552 -11027 552
+e 45 2
+-9167 182 -9167 1182
+-9167 182 -8167 182
+e 46 2
+-7537 182 -8537 182
+-7537 182 -7537 1182
+e 47 2
+-7537 1552 -7537 552
+-7537 1552 -8537 1552
+e 48 2
+-9167 1552 -8167 1552
+-9167 1552 -9167 552
+e 49 2
+-7307 182 -7307 1182
+-7307 182 -6307 182
+e 50 2
+-5677 182 -6677 182
+-5677 182 -5677 1182
+e 51 2
+-5677 1552 -5677 552
+-5677 1552 -6677 1552
+e 52 2
+-7307 1552 -6307 1552
+-7307 1552 -7307 552
+e 53 2
+-5447 182 -5447 1182
+-5447 182 -4447 182
+e 54 2
+-3817 182 -4817 182
+-3817 182 -3817 1182
+e 55 2
+-3817 1552 -3817 552
+-3817 1552 -4817 1552
+e 56 2
+-5447 1552 -4447 1552
+-5447 1552 -5447 552
+e 57 2
+-3587 182 -3587 1182
+-3587 182 -2587 182
+e 58 2
+-1957 182 -2957 182
+-1957 182 -1957 1182
+e 59 2
+-1957 1552 -1957 552
+-1957 1552 -2957 1552
+e 60 2
+-3587 1552 -2587 1552
+-3587 1552 -3587 552
+e 61 2
+-1727 182 -1727 1182
+-1727 182 -727 182
+e 62 2
+-97 182 -1097 182
+-97 182 -97 1182
+e 63 2
+-97 1552 -97 552
+-97 1552 -1097 1552
+e 64 2
+-1727 1552 -727 1552
+-1727 1552 -1727 552
+Grid.4
+960 960 2 Mar 18 17:06:40 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29362 717 -29362 782
+-29362 717 -29297 717
+e 2 2
+-29297 717 -29362 717
+-29297 717 -29297 782
+e 3 2
+-29297 782 -29297 717
+-29297 782 -29362 782
+e 4 2
+-29362 782 -29297 782
+-29362 782 -29362 717
+e 5 2
+-29352 917 -29352 982
+-29352 917 -29287 917
+e 6 2
+-29287 917 -29352 917
+-29287 917 -29287 982
+e 7 2
+-29287 982 -29287 917
+-29287 982 -29352 982
+e 8 2
+-29352 982 -29287 982
+-29352 982 -29352 917
+e 9 2
+-29352 1292 -29352 1357
+-29352 1292 -29287 1292
+e 10 2
+-29287 1292 -29352 1292
+-29287 1292 -29287 1357
+e 11 2
+-29287 1357 -29287 1292
+-29287 1357 -29352 1357
+e 12 2
+-29352 1357 -29287 1357
+-29352 1357 -29352 1292
+e 13 2
+-29327 342 -29327 407
+-29327 342 -29262 342
+e 14 2
+-29262 342 -29327 342
+-29262 342 -29262 407
+e 15 2
+-29262 407 -29262 342
+-29262 407 -29327 407
+e 16 2
+-29327 407 -29262 407
+-29327 407 -29327 342
+e 17 2
+-29217 1107 -29217 1172
+-29217 1107 -29152 1107
+e 18 2
+-29152 1107 -29217 1107
+-29152 1107 -29152 1172
+e 19 2
+-29152 1172 -29152 1107
+-29152 1172 -29217 1172
+e 20 2
+-29217 1172 -29152 1172
+-29217 1172 -29217 1107
+e 21 2
+-29052 637 -29052 702
+-29052 637 -28987 637
+e 22 2
+-28987 637 -29052 637
+-28987 637 -28987 702
+e 23 2
+-28987 702 -28987 637
+-28987 702 -29052 702
+e 24 2
+-29052 702 -28987 702
+-29052 702 -29052 637
+e 25 2
+-28877 472 -28877 537
+-28877 472 -28812 472
+e 26 2
+-28812 472 -28877 472
+-28812 472 -28812 537
+e 27 2
+-28812 537 -28812 472
+-28812 537 -28877 537
+e 28 2
+-28877 537 -28812 537
+-28877 537 -28877 472
+e 29 2
+-28737 797 -28737 862
+-28737 797 -28672 797
+e 30 2
+-28672 797 -28737 797
+-28672 797 -28672 862
+e 31 2
+-28672 862 -28672 797
+-28672 862 -28737 862
+e 32 2
+-28737 862 -28672 862
+-28737 862 -28737 797
+e 33 2
+-28737 987 -28737 1052
+-28737 987 -28672 987
+e 34 2
+-28672 987 -28737 987
+-28672 987 -28672 1052
+e 35 2
+-28672 1052 -28672 987
+-28672 1052 -28737 1052
+e 36 2
+-28737 1052 -28672 1052
+-28737 1052 -28737 987
+e 37 2
+-28737 1177 -28737 1242
+-28737 1177 -28672 1177
+e 38 2
+-28672 1177 -28737 1177
+-28672 1177 -28672 1242
+e 39 2
+-28672 1242 -28672 1177
+-28672 1242 -28737 1242
+e 40 2
+-28737 1242 -28672 1242
+-28737 1242 -28737 1177
+e 41 2
+-28362 342 -28362 407
+-28362 342 -28297 342
+e 42 2
+-28297 342 -28362 342
+-28297 342 -28297 407
+e 43 2
+-28297 407 -28297 342
+-28297 407 -28362 407
+e 44 2
+-28362 407 -28297 407
+-28362 407 -28362 342
+e 45 2
+-28362 527 -28362 592
+-28362 527 -28297 527
+e 46 2
+-28297 527 -28362 527
+-28297 527 -28297 592
+e 47 2
+-28297 592 -28297 527
+-28297 592 -28362 592
+e 48 2
+-28362 592 -28297 592
+-28362 592 -28362 527
+e 49 2
+-28362 717 -28362 782
+-28362 717 -28297 717
+e 50 2
+-28297 717 -28362 717
+-28297 717 -28297 782
+e 51 2
+-28297 782 -28297 717
+-28297 782 -28362 782
+e 52 2
+-28362 782 -28297 782
+-28362 782 -28362 717
+e 53 2
+-28362 917 -28362 982
+-28362 917 -28297 917
+e 54 2
+-28297 917 -28362 917
+-28297 917 -28297 982
+e 55 2
+-28297 982 -28297 917
+-28297 982 -28362 982
+e 56 2
+-28362 982 -28297 982
+-28362 982 -28362 917
+e 57 2
+-28362 1292 -28362 1357
+-28362 1292 -28297 1292
+e 58 2
+-28297 1292 -28362 1292
+-28297 1292 -28297 1357
+e 59 2
+-28297 1357 -28297 1292
+-28297 1357 -28362 1357
+e 60 2
+-28362 1357 -28297 1357
+-28362 1357 -28362 1292
+e 61 2
+-27502 717 -27502 782
+-27502 717 -27437 717
+e 62 2
+-27437 717 -27502 717
+-27437 717 -27437 782
+e 63 2
+-27437 782 -27437 717
+-27437 782 -27502 782
+e 64 2
+-27502 782 -27437 782
+-27502 782 -27502 717
+e 65 2
+-27492 917 -27492 982
+-27492 917 -27427 917
+e 66 2
+-27427 917 -27492 917
+-27427 917 -27427 982
+e 67 2
+-27427 982 -27427 917
+-27427 982 -27492 982
+e 68 2
+-27492 982 -27427 982
+-27492 982 -27492 917
+e 69 2
+-27492 1292 -27492 1357
+-27492 1292 -27427 1292
+e 70 2
+-27427 1292 -27492 1292
+-27427 1292 -27427 1357
+e 71 2
+-27427 1357 -27427 1292
+-27427 1357 -27492 1357
+e 72 2
+-27492 1357 -27427 1357
+-27492 1357 -27492 1292
+e 73 2
+-27467 342 -27467 407
+-27467 342 -27402 342
+e 74 2
+-27402 342 -27467 342
+-27402 342 -27402 407
+e 75 2
+-27402 407 -27402 342
+-27402 407 -27467 407
+e 76 2
+-27467 407 -27402 407
+-27467 407 -27467 342
+e 77 2
+-27357 1107 -27357 1172
+-27357 1107 -27292 1107
+e 78 2
+-27292 1107 -27357 1107
+-27292 1107 -27292 1172
+e 79 2
+-27292 1172 -27292 1107
+-27292 1172 -27357 1172
+e 80 2
+-27357 1172 -27292 1172
+-27357 1172 -27357 1107
+e 81 2
+-27192 637 -27192 702
+-27192 637 -27127 637
+e 82 2
+-27127 637 -27192 637
+-27127 637 -27127 702
+e 83 2
+-27127 702 -27127 637
+-27127 702 -27192 702
+e 84 2
+-27192 702 -27127 702
+-27192 702 -27192 637
+e 85 2
+-27017 472 -27017 537
+-27017 472 -26952 472
+e 86 2
+-26952 472 -27017 472
+-26952 472 -26952 537
+e 87 2
+-26952 537 -26952 472
+-26952 537 -27017 537
+e 88 2
+-27017 537 -26952 537
+-27017 537 -27017 472
+e 89 2
+-26877 797 -26877 862
+-26877 797 -26812 797
+e 90 2
+-26812 797 -26877 797
+-26812 797 -26812 862
+e 91 2
+-26812 862 -26812 797
+-26812 862 -26877 862
+e 92 2
+-26877 862 -26812 862
+-26877 862 -26877 797
+e 93 2
+-26877 987 -26877 1052
+-26877 987 -26812 987
+e 94 2
+-26812 987 -26877 987
+-26812 987 -26812 1052
+e 95 2
+-26812 1052 -26812 987
+-26812 1052 -26877 1052
+e 96 2
+-26877 1052 -26812 1052
+-26877 1052 -26877 987
+e 97 2
+-26877 1177 -26877 1242
+-26877 1177 -26812 1177
+e 98 2
+-26812 1177 -26877 1177
+-26812 1177 -26812 1242
+e 99 2
+-26812 1242 -26812 1177
+-26812 1242 -26877 1242
+e 100 2
+-26877 1242 -26812 1242
+-26877 1242 -26877 1177
+e 101 2
+-26502 342 -26502 407
+-26502 342 -26437 342
+e 102 2
+-26437 342 -26502 342
+-26437 342 -26437 407
+e 103 2
+-26437 407 -26437 342
+-26437 407 -26502 407
+e 104 2
+-26502 407 -26437 407
+-26502 407 -26502 342
+e 105 2
+-26502 527 -26502 592
+-26502 527 -26437 527
+e 106 2
+-26437 527 -26502 527
+-26437 527 -26437 592
+e 107 2
+-26437 592 -26437 527
+-26437 592 -26502 592
+e 108 2
+-26502 592 -26437 592
+-26502 592 -26502 527
+e 109 2
+-26502 717 -26502 782
+-26502 717 -26437 717
+e 110 2
+-26437 717 -26502 717
+-26437 717 -26437 782
+e 111 2
+-26437 782 -26437 717
+-26437 782 -26502 782
+e 112 2
+-26502 782 -26437 782
+-26502 782 -26502 717
+e 113 2
+-26502 917 -26502 982
+-26502 917 -26437 917
+e 114 2
+-26437 917 -26502 917
+-26437 917 -26437 982
+e 115 2
+-26437 982 -26437 917
+-26437 982 -26502 982
+e 116 2
+-26502 982 -26437 982
+-26502 982 -26502 917
+e 117 2
+-26502 1292 -26502 1357
+-26502 1292 -26437 1292
+e 118 2
+-26437 1292 -26502 1292
+-26437 1292 -26437 1357
+e 119 2
+-26437 1357 -26437 1292
+-26437 1357 -26502 1357
+e 120 2
+-26502 1357 -26437 1357
+-26502 1357 -26502 1292
+e 121 2
+-25642 717 -25642 782
+-25642 717 -25577 717
+e 122 2
+-25577 717 -25642 717
+-25577 717 -25577 782
+e 123 2
+-25577 782 -25577 717
+-25577 782 -25642 782
+e 124 2
+-25642 782 -25577 782
+-25642 782 -25642 717
+e 125 2
+-25632 917 -25632 982
+-25632 917 -25567 917
+e 126 2
+-25567 917 -25632 917
+-25567 917 -25567 982
+e 127 2
+-25567 982 -25567 917
+-25567 982 -25632 982
+e 128 2
+-25632 982 -25567 982
+-25632 982 -25632 917
+e 129 2
+-25632 1292 -25632 1357
+-25632 1292 -25567 1292
+e 130 2
+-25567 1292 -25632 1292
+-25567 1292 -25567 1357
+e 131 2
+-25567 1357 -25567 1292
+-25567 1357 -25632 1357
+e 132 2
+-25632 1357 -25567 1357
+-25632 1357 -25632 1292
+e 133 2
+-25607 342 -25607 407
+-25607 342 -25542 342
+e 134 2
+-25542 342 -25607 342
+-25542 342 -25542 407
+e 135 2
+-25542 407 -25542 342
+-25542 407 -25607 407
+e 136 2
+-25607 407 -25542 407
+-25607 407 -25607 342
+e 137 2
+-25497 1107 -25497 1172
+-25497 1107 -25432 1107
+e 138 2
+-25432 1107 -25497 1107
+-25432 1107 -25432 1172
+e 139 2
+-25432 1172 -25432 1107
+-25432 1172 -25497 1172
+e 140 2
+-25497 1172 -25432 1172
+-25497 1172 -25497 1107
+e 141 2
+-25332 637 -25332 702
+-25332 637 -25267 637
+e 142 2
+-25267 637 -25332 637
+-25267 637 -25267 702
+e 143 2
+-25267 702 -25267 637
+-25267 702 -25332 702
+e 144 2
+-25332 702 -25267 702
+-25332 702 -25332 637
+e 145 2
+-25157 472 -25157 537
+-25157 472 -25092 472
+e 146 2
+-25092 472 -25157 472
+-25092 472 -25092 537
+e 147 2
+-25092 537 -25092 472
+-25092 537 -25157 537
+e 148 2
+-25157 537 -25092 537
+-25157 537 -25157 472
+e 149 2
+-25017 797 -25017 862
+-25017 797 -24952 797
+e 150 2
+-24952 797 -25017 797
+-24952 797 -24952 862
+e 151 2
+-24952 862 -24952 797
+-24952 862 -25017 862
+e 152 2
+-25017 862 -24952 862
+-25017 862 -25017 797
+e 153 2
+-25017 987 -25017 1052
+-25017 987 -24952 987
+e 154 2
+-24952 987 -25017 987
+-24952 987 -24952 1052
+e 155 2
+-24952 1052 -24952 987
+-24952 1052 -25017 1052
+e 156 2
+-25017 1052 -24952 1052
+-25017 1052 -25017 987
+e 157 2
+-25017 1177 -25017 1242
+-25017 1177 -24952 1177
+e 158 2
+-24952 1177 -25017 1177
+-24952 1177 -24952 1242
+e 159 2
+-24952 1242 -24952 1177
+-24952 1242 -25017 1242
+e 160 2
+-25017 1242 -24952 1242
+-25017 1242 -25017 1177
+e 161 2
+-24642 342 -24642 407
+-24642 342 -24577 342
+e 162 2
+-24577 342 -24642 342
+-24577 342 -24577 407
+e 163 2
+-24577 407 -24577 342
+-24577 407 -24642 407
+e 164 2
+-24642 407 -24577 407
+-24642 407 -24642 342
+e 165 2
+-24642 527 -24642 592
+-24642 527 -24577 527
+e 166 2
+-24577 527 -24642 527
+-24577 527 -24577 592
+e 167 2
+-24577 592 -24577 527
+-24577 592 -24642 592
+e 168 2
+-24642 592 -24577 592
+-24642 592 -24642 527
+e 169 2
+-24642 717 -24642 782
+-24642 717 -24577 717
+e 170 2
+-24577 717 -24642 717
+-24577 717 -24577 782
+e 171 2
+-24577 782 -24577 717
+-24577 782 -24642 782
+e 172 2
+-24642 782 -24577 782
+-24642 782 -24642 717
+e 173 2
+-24642 917 -24642 982
+-24642 917 -24577 917
+e 174 2
+-24577 917 -24642 917
+-24577 917 -24577 982
+e 175 2
+-24577 982 -24577 917
+-24577 982 -24642 982
+e 176 2
+-24642 982 -24577 982
+-24642 982 -24642 917
+e 177 2
+-24642 1292 -24642 1357
+-24642 1292 -24577 1292
+e 178 2
+-24577 1292 -24642 1292
+-24577 1292 -24577 1357
+e 179 2
+-24577 1357 -24577 1292
+-24577 1357 -24642 1357
+e 180 2
+-24642 1357 -24577 1357
+-24642 1357 -24642 1292
+e 181 2
+-23782 717 -23782 782
+-23782 717 -23717 717
+e 182 2
+-23717 717 -23782 717
+-23717 717 -23717 782
+e 183 2
+-23717 782 -23717 717
+-23717 782 -23782 782
+e 184 2
+-23782 782 -23717 782
+-23782 782 -23782 717
+e 185 2
+-23772 917 -23772 982
+-23772 917 -23707 917
+e 186 2
+-23707 917 -23772 917
+-23707 917 -23707 982
+e 187 2
+-23707 982 -23707 917
+-23707 982 -23772 982
+e 188 2
+-23772 982 -23707 982
+-23772 982 -23772 917
+e 189 2
+-23772 1292 -23772 1357
+-23772 1292 -23707 1292
+e 190 2
+-23707 1292 -23772 1292
+-23707 1292 -23707 1357
+e 191 2
+-23707 1357 -23707 1292
+-23707 1357 -23772 1357
+e 192 2
+-23772 1357 -23707 1357
+-23772 1357 -23772 1292
+e 193 2
+-23747 342 -23747 407
+-23747 342 -23682 342
+e 194 2
+-23682 342 -23747 342
+-23682 342 -23682 407
+e 195 2
+-23682 407 -23682 342
+-23682 407 -23747 407
+e 196 2
+-23747 407 -23682 407
+-23747 407 -23747 342
+e 197 2
+-23637 1107 -23637 1172
+-23637 1107 -23572 1107
+e 198 2
+-23572 1107 -23637 1107
+-23572 1107 -23572 1172
+e 199 2
+-23572 1172 -23572 1107
+-23572 1172 -23637 1172
+e 200 2
+-23637 1172 -23572 1172
+-23637 1172 -23637 1107
+e 201 2
+-23472 637 -23472 702
+-23472 637 -23407 637
+e 202 2
+-23407 637 -23472 637
+-23407 637 -23407 702
+e 203 2
+-23407 702 -23407 637
+-23407 702 -23472 702
+e 204 2
+-23472 702 -23407 702
+-23472 702 -23472 637
+e 205 2
+-23297 472 -23297 537
+-23297 472 -23232 472
+e 206 2
+-23232 472 -23297 472
+-23232 472 -23232 537
+e 207 2
+-23232 537 -23232 472
+-23232 537 -23297 537
+e 208 2
+-23297 537 -23232 537
+-23297 537 -23297 472
+e 209 2
+-23157 797 -23157 862
+-23157 797 -23092 797
+e 210 2
+-23092 797 -23157 797
+-23092 797 -23092 862
+e 211 2
+-23092 862 -23092 797
+-23092 862 -23157 862
+e 212 2
+-23157 862 -23092 862
+-23157 862 -23157 797
+e 213 2
+-23157 987 -23157 1052
+-23157 987 -23092 987
+e 214 2
+-23092 987 -23157 987
+-23092 987 -23092 1052
+e 215 2
+-23092 1052 -23092 987
+-23092 1052 -23157 1052
+e 216 2
+-23157 1052 -23092 1052
+-23157 1052 -23157 987
+e 217 2
+-23157 1177 -23157 1242
+-23157 1177 -23092 1177
+e 218 2
+-23092 1177 -23157 1177
+-23092 1177 -23092 1242
+e 219 2
+-23092 1242 -23092 1177
+-23092 1242 -23157 1242
+e 220 2
+-23157 1242 -23092 1242
+-23157 1242 -23157 1177
+e 221 2
+-22782 342 -22782 407
+-22782 342 -22717 342
+e 222 2
+-22717 342 -22782 342
+-22717 342 -22717 407
+e 223 2
+-22717 407 -22717 342
+-22717 407 -22782 407
+e 224 2
+-22782 407 -22717 407
+-22782 407 -22782 342
+e 225 2
+-22782 527 -22782 592
+-22782 527 -22717 527
+e 226 2
+-22717 527 -22782 527
+-22717 527 -22717 592
+e 227 2
+-22717 592 -22717 527
+-22717 592 -22782 592
+e 228 2
+-22782 592 -22717 592
+-22782 592 -22782 527
+e 229 2
+-22782 717 -22782 782
+-22782 717 -22717 717
+e 230 2
+-22717 717 -22782 717
+-22717 717 -22717 782
+e 231 2
+-22717 782 -22717 717
+-22717 782 -22782 782
+e 232 2
+-22782 782 -22717 782
+-22782 782 -22782 717
+e 233 2
+-22782 917 -22782 982
+-22782 917 -22717 917
+e 234 2
+-22717 917 -22782 917
+-22717 917 -22717 982
+e 235 2
+-22717 982 -22717 917
+-22717 982 -22782 982
+e 236 2
+-22782 982 -22717 982
+-22782 982 -22782 917
+e 237 2
+-22782 1292 -22782 1357
+-22782 1292 -22717 1292
+e 238 2
+-22717 1292 -22782 1292
+-22717 1292 -22717 1357
+e 239 2
+-22717 1357 -22717 1292
+-22717 1357 -22782 1357
+e 240 2
+-22782 1357 -22717 1357
+-22782 1357 -22782 1292
+e 241 2
+-21922 717 -21922 782
+-21922 717 -21857 717
+e 242 2
+-21857 717 -21922 717
+-21857 717 -21857 782
+e 243 2
+-21857 782 -21857 717
+-21857 782 -21922 782
+e 244 2
+-21922 782 -21857 782
+-21922 782 -21922 717
+e 245 2
+-21912 917 -21912 982
+-21912 917 -21847 917
+e 246 2
+-21847 917 -21912 917
+-21847 917 -21847 982
+e 247 2
+-21847 982 -21847 917
+-21847 982 -21912 982
+e 248 2
+-21912 982 -21847 982
+-21912 982 -21912 917
+e 249 2
+-21912 1292 -21912 1357
+-21912 1292 -21847 1292
+e 250 2
+-21847 1292 -21912 1292
+-21847 1292 -21847 1357
+e 251 2
+-21847 1357 -21847 1292
+-21847 1357 -21912 1357
+e 252 2
+-21912 1357 -21847 1357
+-21912 1357 -21912 1292
+e 253 2
+-21887 342 -21887 407
+-21887 342 -21822 342
+e 254 2
+-21822 342 -21887 342
+-21822 342 -21822 407
+e 255 2
+-21822 407 -21822 342
+-21822 407 -21887 407
+e 256 2
+-21887 407 -21822 407
+-21887 407 -21887 342
+e 257 2
+-21777 1107 -21777 1172
+-21777 1107 -21712 1107
+e 258 2
+-21712 1107 -21777 1107
+-21712 1107 -21712 1172
+e 259 2
+-21712 1172 -21712 1107
+-21712 1172 -21777 1172
+e 260 2
+-21777 1172 -21712 1172
+-21777 1172 -21777 1107
+e 261 2
+-21612 637 -21612 702
+-21612 637 -21547 637
+e 262 2
+-21547 637 -21612 637
+-21547 637 -21547 702
+e 263 2
+-21547 702 -21547 637
+-21547 702 -21612 702
+e 264 2
+-21612 702 -21547 702
+-21612 702 -21612 637
+e 265 2
+-21437 472 -21437 537
+-21437 472 -21372 472
+e 266 2
+-21372 472 -21437 472
+-21372 472 -21372 537
+e 267 2
+-21372 537 -21372 472
+-21372 537 -21437 537
+e 268 2
+-21437 537 -21372 537
+-21437 537 -21437 472
+e 269 2
+-21297 797 -21297 862
+-21297 797 -21232 797
+e 270 2
+-21232 797 -21297 797
+-21232 797 -21232 862
+e 271 2
+-21232 862 -21232 797
+-21232 862 -21297 862
+e 272 2
+-21297 862 -21232 862
+-21297 862 -21297 797
+e 273 2
+-21297 987 -21297 1052
+-21297 987 -21232 987
+e 274 2
+-21232 987 -21297 987
+-21232 987 -21232 1052
+e 275 2
+-21232 1052 -21232 987
+-21232 1052 -21297 1052
+e 276 2
+-21297 1052 -21232 1052
+-21297 1052 -21297 987
+e 277 2
+-21297 1177 -21297 1242
+-21297 1177 -21232 1177
+e 278 2
+-21232 1177 -21297 1177
+-21232 1177 -21232 1242
+e 279 2
+-21232 1242 -21232 1177
+-21232 1242 -21297 1242
+e 280 2
+-21297 1242 -21232 1242
+-21297 1242 -21297 1177
+e 281 2
+-20922 342 -20922 407
+-20922 342 -20857 342
+e 282 2
+-20857 342 -20922 342
+-20857 342 -20857 407
+e 283 2
+-20857 407 -20857 342
+-20857 407 -20922 407
+e 284 2
+-20922 407 -20857 407
+-20922 407 -20922 342
+e 285 2
+-20922 527 -20922 592
+-20922 527 -20857 527
+e 286 2
+-20857 527 -20922 527
+-20857 527 -20857 592
+e 287 2
+-20857 592 -20857 527
+-20857 592 -20922 592
+e 288 2
+-20922 592 -20857 592
+-20922 592 -20922 527
+e 289 2
+-20922 717 -20922 782
+-20922 717 -20857 717
+e 290 2
+-20857 717 -20922 717
+-20857 717 -20857 782
+e 291 2
+-20857 782 -20857 717
+-20857 782 -20922 782
+e 292 2
+-20922 782 -20857 782
+-20922 782 -20922 717
+e 293 2
+-20922 917 -20922 982
+-20922 917 -20857 917
+e 294 2
+-20857 917 -20922 917
+-20857 917 -20857 982
+e 295 2
+-20857 982 -20857 917
+-20857 982 -20922 982
+e 296 2
+-20922 982 -20857 982
+-20922 982 -20922 917
+e 297 2
+-20922 1292 -20922 1357
+-20922 1292 -20857 1292
+e 298 2
+-20857 1292 -20922 1292
+-20857 1292 -20857 1357
+e 299 2
+-20857 1357 -20857 1292
+-20857 1357 -20922 1357
+e 300 2
+-20922 1357 -20857 1357
+-20922 1357 -20922 1292
+e 301 2
+-20062 717 -20062 782
+-20062 717 -19997 717
+e 302 2
+-19997 717 -20062 717
+-19997 717 -19997 782
+e 303 2
+-19997 782 -19997 717
+-19997 782 -20062 782
+e 304 2
+-20062 782 -19997 782
+-20062 782 -20062 717
+e 305 2
+-20052 917 -20052 982
+-20052 917 -19987 917
+e 306 2
+-19987 917 -20052 917
+-19987 917 -19987 982
+e 307 2
+-19987 982 -19987 917
+-19987 982 -20052 982
+e 308 2
+-20052 982 -19987 982
+-20052 982 -20052 917
+e 309 2
+-20052 1292 -20052 1357
+-20052 1292 -19987 1292
+e 310 2
+-19987 1292 -20052 1292
+-19987 1292 -19987 1357
+e 311 2
+-19987 1357 -19987 1292
+-19987 1357 -20052 1357
+e 312 2
+-20052 1357 -19987 1357
+-20052 1357 -20052 1292
+e 313 2
+-20027 342 -20027 407
+-20027 342 -19962 342
+e 314 2
+-19962 342 -20027 342
+-19962 342 -19962 407
+e 315 2
+-19962 407 -19962 342
+-19962 407 -20027 407
+e 316 2
+-20027 407 -19962 407
+-20027 407 -20027 342
+e 317 2
+-19917 1107 -19917 1172
+-19917 1107 -19852 1107
+e 318 2
+-19852 1107 -19917 1107
+-19852 1107 -19852 1172
+e 319 2
+-19852 1172 -19852 1107
+-19852 1172 -19917 1172
+e 320 2
+-19917 1172 -19852 1172
+-19917 1172 -19917 1107
+e 321 2
+-19752 637 -19752 702
+-19752 637 -19687 637
+e 322 2
+-19687 637 -19752 637
+-19687 637 -19687 702
+e 323 2
+-19687 702 -19687 637
+-19687 702 -19752 702
+e 324 2
+-19752 702 -19687 702
+-19752 702 -19752 637
+e 325 2
+-19577 472 -19577 537
+-19577 472 -19512 472
+e 326 2
+-19512 472 -19577 472
+-19512 472 -19512 537
+e 327 2
+-19512 537 -19512 472
+-19512 537 -19577 537
+e 328 2
+-19577 537 -19512 537
+-19577 537 -19577 472
+e 329 2
+-19437 797 -19437 862
+-19437 797 -19372 797
+e 330 2
+-19372 797 -19437 797
+-19372 797 -19372 862
+e 331 2
+-19372 862 -19372 797
+-19372 862 -19437 862
+e 332 2
+-19437 862 -19372 862
+-19437 862 -19437 797
+e 333 2
+-19437 987 -19437 1052
+-19437 987 -19372 987
+e 334 2
+-19372 987 -19437 987
+-19372 987 -19372 1052
+e 335 2
+-19372 1052 -19372 987
+-19372 1052 -19437 1052
+e 336 2
+-19437 1052 -19372 1052
+-19437 1052 -19437 987
+e 337 2
+-19437 1177 -19437 1242
+-19437 1177 -19372 1177
+e 338 2
+-19372 1177 -19437 1177
+-19372 1177 -19372 1242
+e 339 2
+-19372 1242 -19372 1177
+-19372 1242 -19437 1242
+e 340 2
+-19437 1242 -19372 1242
+-19437 1242 -19437 1177
+e 341 2
+-19062 342 -19062 407
+-19062 342 -18997 342
+e 342 2
+-18997 342 -19062 342
+-18997 342 -18997 407
+e 343 2
+-18997 407 -18997 342
+-18997 407 -19062 407
+e 344 2
+-19062 407 -18997 407
+-19062 407 -19062 342
+e 345 2
+-19062 527 -19062 592
+-19062 527 -18997 527
+e 346 2
+-18997 527 -19062 527
+-18997 527 -18997 592
+e 347 2
+-18997 592 -18997 527
+-18997 592 -19062 592
+e 348 2
+-19062 592 -18997 592
+-19062 592 -19062 527
+e 349 2
+-19062 717 -19062 782
+-19062 717 -18997 717
+e 350 2
+-18997 717 -19062 717
+-18997 717 -18997 782
+e 351 2
+-18997 782 -18997 717
+-18997 782 -19062 782
+e 352 2
+-19062 782 -18997 782
+-19062 782 -19062 717
+e 353 2
+-19062 917 -19062 982
+-19062 917 -18997 917
+e 354 2
+-18997 917 -19062 917
+-18997 917 -18997 982
+e 355 2
+-18997 982 -18997 917
+-18997 982 -19062 982
+e 356 2
+-19062 982 -18997 982
+-19062 982 -19062 917
+e 357 2
+-19062 1292 -19062 1357
+-19062 1292 -18997 1292
+e 358 2
+-18997 1292 -19062 1292
+-18997 1292 -18997 1357
+e 359 2
+-18997 1357 -18997 1292
+-18997 1357 -19062 1357
+e 360 2
+-19062 1357 -18997 1357
+-19062 1357 -19062 1292
+e 361 2
+-18202 717 -18202 782
+-18202 717 -18137 717
+e 362 2
+-18137 717 -18202 717
+-18137 717 -18137 782
+e 363 2
+-18137 782 -18137 717
+-18137 782 -18202 782
+e 364 2
+-18202 782 -18137 782
+-18202 782 -18202 717
+e 365 2
+-18192 917 -18192 982
+-18192 917 -18127 917
+e 366 2
+-18127 917 -18192 917
+-18127 917 -18127 982
+e 367 2
+-18127 982 -18127 917
+-18127 982 -18192 982
+e 368 2
+-18192 982 -18127 982
+-18192 982 -18192 917
+e 369 2
+-18192 1292 -18192 1357
+-18192 1292 -18127 1292
+e 370 2
+-18127 1292 -18192 1292
+-18127 1292 -18127 1357
+e 371 2
+-18127 1357 -18127 1292
+-18127 1357 -18192 1357
+e 372 2
+-18192 1357 -18127 1357
+-18192 1357 -18192 1292
+e 373 2
+-18167 342 -18167 407
+-18167 342 -18102 342
+e 374 2
+-18102 342 -18167 342
+-18102 342 -18102 407
+e 375 2
+-18102 407 -18102 342
+-18102 407 -18167 407
+e 376 2
+-18167 407 -18102 407
+-18167 407 -18167 342
+e 377 2
+-18057 1107 -18057 1172
+-18057 1107 -17992 1107
+e 378 2
+-17992 1107 -18057 1107
+-17992 1107 -17992 1172
+e 379 2
+-17992 1172 -17992 1107
+-17992 1172 -18057 1172
+e 380 2
+-18057 1172 -17992 1172
+-18057 1172 -18057 1107
+e 381 2
+-17892 637 -17892 702
+-17892 637 -17827 637
+e 382 2
+-17827 637 -17892 637
+-17827 637 -17827 702
+e 383 2
+-17827 702 -17827 637
+-17827 702 -17892 702
+e 384 2
+-17892 702 -17827 702
+-17892 702 -17892 637
+e 385 2
+-17717 472 -17717 537
+-17717 472 -17652 472
+e 386 2
+-17652 472 -17717 472
+-17652 472 -17652 537
+e 387 2
+-17652 537 -17652 472
+-17652 537 -17717 537
+e 388 2
+-17717 537 -17652 537
+-17717 537 -17717 472
+e 389 2
+-17577 797 -17577 862
+-17577 797 -17512 797
+e 390 2
+-17512 797 -17577 797
+-17512 797 -17512 862
+e 391 2
+-17512 862 -17512 797
+-17512 862 -17577 862
+e 392 2
+-17577 862 -17512 862
+-17577 862 -17577 797
+e 393 2
+-17577 987 -17577 1052
+-17577 987 -17512 987
+e 394 2
+-17512 987 -17577 987
+-17512 987 -17512 1052
+e 395 2
+-17512 1052 -17512 987
+-17512 1052 -17577 1052
+e 396 2
+-17577 1052 -17512 1052
+-17577 1052 -17577 987
+e 397 2
+-17577 1177 -17577 1242
+-17577 1177 -17512 1177
+e 398 2
+-17512 1177 -17577 1177
+-17512 1177 -17512 1242
+e 399 2
+-17512 1242 -17512 1177
+-17512 1242 -17577 1242
+e 400 2
+-17577 1242 -17512 1242
+-17577 1242 -17577 1177
+e 401 2
+-17202 342 -17202 407
+-17202 342 -17137 342
+e 402 2
+-17137 342 -17202 342
+-17137 342 -17137 407
+e 403 2
+-17137 407 -17137 342
+-17137 407 -17202 407
+e 404 2
+-17202 407 -17137 407
+-17202 407 -17202 342
+e 405 2
+-17202 527 -17202 592
+-17202 527 -17137 527
+e 406 2
+-17137 527 -17202 527
+-17137 527 -17137 592
+e 407 2
+-17137 592 -17137 527
+-17137 592 -17202 592
+e 408 2
+-17202 592 -17137 592
+-17202 592 -17202 527
+e 409 2
+-17202 717 -17202 782
+-17202 717 -17137 717
+e 410 2
+-17137 717 -17202 717
+-17137 717 -17137 782
+e 411 2
+-17137 782 -17137 717
+-17137 782 -17202 782
+e 412 2
+-17202 782 -17137 782
+-17202 782 -17202 717
+e 413 2
+-17202 917 -17202 982
+-17202 917 -17137 917
+e 414 2
+-17137 917 -17202 917
+-17137 917 -17137 982
+e 415 2
+-17137 982 -17137 917
+-17137 982 -17202 982
+e 416 2
+-17202 982 -17137 982
+-17202 982 -17202 917
+e 417 2
+-17202 1292 -17202 1357
+-17202 1292 -17137 1292
+e 418 2
+-17137 1292 -17202 1292
+-17137 1292 -17137 1357
+e 419 2
+-17137 1357 -17137 1292
+-17137 1357 -17202 1357
+e 420 2
+-17202 1357 -17137 1357
+-17202 1357 -17202 1292
+e 421 2
+-16342 717 -16342 782
+-16342 717 -16277 717
+e 422 2
+-16277 717 -16342 717
+-16277 717 -16277 782
+e 423 2
+-16277 782 -16277 717
+-16277 782 -16342 782
+e 424 2
+-16342 782 -16277 782
+-16342 782 -16342 717
+e 425 2
+-16332 917 -16332 982
+-16332 917 -16267 917
+e 426 2
+-16267 917 -16332 917
+-16267 917 -16267 982
+e 427 2
+-16267 982 -16267 917
+-16267 982 -16332 982
+e 428 2
+-16332 982 -16267 982
+-16332 982 -16332 917
+e 429 2
+-16332 1292 -16332 1357
+-16332 1292 -16267 1292
+e 430 2
+-16267 1292 -16332 1292
+-16267 1292 -16267 1357
+e 431 2
+-16267 1357 -16267 1292
+-16267 1357 -16332 1357
+e 432 2
+-16332 1357 -16267 1357
+-16332 1357 -16332 1292
+e 433 2
+-16307 342 -16307 407
+-16307 342 -16242 342
+e 434 2
+-16242 342 -16307 342
+-16242 342 -16242 407
+e 435 2
+-16242 407 -16242 342
+-16242 407 -16307 407
+e 436 2
+-16307 407 -16242 407
+-16307 407 -16307 342
+e 437 2
+-16197 1107 -16197 1172
+-16197 1107 -16132 1107
+e 438 2
+-16132 1107 -16197 1107
+-16132 1107 -16132 1172
+e 439 2
+-16132 1172 -16132 1107
+-16132 1172 -16197 1172
+e 440 2
+-16197 1172 -16132 1172
+-16197 1172 -16197 1107
+e 441 2
+-16032 637 -16032 702
+-16032 637 -15967 637
+e 442 2
+-15967 637 -16032 637
+-15967 637 -15967 702
+e 443 2
+-15967 702 -15967 637
+-15967 702 -16032 702
+e 444 2
+-16032 702 -15967 702
+-16032 702 -16032 637
+e 445 2
+-15857 472 -15857 537
+-15857 472 -15792 472
+e 446 2
+-15792 472 -15857 472
+-15792 472 -15792 537
+e 447 2
+-15792 537 -15792 472
+-15792 537 -15857 537
+e 448 2
+-15857 537 -15792 537
+-15857 537 -15857 472
+e 449 2
+-15717 797 -15717 862
+-15717 797 -15652 797
+e 450 2
+-15652 797 -15717 797
+-15652 797 -15652 862
+e 451 2
+-15652 862 -15652 797
+-15652 862 -15717 862
+e 452 2
+-15717 862 -15652 862
+-15717 862 -15717 797
+e 453 2
+-15717 987 -15717 1052
+-15717 987 -15652 987
+e 454 2
+-15652 987 -15717 987
+-15652 987 -15652 1052
+e 455 2
+-15652 1052 -15652 987
+-15652 1052 -15717 1052
+e 456 2
+-15717 1052 -15652 1052
+-15717 1052 -15717 987
+e 457 2
+-15717 1177 -15717 1242
+-15717 1177 -15652 1177
+e 458 2
+-15652 1177 -15717 1177
+-15652 1177 -15652 1242
+e 459 2
+-15652 1242 -15652 1177
+-15652 1242 -15717 1242
+e 460 2
+-15717 1242 -15652 1242
+-15717 1242 -15717 1177
+e 461 2
+-15342 342 -15342 407
+-15342 342 -15277 342
+e 462 2
+-15277 342 -15342 342
+-15277 342 -15277 407
+e 463 2
+-15277 407 -15277 342
+-15277 407 -15342 407
+e 464 2
+-15342 407 -15277 407
+-15342 407 -15342 342
+e 465 2
+-15342 527 -15342 592
+-15342 527 -15277 527
+e 466 2
+-15277 527 -15342 527
+-15277 527 -15277 592
+e 467 2
+-15277 592 -15277 527
+-15277 592 -15342 592
+e 468 2
+-15342 592 -15277 592
+-15342 592 -15342 527
+e 469 2
+-15342 717 -15342 782
+-15342 717 -15277 717
+e 470 2
+-15277 717 -15342 717
+-15277 717 -15277 782
+e 471 2
+-15277 782 -15277 717
+-15277 782 -15342 782
+e 472 2
+-15342 782 -15277 782
+-15342 782 -15342 717
+e 473 2
+-15342 917 -15342 982
+-15342 917 -15277 917
+e 474 2
+-15277 917 -15342 917
+-15277 917 -15277 982
+e 475 2
+-15277 982 -15277 917
+-15277 982 -15342 982
+e 476 2
+-15342 982 -15277 982
+-15342 982 -15342 917
+e 477 2
+-15342 1292 -15342 1357
+-15342 1292 -15277 1292
+e 478 2
+-15277 1292 -15342 1292
+-15277 1292 -15277 1357
+e 479 2
+-15277 1357 -15277 1292
+-15277 1357 -15342 1357
+e 480 2
+-15342 1357 -15277 1357
+-15342 1357 -15342 1292
+e 481 2
+-14482 717 -14482 782
+-14482 717 -14417 717
+e 482 2
+-14417 717 -14482 717
+-14417 717 -14417 782
+e 483 2
+-14417 782 -14417 717
+-14417 782 -14482 782
+e 484 2
+-14482 782 -14417 782
+-14482 782 -14482 717
+e 485 2
+-14472 917 -14472 982
+-14472 917 -14407 917
+e 486 2
+-14407 917 -14472 917
+-14407 917 -14407 982
+e 487 2
+-14407 982 -14407 917
+-14407 982 -14472 982
+e 488 2
+-14472 982 -14407 982
+-14472 982 -14472 917
+e 489 2
+-14472 1292 -14472 1357
+-14472 1292 -14407 1292
+e 490 2
+-14407 1292 -14472 1292
+-14407 1292 -14407 1357
+e 491 2
+-14407 1357 -14407 1292
+-14407 1357 -14472 1357
+e 492 2
+-14472 1357 -14407 1357
+-14472 1357 -14472 1292
+e 493 2
+-14447 342 -14447 407
+-14447 342 -14382 342
+e 494 2
+-14382 342 -14447 342
+-14382 342 -14382 407
+e 495 2
+-14382 407 -14382 342
+-14382 407 -14447 407
+e 496 2
+-14447 407 -14382 407
+-14447 407 -14447 342
+e 497 2
+-14337 1107 -14337 1172
+-14337 1107 -14272 1107
+e 498 2
+-14272 1107 -14337 1107
+-14272 1107 -14272 1172
+e 499 2
+-14272 1172 -14272 1107
+-14272 1172 -14337 1172
+e 500 2
+-14337 1172 -14272 1172
+-14337 1172 -14337 1107
+e 501 2
+-14172 637 -14172 702
+-14172 637 -14107 637
+e 502 2
+-14107 637 -14172 637
+-14107 637 -14107 702
+e 503 2
+-14107 702 -14107 637
+-14107 702 -14172 702
+e 504 2
+-14172 702 -14107 702
+-14172 702 -14172 637
+e 505 2
+-13997 472 -13997 537
+-13997 472 -13932 472
+e 506 2
+-13932 472 -13997 472
+-13932 472 -13932 537
+e 507 2
+-13932 537 -13932 472
+-13932 537 -13997 537
+e 508 2
+-13997 537 -13932 537
+-13997 537 -13997 472
+e 509 2
+-13857 797 -13857 862
+-13857 797 -13792 797
+e 510 2
+-13792 797 -13857 797
+-13792 797 -13792 862
+e 511 2
+-13792 862 -13792 797
+-13792 862 -13857 862
+e 512 2
+-13857 862 -13792 862
+-13857 862 -13857 797
+e 513 2
+-13857 987 -13857 1052
+-13857 987 -13792 987
+e 514 2
+-13792 987 -13857 987
+-13792 987 -13792 1052
+e 515 2
+-13792 1052 -13792 987
+-13792 1052 -13857 1052
+e 516 2
+-13857 1052 -13792 1052
+-13857 1052 -13857 987
+e 517 2
+-13857 1177 -13857 1242
+-13857 1177 -13792 1177
+e 518 2
+-13792 1177 -13857 1177
+-13792 1177 -13792 1242
+e 519 2
+-13792 1242 -13792 1177
+-13792 1242 -13857 1242
+e 520 2
+-13857 1242 -13792 1242
+-13857 1242 -13857 1177
+e 521 2
+-13482 342 -13482 407
+-13482 342 -13417 342
+e 522 2
+-13417 342 -13482 342
+-13417 342 -13417 407
+e 523 2
+-13417 407 -13417 342
+-13417 407 -13482 407
+e 524 2
+-13482 407 -13417 407
+-13482 407 -13482 342
+e 525 2
+-13482 527 -13482 592
+-13482 527 -13417 527
+e 526 2
+-13417 527 -13482 527
+-13417 527 -13417 592
+e 527 2
+-13417 592 -13417 527
+-13417 592 -13482 592
+e 528 2
+-13482 592 -13417 592
+-13482 592 -13482 527
+e 529 2
+-13482 717 -13482 782
+-13482 717 -13417 717
+e 530 2
+-13417 717 -13482 717
+-13417 717 -13417 782
+e 531 2
+-13417 782 -13417 717
+-13417 782 -13482 782
+e 532 2
+-13482 782 -13417 782
+-13482 782 -13482 717
+e 533 2
+-13482 917 -13482 982
+-13482 917 -13417 917
+e 534 2
+-13417 917 -13482 917
+-13417 917 -13417 982
+e 535 2
+-13417 982 -13417 917
+-13417 982 -13482 982
+e 536 2
+-13482 982 -13417 982
+-13482 982 -13482 917
+e 537 2
+-13482 1292 -13482 1357
+-13482 1292 -13417 1292
+e 538 2
+-13417 1292 -13482 1292
+-13417 1292 -13417 1357
+e 539 2
+-13417 1357 -13417 1292
+-13417 1357 -13482 1357
+e 540 2
+-13482 1357 -13417 1357
+-13482 1357 -13482 1292
+e 541 2
+-12622 717 -12622 782
+-12622 717 -12557 717
+e 542 2
+-12557 717 -12622 717
+-12557 717 -12557 782
+e 543 2
+-12557 782 -12557 717
+-12557 782 -12622 782
+e 544 2
+-12622 782 -12557 782
+-12622 782 -12622 717
+e 545 2
+-12612 917 -12612 982
+-12612 917 -12547 917
+e 546 2
+-12547 917 -12612 917
+-12547 917 -12547 982
+e 547 2
+-12547 982 -12547 917
+-12547 982 -12612 982
+e 548 2
+-12612 982 -12547 982
+-12612 982 -12612 917
+e 549 2
+-12612 1292 -12612 1357
+-12612 1292 -12547 1292
+e 550 2
+-12547 1292 -12612 1292
+-12547 1292 -12547 1357
+e 551 2
+-12547 1357 -12547 1292
+-12547 1357 -12612 1357
+e 552 2
+-12612 1357 -12547 1357
+-12612 1357 -12612 1292
+e 553 2
+-12587 342 -12587 407
+-12587 342 -12522 342
+e 554 2
+-12522 342 -12587 342
+-12522 342 -12522 407
+e 555 2
+-12522 407 -12522 342
+-12522 407 -12587 407
+e 556 2
+-12587 407 -12522 407
+-12587 407 -12587 342
+e 557 2
+-12477 1107 -12477 1172
+-12477 1107 -12412 1107
+e 558 2
+-12412 1107 -12477 1107
+-12412 1107 -12412 1172
+e 559 2
+-12412 1172 -12412 1107
+-12412 1172 -12477 1172
+e 560 2
+-12477 1172 -12412 1172
+-12477 1172 -12477 1107
+e 561 2
+-12312 637 -12312 702
+-12312 637 -12247 637
+e 562 2
+-12247 637 -12312 637
+-12247 637 -12247 702
+e 563 2
+-12247 702 -12247 637
+-12247 702 -12312 702
+e 564 2
+-12312 702 -12247 702
+-12312 702 -12312 637
+e 565 2
+-12137 472 -12137 537
+-12137 472 -12072 472
+e 566 2
+-12072 472 -12137 472
+-12072 472 -12072 537
+e 567 2
+-12072 537 -12072 472
+-12072 537 -12137 537
+e 568 2
+-12137 537 -12072 537
+-12137 537 -12137 472
+e 569 2
+-11997 797 -11997 862
+-11997 797 -11932 797
+e 570 2
+-11932 797 -11997 797
+-11932 797 -11932 862
+e 571 2
+-11932 862 -11932 797
+-11932 862 -11997 862
+e 572 2
+-11997 862 -11932 862
+-11997 862 -11997 797
+e 573 2
+-11997 987 -11997 1052
+-11997 987 -11932 987
+e 574 2
+-11932 987 -11997 987
+-11932 987 -11932 1052
+e 575 2
+-11932 1052 -11932 987
+-11932 1052 -11997 1052
+e 576 2
+-11997 1052 -11932 1052
+-11997 1052 -11997 987
+e 577 2
+-11997 1177 -11997 1242
+-11997 1177 -11932 1177
+e 578 2
+-11932 1177 -11997 1177
+-11932 1177 -11932 1242
+e 579 2
+-11932 1242 -11932 1177
+-11932 1242 -11997 1242
+e 580 2
+-11997 1242 -11932 1242
+-11997 1242 -11997 1177
+e 581 2
+-11622 342 -11622 407
+-11622 342 -11557 342
+e 582 2
+-11557 342 -11622 342
+-11557 342 -11557 407
+e 583 2
+-11557 407 -11557 342
+-11557 407 -11622 407
+e 584 2
+-11622 407 -11557 407
+-11622 407 -11622 342
+e 585 2
+-11622 527 -11622 592
+-11622 527 -11557 527
+e 586 2
+-11557 527 -11622 527
+-11557 527 -11557 592
+e 587 2
+-11557 592 -11557 527
+-11557 592 -11622 592
+e 588 2
+-11622 592 -11557 592
+-11622 592 -11622 527
+e 589 2
+-11622 717 -11622 782
+-11622 717 -11557 717
+e 590 2
+-11557 717 -11622 717
+-11557 717 -11557 782
+e 591 2
+-11557 782 -11557 717
+-11557 782 -11622 782
+e 592 2
+-11622 782 -11557 782
+-11622 782 -11622 717
+e 593 2
+-11622 917 -11622 982
+-11622 917 -11557 917
+e 594 2
+-11557 917 -11622 917
+-11557 917 -11557 982
+e 595 2
+-11557 982 -11557 917
+-11557 982 -11622 982
+e 596 2
+-11622 982 -11557 982
+-11622 982 -11622 917
+e 597 2
+-11622 1292 -11622 1357
+-11622 1292 -11557 1292
+e 598 2
+-11557 1292 -11622 1292
+-11557 1292 -11557 1357
+e 599 2
+-11557 1357 -11557 1292
+-11557 1357 -11622 1357
+e 600 2
+-11622 1357 -11557 1357
+-11622 1357 -11622 1292
+e 601 2
+-10762 717 -10762 782
+-10762 717 -10697 717
+e 602 2
+-10697 717 -10762 717
+-10697 717 -10697 782
+e 603 2
+-10697 782 -10697 717
+-10697 782 -10762 782
+e 604 2
+-10762 782 -10697 782
+-10762 782 -10762 717
+e 605 2
+-10752 917 -10752 982
+-10752 917 -10687 917
+e 606 2
+-10687 917 -10752 917
+-10687 917 -10687 982
+e 607 2
+-10687 982 -10687 917
+-10687 982 -10752 982
+e 608 2
+-10752 982 -10687 982
+-10752 982 -10752 917
+e 609 2
+-10752 1292 -10752 1357
+-10752 1292 -10687 1292
+e 610 2
+-10687 1292 -10752 1292
+-10687 1292 -10687 1357
+e 611 2
+-10687 1357 -10687 1292
+-10687 1357 -10752 1357
+e 612 2
+-10752 1357 -10687 1357
+-10752 1357 -10752 1292
+e 613 2
+-10727 342 -10727 407
+-10727 342 -10662 342
+e 614 2
+-10662 342 -10727 342
+-10662 342 -10662 407
+e 615 2
+-10662 407 -10662 342
+-10662 407 -10727 407
+e 616 2
+-10727 407 -10662 407
+-10727 407 -10727 342
+e 617 2
+-10617 1107 -10617 1172
+-10617 1107 -10552 1107
+e 618 2
+-10552 1107 -10617 1107
+-10552 1107 -10552 1172
+e 619 2
+-10552 1172 -10552 1107
+-10552 1172 -10617 1172
+e 620 2
+-10617 1172 -10552 1172
+-10617 1172 -10617 1107
+e 621 2
+-10452 637 -10452 702
+-10452 637 -10387 637
+e 622 2
+-10387 637 -10452 637
+-10387 637 -10387 702
+e 623 2
+-10387 702 -10387 637
+-10387 702 -10452 702
+e 624 2
+-10452 702 -10387 702
+-10452 702 -10452 637
+e 625 2
+-10277 472 -10277 537
+-10277 472 -10212 472
+e 626 2
+-10212 472 -10277 472
+-10212 472 -10212 537
+e 627 2
+-10212 537 -10212 472
+-10212 537 -10277 537
+e 628 2
+-10277 537 -10212 537
+-10277 537 -10277 472
+e 629 2
+-10137 797 -10137 862
+-10137 797 -10072 797
+e 630 2
+-10072 797 -10137 797
+-10072 797 -10072 862
+e 631 2
+-10072 862 -10072 797
+-10072 862 -10137 862
+e 632 2
+-10137 862 -10072 862
+-10137 862 -10137 797
+e 633 2
+-10137 987 -10137 1052
+-10137 987 -10072 987
+e 634 2
+-10072 987 -10137 987
+-10072 987 -10072 1052
+e 635 2
+-10072 1052 -10072 987
+-10072 1052 -10137 1052
+e 636 2
+-10137 1052 -10072 1052
+-10137 1052 -10137 987
+e 637 2
+-10137 1177 -10137 1242
+-10137 1177 -10072 1177
+e 638 2
+-10072 1177 -10137 1177
+-10072 1177 -10072 1242
+e 639 2
+-10072 1242 -10072 1177
+-10072 1242 -10137 1242
+e 640 2
+-10137 1242 -10072 1242
+-10137 1242 -10137 1177
+e 641 2
+-9762 342 -9762 407
+-9762 342 -9697 342
+e 642 2
+-9697 342 -9762 342
+-9697 342 -9697 407
+e 643 2
+-9697 407 -9697 342
+-9697 407 -9762 407
+e 644 2
+-9762 407 -9697 407
+-9762 407 -9762 342
+e 645 2
+-9762 527 -9762 592
+-9762 527 -9697 527
+e 646 2
+-9697 527 -9762 527
+-9697 527 -9697 592
+e 647 2
+-9697 592 -9697 527
+-9697 592 -9762 592
+e 648 2
+-9762 592 -9697 592
+-9762 592 -9762 527
+e 649 2
+-9762 717 -9762 782
+-9762 717 -9697 717
+e 650 2
+-9697 717 -9762 717
+-9697 717 -9697 782
+e 651 2
+-9697 782 -9697 717
+-9697 782 -9762 782
+e 652 2
+-9762 782 -9697 782
+-9762 782 -9762 717
+e 653 2
+-9762 917 -9762 982
+-9762 917 -9697 917
+e 654 2
+-9697 917 -9762 917
+-9697 917 -9697 982
+e 655 2
+-9697 982 -9697 917
+-9697 982 -9762 982
+e 656 2
+-9762 982 -9697 982
+-9762 982 -9762 917
+e 657 2
+-9762 1292 -9762 1357
+-9762 1292 -9697 1292
+e 658 2
+-9697 1292 -9762 1292
+-9697 1292 -9697 1357
+e 659 2
+-9697 1357 -9697 1292
+-9697 1357 -9762 1357
+e 660 2
+-9762 1357 -9697 1357
+-9762 1357 -9762 1292
+e 661 2
+-8902 717 -8902 782
+-8902 717 -8837 717
+e 662 2
+-8837 717 -8902 717
+-8837 717 -8837 782
+e 663 2
+-8837 782 -8837 717
+-8837 782 -8902 782
+e 664 2
+-8902 782 -8837 782
+-8902 782 -8902 717
+e 665 2
+-8892 917 -8892 982
+-8892 917 -8827 917
+e 666 2
+-8827 917 -8892 917
+-8827 917 -8827 982
+e 667 2
+-8827 982 -8827 917
+-8827 982 -8892 982
+e 668 2
+-8892 982 -8827 982
+-8892 982 -8892 917
+e 669 2
+-8892 1292 -8892 1357
+-8892 1292 -8827 1292
+e 670 2
+-8827 1292 -8892 1292
+-8827 1292 -8827 1357
+e 671 2
+-8827 1357 -8827 1292
+-8827 1357 -8892 1357
+e 672 2
+-8892 1357 -8827 1357
+-8892 1357 -8892 1292
+e 673 2
+-8867 342 -8867 407
+-8867 342 -8802 342
+e 674 2
+-8802 342 -8867 342
+-8802 342 -8802 407
+e 675 2
+-8802 407 -8802 342
+-8802 407 -8867 407
+e 676 2
+-8867 407 -8802 407
+-8867 407 -8867 342
+e 677 2
+-8757 1107 -8757 1172
+-8757 1107 -8692 1107
+e 678 2
+-8692 1107 -8757 1107
+-8692 1107 -8692 1172
+e 679 2
+-8692 1172 -8692 1107
+-8692 1172 -8757 1172
+e 680 2
+-8757 1172 -8692 1172
+-8757 1172 -8757 1107
+e 681 2
+-8592 637 -8592 702
+-8592 637 -8527 637
+e 682 2
+-8527 637 -8592 637
+-8527 637 -8527 702
+e 683 2
+-8527 702 -8527 637
+-8527 702 -8592 702
+e 684 2
+-8592 702 -8527 702
+-8592 702 -8592 637
+e 685 2
+-8417 472 -8417 537
+-8417 472 -8352 472
+e 686 2
+-8352 472 -8417 472
+-8352 472 -8352 537
+e 687 2
+-8352 537 -8352 472
+-8352 537 -8417 537
+e 688 2
+-8417 537 -8352 537
+-8417 537 -8417 472
+e 689 2
+-8277 797 -8277 862
+-8277 797 -8212 797
+e 690 2
+-8212 797 -8277 797
+-8212 797 -8212 862
+e 691 2
+-8212 862 -8212 797
+-8212 862 -8277 862
+e 692 2
+-8277 862 -8212 862
+-8277 862 -8277 797
+e 693 2
+-8277 987 -8277 1052
+-8277 987 -8212 987
+e 694 2
+-8212 987 -8277 987
+-8212 987 -8212 1052
+e 695 2
+-8212 1052 -8212 987
+-8212 1052 -8277 1052
+e 696 2
+-8277 1052 -8212 1052
+-8277 1052 -8277 987
+e 697 2
+-8277 1177 -8277 1242
+-8277 1177 -8212 1177
+e 698 2
+-8212 1177 -8277 1177
+-8212 1177 -8212 1242
+e 699 2
+-8212 1242 -8212 1177
+-8212 1242 -8277 1242
+e 700 2
+-8277 1242 -8212 1242
+-8277 1242 -8277 1177
+e 701 2
+-7902 342 -7902 407
+-7902 342 -7837 342
+e 702 2
+-7837 342 -7902 342
+-7837 342 -7837 407
+e 703 2
+-7837 407 -7837 342
+-7837 407 -7902 407
+e 704 2
+-7902 407 -7837 407
+-7902 407 -7902 342
+e 705 2
+-7902 527 -7902 592
+-7902 527 -7837 527
+e 706 2
+-7837 527 -7902 527
+-7837 527 -7837 592
+e 707 2
+-7837 592 -7837 527
+-7837 592 -7902 592
+e 708 2
+-7902 592 -7837 592
+-7902 592 -7902 527
+e 709 2
+-7902 717 -7902 782
+-7902 717 -7837 717
+e 710 2
+-7837 717 -7902 717
+-7837 717 -7837 782
+e 711 2
+-7837 782 -7837 717
+-7837 782 -7902 782
+e 712 2
+-7902 782 -7837 782
+-7902 782 -7902 717
+e 713 2
+-7902 917 -7902 982
+-7902 917 -7837 917
+e 714 2
+-7837 917 -7902 917
+-7837 917 -7837 982
+e 715 2
+-7837 982 -7837 917
+-7837 982 -7902 982
+e 716 2
+-7902 982 -7837 982
+-7902 982 -7902 917
+e 717 2
+-7902 1292 -7902 1357
+-7902 1292 -7837 1292
+e 718 2
+-7837 1292 -7902 1292
+-7837 1292 -7837 1357
+e 719 2
+-7837 1357 -7837 1292
+-7837 1357 -7902 1357
+e 720 2
+-7902 1357 -7837 1357
+-7902 1357 -7902 1292
+e 721 2
+-7042 717 -7042 782
+-7042 717 -6977 717
+e 722 2
+-6977 717 -7042 717
+-6977 717 -6977 782
+e 723 2
+-6977 782 -6977 717
+-6977 782 -7042 782
+e 724 2
+-7042 782 -6977 782
+-7042 782 -7042 717
+e 725 2
+-7032 917 -7032 982
+-7032 917 -6967 917
+e 726 2
+-6967 917 -7032 917
+-6967 917 -6967 982
+e 727 2
+-6967 982 -6967 917
+-6967 982 -7032 982
+e 728 2
+-7032 982 -6967 982
+-7032 982 -7032 917
+e 729 2
+-7032 1292 -7032 1357
+-7032 1292 -6967 1292
+e 730 2
+-6967 1292 -7032 1292
+-6967 1292 -6967 1357
+e 731 2
+-6967 1357 -6967 1292
+-6967 1357 -7032 1357
+e 732 2
+-7032 1357 -6967 1357
+-7032 1357 -7032 1292
+e 733 2
+-7007 342 -7007 407
+-7007 342 -6942 342
+e 734 2
+-6942 342 -7007 342
+-6942 342 -6942 407
+e 735 2
+-6942 407 -6942 342
+-6942 407 -7007 407
+e 736 2
+-7007 407 -6942 407
+-7007 407 -7007 342
+e 737 2
+-6897 1107 -6897 1172
+-6897 1107 -6832 1107
+e 738 2
+-6832 1107 -6897 1107
+-6832 1107 -6832 1172
+e 739 2
+-6832 1172 -6832 1107
+-6832 1172 -6897 1172
+e 740 2
+-6897 1172 -6832 1172
+-6897 1172 -6897 1107
+e 741 2
+-6732 637 -6732 702
+-6732 637 -6667 637
+e 742 2
+-6667 637 -6732 637
+-6667 637 -6667 702
+e 743 2
+-6667 702 -6667 637
+-6667 702 -6732 702
+e 744 2
+-6732 702 -6667 702
+-6732 702 -6732 637
+e 745 2
+-6557 472 -6557 537
+-6557 472 -6492 472
+e 746 2
+-6492 472 -6557 472
+-6492 472 -6492 537
+e 747 2
+-6492 537 -6492 472
+-6492 537 -6557 537
+e 748 2
+-6557 537 -6492 537
+-6557 537 -6557 472
+e 749 2
+-6417 797 -6417 862
+-6417 797 -6352 797
+e 750 2
+-6352 797 -6417 797
+-6352 797 -6352 862
+e 751 2
+-6352 862 -6352 797
+-6352 862 -6417 862
+e 752 2
+-6417 862 -6352 862
+-6417 862 -6417 797
+e 753 2
+-6417 987 -6417 1052
+-6417 987 -6352 987
+e 754 2
+-6352 987 -6417 987
+-6352 987 -6352 1052
+e 755 2
+-6352 1052 -6352 987
+-6352 1052 -6417 1052
+e 756 2
+-6417 1052 -6352 1052
+-6417 1052 -6417 987
+e 757 2
+-6417 1177 -6417 1242
+-6417 1177 -6352 1177
+e 758 2
+-6352 1177 -6417 1177
+-6352 1177 -6352 1242
+e 759 2
+-6352 1242 -6352 1177
+-6352 1242 -6417 1242
+e 760 2
+-6417 1242 -6352 1242
+-6417 1242 -6417 1177
+e 761 2
+-6042 342 -6042 407
+-6042 342 -5977 342
+e 762 2
+-5977 342 -6042 342
+-5977 342 -5977 407
+e 763 2
+-5977 407 -5977 342
+-5977 407 -6042 407
+e 764 2
+-6042 407 -5977 407
+-6042 407 -6042 342
+e 765 2
+-6042 527 -6042 592
+-6042 527 -5977 527
+e 766 2
+-5977 527 -6042 527
+-5977 527 -5977 592
+e 767 2
+-5977 592 -5977 527
+-5977 592 -6042 592
+e 768 2
+-6042 592 -5977 592
+-6042 592 -6042 527
+e 769 2
+-6042 717 -6042 782
+-6042 717 -5977 717
+e 770 2
+-5977 717 -6042 717
+-5977 717 -5977 782
+e 771 2
+-5977 782 -5977 717
+-5977 782 -6042 782
+e 772 2
+-6042 782 -5977 782
+-6042 782 -6042 717
+e 773 2
+-6042 917 -6042 982
+-6042 917 -5977 917
+e 774 2
+-5977 917 -6042 917
+-5977 917 -5977 982
+e 775 2
+-5977 982 -5977 917
+-5977 982 -6042 982
+e 776 2
+-6042 982 -5977 982
+-6042 982 -6042 917
+e 777 2
+-6042 1292 -6042 1357
+-6042 1292 -5977 1292
+e 778 2
+-5977 1292 -6042 1292
+-5977 1292 -5977 1357
+e 779 2
+-5977 1357 -5977 1292
+-5977 1357 -6042 1357
+e 780 2
+-6042 1357 -5977 1357
+-6042 1357 -6042 1292
+e 781 2
+-5182 717 -5182 782
+-5182 717 -5117 717
+e 782 2
+-5117 717 -5182 717
+-5117 717 -5117 782
+e 783 2
+-5117 782 -5117 717
+-5117 782 -5182 782
+e 784 2
+-5182 782 -5117 782
+-5182 782 -5182 717
+e 785 2
+-5172 917 -5172 982
+-5172 917 -5107 917
+e 786 2
+-5107 917 -5172 917
+-5107 917 -5107 982
+e 787 2
+-5107 982 -5107 917
+-5107 982 -5172 982
+e 788 2
+-5172 982 -5107 982
+-5172 982 -5172 917
+e 789 2
+-5172 1292 -5172 1357
+-5172 1292 -5107 1292
+e 790 2
+-5107 1292 -5172 1292
+-5107 1292 -5107 1357
+e 791 2
+-5107 1357 -5107 1292
+-5107 1357 -5172 1357
+e 792 2
+-5172 1357 -5107 1357
+-5172 1357 -5172 1292
+e 793 2
+-5147 342 -5147 407
+-5147 342 -5082 342
+e 794 2
+-5082 342 -5147 342
+-5082 342 -5082 407
+e 795 2
+-5082 407 -5082 342
+-5082 407 -5147 407
+e 796 2
+-5147 407 -5082 407
+-5147 407 -5147 342
+e 797 2
+-5037 1107 -5037 1172
+-5037 1107 -4972 1107
+e 798 2
+-4972 1107 -5037 1107
+-4972 1107 -4972 1172
+e 799 2
+-4972 1172 -4972 1107
+-4972 1172 -5037 1172
+e 800 2
+-5037 1172 -4972 1172
+-5037 1172 -5037 1107
+e 801 2
+-4872 637 -4872 702
+-4872 637 -4807 637
+e 802 2
+-4807 637 -4872 637
+-4807 637 -4807 702
+e 803 2
+-4807 702 -4807 637
+-4807 702 -4872 702
+e 804 2
+-4872 702 -4807 702
+-4872 702 -4872 637
+e 805 2
+-4697 472 -4697 537
+-4697 472 -4632 472
+e 806 2
+-4632 472 -4697 472
+-4632 472 -4632 537
+e 807 2
+-4632 537 -4632 472
+-4632 537 -4697 537
+e 808 2
+-4697 537 -4632 537
+-4697 537 -4697 472
+e 809 2
+-4557 797 -4557 862
+-4557 797 -4492 797
+e 810 2
+-4492 797 -4557 797
+-4492 797 -4492 862
+e 811 2
+-4492 862 -4492 797
+-4492 862 -4557 862
+e 812 2
+-4557 862 -4492 862
+-4557 862 -4557 797
+e 813 2
+-4557 987 -4557 1052
+-4557 987 -4492 987
+e 814 2
+-4492 987 -4557 987
+-4492 987 -4492 1052
+e 815 2
+-4492 1052 -4492 987
+-4492 1052 -4557 1052
+e 816 2
+-4557 1052 -4492 1052
+-4557 1052 -4557 987
+e 817 2
+-4557 1177 -4557 1242
+-4557 1177 -4492 1177
+e 818 2
+-4492 1177 -4557 1177
+-4492 1177 -4492 1242
+e 819 2
+-4492 1242 -4492 1177
+-4492 1242 -4557 1242
+e 820 2
+-4557 1242 -4492 1242
+-4557 1242 -4557 1177
+e 821 2
+-4182 342 -4182 407
+-4182 342 -4117 342
+e 822 2
+-4117 342 -4182 342
+-4117 342 -4117 407
+e 823 2
+-4117 407 -4117 342
+-4117 407 -4182 407
+e 824 2
+-4182 407 -4117 407
+-4182 407 -4182 342
+e 825 2
+-4182 527 -4182 592
+-4182 527 -4117 527
+e 826 2
+-4117 527 -4182 527
+-4117 527 -4117 592
+e 827 2
+-4117 592 -4117 527
+-4117 592 -4182 592
+e 828 2
+-4182 592 -4117 592
+-4182 592 -4182 527
+e 829 2
+-4182 717 -4182 782
+-4182 717 -4117 717
+e 830 2
+-4117 717 -4182 717
+-4117 717 -4117 782
+e 831 2
+-4117 782 -4117 717
+-4117 782 -4182 782
+e 832 2
+-4182 782 -4117 782
+-4182 782 -4182 717
+e 833 2
+-4182 917 -4182 982
+-4182 917 -4117 917
+e 834 2
+-4117 917 -4182 917
+-4117 917 -4117 982
+e 835 2
+-4117 982 -4117 917
+-4117 982 -4182 982
+e 836 2
+-4182 982 -4117 982
+-4182 982 -4182 917
+e 837 2
+-4182 1292 -4182 1357
+-4182 1292 -4117 1292
+e 838 2
+-4117 1292 -4182 1292
+-4117 1292 -4117 1357
+e 839 2
+-4117 1357 -4117 1292
+-4117 1357 -4182 1357
+e 840 2
+-4182 1357 -4117 1357
+-4182 1357 -4182 1292
+e 841 2
+-3322 717 -3322 782
+-3322 717 -3257 717
+e 842 2
+-3257 717 -3322 717
+-3257 717 -3257 782
+e 843 2
+-3257 782 -3257 717
+-3257 782 -3322 782
+e 844 2
+-3322 782 -3257 782
+-3322 782 -3322 717
+e 845 2
+-3312 917 -3312 982
+-3312 917 -3247 917
+e 846 2
+-3247 917 -3312 917
+-3247 917 -3247 982
+e 847 2
+-3247 982 -3247 917
+-3247 982 -3312 982
+e 848 2
+-3312 982 -3247 982
+-3312 982 -3312 917
+e 849 2
+-3312 1292 -3312 1357
+-3312 1292 -3247 1292
+e 850 2
+-3247 1292 -3312 1292
+-3247 1292 -3247 1357
+e 851 2
+-3247 1357 -3247 1292
+-3247 1357 -3312 1357
+e 852 2
+-3312 1357 -3247 1357
+-3312 1357 -3312 1292
+e 853 2
+-3287 342 -3287 407
+-3287 342 -3222 342
+e 854 2
+-3222 342 -3287 342
+-3222 342 -3222 407
+e 855 2
+-3222 407 -3222 342
+-3222 407 -3287 407
+e 856 2
+-3287 407 -3222 407
+-3287 407 -3287 342
+e 857 2
+-3177 1107 -3177 1172
+-3177 1107 -3112 1107
+e 858 2
+-3112 1107 -3177 1107
+-3112 1107 -3112 1172
+e 859 2
+-3112 1172 -3112 1107
+-3112 1172 -3177 1172
+e 860 2
+-3177 1172 -3112 1172
+-3177 1172 -3177 1107
+e 861 2
+-3012 637 -3012 702
+-3012 637 -2947 637
+e 862 2
+-2947 637 -3012 637
+-2947 637 -2947 702
+e 863 2
+-2947 702 -2947 637
+-2947 702 -3012 702
+e 864 2
+-3012 702 -2947 702
+-3012 702 -3012 637
+e 865 2
+-2837 472 -2837 537
+-2837 472 -2772 472
+e 866 2
+-2772 472 -2837 472
+-2772 472 -2772 537
+e 867 2
+-2772 537 -2772 472
+-2772 537 -2837 537
+e 868 2
+-2837 537 -2772 537
+-2837 537 -2837 472
+e 869 2
+-2697 797 -2697 862
+-2697 797 -2632 797
+e 870 2
+-2632 797 -2697 797
+-2632 797 -2632 862
+e 871 2
+-2632 862 -2632 797
+-2632 862 -2697 862
+e 872 2
+-2697 862 -2632 862
+-2697 862 -2697 797
+e 873 2
+-2697 987 -2697 1052
+-2697 987 -2632 987
+e 874 2
+-2632 987 -2697 987
+-2632 987 -2632 1052
+e 875 2
+-2632 1052 -2632 987
+-2632 1052 -2697 1052
+e 876 2
+-2697 1052 -2632 1052
+-2697 1052 -2697 987
+e 877 2
+-2697 1177 -2697 1242
+-2697 1177 -2632 1177
+e 878 2
+-2632 1177 -2697 1177
+-2632 1177 -2632 1242
+e 879 2
+-2632 1242 -2632 1177
+-2632 1242 -2697 1242
+e 880 2
+-2697 1242 -2632 1242
+-2697 1242 -2697 1177
+e 881 2
+-2322 342 -2322 407
+-2322 342 -2257 342
+e 882 2
+-2257 342 -2322 342
+-2257 342 -2257 407
+e 883 2
+-2257 407 -2257 342
+-2257 407 -2322 407
+e 884 2
+-2322 407 -2257 407
+-2322 407 -2322 342
+e 885 2
+-2322 527 -2322 592
+-2322 527 -2257 527
+e 886 2
+-2257 527 -2322 527
+-2257 527 -2257 592
+e 887 2
+-2257 592 -2257 527
+-2257 592 -2322 592
+e 888 2
+-2322 592 -2257 592
+-2322 592 -2322 527
+e 889 2
+-2322 717 -2322 782
+-2322 717 -2257 717
+e 890 2
+-2257 717 -2322 717
+-2257 717 -2257 782
+e 891 2
+-2257 782 -2257 717
+-2257 782 -2322 782
+e 892 2
+-2322 782 -2257 782
+-2322 782 -2322 717
+e 893 2
+-2322 917 -2322 982
+-2322 917 -2257 917
+e 894 2
+-2257 917 -2322 917
+-2257 917 -2257 982
+e 895 2
+-2257 982 -2257 917
+-2257 982 -2322 982
+e 896 2
+-2322 982 -2257 982
+-2322 982 -2322 917
+e 897 2
+-2322 1292 -2322 1357
+-2322 1292 -2257 1292
+e 898 2
+-2257 1292 -2322 1292
+-2257 1292 -2257 1357
+e 899 2
+-2257 1357 -2257 1292
+-2257 1357 -2322 1357
+e 900 2
+-2322 1357 -2257 1357
+-2322 1357 -2322 1292
+e 901 2
+-1462 717 -1462 782
+-1462 717 -1397 717
+e 902 2
+-1397 717 -1462 717
+-1397 717 -1397 782
+e 903 2
+-1397 782 -1397 717
+-1397 782 -1462 782
+e 904 2
+-1462 782 -1397 782
+-1462 782 -1462 717
+e 905 2
+-1452 917 -1452 982
+-1452 917 -1387 917
+e 906 2
+-1387 917 -1452 917
+-1387 917 -1387 982
+e 907 2
+-1387 982 -1387 917
+-1387 982 -1452 982
+e 908 2
+-1452 982 -1387 982
+-1452 982 -1452 917
+e 909 2
+-1452 1292 -1452 1357
+-1452 1292 -1387 1292
+e 910 2
+-1387 1292 -1452 1292
+-1387 1292 -1387 1357
+e 911 2
+-1387 1357 -1387 1292
+-1387 1357 -1452 1357
+e 912 2
+-1452 1357 -1387 1357
+-1452 1357 -1452 1292
+e 913 2
+-1427 342 -1427 407
+-1427 342 -1362 342
+e 914 2
+-1362 342 -1427 342
+-1362 342 -1362 407
+e 915 2
+-1362 407 -1362 342
+-1362 407 -1427 407
+e 916 2
+-1427 407 -1362 407
+-1427 407 -1427 342
+e 917 2
+-1317 1107 -1317 1172
+-1317 1107 -1252 1107
+e 918 2
+-1252 1107 -1317 1107
+-1252 1107 -1252 1172
+e 919 2
+-1252 1172 -1252 1107
+-1252 1172 -1317 1172
+e 920 2
+-1317 1172 -1252 1172
+-1317 1172 -1317 1107
+e 921 2
+-1152 637 -1152 702
+-1152 637 -1087 637
+e 922 2
+-1087 637 -1152 637
+-1087 637 -1087 702
+e 923 2
+-1087 702 -1087 637
+-1087 702 -1152 702
+e 924 2
+-1152 702 -1087 702
+-1152 702 -1152 637
+e 925 2
+-977 472 -977 537
+-977 472 -912 472
+e 926 2
+-912 472 -977 472
+-912 472 -912 537
+e 927 2
+-912 537 -912 472
+-912 537 -977 537
+e 928 2
+-977 537 -912 537
+-977 537 -977 472
+e 929 2
+-837 797 -837 862
+-837 797 -772 797
+e 930 2
+-772 797 -837 797
+-772 797 -772 862
+e 931 2
+-772 862 -772 797
+-772 862 -837 862
+e 932 2
+-837 862 -772 862
+-837 862 -837 797
+e 933 2
+-837 987 -837 1052
+-837 987 -772 987
+e 934 2
+-772 987 -837 987
+-772 987 -772 1052
+e 935 2
+-772 1052 -772 987
+-772 1052 -837 1052
+e 936 2
+-837 1052 -772 1052
+-837 1052 -837 987
+e 937 2
+-837 1177 -837 1242
+-837 1177 -772 1177
+e 938 2
+-772 1177 -837 1177
+-772 1177 -772 1242
+e 939 2
+-772 1242 -772 1177
+-772 1242 -837 1242
+e 940 2
+-837 1242 -772 1242
+-837 1242 -837 1177
+e 941 2
+-462 342 -462 407
+-462 342 -397 342
+e 942 2
+-397 342 -462 342
+-397 342 -397 407
+e 943 2
+-397 407 -397 342
+-397 407 -462 407
+e 944 2
+-462 407 -397 407
+-462 407 -462 342
+e 945 2
+-462 527 -462 592
+-462 527 -397 527
+e 946 2
+-397 527 -462 527
+-397 527 -397 592
+e 947 2
+-397 592 -397 527
+-397 592 -462 592
+e 948 2
+-462 592 -397 592
+-462 592 -462 527
+e 949 2
+-462 717 -462 782
+-462 717 -397 717
+e 950 2
+-397 717 -462 717
+-397 717 -397 782
+e 951 2
+-397 782 -397 717
+-397 782 -462 782
+e 952 2
+-462 782 -397 782
+-462 782 -462 717
+e 953 2
+-462 917 -462 982
+-462 917 -397 917
+e 954 2
+-397 917 -462 917
+-397 917 -397 982
+e 955 2
+-397 982 -397 917
+-397 982 -462 982
+e 956 2
+-462 982 -397 982
+-462 982 -462 917
+e 957 2
+-462 1292 -462 1357
+-462 1292 -397 1292
+e 958 2
+-397 1292 -462 1292
+-397 1292 -397 1357
+e 959 2
+-397 1357 -397 1292
+-397 1357 -462 1357
+e 960 2
+-462 1357 -397 1357
+-462 1357 -462 1292
+Grid.5
+640 640 2 Mar 18 17:06:40 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29472 632 -29472 682
+-29472 632 -28472 632
+e 2 2
+-28152 632 -29152 632
+-28152 632 -28152 682
+e 3 2
+-28152 682 -28152 632
+-28152 682 -28982 682
+e 4 2
+-28982 682 -28152 682
+-28982 682 -28982 707
+e 5 2
+-28982 707 -28982 682
+-28982 707 -29057 707
+e 6 2
+-29057 707 -28982 707
+-29057 707 -29057 682
+e 7 2
+-29057 682 -29057 707
+-29057 682 -29472 682
+e 8 2
+-29472 682 -29057 682
+-29472 682 -29472 632
+e 9 2
+-29472 442 -29472 492
+-29472 442 -28472 442
+e 10 2
+-28152 442 -29152 442
+-28152 442 -28152 492
+e 11 2
+-28152 492 -28152 442
+-28152 492 -28807 492
+e 12 2
+-28807 492 -28152 492
+-28807 492 -28807 542
+e 13 2
+-28807 542 -28807 492
+-28807 542 -28882 542
+e 14 2
+-28882 542 -28807 542
+-28882 542 -28882 492
+e 15 2
+-28882 492 -28882 542
+-28882 492 -29472 492
+e 16 2
+-29472 492 -28882 492
+-29472 492 -29472 442
+e 17 2
+-29472 827 -29472 877
+-29472 827 -28742 827
+e 18 2
+-28742 827 -29472 827
+-28742 827 -28742 792
+e 19 2
+-28742 792 -28742 827
+-28742 792 -28667 792
+e 20 2
+-28667 792 -28742 792
+-28667 792 -28667 827
+e 21 2
+-28667 827 -28667 792
+-28667 827 -28152 827
+e 22 2
+-28152 827 -28667 827
+-28152 827 -28152 877
+e 23 2
+-28152 877 -28152 827
+-28152 877 -29152 877
+e 24 2
+-29472 877 -28472 877
+-29472 877 -29472 827
+e 25 2
+-29472 1017 -29472 1067
+-29472 1017 -28742 1017
+e 26 2
+-28742 1017 -29472 1017
+-28742 1017 -28742 982
+e 27 2
+-28742 982 -28742 1017
+-28742 982 -28667 982
+e 28 2
+-28667 982 -28742 982
+-28667 982 -28667 1017
+e 29 2
+-28667 1017 -28667 982
+-28667 1017 -28152 1017
+e 30 2
+-28152 1017 -28667 1017
+-28152 1017 -28152 1067
+e 31 2
+-28152 1067 -28152 1017
+-28152 1067 -29152 1067
+e 32 2
+-29472 1067 -28472 1067
+-29472 1067 -29472 1017
+e 33 2
+-29472 1207 -29472 1257
+-29472 1207 -28742 1207
+e 34 2
+-28742 1207 -29472 1207
+-28742 1207 -28742 1172
+e 35 2
+-28742 1172 -28742 1207
+-28742 1172 -28667 1172
+e 36 2
+-28667 1172 -28742 1172
+-28667 1172 -28667 1207
+e 37 2
+-28667 1207 -28667 1172
+-28667 1207 -28152 1207
+e 38 2
+-28152 1207 -28667 1207
+-28152 1207 -28152 1257
+e 39 2
+-28152 1257 -28152 1207
+-28152 1257 -29152 1257
+e 40 2
+-29472 1257 -28472 1257
+-29472 1257 -29472 1207
+e 41 2
+-27612 632 -27612 682
+-27612 632 -26612 632
+e 42 2
+-26292 632 -27292 632
+-26292 632 -26292 682
+e 43 2
+-26292 682 -26292 632
+-26292 682 -27122 682
+e 44 2
+-27122 682 -26292 682
+-27122 682 -27122 707
+e 45 2
+-27122 707 -27122 682
+-27122 707 -27197 707
+e 46 2
+-27197 707 -27122 707
+-27197 707 -27197 682
+e 47 2
+-27197 682 -27197 707
+-27197 682 -27612 682
+e 48 2
+-27612 682 -27197 682
+-27612 682 -27612 632
+e 49 2
+-27612 442 -27612 492
+-27612 442 -26612 442
+e 50 2
+-26292 442 -27292 442
+-26292 442 -26292 492
+e 51 2
+-26292 492 -26292 442
+-26292 492 -26947 492
+e 52 2
+-26947 492 -26292 492
+-26947 492 -26947 542
+e 53 2
+-26947 542 -26947 492
+-26947 542 -27022 542
+e 54 2
+-27022 542 -26947 542
+-27022 542 -27022 492
+e 55 2
+-27022 492 -27022 542
+-27022 492 -27612 492
+e 56 2
+-27612 492 -27022 492
+-27612 492 -27612 442
+e 57 2
+-27612 827 -27612 877
+-27612 827 -26882 827
+e 58 2
+-26882 827 -27612 827
+-26882 827 -26882 792
+e 59 2
+-26882 792 -26882 827
+-26882 792 -26807 792
+e 60 2
+-26807 792 -26882 792
+-26807 792 -26807 827
+e 61 2
+-26807 827 -26807 792
+-26807 827 -26292 827
+e 62 2
+-26292 827 -26807 827
+-26292 827 -26292 877
+e 63 2
+-26292 877 -26292 827
+-26292 877 -27292 877
+e 64 2
+-27612 877 -26612 877
+-27612 877 -27612 827
+e 65 2
+-27612 1017 -27612 1067
+-27612 1017 -26882 1017
+e 66 2
+-26882 1017 -27612 1017
+-26882 1017 -26882 982
+e 67 2
+-26882 982 -26882 1017
+-26882 982 -26807 982
+e 68 2
+-26807 982 -26882 982
+-26807 982 -26807 1017
+e 69 2
+-26807 1017 -26807 982
+-26807 1017 -26292 1017
+e 70 2
+-26292 1017 -26807 1017
+-26292 1017 -26292 1067
+e 71 2
+-26292 1067 -26292 1017
+-26292 1067 -27292 1067
+e 72 2
+-27612 1067 -26612 1067
+-27612 1067 -27612 1017
+e 73 2
+-27612 1207 -27612 1257
+-27612 1207 -26882 1207
+e 74 2
+-26882 1207 -27612 1207
+-26882 1207 -26882 1172
+e 75 2
+-26882 1172 -26882 1207
+-26882 1172 -26807 1172
+e 76 2
+-26807 1172 -26882 1172
+-26807 1172 -26807 1207
+e 77 2
+-26807 1207 -26807 1172
+-26807 1207 -26292 1207
+e 78 2
+-26292 1207 -26807 1207
+-26292 1207 -26292 1257
+e 79 2
+-26292 1257 -26292 1207
+-26292 1257 -27292 1257
+e 80 2
+-27612 1257 -26612 1257
+-27612 1257 -27612 1207
+e 81 2
+-25752 632 -25752 682
+-25752 632 -24752 632
+e 82 2
+-24432 632 -25432 632
+-24432 632 -24432 682
+e 83 2
+-24432 682 -24432 632
+-24432 682 -25262 682
+e 84 2
+-25262 682 -24432 682
+-25262 682 -25262 707
+e 85 2
+-25262 707 -25262 682
+-25262 707 -25337 707
+e 86 2
+-25337 707 -25262 707
+-25337 707 -25337 682
+e 87 2
+-25337 682 -25337 707
+-25337 682 -25752 682
+e 88 2
+-25752 682 -25337 682
+-25752 682 -25752 632
+e 89 2
+-25752 442 -25752 492
+-25752 442 -24752 442
+e 90 2
+-24432 442 -25432 442
+-24432 442 -24432 492
+e 91 2
+-24432 492 -24432 442
+-24432 492 -25087 492
+e 92 2
+-25087 492 -24432 492
+-25087 492 -25087 542
+e 93 2
+-25087 542 -25087 492
+-25087 542 -25162 542
+e 94 2
+-25162 542 -25087 542
+-25162 542 -25162 492
+e 95 2
+-25162 492 -25162 542
+-25162 492 -25752 492
+e 96 2
+-25752 492 -25162 492
+-25752 492 -25752 442
+e 97 2
+-25752 827 -25752 877
+-25752 827 -25022 827
+e 98 2
+-25022 827 -25752 827
+-25022 827 -25022 792
+e 99 2
+-25022 792 -25022 827
+-25022 792 -24947 792
+e 100 2
+-24947 792 -25022 792
+-24947 792 -24947 827
+e 101 2
+-24947 827 -24947 792
+-24947 827 -24432 827
+e 102 2
+-24432 827 -24947 827
+-24432 827 -24432 877
+e 103 2
+-24432 877 -24432 827
+-24432 877 -25432 877
+e 104 2
+-25752 877 -24752 877
+-25752 877 -25752 827
+e 105 2
+-25752 1017 -25752 1067
+-25752 1017 -25022 1017
+e 106 2
+-25022 1017 -25752 1017
+-25022 1017 -25022 982
+e 107 2
+-25022 982 -25022 1017
+-25022 982 -24947 982
+e 108 2
+-24947 982 -25022 982
+-24947 982 -24947 1017
+e 109 2
+-24947 1017 -24947 982
+-24947 1017 -24432 1017
+e 110 2
+-24432 1017 -24947 1017
+-24432 1017 -24432 1067
+e 111 2
+-24432 1067 -24432 1017
+-24432 1067 -25432 1067
+e 112 2
+-25752 1067 -24752 1067
+-25752 1067 -25752 1017
+e 113 2
+-25752 1207 -25752 1257
+-25752 1207 -25022 1207
+e 114 2
+-25022 1207 -25752 1207
+-25022 1207 -25022 1172
+e 115 2
+-25022 1172 -25022 1207
+-25022 1172 -24947 1172
+e 116 2
+-24947 1172 -25022 1172
+-24947 1172 -24947 1207
+e 117 2
+-24947 1207 -24947 1172
+-24947 1207 -24432 1207
+e 118 2
+-24432 1207 -24947 1207
+-24432 1207 -24432 1257
+e 119 2
+-24432 1257 -24432 1207
+-24432 1257 -25432 1257
+e 120 2
+-25752 1257 -24752 1257
+-25752 1257 -25752 1207
+e 121 2
+-23892 632 -23892 682
+-23892 632 -22892 632
+e 122 2
+-22572 632 -23572 632
+-22572 632 -22572 682
+e 123 2
+-22572 682 -22572 632
+-22572 682 -23402 682
+e 124 2
+-23402 682 -22572 682
+-23402 682 -23402 707
+e 125 2
+-23402 707 -23402 682
+-23402 707 -23477 707
+e 126 2
+-23477 707 -23402 707
+-23477 707 -23477 682
+e 127 2
+-23477 682 -23477 707
+-23477 682 -23892 682
+e 128 2
+-23892 682 -23477 682
+-23892 682 -23892 632
+e 129 2
+-23892 442 -23892 492
+-23892 442 -22892 442
+e 130 2
+-22572 442 -23572 442
+-22572 442 -22572 492
+e 131 2
+-22572 492 -22572 442
+-22572 492 -23227 492
+e 132 2
+-23227 492 -22572 492
+-23227 492 -23227 542
+e 133 2
+-23227 542 -23227 492
+-23227 542 -23302 542
+e 134 2
+-23302 542 -23227 542
+-23302 542 -23302 492
+e 135 2
+-23302 492 -23302 542
+-23302 492 -23892 492
+e 136 2
+-23892 492 -23302 492
+-23892 492 -23892 442
+e 137 2
+-23892 827 -23892 877
+-23892 827 -23162 827
+e 138 2
+-23162 827 -23892 827
+-23162 827 -23162 792
+e 139 2
+-23162 792 -23162 827
+-23162 792 -23087 792
+e 140 2
+-23087 792 -23162 792
+-23087 792 -23087 827
+e 141 2
+-23087 827 -23087 792
+-23087 827 -22572 827
+e 142 2
+-22572 827 -23087 827
+-22572 827 -22572 877
+e 143 2
+-22572 877 -22572 827
+-22572 877 -23572 877
+e 144 2
+-23892 877 -22892 877
+-23892 877 -23892 827
+e 145 2
+-23892 1017 -23892 1067
+-23892 1017 -23162 1017
+e 146 2
+-23162 1017 -23892 1017
+-23162 1017 -23162 982
+e 147 2
+-23162 982 -23162 1017
+-23162 982 -23087 982
+e 148 2
+-23087 982 -23162 982
+-23087 982 -23087 1017
+e 149 2
+-23087 1017 -23087 982
+-23087 1017 -22572 1017
+e 150 2
+-22572 1017 -23087 1017
+-22572 1017 -22572 1067
+e 151 2
+-22572 1067 -22572 1017
+-22572 1067 -23572 1067
+e 152 2
+-23892 1067 -22892 1067
+-23892 1067 -23892 1017
+e 153 2
+-23892 1207 -23892 1257
+-23892 1207 -23162 1207
+e 154 2
+-23162 1207 -23892 1207
+-23162 1207 -23162 1172
+e 155 2
+-23162 1172 -23162 1207
+-23162 1172 -23087 1172
+e 156 2
+-23087 1172 -23162 1172
+-23087 1172 -23087 1207
+e 157 2
+-23087 1207 -23087 1172
+-23087 1207 -22572 1207
+e 158 2
+-22572 1207 -23087 1207
+-22572 1207 -22572 1257
+e 159 2
+-22572 1257 -22572 1207
+-22572 1257 -23572 1257
+e 160 2
+-23892 1257 -22892 1257
+-23892 1257 -23892 1207
+e 161 2
+-22032 632 -22032 682
+-22032 632 -21032 632
+e 162 2
+-20712 632 -21712 632
+-20712 632 -20712 682
+e 163 2
+-20712 682 -20712 632
+-20712 682 -21542 682
+e 164 2
+-21542 682 -20712 682
+-21542 682 -21542 707
+e 165 2
+-21542 707 -21542 682
+-21542 707 -21617 707
+e 166 2
+-21617 707 -21542 707
+-21617 707 -21617 682
+e 167 2
+-21617 682 -21617 707
+-21617 682 -22032 682
+e 168 2
+-22032 682 -21617 682
+-22032 682 -22032 632
+e 169 2
+-22032 442 -22032 492
+-22032 442 -21032 442
+e 170 2
+-20712 442 -21712 442
+-20712 442 -20712 492
+e 171 2
+-20712 492 -20712 442
+-20712 492 -21367 492
+e 172 2
+-21367 492 -20712 492
+-21367 492 -21367 542
+e 173 2
+-21367 542 -21367 492
+-21367 542 -21442 542
+e 174 2
+-21442 542 -21367 542
+-21442 542 -21442 492
+e 175 2
+-21442 492 -21442 542
+-21442 492 -22032 492
+e 176 2
+-22032 492 -21442 492
+-22032 492 -22032 442
+e 177 2
+-22032 827 -22032 877
+-22032 827 -21302 827
+e 178 2
+-21302 827 -22032 827
+-21302 827 -21302 792
+e 179 2
+-21302 792 -21302 827
+-21302 792 -21227 792
+e 180 2
+-21227 792 -21302 792
+-21227 792 -21227 827
+e 181 2
+-21227 827 -21227 792
+-21227 827 -20712 827
+e 182 2
+-20712 827 -21227 827
+-20712 827 -20712 877
+e 183 2
+-20712 877 -20712 827
+-20712 877 -21712 877
+e 184 2
+-22032 877 -21032 877
+-22032 877 -22032 827
+e 185 2
+-22032 1017 -22032 1067
+-22032 1017 -21302 1017
+e 186 2
+-21302 1017 -22032 1017
+-21302 1017 -21302 982
+e 187 2
+-21302 982 -21302 1017
+-21302 982 -21227 982
+e 188 2
+-21227 982 -21302 982
+-21227 982 -21227 1017
+e 189 2
+-21227 1017 -21227 982
+-21227 1017 -20712 1017
+e 190 2
+-20712 1017 -21227 1017
+-20712 1017 -20712 1067
+e 191 2
+-20712 1067 -20712 1017
+-20712 1067 -21712 1067
+e 192 2
+-22032 1067 -21032 1067
+-22032 1067 -22032 1017
+e 193 2
+-22032 1207 -22032 1257
+-22032 1207 -21302 1207
+e 194 2
+-21302 1207 -22032 1207
+-21302 1207 -21302 1172
+e 195 2
+-21302 1172 -21302 1207
+-21302 1172 -21227 1172
+e 196 2
+-21227 1172 -21302 1172
+-21227 1172 -21227 1207
+e 197 2
+-21227 1207 -21227 1172
+-21227 1207 -20712 1207
+e 198 2
+-20712 1207 -21227 1207
+-20712 1207 -20712 1257
+e 199 2
+-20712 1257 -20712 1207
+-20712 1257 -21712 1257
+e 200 2
+-22032 1257 -21032 1257
+-22032 1257 -22032 1207
+e 201 2
+-20172 632 -20172 682
+-20172 632 -19172 632
+e 202 2
+-18852 632 -19852 632
+-18852 632 -18852 682
+e 203 2
+-18852 682 -18852 632
+-18852 682 -19682 682
+e 204 2
+-19682 682 -18852 682
+-19682 682 -19682 707
+e 205 2
+-19682 707 -19682 682
+-19682 707 -19757 707
+e 206 2
+-19757 707 -19682 707
+-19757 707 -19757 682
+e 207 2
+-19757 682 -19757 707
+-19757 682 -20172 682
+e 208 2
+-20172 682 -19757 682
+-20172 682 -20172 632
+e 209 2
+-20172 442 -20172 492
+-20172 442 -19172 442
+e 210 2
+-18852 442 -19852 442
+-18852 442 -18852 492
+e 211 2
+-18852 492 -18852 442
+-18852 492 -19507 492
+e 212 2
+-19507 492 -18852 492
+-19507 492 -19507 542
+e 213 2
+-19507 542 -19507 492
+-19507 542 -19582 542
+e 214 2
+-19582 542 -19507 542
+-19582 542 -19582 492
+e 215 2
+-19582 492 -19582 542
+-19582 492 -20172 492
+e 216 2
+-20172 492 -19582 492
+-20172 492 -20172 442
+e 217 2
+-20172 827 -20172 877
+-20172 827 -19442 827
+e 218 2
+-19442 827 -20172 827
+-19442 827 -19442 792
+e 219 2
+-19442 792 -19442 827
+-19442 792 -19367 792
+e 220 2
+-19367 792 -19442 792
+-19367 792 -19367 827
+e 221 2
+-19367 827 -19367 792
+-19367 827 -18852 827
+e 222 2
+-18852 827 -19367 827
+-18852 827 -18852 877
+e 223 2
+-18852 877 -18852 827
+-18852 877 -19852 877
+e 224 2
+-20172 877 -19172 877
+-20172 877 -20172 827
+e 225 2
+-20172 1017 -20172 1067
+-20172 1017 -19442 1017
+e 226 2
+-19442 1017 -20172 1017
+-19442 1017 -19442 982
+e 227 2
+-19442 982 -19442 1017
+-19442 982 -19367 982
+e 228 2
+-19367 982 -19442 982
+-19367 982 -19367 1017
+e 229 2
+-19367 1017 -19367 982
+-19367 1017 -18852 1017
+e 230 2
+-18852 1017 -19367 1017
+-18852 1017 -18852 1067
+e 231 2
+-18852 1067 -18852 1017
+-18852 1067 -19852 1067
+e 232 2
+-20172 1067 -19172 1067
+-20172 1067 -20172 1017
+e 233 2
+-20172 1207 -20172 1257
+-20172 1207 -19442 1207
+e 234 2
+-19442 1207 -20172 1207
+-19442 1207 -19442 1172
+e 235 2
+-19442 1172 -19442 1207
+-19442 1172 -19367 1172
+e 236 2
+-19367 1172 -19442 1172
+-19367 1172 -19367 1207
+e 237 2
+-19367 1207 -19367 1172
+-19367 1207 -18852 1207
+e 238 2
+-18852 1207 -19367 1207
+-18852 1207 -18852 1257
+e 239 2
+-18852 1257 -18852 1207
+-18852 1257 -19852 1257
+e 240 2
+-20172 1257 -19172 1257
+-20172 1257 -20172 1207
+e 241 2
+-18312 632 -18312 682
+-18312 632 -17312 632
+e 242 2
+-16992 632 -17992 632
+-16992 632 -16992 682
+e 243 2
+-16992 682 -16992 632
+-16992 682 -17822 682
+e 244 2
+-17822 682 -16992 682
+-17822 682 -17822 707
+e 245 2
+-17822 707 -17822 682
+-17822 707 -17897 707
+e 246 2
+-17897 707 -17822 707
+-17897 707 -17897 682
+e 247 2
+-17897 682 -17897 707
+-17897 682 -18312 682
+e 248 2
+-18312 682 -17897 682
+-18312 682 -18312 632
+e 249 2
+-18312 442 -18312 492
+-18312 442 -17312 442
+e 250 2
+-16992 442 -17992 442
+-16992 442 -16992 492
+e 251 2
+-16992 492 -16992 442
+-16992 492 -17647 492
+e 252 2
+-17647 492 -16992 492
+-17647 492 -17647 542
+e 253 2
+-17647 542 -17647 492
+-17647 542 -17722 542
+e 254 2
+-17722 542 -17647 542
+-17722 542 -17722 492
+e 255 2
+-17722 492 -17722 542
+-17722 492 -18312 492
+e 256 2
+-18312 492 -17722 492
+-18312 492 -18312 442
+e 257 2
+-18312 827 -18312 877
+-18312 827 -17582 827
+e 258 2
+-17582 827 -18312 827
+-17582 827 -17582 792
+e 259 2
+-17582 792 -17582 827
+-17582 792 -17507 792
+e 260 2
+-17507 792 -17582 792
+-17507 792 -17507 827
+e 261 2
+-17507 827 -17507 792
+-17507 827 -16992 827
+e 262 2
+-16992 827 -17507 827
+-16992 827 -16992 877
+e 263 2
+-16992 877 -16992 827
+-16992 877 -17992 877
+e 264 2
+-18312 877 -17312 877
+-18312 877 -18312 827
+e 265 2
+-18312 1017 -18312 1067
+-18312 1017 -17582 1017
+e 266 2
+-17582 1017 -18312 1017
+-17582 1017 -17582 982
+e 267 2
+-17582 982 -17582 1017
+-17582 982 -17507 982
+e 268 2
+-17507 982 -17582 982
+-17507 982 -17507 1017
+e 269 2
+-17507 1017 -17507 982
+-17507 1017 -16992 1017
+e 270 2
+-16992 1017 -17507 1017
+-16992 1017 -16992 1067
+e 271 2
+-16992 1067 -16992 1017
+-16992 1067 -17992 1067
+e 272 2
+-18312 1067 -17312 1067
+-18312 1067 -18312 1017
+e 273 2
+-18312 1207 -18312 1257
+-18312 1207 -17582 1207
+e 274 2
+-17582 1207 -18312 1207
+-17582 1207 -17582 1172
+e 275 2
+-17582 1172 -17582 1207
+-17582 1172 -17507 1172
+e 276 2
+-17507 1172 -17582 1172
+-17507 1172 -17507 1207
+e 277 2
+-17507 1207 -17507 1172
+-17507 1207 -16992 1207
+e 278 2
+-16992 1207 -17507 1207
+-16992 1207 -16992 1257
+e 279 2
+-16992 1257 -16992 1207
+-16992 1257 -17992 1257
+e 280 2
+-18312 1257 -17312 1257
+-18312 1257 -18312 1207
+e 281 2
+-16452 632 -16452 682
+-16452 632 -15452 632
+e 282 2
+-15132 632 -16132 632
+-15132 632 -15132 682
+e 283 2
+-15132 682 -15132 632
+-15132 682 -15962 682
+e 284 2
+-15962 682 -15132 682
+-15962 682 -15962 707
+e 285 2
+-15962 707 -15962 682
+-15962 707 -16037 707
+e 286 2
+-16037 707 -15962 707
+-16037 707 -16037 682
+e 287 2
+-16037 682 -16037 707
+-16037 682 -16452 682
+e 288 2
+-16452 682 -16037 682
+-16452 682 -16452 632
+e 289 2
+-16452 442 -16452 492
+-16452 442 -15452 442
+e 290 2
+-15132 442 -16132 442
+-15132 442 -15132 492
+e 291 2
+-15132 492 -15132 442
+-15132 492 -15787 492
+e 292 2
+-15787 492 -15132 492
+-15787 492 -15787 542
+e 293 2
+-15787 542 -15787 492
+-15787 542 -15862 542
+e 294 2
+-15862 542 -15787 542
+-15862 542 -15862 492
+e 295 2
+-15862 492 -15862 542
+-15862 492 -16452 492
+e 296 2
+-16452 492 -15862 492
+-16452 492 -16452 442
+e 297 2
+-16452 827 -16452 877
+-16452 827 -15722 827
+e 298 2
+-15722 827 -16452 827
+-15722 827 -15722 792
+e 299 2
+-15722 792 -15722 827
+-15722 792 -15647 792
+e 300 2
+-15647 792 -15722 792
+-15647 792 -15647 827
+e 301 2
+-15647 827 -15647 792
+-15647 827 -15132 827
+e 302 2
+-15132 827 -15647 827
+-15132 827 -15132 877
+e 303 2
+-15132 877 -15132 827
+-15132 877 -16132 877
+e 304 2
+-16452 877 -15452 877
+-16452 877 -16452 827
+e 305 2
+-16452 1017 -16452 1067
+-16452 1017 -15722 1017
+e 306 2
+-15722 1017 -16452 1017
+-15722 1017 -15722 982
+e 307 2
+-15722 982 -15722 1017
+-15722 982 -15647 982
+e 308 2
+-15647 982 -15722 982
+-15647 982 -15647 1017
+e 309 2
+-15647 1017 -15647 982
+-15647 1017 -15132 1017
+e 310 2
+-15132 1017 -15647 1017
+-15132 1017 -15132 1067
+e 311 2
+-15132 1067 -15132 1017
+-15132 1067 -16132 1067
+e 312 2
+-16452 1067 -15452 1067
+-16452 1067 -16452 1017
+e 313 2
+-16452 1207 -16452 1257
+-16452 1207 -15722 1207
+e 314 2
+-15722 1207 -16452 1207
+-15722 1207 -15722 1172
+e 315 2
+-15722 1172 -15722 1207
+-15722 1172 -15647 1172
+e 316 2
+-15647 1172 -15722 1172
+-15647 1172 -15647 1207
+e 317 2
+-15647 1207 -15647 1172
+-15647 1207 -15132 1207
+e 318 2
+-15132 1207 -15647 1207
+-15132 1207 -15132 1257
+e 319 2
+-15132 1257 -15132 1207
+-15132 1257 -16132 1257
+e 320 2
+-16452 1257 -15452 1257
+-16452 1257 -16452 1207
+e 321 2
+-14592 632 -14592 682
+-14592 632 -13592 632
+e 322 2
+-13272 632 -14272 632
+-13272 632 -13272 682
+e 323 2
+-13272 682 -13272 632
+-13272 682 -14102 682
+e 324 2
+-14102 682 -13272 682
+-14102 682 -14102 707
+e 325 2
+-14102 707 -14102 682
+-14102 707 -14177 707
+e 326 2
+-14177 707 -14102 707
+-14177 707 -14177 682
+e 327 2
+-14177 682 -14177 707
+-14177 682 -14592 682
+e 328 2
+-14592 682 -14177 682
+-14592 682 -14592 632
+e 329 2
+-14592 442 -14592 492
+-14592 442 -13592 442
+e 330 2
+-13272 442 -14272 442
+-13272 442 -13272 492
+e 331 2
+-13272 492 -13272 442
+-13272 492 -13927 492
+e 332 2
+-13927 492 -13272 492
+-13927 492 -13927 542
+e 333 2
+-13927 542 -13927 492
+-13927 542 -14002 542
+e 334 2
+-14002 542 -13927 542
+-14002 542 -14002 492
+e 335 2
+-14002 492 -14002 542
+-14002 492 -14592 492
+e 336 2
+-14592 492 -14002 492
+-14592 492 -14592 442
+e 337 2
+-14592 827 -14592 877
+-14592 827 -13862 827
+e 338 2
+-13862 827 -14592 827
+-13862 827 -13862 792
+e 339 2
+-13862 792 -13862 827
+-13862 792 -13787 792
+e 340 2
+-13787 792 -13862 792
+-13787 792 -13787 827
+e 341 2
+-13787 827 -13787 792
+-13787 827 -13272 827
+e 342 2
+-13272 827 -13787 827
+-13272 827 -13272 877
+e 343 2
+-13272 877 -13272 827
+-13272 877 -14272 877
+e 344 2
+-14592 877 -13592 877
+-14592 877 -14592 827
+e 345 2
+-14592 1017 -14592 1067
+-14592 1017 -13862 1017
+e 346 2
+-13862 1017 -14592 1017
+-13862 1017 -13862 982
+e 347 2
+-13862 982 -13862 1017
+-13862 982 -13787 982
+e 348 2
+-13787 982 -13862 982
+-13787 982 -13787 1017
+e 349 2
+-13787 1017 -13787 982
+-13787 1017 -13272 1017
+e 350 2
+-13272 1017 -13787 1017
+-13272 1017 -13272 1067
+e 351 2
+-13272 1067 -13272 1017
+-13272 1067 -14272 1067
+e 352 2
+-14592 1067 -13592 1067
+-14592 1067 -14592 1017
+e 353 2
+-14592 1207 -14592 1257
+-14592 1207 -13862 1207
+e 354 2
+-13862 1207 -14592 1207
+-13862 1207 -13862 1172
+e 355 2
+-13862 1172 -13862 1207
+-13862 1172 -13787 1172
+e 356 2
+-13787 1172 -13862 1172
+-13787 1172 -13787 1207
+e 357 2
+-13787 1207 -13787 1172
+-13787 1207 -13272 1207
+e 358 2
+-13272 1207 -13787 1207
+-13272 1207 -13272 1257
+e 359 2
+-13272 1257 -13272 1207
+-13272 1257 -14272 1257
+e 360 2
+-14592 1257 -13592 1257
+-14592 1257 -14592 1207
+e 361 2
+-12732 632 -12732 682
+-12732 632 -11732 632
+e 362 2
+-11412 632 -12412 632
+-11412 632 -11412 682
+e 363 2
+-11412 682 -11412 632
+-11412 682 -12242 682
+e 364 2
+-12242 682 -11412 682
+-12242 682 -12242 707
+e 365 2
+-12242 707 -12242 682
+-12242 707 -12317 707
+e 366 2
+-12317 707 -12242 707
+-12317 707 -12317 682
+e 367 2
+-12317 682 -12317 707
+-12317 682 -12732 682
+e 368 2
+-12732 682 -12317 682
+-12732 682 -12732 632
+e 369 2
+-12732 442 -12732 492
+-12732 442 -11732 442
+e 370 2
+-11412 442 -12412 442
+-11412 442 -11412 492
+e 371 2
+-11412 492 -11412 442
+-11412 492 -12067 492
+e 372 2
+-12067 492 -11412 492
+-12067 492 -12067 542
+e 373 2
+-12067 542 -12067 492
+-12067 542 -12142 542
+e 374 2
+-12142 542 -12067 542
+-12142 542 -12142 492
+e 375 2
+-12142 492 -12142 542
+-12142 492 -12732 492
+e 376 2
+-12732 492 -12142 492
+-12732 492 -12732 442
+e 377 2
+-12732 827 -12732 877
+-12732 827 -12002 827
+e 378 2
+-12002 827 -12732 827
+-12002 827 -12002 792
+e 379 2
+-12002 792 -12002 827
+-12002 792 -11927 792
+e 380 2
+-11927 792 -12002 792
+-11927 792 -11927 827
+e 381 2
+-11927 827 -11927 792
+-11927 827 -11412 827
+e 382 2
+-11412 827 -11927 827
+-11412 827 -11412 877
+e 383 2
+-11412 877 -11412 827
+-11412 877 -12412 877
+e 384 2
+-12732 877 -11732 877
+-12732 877 -12732 827
+e 385 2
+-12732 1017 -12732 1067
+-12732 1017 -12002 1017
+e 386 2
+-12002 1017 -12732 1017
+-12002 1017 -12002 982
+e 387 2
+-12002 982 -12002 1017
+-12002 982 -11927 982
+e 388 2
+-11927 982 -12002 982
+-11927 982 -11927 1017
+e 389 2
+-11927 1017 -11927 982
+-11927 1017 -11412 1017
+e 390 2
+-11412 1017 -11927 1017
+-11412 1017 -11412 1067
+e 391 2
+-11412 1067 -11412 1017
+-11412 1067 -12412 1067
+e 392 2
+-12732 1067 -11732 1067
+-12732 1067 -12732 1017
+e 393 2
+-12732 1207 -12732 1257
+-12732 1207 -12002 1207
+e 394 2
+-12002 1207 -12732 1207
+-12002 1207 -12002 1172
+e 395 2
+-12002 1172 -12002 1207
+-12002 1172 -11927 1172
+e 396 2
+-11927 1172 -12002 1172
+-11927 1172 -11927 1207
+e 397 2
+-11927 1207 -11927 1172
+-11927 1207 -11412 1207
+e 398 2
+-11412 1207 -11927 1207
+-11412 1207 -11412 1257
+e 399 2
+-11412 1257 -11412 1207
+-11412 1257 -12412 1257
+e 400 2
+-12732 1257 -11732 1257
+-12732 1257 -12732 1207
+e 401 2
+-10872 632 -10872 682
+-10872 632 -9872 632
+e 402 2
+-9552 632 -10552 632
+-9552 632 -9552 682
+e 403 2
+-9552 682 -9552 632
+-9552 682 -10382 682
+e 404 2
+-10382 682 -9552 682
+-10382 682 -10382 707
+e 405 2
+-10382 707 -10382 682
+-10382 707 -10457 707
+e 406 2
+-10457 707 -10382 707
+-10457 707 -10457 682
+e 407 2
+-10457 682 -10457 707
+-10457 682 -10872 682
+e 408 2
+-10872 682 -10457 682
+-10872 682 -10872 632
+e 409 2
+-10872 442 -10872 492
+-10872 442 -9872 442
+e 410 2
+-9552 442 -10552 442
+-9552 442 -9552 492
+e 411 2
+-9552 492 -9552 442
+-9552 492 -10207 492
+e 412 2
+-10207 492 -9552 492
+-10207 492 -10207 542
+e 413 2
+-10207 542 -10207 492
+-10207 542 -10282 542
+e 414 2
+-10282 542 -10207 542
+-10282 542 -10282 492
+e 415 2
+-10282 492 -10282 542
+-10282 492 -10872 492
+e 416 2
+-10872 492 -10282 492
+-10872 492 -10872 442
+e 417 2
+-10872 827 -10872 877
+-10872 827 -10142 827
+e 418 2
+-10142 827 -10872 827
+-10142 827 -10142 792
+e 419 2
+-10142 792 -10142 827
+-10142 792 -10067 792
+e 420 2
+-10067 792 -10142 792
+-10067 792 -10067 827
+e 421 2
+-10067 827 -10067 792
+-10067 827 -9552 827
+e 422 2
+-9552 827 -10067 827
+-9552 827 -9552 877
+e 423 2
+-9552 877 -9552 827
+-9552 877 -10552 877
+e 424 2
+-10872 877 -9872 877
+-10872 877 -10872 827
+e 425 2
+-10872 1017 -10872 1067
+-10872 1017 -10142 1017
+e 426 2
+-10142 1017 -10872 1017
+-10142 1017 -10142 982
+e 427 2
+-10142 982 -10142 1017
+-10142 982 -10067 982
+e 428 2
+-10067 982 -10142 982
+-10067 982 -10067 1017
+e 429 2
+-10067 1017 -10067 982
+-10067 1017 -9552 1017
+e 430 2
+-9552 1017 -10067 1017
+-9552 1017 -9552 1067
+e 431 2
+-9552 1067 -9552 1017
+-9552 1067 -10552 1067
+e 432 2
+-10872 1067 -9872 1067
+-10872 1067 -10872 1017
+e 433 2
+-10872 1207 -10872 1257
+-10872 1207 -10142 1207
+e 434 2
+-10142 1207 -10872 1207
+-10142 1207 -10142 1172
+e 435 2
+-10142 1172 -10142 1207
+-10142 1172 -10067 1172
+e 436 2
+-10067 1172 -10142 1172
+-10067 1172 -10067 1207
+e 437 2
+-10067 1207 -10067 1172
+-10067 1207 -9552 1207
+e 438 2
+-9552 1207 -10067 1207
+-9552 1207 -9552 1257
+e 439 2
+-9552 1257 -9552 1207
+-9552 1257 -10552 1257
+e 440 2
+-10872 1257 -9872 1257
+-10872 1257 -10872 1207
+e 441 2
+-9012 632 -9012 682
+-9012 632 -8012 632
+e 442 2
+-7692 632 -8692 632
+-7692 632 -7692 682
+e 443 2
+-7692 682 -7692 632
+-7692 682 -8522 682
+e 444 2
+-8522 682 -7692 682
+-8522 682 -8522 707
+e 445 2
+-8522 707 -8522 682
+-8522 707 -8597 707
+e 446 2
+-8597 707 -8522 707
+-8597 707 -8597 682
+e 447 2
+-8597 682 -8597 707
+-8597 682 -9012 682
+e 448 2
+-9012 682 -8597 682
+-9012 682 -9012 632
+e 449 2
+-9012 442 -9012 492
+-9012 442 -8012 442
+e 450 2
+-7692 442 -8692 442
+-7692 442 -7692 492
+e 451 2
+-7692 492 -7692 442
+-7692 492 -8347 492
+e 452 2
+-8347 492 -7692 492
+-8347 492 -8347 542
+e 453 2
+-8347 542 -8347 492
+-8347 542 -8422 542
+e 454 2
+-8422 542 -8347 542
+-8422 542 -8422 492
+e 455 2
+-8422 492 -8422 542
+-8422 492 -9012 492
+e 456 2
+-9012 492 -8422 492
+-9012 492 -9012 442
+e 457 2
+-9012 827 -9012 877
+-9012 827 -8282 827
+e 458 2
+-8282 827 -9012 827
+-8282 827 -8282 792
+e 459 2
+-8282 792 -8282 827
+-8282 792 -8207 792
+e 460 2
+-8207 792 -8282 792
+-8207 792 -8207 827
+e 461 2
+-8207 827 -8207 792
+-8207 827 -7692 827
+e 462 2
+-7692 827 -8207 827
+-7692 827 -7692 877
+e 463 2
+-7692 877 -7692 827
+-7692 877 -8692 877
+e 464 2
+-9012 877 -8012 877
+-9012 877 -9012 827
+e 465 2
+-9012 1017 -9012 1067
+-9012 1017 -8282 1017
+e 466 2
+-8282 1017 -9012 1017
+-8282 1017 -8282 982
+e 467 2
+-8282 982 -8282 1017
+-8282 982 -8207 982
+e 468 2
+-8207 982 -8282 982
+-8207 982 -8207 1017
+e 469 2
+-8207 1017 -8207 982
+-8207 1017 -7692 1017
+e 470 2
+-7692 1017 -8207 1017
+-7692 1017 -7692 1067
+e 471 2
+-7692 1067 -7692 1017
+-7692 1067 -8692 1067
+e 472 2
+-9012 1067 -8012 1067
+-9012 1067 -9012 1017
+e 473 2
+-9012 1207 -9012 1257
+-9012 1207 -8282 1207
+e 474 2
+-8282 1207 -9012 1207
+-8282 1207 -8282 1172
+e 475 2
+-8282 1172 -8282 1207
+-8282 1172 -8207 1172
+e 476 2
+-8207 1172 -8282 1172
+-8207 1172 -8207 1207
+e 477 2
+-8207 1207 -8207 1172
+-8207 1207 -7692 1207
+e 478 2
+-7692 1207 -8207 1207
+-7692 1207 -7692 1257
+e 479 2
+-7692 1257 -7692 1207
+-7692 1257 -8692 1257
+e 480 2
+-9012 1257 -8012 1257
+-9012 1257 -9012 1207
+e 481 2
+-7152 632 -7152 682
+-7152 632 -6152 632
+e 482 2
+-5832 632 -6832 632
+-5832 632 -5832 682
+e 483 2
+-5832 682 -5832 632
+-5832 682 -6662 682
+e 484 2
+-6662 682 -5832 682
+-6662 682 -6662 707
+e 485 2
+-6662 707 -6662 682
+-6662 707 -6737 707
+e 486 2
+-6737 707 -6662 707
+-6737 707 -6737 682
+e 487 2
+-6737 682 -6737 707
+-6737 682 -7152 682
+e 488 2
+-7152 682 -6737 682
+-7152 682 -7152 632
+e 489 2
+-7152 442 -7152 492
+-7152 442 -6152 442
+e 490 2
+-5832 442 -6832 442
+-5832 442 -5832 492
+e 491 2
+-5832 492 -5832 442
+-5832 492 -6487 492
+e 492 2
+-6487 492 -5832 492
+-6487 492 -6487 542
+e 493 2
+-6487 542 -6487 492
+-6487 542 -6562 542
+e 494 2
+-6562 542 -6487 542
+-6562 542 -6562 492
+e 495 2
+-6562 492 -6562 542
+-6562 492 -7152 492
+e 496 2
+-7152 492 -6562 492
+-7152 492 -7152 442
+e 497 2
+-7152 827 -7152 877
+-7152 827 -6422 827
+e 498 2
+-6422 827 -7152 827
+-6422 827 -6422 792
+e 499 2
+-6422 792 -6422 827
+-6422 792 -6347 792
+e 500 2
+-6347 792 -6422 792
+-6347 792 -6347 827
+e 501 2
+-6347 827 -6347 792
+-6347 827 -5832 827
+e 502 2
+-5832 827 -6347 827
+-5832 827 -5832 877
+e 503 2
+-5832 877 -5832 827
+-5832 877 -6832 877
+e 504 2
+-7152 877 -6152 877
+-7152 877 -7152 827
+e 505 2
+-7152 1017 -7152 1067
+-7152 1017 -6422 1017
+e 506 2
+-6422 1017 -7152 1017
+-6422 1017 -6422 982
+e 507 2
+-6422 982 -6422 1017
+-6422 982 -6347 982
+e 508 2
+-6347 982 -6422 982
+-6347 982 -6347 1017
+e 509 2
+-6347 1017 -6347 982
+-6347 1017 -5832 1017
+e 510 2
+-5832 1017 -6347 1017
+-5832 1017 -5832 1067
+e 511 2
+-5832 1067 -5832 1017
+-5832 1067 -6832 1067
+e 512 2
+-7152 1067 -6152 1067
+-7152 1067 -7152 1017
+e 513 2
+-7152 1207 -7152 1257
+-7152 1207 -6422 1207
+e 514 2
+-6422 1207 -7152 1207
+-6422 1207 -6422 1172
+e 515 2
+-6422 1172 -6422 1207
+-6422 1172 -6347 1172
+e 516 2
+-6347 1172 -6422 1172
+-6347 1172 -6347 1207
+e 517 2
+-6347 1207 -6347 1172
+-6347 1207 -5832 1207
+e 518 2
+-5832 1207 -6347 1207
+-5832 1207 -5832 1257
+e 519 2
+-5832 1257 -5832 1207
+-5832 1257 -6832 1257
+e 520 2
+-7152 1257 -6152 1257
+-7152 1257 -7152 1207
+e 521 2
+-5292 632 -5292 682
+-5292 632 -4292 632
+e 522 2
+-3972 632 -4972 632
+-3972 632 -3972 682
+e 523 2
+-3972 682 -3972 632
+-3972 682 -4802 682
+e 524 2
+-4802 682 -3972 682
+-4802 682 -4802 707
+e 525 2
+-4802 707 -4802 682
+-4802 707 -4877 707
+e 526 2
+-4877 707 -4802 707
+-4877 707 -4877 682
+e 527 2
+-4877 682 -4877 707
+-4877 682 -5292 682
+e 528 2
+-5292 682 -4877 682
+-5292 682 -5292 632
+e 529 2
+-5292 442 -5292 492
+-5292 442 -4292 442
+e 530 2
+-3972 442 -4972 442
+-3972 442 -3972 492
+e 531 2
+-3972 492 -3972 442
+-3972 492 -4627 492
+e 532 2
+-4627 492 -3972 492
+-4627 492 -4627 542
+e 533 2
+-4627 542 -4627 492
+-4627 542 -4702 542
+e 534 2
+-4702 542 -4627 542
+-4702 542 -4702 492
+e 535 2
+-4702 492 -4702 542
+-4702 492 -5292 492
+e 536 2
+-5292 492 -4702 492
+-5292 492 -5292 442
+e 537 2
+-5292 827 -5292 877
+-5292 827 -4562 827
+e 538 2
+-4562 827 -5292 827
+-4562 827 -4562 792
+e 539 2
+-4562 792 -4562 827
+-4562 792 -4487 792
+e 540 2
+-4487 792 -4562 792
+-4487 792 -4487 827
+e 541 2
+-4487 827 -4487 792
+-4487 827 -3972 827
+e 542 2
+-3972 827 -4487 827
+-3972 827 -3972 877
+e 543 2
+-3972 877 -3972 827
+-3972 877 -4972 877
+e 544 2
+-5292 877 -4292 877
+-5292 877 -5292 827
+e 545 2
+-5292 1017 -5292 1067
+-5292 1017 -4562 1017
+e 546 2
+-4562 1017 -5292 1017
+-4562 1017 -4562 982
+e 547 2
+-4562 982 -4562 1017
+-4562 982 -4487 982
+e 548 2
+-4487 982 -4562 982
+-4487 982 -4487 1017
+e 549 2
+-4487 1017 -4487 982
+-4487 1017 -3972 1017
+e 550 2
+-3972 1017 -4487 1017
+-3972 1017 -3972 1067
+e 551 2
+-3972 1067 -3972 1017
+-3972 1067 -4972 1067
+e 552 2
+-5292 1067 -4292 1067
+-5292 1067 -5292 1017
+e 553 2
+-5292 1207 -5292 1257
+-5292 1207 -4562 1207
+e 554 2
+-4562 1207 -5292 1207
+-4562 1207 -4562 1172
+e 555 2
+-4562 1172 -4562 1207
+-4562 1172 -4487 1172
+e 556 2
+-4487 1172 -4562 1172
+-4487 1172 -4487 1207
+e 557 2
+-4487 1207 -4487 1172
+-4487 1207 -3972 1207
+e 558 2
+-3972 1207 -4487 1207
+-3972 1207 -3972 1257
+e 559 2
+-3972 1257 -3972 1207
+-3972 1257 -4972 1257
+e 560 2
+-5292 1257 -4292 1257
+-5292 1257 -5292 1207
+e 561 2
+-3432 632 -3432 682
+-3432 632 -2432 632
+e 562 2
+-2112 632 -3112 632
+-2112 632 -2112 682
+e 563 2
+-2112 682 -2112 632
+-2112 682 -2942 682
+e 564 2
+-2942 682 -2112 682
+-2942 682 -2942 707
+e 565 2
+-2942 707 -2942 682
+-2942 707 -3017 707
+e 566 2
+-3017 707 -2942 707
+-3017 707 -3017 682
+e 567 2
+-3017 682 -3017 707
+-3017 682 -3432 682
+e 568 2
+-3432 682 -3017 682
+-3432 682 -3432 632
+e 569 2
+-3432 442 -3432 492
+-3432 442 -2432 442
+e 570 2
+-2112 442 -3112 442
+-2112 442 -2112 492
+e 571 2
+-2112 492 -2112 442
+-2112 492 -2767 492
+e 572 2
+-2767 492 -2112 492
+-2767 492 -2767 542
+e 573 2
+-2767 542 -2767 492
+-2767 542 -2842 542
+e 574 2
+-2842 542 -2767 542
+-2842 542 -2842 492
+e 575 2
+-2842 492 -2842 542
+-2842 492 -3432 492
+e 576 2
+-3432 492 -2842 492
+-3432 492 -3432 442
+e 577 2
+-3432 827 -3432 877
+-3432 827 -2702 827
+e 578 2
+-2702 827 -3432 827
+-2702 827 -2702 792
+e 579 2
+-2702 792 -2702 827
+-2702 792 -2627 792
+e 580 2
+-2627 792 -2702 792
+-2627 792 -2627 827
+e 581 2
+-2627 827 -2627 792
+-2627 827 -2112 827
+e 582 2
+-2112 827 -2627 827
+-2112 827 -2112 877
+e 583 2
+-2112 877 -2112 827
+-2112 877 -3112 877
+e 584 2
+-3432 877 -2432 877
+-3432 877 -3432 827
+e 585 2
+-3432 1017 -3432 1067
+-3432 1017 -2702 1017
+e 586 2
+-2702 1017 -3432 1017
+-2702 1017 -2702 982
+e 587 2
+-2702 982 -2702 1017
+-2702 982 -2627 982
+e 588 2
+-2627 982 -2702 982
+-2627 982 -2627 1017
+e 589 2
+-2627 1017 -2627 982
+-2627 1017 -2112 1017
+e 590 2
+-2112 1017 -2627 1017
+-2112 1017 -2112 1067
+e 591 2
+-2112 1067 -2112 1017
+-2112 1067 -3112 1067
+e 592 2
+-3432 1067 -2432 1067
+-3432 1067 -3432 1017
+e 593 2
+-3432 1207 -3432 1257
+-3432 1207 -2702 1207
+e 594 2
+-2702 1207 -3432 1207
+-2702 1207 -2702 1172
+e 595 2
+-2702 1172 -2702 1207
+-2702 1172 -2627 1172
+e 596 2
+-2627 1172 -2702 1172
+-2627 1172 -2627 1207
+e 597 2
+-2627 1207 -2627 1172
+-2627 1207 -2112 1207
+e 598 2
+-2112 1207 -2627 1207
+-2112 1207 -2112 1257
+e 599 2
+-2112 1257 -2112 1207
+-2112 1257 -3112 1257
+e 600 2
+-3432 1257 -2432 1257
+-3432 1257 -3432 1207
+e 601 2
+-1572 632 -1572 682
+-1572 632 -572 632
+e 602 2
+-252 632 -1252 632
+-252 632 -252 682
+e 603 2
+-252 682 -252 632
+-252 682 -1082 682
+e 604 2
+-1082 682 -252 682
+-1082 682 -1082 707
+e 605 2
+-1082 707 -1082 682
+-1082 707 -1157 707
+e 606 2
+-1157 707 -1082 707
+-1157 707 -1157 682
+e 607 2
+-1157 682 -1157 707
+-1157 682 -1572 682
+e 608 2
+-1572 682 -1157 682
+-1572 682 -1572 632
+e 609 2
+-1572 442 -1572 492
+-1572 442 -572 442
+e 610 2
+-252 442 -1252 442
+-252 442 -252 492
+e 611 2
+-252 492 -252 442
+-252 492 -907 492
+e 612 2
+-907 492 -252 492
+-907 492 -907 542
+e 613 2
+-907 542 -907 492
+-907 542 -982 542
+e 614 2
+-982 542 -907 542
+-982 542 -982 492
+e 615 2
+-982 492 -982 542
+-982 492 -1572 492
+e 616 2
+-1572 492 -982 492
+-1572 492 -1572 442
+e 617 2
+-1572 827 -1572 877
+-1572 827 -842 827
+e 618 2
+-842 827 -1572 827
+-842 827 -842 792
+e 619 2
+-842 792 -842 827
+-842 792 -767 792
+e 620 2
+-767 792 -842 792
+-767 792 -767 827
+e 621 2
+-767 827 -767 792
+-767 827 -252 827
+e 622 2
+-252 827 -767 827
+-252 827 -252 877
+e 623 2
+-252 877 -252 827
+-252 877 -1252 877
+e 624 2
+-1572 877 -572 877
+-1572 877 -1572 827
+e 625 2
+-1572 1017 -1572 1067
+-1572 1017 -842 1017
+e 626 2
+-842 1017 -1572 1017
+-842 1017 -842 982
+e 627 2
+-842 982 -842 1017
+-842 982 -767 982
+e 628 2
+-767 982 -842 982
+-767 982 -767 1017
+e 629 2
+-767 1017 -767 982
+-767 1017 -252 1017
+e 630 2
+-252 1017 -767 1017
+-252 1017 -252 1067
+e 631 2
+-252 1067 -252 1017
+-252 1067 -1252 1067
+e 632 2
+-1572 1067 -572 1067
+-1572 1067 -1572 1017
+e 633 2
+-1572 1207 -1572 1257
+-1572 1207 -842 1207
+e 634 2
+-842 1207 -1572 1207
+-842 1207 -842 1172
+e 635 2
+-842 1172 -842 1207
+-842 1172 -767 1172
+e 636 2
+-767 1172 -842 1172
+-767 1172 -767 1207
+e 637 2
+-767 1207 -767 1172
+-767 1207 -252 1207
+e 638 2
+-252 1207 -767 1207
+-252 1207 -252 1257
+e 639 2
+-252 1257 -252 1207
+-252 1257 -1252 1257
+e 640 2
+-1572 1257 -572 1257
+-1572 1257 -1572 1207
+Grid.6
+1000 1000 2 Mar 18 17:06:40 2018               
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-29357 882 -29357 1392
+-29357 882 -29287 882
+e 2 2
+-29287 882 -29357 882
+-29287 882 -29287 1392
+e 3 2
+-29287 1392 -29287 882
+-29287 1392 -29357 1392
+e 4 2
+-29357 1392 -29287 1392
+-29357 1392 -29357 882
+e 5 2
+-28912 472 -28912 997
+-28912 472 -28777 472
+e 6 2
+-28777 472 -28912 472
+-28777 472 -28777 542
+e 7 2
+-28777 542 -28777 472
+-28777 542 -28842 542
+e 8 2
+-28842 542 -28777 542
+-28842 542 -28842 927
+e 9 2
+-28842 927 -28842 542
+-28842 927 -28637 927
+e 10 2
+-28637 927 -28842 927
+-28637 927 -28637 1052
+e 11 2
+-28637 1052 -28637 927
+-28637 1052 -28772 1052
+e 12 2
+-28772 1052 -28637 1052
+-28772 1052 -28772 997
+e 13 2
+-28772 997 -28772 1052
+-28772 997 -28912 997
+e 14 2
+-28912 997 -28772 997
+-28912 997 -28912 472
+e 15 2
+-29057 602 -29057 1187
+-29057 602 -28987 602
+e 16 2
+-28987 602 -29057 602
+-28987 602 -28987 1117
+e 17 2
+-28987 1117 -28987 602
+-28987 1117 -28637 1117
+e 18 2
+-28637 1117 -28987 1117
+-28637 1117 -28637 1242
+e 19 2
+-28637 1242 -28637 1117
+-28637 1242 -28772 1242
+e 20 2
+-28772 1242 -28637 1242
+-28772 1242 -28772 1187
+e 21 2
+-28772 1187 -28772 1242
+-28772 1187 -29057 1187
+e 22 2
+-29057 1187 -28772 1187
+-29057 1187 -29057 602
+e 23 2
+-29362 337 -29362 407
+-29362 337 -28637 337
+e 24 2
+-28637 337 -29362 337
+-28637 337 -28637 522
+e 25 2
+-28637 522 -28637 337
+-28637 522 -28262 522
+e 26 2
+-28262 522 -28637 522
+-28262 522 -28262 592
+e 27 2
+-28262 592 -28262 522
+-28262 592 -28637 592
+e 28 2
+-28637 592 -28262 592
+-28637 592 -28637 862
+e 29 2
+-28637 862 -28637 592
+-28637 862 -28772 862
+e 30 2
+-28772 862 -28637 862
+-28772 862 -28772 792
+e 31 2
+-28772 792 -28772 862
+-28772 792 -28707 792
+e 32 2
+-28707 792 -28772 792
+-28707 792 -28707 407
+e 33 2
+-28707 407 -28707 792
+-28707 407 -29362 407
+e 34 2
+-29362 407 -28707 407
+-29362 407 -29362 337
+e 35 2
+-29222 1072 -29222 1377
+-29222 1072 -29152 1072
+e 36 2
+-29152 1072 -29222 1072
+-29152 1072 -29152 1307
+e 37 2
+-29152 1307 -29152 1072
+-29152 1307 -28532 1307
+e 38 2
+-28532 1307 -29152 1307
+-28532 1307 -28532 917
+e 39 2
+-28532 917 -28532 1307
+-28532 917 -28262 917
+e 40 2
+-28262 917 -28532 917
+-28262 917 -28262 987
+e 41 2
+-28262 987 -28262 917
+-28262 987 -28462 987
+e 42 2
+-28462 987 -28262 987
+-28462 987 -28462 1377
+e 43 2
+-28462 1377 -28462 987
+-28462 1377 -29222 1377
+e 44 2
+-29222 1377 -28462 1377
+-29222 1377 -29222 1072
+e 45 2
+-28397 337 -28397 407
+-28397 337 -28197 337
+e 46 2
+-28197 337 -28397 337
+-28197 337 -28197 297
+e 47 2
+-28197 297 -28197 337
+-28197 297 -28027 297
+e 48 2
+-28027 297 -28197 297
+-28027 297 -28027 1297
+e 49 2
+-28027 1437 -28027 437
+-28027 1437 -28197 1437
+e 50 2
+-28197 1437 -28027 1437
+-28197 1437 -28197 1357
+e 51 2
+-28197 1357 -28197 1437
+-28197 1357 -28397 1357
+e 52 2
+-28397 1357 -28197 1357
+-28397 1357 -28397 1287
+e 53 2
+-28397 1287 -28397 1357
+-28397 1287 -28197 1287
+e 54 2
+-28197 1287 -28397 1287
+-28197 1287 -28197 787
+e 55 2
+-28197 787 -28197 1287
+-28197 787 -28397 787
+e 56 2
+-28397 787 -28197 787
+-28397 787 -28397 717
+e 57 2
+-28397 717 -28397 787
+-28397 717 -28197 717
+e 58 2
+-28197 717 -28397 717
+-28197 717 -28197 407
+e 59 2
+-28197 407 -28197 717
+-28197 407 -28397 407
+e 60 2
+-28397 407 -28197 407
+-28397 407 -28397 337
+e 61 2
+-27497 882 -27497 1392
+-27497 882 -27427 882
+e 62 2
+-27427 882 -27497 882
+-27427 882 -27427 1392
+e 63 2
+-27427 1392 -27427 882
+-27427 1392 -27497 1392
+e 64 2
+-27497 1392 -27427 1392
+-27497 1392 -27497 882
+e 65 2
+-27052 472 -27052 997
+-27052 472 -26917 472
+e 66 2
+-26917 472 -27052 472
+-26917 472 -26917 542
+e 67 2
+-26917 542 -26917 472
+-26917 542 -26982 542
+e 68 2
+-26982 542 -26917 542
+-26982 542 -26982 927
+e 69 2
+-26982 927 -26982 542
+-26982 927 -26777 927
+e 70 2
+-26777 927 -26982 927
+-26777 927 -26777 1052
+e 71 2
+-26777 1052 -26777 927
+-26777 1052 -26912 1052
+e 72 2
+-26912 1052 -26777 1052
+-26912 1052 -26912 997
+e 73 2
+-26912 997 -26912 1052
+-26912 997 -27052 997
+e 74 2
+-27052 997 -26912 997
+-27052 997 -27052 472
+e 75 2
+-27197 602 -27197 1187
+-27197 602 -27127 602
+e 76 2
+-27127 602 -27197 602
+-27127 602 -27127 1117
+e 77 2
+-27127 1117 -27127 602
+-27127 1117 -26777 1117
+e 78 2
+-26777 1117 -27127 1117
+-26777 1117 -26777 1242
+e 79 2
+-26777 1242 -26777 1117
+-26777 1242 -26912 1242
+e 80 2
+-26912 1242 -26777 1242
+-26912 1242 -26912 1187
+e 81 2
+-26912 1187 -26912 1242
+-26912 1187 -27197 1187
+e 82 2
+-27197 1187 -26912 1187
+-27197 1187 -27197 602
+e 83 2
+-27502 337 -27502 407
+-27502 337 -26777 337
+e 84 2
+-26777 337 -27502 337
+-26777 337 -26777 522
+e 85 2
+-26777 522 -26777 337
+-26777 522 -26402 522
+e 86 2
+-26402 522 -26777 522
+-26402 522 -26402 592
+e 87 2
+-26402 592 -26402 522
+-26402 592 -26777 592
+e 88 2
+-26777 592 -26402 592
+-26777 592 -26777 862
+e 89 2
+-26777 862 -26777 592
+-26777 862 -26912 862
+e 90 2
+-26912 862 -26777 862
+-26912 862 -26912 792
+e 91 2
+-26912 792 -26912 862
+-26912 792 -26847 792
+e 92 2
+-26847 792 -26912 792
+-26847 792 -26847 407
+e 93 2
+-26847 407 -26847 792
+-26847 407 -27502 407
+e 94 2
+-27502 407 -26847 407
+-27502 407 -27502 337
+e 95 2
+-27362 1072 -27362 1377
+-27362 1072 -27292 1072
+e 96 2
+-27292 1072 -27362 1072
+-27292 1072 -27292 1307
+e 97 2
+-27292 1307 -27292 1072
+-27292 1307 -26672 1307
+e 98 2
+-26672 1307 -27292 1307
+-26672 1307 -26672 917
+e 99 2
+-26672 917 -26672 1307
+-26672 917 -26402 917
+e 100 2
+-26402 917 -26672 917
+-26402 917 -26402 987
+e 101 2
+-26402 987 -26402 917
+-26402 987 -26602 987
+e 102 2
+-26602 987 -26402 987
+-26602 987 -26602 1377
+e 103 2
+-26602 1377 -26602 987
+-26602 1377 -27362 1377
+e 104 2
+-27362 1377 -26602 1377
+-27362 1377 -27362 1072
+e 105 2
+-26537 337 -26537 407
+-26537 337 -26337 337
+e 106 2
+-26337 337 -26537 337
+-26337 337 -26337 297
+e 107 2
+-26337 297 -26337 337
+-26337 297 -26167 297
+e 108 2
+-26167 297 -26337 297
+-26167 297 -26167 1297
+e 109 2
+-26167 1437 -26167 437
+-26167 1437 -26337 1437
+e 110 2
+-26337 1437 -26167 1437
+-26337 1437 -26337 1357
+e 111 2
+-26337 1357 -26337 1437
+-26337 1357 -26537 1357
+e 112 2
+-26537 1357 -26337 1357
+-26537 1357 -26537 1287
+e 113 2
+-26537 1287 -26537 1357
+-26537 1287 -26337 1287
+e 114 2
+-26337 1287 -26537 1287
+-26337 1287 -26337 787
+e 115 2
+-26337 787 -26337 1287
+-26337 787 -26537 787
+e 116 2
+-26537 787 -26337 787
+-26537 787 -26537 717
+e 117 2
+-26537 717 -26537 787
+-26537 717 -26337 717
+e 118 2
+-26337 717 -26537 717
+-26337 717 -26337 407
+e 119 2
+-26337 407 -26337 717
+-26337 407 -26537 407
+e 120 2
+-26537 407 -26337 407
+-26537 407 -26537 337
+e 121 2
+-25637 882 -25637 1392
+-25637 882 -25567 882
+e 122 2
+-25567 882 -25637 882
+-25567 882 -25567 1392
+e 123 2
+-25567 1392 -25567 882
+-25567 1392 -25637 1392
+e 124 2
+-25637 1392 -25567 1392
+-25637 1392 -25637 882
+e 125 2
+-25192 472 -25192 997
+-25192 472 -25057 472
+e 126 2
+-25057 472 -25192 472
+-25057 472 -25057 542
+e 127 2
+-25057 542 -25057 472
+-25057 542 -25122 542
+e 128 2
+-25122 542 -25057 542
+-25122 542 -25122 927
+e 129 2
+-25122 927 -25122 542
+-25122 927 -24917 927
+e 130 2
+-24917 927 -25122 927
+-24917 927 -24917 1052
+e 131 2
+-24917 1052 -24917 927
+-24917 1052 -25052 1052
+e 132 2
+-25052 1052 -24917 1052
+-25052 1052 -25052 997
+e 133 2
+-25052 997 -25052 1052
+-25052 997 -25192 997
+e 134 2
+-25192 997 -25052 997
+-25192 997 -25192 472
+e 135 2
+-25337 602 -25337 1187
+-25337 602 -25267 602
+e 136 2
+-25267 602 -25337 602
+-25267 602 -25267 1117
+e 137 2
+-25267 1117 -25267 602
+-25267 1117 -24917 1117
+e 138 2
+-24917 1117 -25267 1117
+-24917 1117 -24917 1242
+e 139 2
+-24917 1242 -24917 1117
+-24917 1242 -25052 1242
+e 140 2
+-25052 1242 -24917 1242
+-25052 1242 -25052 1187
+e 141 2
+-25052 1187 -25052 1242
+-25052 1187 -25337 1187
+e 142 2
+-25337 1187 -25052 1187
+-25337 1187 -25337 602
+e 143 2
+-25642 337 -25642 407
+-25642 337 -24917 337
+e 144 2
+-24917 337 -25642 337
+-24917 337 -24917 522
+e 145 2
+-24917 522 -24917 337
+-24917 522 -24542 522
+e 146 2
+-24542 522 -24917 522
+-24542 522 -24542 592
+e 147 2
+-24542 592 -24542 522
+-24542 592 -24917 592
+e 148 2
+-24917 592 -24542 592
+-24917 592 -24917 862
+e 149 2
+-24917 862 -24917 592
+-24917 862 -25052 862
+e 150 2
+-25052 862 -24917 862
+-25052 862 -25052 792
+e 151 2
+-25052 792 -25052 862
+-25052 792 -24987 792
+e 152 2
+-24987 792 -25052 792
+-24987 792 -24987 407
+e 153 2
+-24987 407 -24987 792
+-24987 407 -25642 407
+e 154 2
+-25642 407 -24987 407
+-25642 407 -25642 337
+e 155 2
+-25502 1072 -25502 1377
+-25502 1072 -25432 1072
+e 156 2
+-25432 1072 -25502 1072
+-25432 1072 -25432 1307
+e 157 2
+-25432 1307 -25432 1072
+-25432 1307 -24812 1307
+e 158 2
+-24812 1307 -25432 1307
+-24812 1307 -24812 917
+e 159 2
+-24812 917 -24812 1307
+-24812 917 -24542 917
+e 160 2
+-24542 917 -24812 917
+-24542 917 -24542 987
+e 161 2
+-24542 987 -24542 917
+-24542 987 -24742 987
+e 162 2
+-24742 987 -24542 987
+-24742 987 -24742 1377
+e 163 2
+-24742 1377 -24742 987
+-24742 1377 -25502 1377
+e 164 2
+-25502 1377 -24742 1377
+-25502 1377 -25502 1072
+e 165 2
+-24677 337 -24677 407
+-24677 337 -24477 337
+e 166 2
+-24477 337 -24677 337
+-24477 337 -24477 297
+e 167 2
+-24477 297 -24477 337
+-24477 297 -24307 297
+e 168 2
+-24307 297 -24477 297
+-24307 297 -24307 1297
+e 169 2
+-24307 1437 -24307 437
+-24307 1437 -24477 1437
+e 170 2
+-24477 1437 -24307 1437
+-24477 1437 -24477 1357
+e 171 2
+-24477 1357 -24477 1437
+-24477 1357 -24677 1357
+e 172 2
+-24677 1357 -24477 1357
+-24677 1357 -24677 1287
+e 173 2
+-24677 1287 -24677 1357
+-24677 1287 -24477 1287
+e 174 2
+-24477 1287 -24677 1287
+-24477 1287 -24477 787
+e 175 2
+-24477 787 -24477 1287
+-24477 787 -24677 787
+e 176 2
+-24677 787 -24477 787
+-24677 787 -24677 717
+e 177 2
+-24677 717 -24677 787
+-24677 717 -24477 717
+e 178 2
+-24477 717 -24677 717
+-24477 717 -24477 407
+e 179 2
+-24477 407 -24477 717
+-24477 407 -24677 407
+e 180 2
+-24677 407 -24477 407
+-24677 407 -24677 337
+e 181 2
+-23777 882 -23777 1392
+-23777 882 -23707 882
+e 182 2
+-23707 882 -23777 882
+-23707 882 -23707 1392
+e 183 2
+-23707 1392 -23707 882
+-23707 1392 -23777 1392
+e 184 2
+-23777 1392 -23707 1392
+-23777 1392 -23777 882
+e 185 2
+-23332 472 -23332 997
+-23332 472 -23197 472
+e 186 2
+-23197 472 -23332 472
+-23197 472 -23197 542
+e 187 2
+-23197 542 -23197 472
+-23197 542 -23262 542
+e 188 2
+-23262 542 -23197 542
+-23262 542 -23262 927
+e 189 2
+-23262 927 -23262 542
+-23262 927 -23057 927
+e 190 2
+-23057 927 -23262 927
+-23057 927 -23057 1052
+e 191 2
+-23057 1052 -23057 927
+-23057 1052 -23192 1052
+e 192 2
+-23192 1052 -23057 1052
+-23192 1052 -23192 997
+e 193 2
+-23192 997 -23192 1052
+-23192 997 -23332 997
+e 194 2
+-23332 997 -23192 997
+-23332 997 -23332 472
+e 195 2
+-23477 602 -23477 1187
+-23477 602 -23407 602
+e 196 2
+-23407 602 -23477 602
+-23407 602 -23407 1117
+e 197 2
+-23407 1117 -23407 602
+-23407 1117 -23057 1117
+e 198 2
+-23057 1117 -23407 1117
+-23057 1117 -23057 1242
+e 199 2
+-23057 1242 -23057 1117
+-23057 1242 -23192 1242
+e 200 2
+-23192 1242 -23057 1242
+-23192 1242 -23192 1187
+e 201 2
+-23192 1187 -23192 1242
+-23192 1187 -23477 1187
+e 202 2
+-23477 1187 -23192 1187
+-23477 1187 -23477 602
+e 203 2
+-23782 337 -23782 407
+-23782 337 -23057 337
+e 204 2
+-23057 337 -23782 337
+-23057 337 -23057 522
+e 205 2
+-23057 522 -23057 337
+-23057 522 -22682 522
+e 206 2
+-22682 522 -23057 522
+-22682 522 -22682 592
+e 207 2
+-22682 592 -22682 522
+-22682 592 -23057 592
+e 208 2
+-23057 592 -22682 592
+-23057 592 -23057 862
+e 209 2
+-23057 862 -23057 592
+-23057 862 -23192 862
+e 210 2
+-23192 862 -23057 862
+-23192 862 -23192 792
+e 211 2
+-23192 792 -23192 862
+-23192 792 -23127 792
+e 212 2
+-23127 792 -23192 792
+-23127 792 -23127 407
+e 213 2
+-23127 407 -23127 792
+-23127 407 -23782 407
+e 214 2
+-23782 407 -23127 407
+-23782 407 -23782 337
+e 215 2
+-23642 1072 -23642 1377
+-23642 1072 -23572 1072
+e 216 2
+-23572 1072 -23642 1072
+-23572 1072 -23572 1307
+e 217 2
+-23572 1307 -23572 1072
+-23572 1307 -22952 1307
+e 218 2
+-22952 1307 -23572 1307
+-22952 1307 -22952 917
+e 219 2
+-22952 917 -22952 1307
+-22952 917 -22682 917
+e 220 2
+-22682 917 -22952 917
+-22682 917 -22682 987
+e 221 2
+-22682 987 -22682 917
+-22682 987 -22882 987
+e 222 2
+-22882 987 -22682 987
+-22882 987 -22882 1377
+e 223 2
+-22882 1377 -22882 987
+-22882 1377 -23642 1377
+e 224 2
+-23642 1377 -22882 1377
+-23642 1377 -23642 1072
+e 225 2
+-22817 337 -22817 407
+-22817 337 -22617 337
+e 226 2
+-22617 337 -22817 337
+-22617 337 -22617 297
+e 227 2
+-22617 297 -22617 337
+-22617 297 -22447 297
+e 228 2
+-22447 297 -22617 297
+-22447 297 -22447 1297
+e 229 2
+-22447 1437 -22447 437
+-22447 1437 -22617 1437
+e 230 2
+-22617 1437 -22447 1437
+-22617 1437 -22617 1357
+e 231 2
+-22617 1357 -22617 1437
+-22617 1357 -22817 1357
+e 232 2
+-22817 1357 -22617 1357
+-22817 1357 -22817 1287
+e 233 2
+-22817 1287 -22817 1357
+-22817 1287 -22617 1287
+e 234 2
+-22617 1287 -22817 1287
+-22617 1287 -22617 787
+e 235 2
+-22617 787 -22617 1287
+-22617 787 -22817 787
+e 236 2
+-22817 787 -22617 787
+-22817 787 -22817 717
+e 237 2
+-22817 717 -22817 787
+-22817 717 -22617 717
+e 238 2
+-22617 717 -22817 717
+-22617 717 -22617 407
+e 239 2
+-22617 407 -22617 717
+-22617 407 -22817 407
+e 240 2
+-22817 407 -22617 407
+-22817 407 -22817 337
+e 241 2
+-21917 882 -21917 1392
+-21917 882 -21847 882
+e 242 2
+-21847 882 -21917 882
+-21847 882 -21847 1392
+e 243 2
+-21847 1392 -21847 882
+-21847 1392 -21917 1392
+e 244 2
+-21917 1392 -21847 1392
+-21917 1392 -21917 882
+e 245 2
+-21472 472 -21472 997
+-21472 472 -21337 472
+e 246 2
+-21337 472 -21472 472
+-21337 472 -21337 542
+e 247 2
+-21337 542 -21337 472
+-21337 542 -21402 542
+e 248 2
+-21402 542 -21337 542
+-21402 542 -21402 927
+e 249 2
+-21402 927 -21402 542
+-21402 927 -21197 927
+e 250 2
+-21197 927 -21402 927
+-21197 927 -21197 1052
+e 251 2
+-21197 1052 -21197 927
+-21197 1052 -21332 1052
+e 252 2
+-21332 1052 -21197 1052
+-21332 1052 -21332 997
+e 253 2
+-21332 997 -21332 1052
+-21332 997 -21472 997
+e 254 2
+-21472 997 -21332 997
+-21472 997 -21472 472
+e 255 2
+-21617 602 -21617 1187
+-21617 602 -21547 602
+e 256 2
+-21547 602 -21617 602
+-21547 602 -21547 1117
+e 257 2
+-21547 1117 -21547 602
+-21547 1117 -21197 1117
+e 258 2
+-21197 1117 -21547 1117
+-21197 1117 -21197 1242
+e 259 2
+-21197 1242 -21197 1117
+-21197 1242 -21332 1242
+e 260 2
+-21332 1242 -21197 1242
+-21332 1242 -21332 1187
+e 261 2
+-21332 1187 -21332 1242
+-21332 1187 -21617 1187
+e 262 2
+-21617 1187 -21332 1187
+-21617 1187 -21617 602
+e 263 2
+-21922 337 -21922 407
+-21922 337 -21197 337
+e 264 2
+-21197 337 -21922 337
+-21197 337 -21197 522
+e 265 2
+-21197 522 -21197 337
+-21197 522 -20822 522
+e 266 2
+-20822 522 -21197 522
+-20822 522 -20822 592
+e 267 2
+-20822 592 -20822 522
+-20822 592 -21197 592
+e 268 2
+-21197 592 -20822 592
+-21197 592 -21197 862
+e 269 2
+-21197 862 -21197 592
+-21197 862 -21332 862
+e 270 2
+-21332 862 -21197 862
+-21332 862 -21332 792
+e 271 2
+-21332 792 -21332 862
+-21332 792 -21267 792
+e 272 2
+-21267 792 -21332 792
+-21267 792 -21267 407
+e 273 2
+-21267 407 -21267 792
+-21267 407 -21922 407
+e 274 2
+-21922 407 -21267 407
+-21922 407 -21922 337
+e 275 2
+-21782 1072 -21782 1377
+-21782 1072 -21712 1072
+e 276 2
+-21712 1072 -21782 1072
+-21712 1072 -21712 1307
+e 277 2
+-21712 1307 -21712 1072
+-21712 1307 -21092 1307
+e 278 2
+-21092 1307 -21712 1307
+-21092 1307 -21092 917
+e 279 2
+-21092 917 -21092 1307
+-21092 917 -20822 917
+e 280 2
+-20822 917 -21092 917
+-20822 917 -20822 987
+e 281 2
+-20822 987 -20822 917
+-20822 987 -21022 987
+e 282 2
+-21022 987 -20822 987
+-21022 987 -21022 1377
+e 283 2
+-21022 1377 -21022 987
+-21022 1377 -21782 1377
+e 284 2
+-21782 1377 -21022 1377
+-21782 1377 -21782 1072
+e 285 2
+-20957 337 -20957 407
+-20957 337 -20757 337
+e 286 2
+-20757 337 -20957 337
+-20757 337 -20757 297
+e 287 2
+-20757 297 -20757 337
+-20757 297 -20587 297
+e 288 2
+-20587 297 -20757 297
+-20587 297 -20587 1297
+e 289 2
+-20587 1437 -20587 437
+-20587 1437 -20757 1437
+e 290 2
+-20757 1437 -20587 1437
+-20757 1437 -20757 1357
+e 291 2
+-20757 1357 -20757 1437
+-20757 1357 -20957 1357
+e 292 2
+-20957 1357 -20757 1357
+-20957 1357 -20957 1287
+e 293 2
+-20957 1287 -20957 1357
+-20957 1287 -20757 1287
+e 294 2
+-20757 1287 -20957 1287
+-20757 1287 -20757 787
+e 295 2
+-20757 787 -20757 1287
+-20757 787 -20957 787
+e 296 2
+-20957 787 -20757 787
+-20957 787 -20957 717
+e 297 2
+-20957 717 -20957 787
+-20957 717 -20757 717
+e 298 2
+-20757 717 -20957 717
+-20757 717 -20757 407
+e 299 2
+-20757 407 -20757 717
+-20757 407 -20957 407
+e 300 2
+-20957 407 -20757 407
+-20957 407 -20957 337
+e 301 2
+-20057 882 -20057 1392
+-20057 882 -19987 882
+e 302 2
+-19987 882 -20057 882
+-19987 882 -19987 1392
+e 303 2
+-19987 1392 -19987 882
+-19987 1392 -20057 1392
+e 304 2
+-20057 1392 -19987 1392
+-20057 1392 -20057 882
+e 305 2
+-19612 472 -19612 997
+-19612 472 -19477 472
+e 306 2
+-19477 472 -19612 472
+-19477 472 -19477 542
+e 307 2
+-19477 542 -19477 472
+-19477 542 -19542 542
+e 308 2
+-19542 542 -19477 542
+-19542 542 -19542 927
+e 309 2
+-19542 927 -19542 542
+-19542 927 -19337 927
+e 310 2
+-19337 927 -19542 927
+-19337 927 -19337 1052
+e 311 2
+-19337 1052 -19337 927
+-19337 1052 -19472 1052
+e 312 2
+-19472 1052 -19337 1052
+-19472 1052 -19472 997
+e 313 2
+-19472 997 -19472 1052
+-19472 997 -19612 997
+e 314 2
+-19612 997 -19472 997
+-19612 997 -19612 472
+e 315 2
+-19757 602 -19757 1187
+-19757 602 -19687 602
+e 316 2
+-19687 602 -19757 602
+-19687 602 -19687 1117
+e 317 2
+-19687 1117 -19687 602
+-19687 1117 -19337 1117
+e 318 2
+-19337 1117 -19687 1117
+-19337 1117 -19337 1242
+e 319 2
+-19337 1242 -19337 1117
+-19337 1242 -19472 1242
+e 320 2
+-19472 1242 -19337 1242
+-19472 1242 -19472 1187
+e 321 2
+-19472 1187 -19472 1242
+-19472 1187 -19757 1187
+e 322 2
+-19757 1187 -19472 1187
+-19757 1187 -19757 602
+e 323 2
+-20062 337 -20062 407
+-20062 337 -19337 337
+e 324 2
+-19337 337 -20062 337
+-19337 337 -19337 522
+e 325 2
+-19337 522 -19337 337
+-19337 522 -18962 522
+e 326 2
+-18962 522 -19337 522
+-18962 522 -18962 592
+e 327 2
+-18962 592 -18962 522
+-18962 592 -19337 592
+e 328 2
+-19337 592 -18962 592
+-19337 592 -19337 862
+e 329 2
+-19337 862 -19337 592
+-19337 862 -19472 862
+e 330 2
+-19472 862 -19337 862
+-19472 862 -19472 792
+e 331 2
+-19472 792 -19472 862
+-19472 792 -19407 792
+e 332 2
+-19407 792 -19472 792
+-19407 792 -19407 407
+e 333 2
+-19407 407 -19407 792
+-19407 407 -20062 407
+e 334 2
+-20062 407 -19407 407
+-20062 407 -20062 337
+e 335 2
+-19922 1072 -19922 1377
+-19922 1072 -19852 1072
+e 336 2
+-19852 1072 -19922 1072
+-19852 1072 -19852 1307
+e 337 2
+-19852 1307 -19852 1072
+-19852 1307 -19232 1307
+e 338 2
+-19232 1307 -19852 1307
+-19232 1307 -19232 917
+e 339 2
+-19232 917 -19232 1307
+-19232 917 -18962 917
+e 340 2
+-18962 917 -19232 917
+-18962 917 -18962 987
+e 341 2
+-18962 987 -18962 917
+-18962 987 -19162 987
+e 342 2
+-19162 987 -18962 987
+-19162 987 -19162 1377
+e 343 2
+-19162 1377 -19162 987
+-19162 1377 -19922 1377
+e 344 2
+-19922 1377 -19162 1377
+-19922 1377 -19922 1072
+e 345 2
+-19097 337 -19097 407
+-19097 337 -18897 337
+e 346 2
+-18897 337 -19097 337
+-18897 337 -18897 297
+e 347 2
+-18897 297 -18897 337
+-18897 297 -18727 297
+e 348 2
+-18727 297 -18897 297
+-18727 297 -18727 1297
+e 349 2
+-18727 1437 -18727 437
+-18727 1437 -18897 1437
+e 350 2
+-18897 1437 -18727 1437
+-18897 1437 -18897 1357
+e 351 2
+-18897 1357 -18897 1437
+-18897 1357 -19097 1357
+e 352 2
+-19097 1357 -18897 1357
+-19097 1357 -19097 1287
+e 353 2
+-19097 1287 -19097 1357
+-19097 1287 -18897 1287
+e 354 2
+-18897 1287 -19097 1287
+-18897 1287 -18897 787
+e 355 2
+-18897 787 -18897 1287
+-18897 787 -19097 787
+e 356 2
+-19097 787 -18897 787
+-19097 787 -19097 717
+e 357 2
+-19097 717 -19097 787
+-19097 717 -18897 717
+e 358 2
+-18897 717 -19097 717
+-18897 717 -18897 407
+e 359 2
+-18897 407 -18897 717
+-18897 407 -19097 407
+e 360 2
+-19097 407 -18897 407
+-19097 407 -19097 337
+e 361 2
+-18197 882 -18197 1392
+-18197 882 -18127 882
+e 362 2
+-18127 882 -18197 882
+-18127 882 -18127 1392
+e 363 2
+-18127 1392 -18127 882
+-18127 1392 -18197 1392
+e 364 2
+-18197 1392 -18127 1392
+-18197 1392 -18197 882
+e 365 2
+-17752 472 -17752 997
+-17752 472 -17617 472
+e 366 2
+-17617 472 -17752 472
+-17617 472 -17617 542
+e 367 2
+-17617 542 -17617 472
+-17617 542 -17682 542
+e 368 2
+-17682 542 -17617 542
+-17682 542 -17682 927
+e 369 2
+-17682 927 -17682 542
+-17682 927 -17477 927
+e 370 2
+-17477 927 -17682 927
+-17477 927 -17477 1052
+e 371 2
+-17477 1052 -17477 927
+-17477 1052 -17612 1052
+e 372 2
+-17612 1052 -17477 1052
+-17612 1052 -17612 997
+e 373 2
+-17612 997 -17612 1052
+-17612 997 -17752 997
+e 374 2
+-17752 997 -17612 997
+-17752 997 -17752 472
+e 375 2
+-17897 602 -17897 1187
+-17897 602 -17827 602
+e 376 2
+-17827 602 -17897 602
+-17827 602 -17827 1117
+e 377 2
+-17827 1117 -17827 602
+-17827 1117 -17477 1117
+e 378 2
+-17477 1117 -17827 1117
+-17477 1117 -17477 1242
+e 379 2
+-17477 1242 -17477 1117
+-17477 1242 -17612 1242
+e 380 2
+-17612 1242 -17477 1242
+-17612 1242 -17612 1187
+e 381 2
+-17612 1187 -17612 1242
+-17612 1187 -17897 1187
+e 382 2
+-17897 1187 -17612 1187
+-17897 1187 -17897 602
+e 383 2
+-18202 337 -18202 407
+-18202 337 -17477 337
+e 384 2
+-17477 337 -18202 337
+-17477 337 -17477 522
+e 385 2
+-17477 522 -17477 337
+-17477 522 -17102 522
+e 386 2
+-17102 522 -17477 522
+-17102 522 -17102 592
+e 387 2
+-17102 592 -17102 522
+-17102 592 -17477 592
+e 388 2
+-17477 592 -17102 592
+-17477 592 -17477 862
+e 389 2
+-17477 862 -17477 592
+-17477 862 -17612 862
+e 390 2
+-17612 862 -17477 862
+-17612 862 -17612 792
+e 391 2
+-17612 792 -17612 862
+-17612 792 -17547 792
+e 392 2
+-17547 792 -17612 792
+-17547 792 -17547 407
+e 393 2
+-17547 407 -17547 792
+-17547 407 -18202 407
+e 394 2
+-18202 407 -17547 407
+-18202 407 -18202 337
+e 395 2
+-18062 1072 -18062 1377
+-18062 1072 -17992 1072
+e 396 2
+-17992 1072 -18062 1072
+-17992 1072 -17992 1307
+e 397 2
+-17992 1307 -17992 1072
+-17992 1307 -17372 1307
+e 398 2
+-17372 1307 -17992 1307
+-17372 1307 -17372 917
+e 399 2
+-17372 917 -17372 1307
+-17372 917 -17102 917
+e 400 2
+-17102 917 -17372 917
+-17102 917 -17102 987
+e 401 2
+-17102 987 -17102 917
+-17102 987 -17302 987
+e 402 2
+-17302 987 -17102 987
+-17302 987 -17302 1377
+e 403 2
+-17302 1377 -17302 987
+-17302 1377 -18062 1377
+e 404 2
+-18062 1377 -17302 1377
+-18062 1377 -18062 1072
+e 405 2
+-17237 337 -17237 407
+-17237 337 -17037 337
+e 406 2
+-17037 337 -17237 337
+-17037 337 -17037 297
+e 407 2
+-17037 297 -17037 337
+-17037 297 -16867 297
+e 408 2
+-16867 297 -17037 297
+-16867 297 -16867 1297
+e 409 2
+-16867 1437 -16867 437
+-16867 1437 -17037 1437
+e 410 2
+-17037 1437 -16867 1437
+-17037 1437 -17037 1357
+e 411 2
+-17037 1357 -17037 1437
+-17037 1357 -17237 1357
+e 412 2
+-17237 1357 -17037 1357
+-17237 1357 -17237 1287
+e 413 2
+-17237 1287 -17237 1357
+-17237 1287 -17037 1287
+e 414 2
+-17037 1287 -17237 1287
+-17037 1287 -17037 787
+e 415 2
+-17037 787 -17037 1287
+-17037 787 -17237 787
+e 416 2
+-17237 787 -17037 787
+-17237 787 -17237 717
+e 417 2
+-17237 717 -17237 787
+-17237 717 -17037 717
+e 418 2
+-17037 717 -17237 717
+-17037 717 -17037 407
+e 419 2
+-17037 407 -17037 717
+-17037 407 -17237 407
+e 420 2
+-17237 407 -17037 407
+-17237 407 -17237 337
+e 421 2
+-16337 882 -16337 1392
+-16337 882 -16267 882
+e 422 2
+-16267 882 -16337 882
+-16267 882 -16267 1392
+e 423 2
+-16267 1392 -16267 882
+-16267 1392 -16337 1392
+e 424 2
+-16337 1392 -16267 1392
+-16337 1392 -16337 882
+e 425 2
+-15892 472 -15892 997
+-15892 472 -15757 472
+e 426 2
+-15757 472 -15892 472
+-15757 472 -15757 542
+e 427 2
+-15757 542 -15757 472
+-15757 542 -15822 542
+e 428 2
+-15822 542 -15757 542
+-15822 542 -15822 927
+e 429 2
+-15822 927 -15822 542
+-15822 927 -15617 927
+e 430 2
+-15617 927 -15822 927
+-15617 927 -15617 1052
+e 431 2
+-15617 1052 -15617 927
+-15617 1052 -15752 1052
+e 432 2
+-15752 1052 -15617 1052
+-15752 1052 -15752 997
+e 433 2
+-15752 997 -15752 1052
+-15752 997 -15892 997
+e 434 2
+-15892 997 -15752 997
+-15892 997 -15892 472
+e 435 2
+-16037 602 -16037 1187
+-16037 602 -15967 602
+e 436 2
+-15967 602 -16037 602
+-15967 602 -15967 1117
+e 437 2
+-15967 1117 -15967 602
+-15967 1117 -15617 1117
+e 438 2
+-15617 1117 -15967 1117
+-15617 1117 -15617 1242
+e 439 2
+-15617 1242 -15617 1117
+-15617 1242 -15752 1242
+e 440 2
+-15752 1242 -15617 1242
+-15752 1242 -15752 1187
+e 441 2
+-15752 1187 -15752 1242
+-15752 1187 -16037 1187
+e 442 2
+-16037 1187 -15752 1187
+-16037 1187 -16037 602
+e 443 2
+-16342 337 -16342 407
+-16342 337 -15617 337
+e 444 2
+-15617 337 -16342 337
+-15617 337 -15617 522
+e 445 2
+-15617 522 -15617 337
+-15617 522 -15242 522
+e 446 2
+-15242 522 -15617 522
+-15242 522 -15242 592
+e 447 2
+-15242 592 -15242 522
+-15242 592 -15617 592
+e 448 2
+-15617 592 -15242 592
+-15617 592 -15617 862
+e 449 2
+-15617 862 -15617 592
+-15617 862 -15752 862
+e 450 2
+-15752 862 -15617 862
+-15752 862 -15752 792
+e 451 2
+-15752 792 -15752 862
+-15752 792 -15687 792
+e 452 2
+-15687 792 -15752 792
+-15687 792 -15687 407
+e 453 2
+-15687 407 -15687 792
+-15687 407 -16342 407
+e 454 2
+-16342 407 -15687 407
+-16342 407 -16342 337
+e 455 2
+-16202 1072 -16202 1377
+-16202 1072 -16132 1072
+e 456 2
+-16132 1072 -16202 1072
+-16132 1072 -16132 1307
+e 457 2
+-16132 1307 -16132 1072
+-16132 1307 -15512 1307
+e 458 2
+-15512 1307 -16132 1307
+-15512 1307 -15512 917
+e 459 2
+-15512 917 -15512 1307
+-15512 917 -15242 917
+e 460 2
+-15242 917 -15512 917
+-15242 917 -15242 987
+e 461 2
+-15242 987 -15242 917
+-15242 987 -15442 987
+e 462 2
+-15442 987 -15242 987
+-15442 987 -15442 1377
+e 463 2
+-15442 1377 -15442 987
+-15442 1377 -16202 1377
+e 464 2
+-16202 1377 -15442 1377
+-16202 1377 -16202 1072
+e 465 2
+-15377 337 -15377 407
+-15377 337 -15177 337
+e 466 2
+-15177 337 -15377 337
+-15177 337 -15177 297
+e 467 2
+-15177 297 -15177 337
+-15177 297 -15007 297
+e 468 2
+-15007 297 -15177 297
+-15007 297 -15007 1297
+e 469 2
+-15007 1437 -15007 437
+-15007 1437 -15177 1437
+e 470 2
+-15177 1437 -15007 1437
+-15177 1437 -15177 1357
+e 471 2
+-15177 1357 -15177 1437
+-15177 1357 -15377 1357
+e 472 2
+-15377 1357 -15177 1357
+-15377 1357 -15377 1287
+e 473 2
+-15377 1287 -15377 1357
+-15377 1287 -15177 1287
+e 474 2
+-15177 1287 -15377 1287
+-15177 1287 -15177 787
+e 475 2
+-15177 787 -15177 1287
+-15177 787 -15377 787
+e 476 2
+-15377 787 -15177 787
+-15377 787 -15377 717
+e 477 2
+-15377 717 -15377 787
+-15377 717 -15177 717
+e 478 2
+-15177 717 -15377 717
+-15177 717 -15177 407
+e 479 2
+-15177 407 -15177 717
+-15177 407 -15377 407
+e 480 2
+-15377 407 -15177 407
+-15377 407 -15377 337
+e 481 2
+-14477 882 -14477 1392
+-14477 882 -14407 882
+e 482 2
+-14407 882 -14477 882
+-14407 882 -14407 1392
+e 483 2
+-14407 1392 -14407 882
+-14407 1392 -14477 1392
+e 484 2
+-14477 1392 -14407 1392
+-14477 1392 -14477 882
+e 485 2
+-14032 472 -14032 997
+-14032 472 -13897 472
+e 486 2
+-13897 472 -14032 472
+-13897 472 -13897 542
+e 487 2
+-13897 542 -13897 472
+-13897 542 -13962 542
+e 488 2
+-13962 542 -13897 542
+-13962 542 -13962 927
+e 489 2
+-13962 927 -13962 542
+-13962 927 -13757 927
+e 490 2
+-13757 927 -13962 927
+-13757 927 -13757 1052
+e 491 2
+-13757 1052 -13757 927
+-13757 1052 -13892 1052
+e 492 2
+-13892 1052 -13757 1052
+-13892 1052 -13892 997
+e 493 2
+-13892 997 -13892 1052
+-13892 997 -14032 997
+e 494 2
+-14032 997 -13892 997
+-14032 997 -14032 472
+e 495 2
+-14177 602 -14177 1187
+-14177 602 -14107 602
+e 496 2
+-14107 602 -14177 602
+-14107 602 -14107 1117
+e 497 2
+-14107 1117 -14107 602
+-14107 1117 -13757 1117
+e 498 2
+-13757 1117 -14107 1117
+-13757 1117 -13757 1242
+e 499 2
+-13757 1242 -13757 1117
+-13757 1242 -13892 1242
+e 500 2
+-13892 1242 -13757 1242
+-13892 1242 -13892 1187
+e 501 2
+-13892 1187 -13892 1242
+-13892 1187 -14177 1187
+e 502 2
+-14177 1187 -13892 1187
+-14177 1187 -14177 602
+e 503 2
+-14482 337 -14482 407
+-14482 337 -13757 337
+e 504 2
+-13757 337 -14482 337
+-13757 337 -13757 522
+e 505 2
+-13757 522 -13757 337
+-13757 522 -13382 522
+e 506 2
+-13382 522 -13757 522
+-13382 522 -13382 592
+e 507 2
+-13382 592 -13382 522
+-13382 592 -13757 592
+e 508 2
+-13757 592 -13382 592
+-13757 592 -13757 862
+e 509 2
+-13757 862 -13757 592
+-13757 862 -13892 862
+e 510 2
+-13892 862 -13757 862
+-13892 862 -13892 792
+e 511 2
+-13892 792 -13892 862
+-13892 792 -13827 792
+e 512 2
+-13827 792 -13892 792
+-13827 792 -13827 407
+e 513 2
+-13827 407 -13827 792
+-13827 407 -14482 407
+e 514 2
+-14482 407 -13827 407
+-14482 407 -14482 337
+e 515 2
+-14342 1072 -14342 1377
+-14342 1072 -14272 1072
+e 516 2
+-14272 1072 -14342 1072
+-14272 1072 -14272 1307
+e 517 2
+-14272 1307 -14272 1072
+-14272 1307 -13652 1307
+e 518 2
+-13652 1307 -14272 1307
+-13652 1307 -13652 917
+e 519 2
+-13652 917 -13652 1307
+-13652 917 -13382 917
+e 520 2
+-13382 917 -13652 917
+-13382 917 -13382 987
+e 521 2
+-13382 987 -13382 917
+-13382 987 -13582 987
+e 522 2
+-13582 987 -13382 987
+-13582 987 -13582 1377
+e 523 2
+-13582 1377 -13582 987
+-13582 1377 -14342 1377
+e 524 2
+-14342 1377 -13582 1377
+-14342 1377 -14342 1072
+e 525 2
+-13517 337 -13517 407
+-13517 337 -13317 337
+e 526 2
+-13317 337 -13517 337
+-13317 337 -13317 297
+e 527 2
+-13317 297 -13317 337
+-13317 297 -13147 297
+e 528 2
+-13147 297 -13317 297
+-13147 297 -13147 1297
+e 529 2
+-13147 1437 -13147 437
+-13147 1437 -13317 1437
+e 530 2
+-13317 1437 -13147 1437
+-13317 1437 -13317 1357
+e 531 2
+-13317 1357 -13317 1437
+-13317 1357 -13517 1357
+e 532 2
+-13517 1357 -13317 1357
+-13517 1357 -13517 1287
+e 533 2
+-13517 1287 -13517 1357
+-13517 1287 -13317 1287
+e 534 2
+-13317 1287 -13517 1287
+-13317 1287 -13317 787
+e 535 2
+-13317 787 -13317 1287
+-13317 787 -13517 787
+e 536 2
+-13517 787 -13317 787
+-13517 787 -13517 717
+e 537 2
+-13517 717 -13517 787
+-13517 717 -13317 717
+e 538 2
+-13317 717 -13517 717
+-13317 717 -13317 407
+e 539 2
+-13317 407 -13317 717
+-13317 407 -13517 407
+e 540 2
+-13517 407 -13317 407
+-13517 407 -13517 337
+e 541 2
+-12617 882 -12617 1392
+-12617 882 -12547 882
+e 542 2
+-12547 882 -12617 882
+-12547 882 -12547 1392
+e 543 2
+-12547 1392 -12547 882
+-12547 1392 -12617 1392
+e 544 2
+-12617 1392 -12547 1392
+-12617 1392 -12617 882
+e 545 2
+-12172 472 -12172 997
+-12172 472 -12037 472
+e 546 2
+-12037 472 -12172 472
+-12037 472 -12037 542
+e 547 2
+-12037 542 -12037 472
+-12037 542 -12102 542
+e 548 2
+-12102 542 -12037 542
+-12102 542 -12102 927
+e 549 2
+-12102 927 -12102 542
+-12102 927 -11897 927
+e 550 2
+-11897 927 -12102 927
+-11897 927 -11897 1052
+e 551 2
+-11897 1052 -11897 927
+-11897 1052 -12032 1052
+e 552 2
+-12032 1052 -11897 1052
+-12032 1052 -12032 997
+e 553 2
+-12032 997 -12032 1052
+-12032 997 -12172 997
+e 554 2
+-12172 997 -12032 997
+-12172 997 -12172 472
+e 555 2
+-12317 602 -12317 1187
+-12317 602 -12247 602
+e 556 2
+-12247 602 -12317 602
+-12247 602 -12247 1117
+e 557 2
+-12247 1117 -12247 602
+-12247 1117 -11897 1117
+e 558 2
+-11897 1117 -12247 1117
+-11897 1117 -11897 1242
+e 559 2
+-11897 1242 -11897 1117
+-11897 1242 -12032 1242
+e 560 2
+-12032 1242 -11897 1242
+-12032 1242 -12032 1187
+e 561 2
+-12032 1187 -12032 1242
+-12032 1187 -12317 1187
+e 562 2
+-12317 1187 -12032 1187
+-12317 1187 -12317 602
+e 563 2
+-12622 337 -12622 407
+-12622 337 -11897 337
+e 564 2
+-11897 337 -12622 337
+-11897 337 -11897 522
+e 565 2
+-11897 522 -11897 337
+-11897 522 -11522 522
+e 566 2
+-11522 522 -11897 522
+-11522 522 -11522 592
+e 567 2
+-11522 592 -11522 522
+-11522 592 -11897 592
+e 568 2
+-11897 592 -11522 592
+-11897 592 -11897 862
+e 569 2
+-11897 862 -11897 592
+-11897 862 -12032 862
+e 570 2
+-12032 862 -11897 862
+-12032 862 -12032 792
+e 571 2
+-12032 792 -12032 862
+-12032 792 -11967 792
+e 572 2
+-11967 792 -12032 792
+-11967 792 -11967 407
+e 573 2
+-11967 407 -11967 792
+-11967 407 -12622 407
+e 574 2
+-12622 407 -11967 407
+-12622 407 -12622 337
+e 575 2
+-12482 1072 -12482 1377
+-12482 1072 -12412 1072
+e 576 2
+-12412 1072 -12482 1072
+-12412 1072 -12412 1307
+e 577 2
+-12412 1307 -12412 1072
+-12412 1307 -11792 1307
+e 578 2
+-11792 1307 -12412 1307
+-11792 1307 -11792 917
+e 579 2
+-11792 917 -11792 1307
+-11792 917 -11522 917
+e 580 2
+-11522 917 -11792 917
+-11522 917 -11522 987
+e 581 2
+-11522 987 -11522 917
+-11522 987 -11722 987
+e 582 2
+-11722 987 -11522 987
+-11722 987 -11722 1377
+e 583 2
+-11722 1377 -11722 987
+-11722 1377 -12482 1377
+e 584 2
+-12482 1377 -11722 1377
+-12482 1377 -12482 1072
+e 585 2
+-11657 337 -11657 407
+-11657 337 -11457 337
+e 586 2
+-11457 337 -11657 337
+-11457 337 -11457 297
+e 587 2
+-11457 297 -11457 337
+-11457 297 -11287 297
+e 588 2
+-11287 297 -11457 297
+-11287 297 -11287 1297
+e 589 2
+-11287 1437 -11287 437
+-11287 1437 -11457 1437
+e 590 2
+-11457 1437 -11287 1437
+-11457 1437 -11457 1357
+e 591 2
+-11457 1357 -11457 1437
+-11457 1357 -11657 1357
+e 592 2
+-11657 1357 -11457 1357
+-11657 1357 -11657 1287
+e 593 2
+-11657 1287 -11657 1357
+-11657 1287 -11457 1287
+e 594 2
+-11457 1287 -11657 1287
+-11457 1287 -11457 787
+e 595 2
+-11457 787 -11457 1287
+-11457 787 -11657 787
+e 596 2
+-11657 787 -11457 787
+-11657 787 -11657 717
+e 597 2
+-11657 717 -11657 787
+-11657 717 -11457 717
+e 598 2
+-11457 717 -11657 717
+-11457 717 -11457 407
+e 599 2
+-11457 407 -11457 717
+-11457 407 -11657 407
+e 600 2
+-11657 407 -11457 407
+-11657 407 -11657 337
+e 601 2
+-10757 882 -10757 1392
+-10757 882 -10687 882
+e 602 2
+-10687 882 -10757 882
+-10687 882 -10687 1392
+e 603 2
+-10687 1392 -10687 882
+-10687 1392 -10757 1392
+e 604 2
+-10757 1392 -10687 1392
+-10757 1392 -10757 882
+e 605 2
+-10312 472 -10312 997
+-10312 472 -10177 472
+e 606 2
+-10177 472 -10312 472
+-10177 472 -10177 542
+e 607 2
+-10177 542 -10177 472
+-10177 542 -10242 542
+e 608 2
+-10242 542 -10177 542
+-10242 542 -10242 927
+e 609 2
+-10242 927 -10242 542
+-10242 927 -10037 927
+e 610 2
+-10037 927 -10242 927
+-10037 927 -10037 1052
+e 611 2
+-10037 1052 -10037 927
+-10037 1052 -10172 1052
+e 612 2
+-10172 1052 -10037 1052
+-10172 1052 -10172 997
+e 613 2
+-10172 997 -10172 1052
+-10172 997 -10312 997
+e 614 2
+-10312 997 -10172 997
+-10312 997 -10312 472
+e 615 2
+-10457 602 -10457 1187
+-10457 602 -10387 602
+e 616 2
+-10387 602 -10457 602
+-10387 602 -10387 1117
+e 617 2
+-10387 1117 -10387 602
+-10387 1117 -10037 1117
+e 618 2
+-10037 1117 -10387 1117
+-10037 1117 -10037 1242
+e 619 2
+-10037 1242 -10037 1117
+-10037 1242 -10172 1242
+e 620 2
+-10172 1242 -10037 1242
+-10172 1242 -10172 1187
+e 621 2
+-10172 1187 -10172 1242
+-10172 1187 -10457 1187
+e 622 2
+-10457 1187 -10172 1187
+-10457 1187 -10457 602
+e 623 2
+-10762 337 -10762 407
+-10762 337 -10037 337
+e 624 2
+-10037 337 -10762 337
+-10037 337 -10037 522
+e 625 2
+-10037 522 -10037 337
+-10037 522 -9662 522
+e 626 2
+-9662 522 -10037 522
+-9662 522 -9662 592
+e 627 2
+-9662 592 -9662 522
+-9662 592 -10037 592
+e 628 2
+-10037 592 -9662 592
+-10037 592 -10037 862
+e 629 2
+-10037 862 -10037 592
+-10037 862 -10172 862
+e 630 2
+-10172 862 -10037 862
+-10172 862 -10172 792
+e 631 2
+-10172 792 -10172 862
+-10172 792 -10107 792
+e 632 2
+-10107 792 -10172 792
+-10107 792 -10107 407
+e 633 2
+-10107 407 -10107 792
+-10107 407 -10762 407
+e 634 2
+-10762 407 -10107 407
+-10762 407 -10762 337
+e 635 2
+-10622 1072 -10622 1377
+-10622 1072 -10552 1072
+e 636 2
+-10552 1072 -10622 1072
+-10552 1072 -10552 1307
+e 637 2
+-10552 1307 -10552 1072
+-10552 1307 -9932 1307
+e 638 2
+-9932 1307 -10552 1307
+-9932 1307 -9932 917
+e 639 2
+-9932 917 -9932 1307
+-9932 917 -9662 917
+e 640 2
+-9662 917 -9932 917
+-9662 917 -9662 987
+e 641 2
+-9662 987 -9662 917
+-9662 987 -9862 987
+e 642 2
+-9862 987 -9662 987
+-9862 987 -9862 1377
+e 643 2
+-9862 1377 -9862 987
+-9862 1377 -10622 1377
+e 644 2
+-10622 1377 -9862 1377
+-10622 1377 -10622 1072
+e 645 2
+-9797 337 -9797 407
+-9797 337 -9597 337
+e 646 2
+-9597 337 -9797 337
+-9597 337 -9597 297
+e 647 2
+-9597 297 -9597 337
+-9597 297 -9427 297
+e 648 2
+-9427 297 -9597 297
+-9427 297 -9427 1297
+e 649 2
+-9427 1437 -9427 437
+-9427 1437 -9597 1437
+e 650 2
+-9597 1437 -9427 1437
+-9597 1437 -9597 1357
+e 651 2
+-9597 1357 -9597 1437
+-9597 1357 -9797 1357
+e 652 2
+-9797 1357 -9597 1357
+-9797 1357 -9797 1287
+e 653 2
+-9797 1287 -9797 1357
+-9797 1287 -9597 1287
+e 654 2
+-9597 1287 -9797 1287
+-9597 1287 -9597 787
+e 655 2
+-9597 787 -9597 1287
+-9597 787 -9797 787
+e 656 2
+-9797 787 -9597 787
+-9797 787 -9797 717
+e 657 2
+-9797 717 -9797 787
+-9797 717 -9597 717
+e 658 2
+-9597 717 -9797 717
+-9597 717 -9597 407
+e 659 2
+-9597 407 -9597 717
+-9597 407 -9797 407
+e 660 2
+-9797 407 -9597 407
+-9797 407 -9797 337
+e 661 2
+-8897 882 -8897 1392
+-8897 882 -8827 882
+e 662 2
+-8827 882 -8897 882
+-8827 882 -8827 1392
+e 663 2
+-8827 1392 -8827 882
+-8827 1392 -8897 1392
+e 664 2
+-8897 1392 -8827 1392
+-8897 1392 -8897 882
+e 665 2
+-8452 472 -8452 997
+-8452 472 -8317 472
+e 666 2
+-8317 472 -8452 472
+-8317 472 -8317 542
+e 667 2
+-8317 542 -8317 472
+-8317 542 -8382 542
+e 668 2
+-8382 542 -8317 542
+-8382 542 -8382 927
+e 669 2
+-8382 927 -8382 542
+-8382 927 -8177 927
+e 670 2
+-8177 927 -8382 927
+-8177 927 -8177 1052
+e 671 2
+-8177 1052 -8177 927
+-8177 1052 -8312 1052
+e 672 2
+-8312 1052 -8177 1052
+-8312 1052 -8312 997
+e 673 2
+-8312 997 -8312 1052
+-8312 997 -8452 997
+e 674 2
+-8452 997 -8312 997
+-8452 997 -8452 472
+e 675 2
+-8597 602 -8597 1187
+-8597 602 -8527 602
+e 676 2
+-8527 602 -8597 602
+-8527 602 -8527 1117
+e 677 2
+-8527 1117 -8527 602
+-8527 1117 -8177 1117
+e 678 2
+-8177 1117 -8527 1117
+-8177 1117 -8177 1242
+e 679 2
+-8177 1242 -8177 1117
+-8177 1242 -8312 1242
+e 680 2
+-8312 1242 -8177 1242
+-8312 1242 -8312 1187
+e 681 2
+-8312 1187 -8312 1242
+-8312 1187 -8597 1187
+e 682 2
+-8597 1187 -8312 1187
+-8597 1187 -8597 602
+e 683 2
+-8902 337 -8902 407
+-8902 337 -8177 337
+e 684 2
+-8177 337 -8902 337
+-8177 337 -8177 522
+e 685 2
+-8177 522 -8177 337
+-8177 522 -7802 522
+e 686 2
+-7802 522 -8177 522
+-7802 522 -7802 592
+e 687 2
+-7802 592 -7802 522
+-7802 592 -8177 592
+e 688 2
+-8177 592 -7802 592
+-8177 592 -8177 862
+e 689 2
+-8177 862 -8177 592
+-8177 862 -8312 862
+e 690 2
+-8312 862 -8177 862
+-8312 862 -8312 792
+e 691 2
+-8312 792 -8312 862
+-8312 792 -8247 792
+e 692 2
+-8247 792 -8312 792
+-8247 792 -8247 407
+e 693 2
+-8247 407 -8247 792
+-8247 407 -8902 407
+e 694 2
+-8902 407 -8247 407
+-8902 407 -8902 337
+e 695 2
+-8762 1072 -8762 1377
+-8762 1072 -8692 1072
+e 696 2
+-8692 1072 -8762 1072
+-8692 1072 -8692 1307
+e 697 2
+-8692 1307 -8692 1072
+-8692 1307 -8072 1307
+e 698 2
+-8072 1307 -8692 1307
+-8072 1307 -8072 917
+e 699 2
+-8072 917 -8072 1307
+-8072 917 -7802 917
+e 700 2
+-7802 917 -8072 917
+-7802 917 -7802 987
+e 701 2
+-7802 987 -7802 917
+-7802 987 -8002 987
+e 702 2
+-8002 987 -7802 987
+-8002 987 -8002 1377
+e 703 2
+-8002 1377 -8002 987
+-8002 1377 -8762 1377
+e 704 2
+-8762 1377 -8002 1377
+-8762 1377 -8762 1072
+e 705 2
+-7937 337 -7937 407
+-7937 337 -7737 337
+e 706 2
+-7737 337 -7937 337
+-7737 337 -7737 297
+e 707 2
+-7737 297 -7737 337
+-7737 297 -7567 297
+e 708 2
+-7567 297 -7737 297
+-7567 297 -7567 1297
+e 709 2
+-7567 1437 -7567 437
+-7567 1437 -7737 1437
+e 710 2
+-7737 1437 -7567 1437
+-7737 1437 -7737 1357
+e 711 2
+-7737 1357 -7737 1437
+-7737 1357 -7937 1357
+e 712 2
+-7937 1357 -7737 1357
+-7937 1357 -7937 1287
+e 713 2
+-7937 1287 -7937 1357
+-7937 1287 -7737 1287
+e 714 2
+-7737 1287 -7937 1287
+-7737 1287 -7737 787
+e 715 2
+-7737 787 -7737 1287
+-7737 787 -7937 787
+e 716 2
+-7937 787 -7737 787
+-7937 787 -7937 717
+e 717 2
+-7937 717 -7937 787
+-7937 717 -7737 717
+e 718 2
+-7737 717 -7937 717
+-7737 717 -7737 407
+e 719 2
+-7737 407 -7737 717
+-7737 407 -7937 407
+e 720 2
+-7937 407 -7737 407
+-7937 407 -7937 337
+e 721 2
+-7037 882 -7037 1392
+-7037 882 -6967 882
+e 722 2
+-6967 882 -7037 882
+-6967 882 -6967 1392
+e 723 2
+-6967 1392 -6967 882
+-6967 1392 -7037 1392
+e 724 2
+-7037 1392 -6967 1392
+-7037 1392 -7037 882
+e 725 2
+-6592 472 -6592 997
+-6592 472 -6457 472
+e 726 2
+-6457 472 -6592 472
+-6457 472 -6457 542
+e 727 2
+-6457 542 -6457 472
+-6457 542 -6522 542
+e 728 2
+-6522 542 -6457 542
+-6522 542 -6522 927
+e 729 2
+-6522 927 -6522 542
+-6522 927 -6317 927
+e 730 2
+-6317 927 -6522 927
+-6317 927 -6317 1052
+e 731 2
+-6317 1052 -6317 927
+-6317 1052 -6452 1052
+e 732 2
+-6452 1052 -6317 1052
+-6452 1052 -6452 997
+e 733 2
+-6452 997 -6452 1052
+-6452 997 -6592 997
+e 734 2
+-6592 997 -6452 997
+-6592 997 -6592 472
+e 735 2
+-6737 602 -6737 1187
+-6737 602 -6667 602
+e 736 2
+-6667 602 -6737 602
+-6667 602 -6667 1117
+e 737 2
+-6667 1117 -6667 602
+-6667 1117 -6317 1117
+e 738 2
+-6317 1117 -6667 1117
+-6317 1117 -6317 1242
+e 739 2
+-6317 1242 -6317 1117
+-6317 1242 -6452 1242
+e 740 2
+-6452 1242 -6317 1242
+-6452 1242 -6452 1187
+e 741 2
+-6452 1187 -6452 1242
+-6452 1187 -6737 1187
+e 742 2
+-6737 1187 -6452 1187
+-6737 1187 -6737 602
+e 743 2
+-7042 337 -7042 407
+-7042 337 -6317 337
+e 744 2
+-6317 337 -7042 337
+-6317 337 -6317 522
+e 745 2
+-6317 522 -6317 337
+-6317 522 -5942 522
+e 746 2
+-5942 522 -6317 522
+-5942 522 -5942 592
+e 747 2
+-5942 592 -5942 522
+-5942 592 -6317 592
+e 748 2
+-6317 592 -5942 592
+-6317 592 -6317 862
+e 749 2
+-6317 862 -6317 592
+-6317 862 -6452 862
+e 750 2
+-6452 862 -6317 862
+-6452 862 -6452 792
+e 751 2
+-6452 792 -6452 862
+-6452 792 -6387 792
+e 752 2
+-6387 792 -6452 792
+-6387 792 -6387 407
+e 753 2
+-6387 407 -6387 792
+-6387 407 -7042 407
+e 754 2
+-7042 407 -6387 407
+-7042 407 -7042 337
+e 755 2
+-6902 1072 -6902 1377
+-6902 1072 -6832 1072
+e 756 2
+-6832 1072 -6902 1072
+-6832 1072 -6832 1307
+e 757 2
+-6832 1307 -6832 1072
+-6832 1307 -6212 1307
+e 758 2
+-6212 1307 -6832 1307
+-6212 1307 -6212 917
+e 759 2
+-6212 917 -6212 1307
+-6212 917 -5942 917
+e 760 2
+-5942 917 -6212 917
+-5942 917 -5942 987
+e 761 2
+-5942 987 -5942 917
+-5942 987 -6142 987
+e 762 2
+-6142 987 -5942 987
+-6142 987 -6142 1377
+e 763 2
+-6142 1377 -6142 987
+-6142 1377 -6902 1377
+e 764 2
+-6902 1377 -6142 1377
+-6902 1377 -6902 1072
+e 765 2
+-6077 337 -6077 407
+-6077 337 -5877 337
+e 766 2
+-5877 337 -6077 337
+-5877 337 -5877 297
+e 767 2
+-5877 297 -5877 337
+-5877 297 -5707 297
+e 768 2
+-5707 297 -5877 297
+-5707 297 -5707 1297
+e 769 2
+-5707 1437 -5707 437
+-5707 1437 -5877 1437
+e 770 2
+-5877 1437 -5707 1437
+-5877 1437 -5877 1357
+e 771 2
+-5877 1357 -5877 1437
+-5877 1357 -6077 1357
+e 772 2
+-6077 1357 -5877 1357
+-6077 1357 -6077 1287
+e 773 2
+-6077 1287 -6077 1357
+-6077 1287 -5877 1287
+e 774 2
+-5877 1287 -6077 1287
+-5877 1287 -5877 787
+e 775 2
+-5877 787 -5877 1287
+-5877 787 -6077 787
+e 776 2
+-6077 787 -5877 787
+-6077 787 -6077 717
+e 777 2
+-6077 717 -6077 787
+-6077 717 -5877 717
+e 778 2
+-5877 717 -6077 717
+-5877 717 -5877 407
+e 779 2
+-5877 407 -5877 717
+-5877 407 -6077 407
+e 780 2
+-6077 407 -5877 407
+-6077 407 -6077 337
+e 781 2
+-5177 882 -5177 1392
+-5177 882 -5107 882
+e 782 2
+-5107 882 -5177 882
+-5107 882 -5107 1392
+e 783 2
+-5107 1392 -5107 882
+-5107 1392 -5177 1392
+e 784 2
+-5177 1392 -5107 1392
+-5177 1392 -5177 882
+e 785 2
+-4732 472 -4732 997
+-4732 472 -4597 472
+e 786 2
+-4597 472 -4732 472
+-4597 472 -4597 542
+e 787 2
+-4597 542 -4597 472
+-4597 542 -4662 542
+e 788 2
+-4662 542 -4597 542
+-4662 542 -4662 927
+e 789 2
+-4662 927 -4662 542
+-4662 927 -4457 927
+e 790 2
+-4457 927 -4662 927
+-4457 927 -4457 1052
+e 791 2
+-4457 1052 -4457 927
+-4457 1052 -4592 1052
+e 792 2
+-4592 1052 -4457 1052
+-4592 1052 -4592 997
+e 793 2
+-4592 997 -4592 1052
+-4592 997 -4732 997
+e 794 2
+-4732 997 -4592 997
+-4732 997 -4732 472
+e 795 2
+-4877 602 -4877 1187
+-4877 602 -4807 602
+e 796 2
+-4807 602 -4877 602
+-4807 602 -4807 1117
+e 797 2
+-4807 1117 -4807 602
+-4807 1117 -4457 1117
+e 798 2
+-4457 1117 -4807 1117
+-4457 1117 -4457 1242
+e 799 2
+-4457 1242 -4457 1117
+-4457 1242 -4592 1242
+e 800 2
+-4592 1242 -4457 1242
+-4592 1242 -4592 1187
+e 801 2
+-4592 1187 -4592 1242
+-4592 1187 -4877 1187
+e 802 2
+-4877 1187 -4592 1187
+-4877 1187 -4877 602
+e 803 2
+-5182 337 -5182 407
+-5182 337 -4457 337
+e 804 2
+-4457 337 -5182 337
+-4457 337 -4457 522
+e 805 2
+-4457 522 -4457 337
+-4457 522 -4082 522
+e 806 2
+-4082 522 -4457 522
+-4082 522 -4082 592
+e 807 2
+-4082 592 -4082 522
+-4082 592 -4457 592
+e 808 2
+-4457 592 -4082 592
+-4457 592 -4457 862
+e 809 2
+-4457 862 -4457 592
+-4457 862 -4592 862
+e 810 2
+-4592 862 -4457 862
+-4592 862 -4592 792
+e 811 2
+-4592 792 -4592 862
+-4592 792 -4527 792
+e 812 2
+-4527 792 -4592 792
+-4527 792 -4527 407
+e 813 2
+-4527 407 -4527 792
+-4527 407 -5182 407
+e 814 2
+-5182 407 -4527 407
+-5182 407 -5182 337
+e 815 2
+-5042 1072 -5042 1377
+-5042 1072 -4972 1072
+e 816 2
+-4972 1072 -5042 1072
+-4972 1072 -4972 1307
+e 817 2
+-4972 1307 -4972 1072
+-4972 1307 -4352 1307
+e 818 2
+-4352 1307 -4972 1307
+-4352 1307 -4352 917
+e 819 2
+-4352 917 -4352 1307
+-4352 917 -4082 917
+e 820 2
+-4082 917 -4352 917
+-4082 917 -4082 987
+e 821 2
+-4082 987 -4082 917
+-4082 987 -4282 987
+e 822 2
+-4282 987 -4082 987
+-4282 987 -4282 1377
+e 823 2
+-4282 1377 -4282 987
+-4282 1377 -5042 1377
+e 824 2
+-5042 1377 -4282 1377
+-5042 1377 -5042 1072
+e 825 2
+-4217 337 -4217 407
+-4217 337 -4017 337
+e 826 2
+-4017 337 -4217 337
+-4017 337 -4017 297
+e 827 2
+-4017 297 -4017 337
+-4017 297 -3847 297
+e 828 2
+-3847 297 -4017 297
+-3847 297 -3847 1297
+e 829 2
+-3847 1437 -3847 437
+-3847 1437 -4017 1437
+e 830 2
+-4017 1437 -3847 1437
+-4017 1437 -4017 1357
+e 831 2
+-4017 1357 -4017 1437
+-4017 1357 -4217 1357
+e 832 2
+-4217 1357 -4017 1357
+-4217 1357 -4217 1287
+e 833 2
+-4217 1287 -4217 1357
+-4217 1287 -4017 1287
+e 834 2
+-4017 1287 -4217 1287
+-4017 1287 -4017 787
+e 835 2
+-4017 787 -4017 1287
+-4017 787 -4217 787
+e 836 2
+-4217 787 -4017 787
+-4217 787 -4217 717
+e 837 2
+-4217 717 -4217 787
+-4217 717 -4017 717
+e 838 2
+-4017 717 -4217 717
+-4017 717 -4017 407
+e 839 2
+-4017 407 -4017 717
+-4017 407 -4217 407
+e 840 2
+-4217 407 -4017 407
+-4217 407 -4217 337
+e 841 2
+-3317 882 -3317 1392
+-3317 882 -3247 882
+e 842 2
+-3247 882 -3317 882
+-3247 882 -3247 1392
+e 843 2
+-3247 1392 -3247 882
+-3247 1392 -3317 1392
+e 844 2
+-3317 1392 -3247 1392
+-3317 1392 -3317 882
+e 845 2
+-2872 472 -2872 997
+-2872 472 -2737 472
+e 846 2
+-2737 472 -2872 472
+-2737 472 -2737 542
+e 847 2
+-2737 542 -2737 472
+-2737 542 -2802 542
+e 848 2
+-2802 542 -2737 542
+-2802 542 -2802 927
+e 849 2
+-2802 927 -2802 542
+-2802 927 -2597 927
+e 850 2
+-2597 927 -2802 927
+-2597 927 -2597 1052
+e 851 2
+-2597 1052 -2597 927
+-2597 1052 -2732 1052
+e 852 2
+-2732 1052 -2597 1052
+-2732 1052 -2732 997
+e 853 2
+-2732 997 -2732 1052
+-2732 997 -2872 997
+e 854 2
+-2872 997 -2732 997
+-2872 997 -2872 472
+e 855 2
+-3017 602 -3017 1187
+-3017 602 -2947 602
+e 856 2
+-2947 602 -3017 602
+-2947 602 -2947 1117
+e 857 2
+-2947 1117 -2947 602
+-2947 1117 -2597 1117
+e 858 2
+-2597 1117 -2947 1117
+-2597 1117 -2597 1242
+e 859 2
+-2597 1242 -2597 1117
+-2597 1242 -2732 1242
+e 860 2
+-2732 1242 -2597 1242
+-2732 1242 -2732 1187
+e 861 2
+-2732 1187 -2732 1242
+-2732 1187 -3017 1187
+e 862 2
+-3017 1187 -2732 1187
+-3017 1187 -3017 602
+e 863 2
+-3322 337 -3322 407
+-3322 337 -2597 337
+e 864 2
+-2597 337 -3322 337
+-2597 337 -2597 522
+e 865 2
+-2597 522 -2597 337
+-2597 522 -2222 522
+e 866 2
+-2222 522 -2597 522
+-2222 522 -2222 592
+e 867 2
+-2222 592 -2222 522
+-2222 592 -2597 592
+e 868 2
+-2597 592 -2222 592
+-2597 592 -2597 862
+e 869 2
+-2597 862 -2597 592
+-2597 862 -2732 862
+e 870 2
+-2732 862 -2597 862
+-2732 862 -2732 792
+e 871 2
+-2732 792 -2732 862
+-2732 792 -2667 792
+e 872 2
+-2667 792 -2732 792
+-2667 792 -2667 407
+e 873 2
+-2667 407 -2667 792
+-2667 407 -3322 407
+e 874 2
+-3322 407 -2667 407
+-3322 407 -3322 337
+e 875 2
+-3182 1072 -3182 1377
+-3182 1072 -3112 1072
+e 876 2
+-3112 1072 -3182 1072
+-3112 1072 -3112 1307
+e 877 2
+-3112 1307 -3112 1072
+-3112 1307 -2492 1307
+e 878 2
+-2492 1307 -3112 1307
+-2492 1307 -2492 917
+e 879 2
+-2492 917 -2492 1307
+-2492 917 -2222 917
+e 880 2
+-2222 917 -2492 917
+-2222 917 -2222 987
+e 881 2
+-2222 987 -2222 917
+-2222 987 -2422 987
+e 882 2
+-2422 987 -2222 987
+-2422 987 -2422 1377
+e 883 2
+-2422 1377 -2422 987
+-2422 1377 -3182 1377
+e 884 2
+-3182 1377 -2422 1377
+-3182 1377 -3182 1072
+e 885 2
+-2357 337 -2357 407
+-2357 337 -2157 337
+e 886 2
+-2157 337 -2357 337
+-2157 337 -2157 297
+e 887 2
+-2157 297 -2157 337
+-2157 297 -1987 297
+e 888 2
+-1987 297 -2157 297
+-1987 297 -1987 1297
+e 889 2
+-1987 1437 -1987 437
+-1987 1437 -2157 1437
+e 890 2
+-2157 1437 -1987 1437
+-2157 1437 -2157 1357
+e 891 2
+-2157 1357 -2157 1437
+-2157 1357 -2357 1357
+e 892 2
+-2357 1357 -2157 1357
+-2357 1357 -2357 1287
+e 893 2
+-2357 1287 -2357 1357
+-2357 1287 -2157 1287
+e 894 2
+-2157 1287 -2357 1287
+-2157 1287 -2157 787
+e 895 2
+-2157 787 -2157 1287
+-2157 787 -2357 787
+e 896 2
+-2357 787 -2157 787
+-2357 787 -2357 717
+e 897 2
+-2357 717 -2357 787
+-2357 717 -2157 717
+e 898 2
+-2157 717 -2357 717
+-2157 717 -2157 407
+e 899 2
+-2157 407 -2157 717
+-2157 407 -2357 407
+e 900 2
+-2357 407 -2157 407
+-2357 407 -2357 337
+e 901 2
+-29597 297 -29597 1297
+-29597 297 -29595 297
+e 902 2
+-29595 297 -29597 297
+-29595 297 -29595 -20
+e 903 2
+-1531 -20 -2531 -20
+-1531 -20 -1531 297
+e 904 2
+-1531 297 -1531 -20
+-1531 297 -1527 297
+e 905 2
+-1527 297 -1531 297
+-1527 297 -1527 717
+e 906 2
+-1527 717 -1527 297
+-1527 717 -1362 717
+e 907 2
+-1362 717 -1527 717
+-1362 717 -1362 787
+e 908 2
+-1362 787 -1362 717
+-1362 787 -1527 787
+e 909 2
+-1527 787 -1362 787
+-1527 787 -1527 1437
+e 910 2
+-1527 1437 -1527 787
+-1527 1437 -1697 1437
+e 911 2
+-1697 1437 -1527 1437
+-1697 1437 -1697 437
+e 912 2
+-1697 365 -1697 1365
+-1697 365 -1701 365
+e 913 2
+-1701 365 -1697 365
+-1701 365 -1701 150
+e 914 2
+-1701 150 -1701 365
+-1701 150 -2701 150
+e 915 2
+-3386 150 -2386 150
+-3386 150 -3386 370
+e 916 2
+-3386 370 -3386 150
+-3386 370 -3387 370
+e 917 2
+-3387 370 -3386 370
+-3387 370 -3387 717
+e 918 2
+-3387 717 -3387 370
+-3387 717 -3222 717
+e 919 2
+-3222 717 -3387 717
+-3222 717 -3222 787
+e 920 2
+-3222 787 -3222 717
+-3222 787 -3387 787
+e 921 2
+-3387 787 -3222 787
+-3387 787 -3387 1437
+e 922 2
+-3387 1437 -3387 787
+-3387 1437 -3557 1437
+e 923 2
+-3557 1437 -3387 1437
+-3557 1437 -3557 437
+e 924 2
+-3557 297 -3557 1297
+-3557 297 -3556 297
+e 925 2
+-3556 297 -3557 297
+-3556 297 -3556 150
+e 926 2
+-3556 150 -3556 297
+-3556 150 -4556 150
+e 927 2
+-5252 150 -4252 150
+-5252 150 -5252 297
+e 928 2
+-5252 297 -5252 150
+-5252 297 -5247 297
+e 929 2
+-5247 297 -5252 297
+-5247 297 -5247 717
+e 930 2
+-5247 717 -5247 297
+-5247 717 -5082 717
+e 931 2
+-5082 717 -5247 717
+-5082 717 -5082 787
+e 932 2
+-5082 787 -5082 717
+-5082 787 -5247 787
+e 933 2
+-5247 787 -5082 787
+-5247 787 -5247 1437
+e 934 2
+-5247 1437 -5247 787
+-5247 1437 -5417 1437
+e 935 2
+-5417 1437 -5247 1437
+-5417 1437 -5417 437
+e 936 2
+-5417 365 -5417 1365
+-5417 365 -5422 365
+e 937 2
+-5422 365 -5417 365
+-5422 365 -5422 150
+e 938 2
+-5422 150 -5422 365
+-5422 150 -6422 150
+e 939 2
+-7107 150 -6107 150
+-7107 150 -7107 717
+e 940 2
+-7107 717 -7107 150
+-7107 717 -6942 717
+e 941 2
+-6942 717 -7107 717
+-6942 717 -6942 787
+e 942 2
+-6942 787 -6942 717
+-6942 787 -7107 787
+e 943 2
+-7107 787 -6942 787
+-7107 787 -7107 1437
+e 944 2
+-7107 1437 -7107 787
+-7107 1437 -7277 1437
+e 945 2
+-7277 1437 -7107 1437
+-7277 1437 -7277 437
+e 946 2
+-7277 150 -7277 1150
+-7277 150 -8277 150
+e 947 2
+-8966 150 -7966 150
+-8966 150 -8966 365
+e 948 2
+-8966 365 -8966 150
+-8966 365 -8967 365
+e 949 2
+-8967 365 -8966 365
+-8967 365 -8967 717
+e 950 2
+-8967 717 -8967 365
+-8967 717 -8802 717
+e 951 2
+-8802 717 -8967 717
+-8802 717 -8802 787
+e 952 2
+-8802 787 -8802 717
+-8802 787 -8967 787
+e 953 2
+-8967 787 -8802 787
+-8967 787 -8967 1437
+e 954 2
+-8967 1437 -8967 787
+-8967 1437 -9137 1437
+e 955 2
+-9137 1437 -8967 1437
+-9137 1437 -9137 437
+e 956 2
+-9137 297 -9137 1297
+-9137 297 -9136 297
+e 957 2
+-9136 297 -9137 297
+-9136 297 -9136 150
+e 958 2
+-9136 150 -9136 297
+-9136 150 -10136 150
+e 959 2
+-10821 150 -9821 150
+-10821 150 -10821 370
+e 960 2
+-10821 370 -10821 150
+-10821 370 -10827 370
+e 961 2
+-10827 370 -10821 370
+-10827 370 -10827 717
+e 962 2
+-10827 717 -10827 370
+-10827 717 -10662 717
+e 963 2
+-10662 717 -10827 717
+-10662 717 -10662 787
+e 964 2
+-10662 787 -10662 717
+-10662 787 -10827 787
+e 965 2
+-10827 787 -10662 787
+-10827 787 -10827 1437
+e 966 2
+-10827 1437 -10827 787
+-10827 1437 -10997 1437
+e 967 2
+-10997 1437 -10827 1437
+-10997 1437 -10997 437
+e 968 2
+-10997 297 -10997 1297
+-10997 297 -10991 297
+e 969 2
+-10991 297 -10997 297
+-10991 297 -10991 150
+e 970 2
+-10991 150 -10991 297
+-10991 150 -11991 150
+e 971 2
+-12687 365 -12685 365
+-12687 365 -12687 717
+e 972 2
+-12687 717 -12687 365
+-12687 717 -12522 717
+e 973 2
+-12522 717 -12687 717
+-12522 717 -12522 787
+e 974 2
+-12522 787 -12522 717
+-12522 787 -12687 787
+e 975 2
+-12687 787 -12522 787
+-12687 787 -12687 1437
+e 976 2
+-12687 1437 -12687 787
+-12687 1437 -12857 1437
+e 977 2
+-12857 1437 -12687 1437
+-12857 1437 -12857 437
+e 978 2
+-12857 297 -12857 1297
+-12857 297 -12855 297
+e 979 2
+-12855 297 -12857 297
+-12855 297 -12855 150
+e 980 2
+-14547 370 -14540 370
+-14547 370 -14547 717
+e 981 2
+-14547 717 -14547 370
+-14547 717 -14382 717
+e 982 2
+-14382 717 -14547 717
+-14382 717 -14382 787
+e 983 2
+-14382 787 -14382 717
+-14382 787 -14547 787
+e 984 2
+-14547 787 -14382 787
+-14547 787 -14547 1437
+e 985 2
+-14547 1437 -14547 787
+-14547 1437 -14717 1437
+e 986 2
+-14717 1437 -14547 1437
+-14717 1437 -14717 437
+e 987 2
+-14717 297 -14717 1297
+-14717 297 -14710 297
+e 988 2
+-14710 297 -14717 297
+-14710 297 -14710 150
+e 989 2
+-16414 150 -15414 150
+-16414 150 -16414 297
+e 990 2
+-16414 297 -16414 150
+-16414 297 -16407 297
+e 991 2
+-16407 297 -16414 297
+-16407 297 -16407 717
+e 992 2
+-16407 717 -16407 297
+-16407 717 -16242 717
+e 993 2
+-16242 717 -16407 717
+-16242 717 -16242 787
+e 994 2
+-16242 787 -16242 717
+-16242 787 -16407 787
+e 995 2
+-16407 787 -16242 787
+-16407 787 -16407 1437
+e 996 2
+-16407 1437 -16407 787
+-16407 1437 -16577 1437
+e 997 2
+-16577 1437 -16407 1437
+-16577 1437 -16577 437
+e 998 2
+-16577 365 -16577 1365
+-16577 365 -16584 365
+e 999 2
+-16584 365 -16577 365
+-16584 365 -16584 150
+e 1000 2
+-16584 150 -16584 365
+-16584 150 -17584 150
+Grid.7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.8
+48 48 2 Mar 18 17:06:40 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-18739 -20 -19739 -20
+-18739 -20 -18739 -17
+e 2 2
+-18739 -17 -18739 -20
+-18739 -17 -17739 -17
+e 3 2
+-17044 -17 -18044 -17
+-17044 -17 -17044 -20
+e 4 2
+-17044 -20 -17044 -17
+-17044 -20 -16044 -20
+e 5 2
+-15019 -20 -16019 -20
+-15019 -20 -15019 -17
+e 6 2
+-15019 -17 -15019 -20
+-15019 -17 -14019 -17
+e 7 2
+-13315 -17 -14315 -17
+-13315 -17 -13315 -20
+e 8 2
+-136 -20 -1136 -20
+-136 -20 -136 365
+e 9 2
+-136 365 -136 -20
+-136 365 -306 365
+e 10 2
+-306 365 -136 365
+-306 365 -306 150
+e 11 2
+-306 150 -306 365
+-306 150 -1306 150
+e 12 2
+-1991 150 -991 150
+-1991 150 -1991 370
+e 13 2
+-1991 370 -1991 150
+-1991 370 -2161 370
+e 14 2
+-2161 370 -1991 370
+-2161 370 -2161 150
+e 15 2
+-2161 150 -2161 370
+-2161 150 -3161 150
+e 16 2
+-3857 150 -2857 150
+-3857 150 -3857 365
+e 17 2
+-3857 365 -3857 150
+-3857 365 -4027 365
+e 18 2
+-4027 365 -3857 365
+-4027 365 -4027 150
+e 19 2
+-4027 150 -4027 365
+-4027 150 -5027 150
+e 20 2
+-5712 150 -4712 150
+-5712 150 -5712 370
+e 21 2
+-5712 370 -5712 150
+-5712 370 -5882 370
+e 22 2
+-5882 370 -5712 370
+-5882 370 -5882 150
+e 23 2
+-5882 150 -5882 370
+-5882 150 -6882 150
+e 24 2
+-7571 150 -6571 150
+-7571 150 -7571 365
+e 25 2
+-7571 365 -7571 150
+-7571 365 -7741 365
+e 26 2
+-7741 365 -7571 365
+-7741 365 -7741 150
+e 27 2
+-7741 150 -7741 365
+-7741 150 -8741 150
+e 28 2
+-9426 150 -8426 150
+-9426 150 -9426 370
+e 29 2
+-9426 370 -9426 150
+-9426 370 -9596 370
+e 30 2
+-9596 370 -9426 370
+-9596 370 -9596 150
+e 31 2
+-9596 150 -9596 370
+-9596 150 -10596 150
+e 32 2
+-13315 153 -13315 370
+-13315 153 -14315 153
+e 33 2
+-15019 153 -14019 153
+-15019 153 -15019 365
+e 34 2
+-15019 365 -15019 153
+-15019 365 -15189 365
+e 35 2
+-15189 365 -15019 365
+-15189 365 -15189 153
+e 36 2
+-15189 153 -15189 365
+-15189 153 -16189 153
+e 37 2
+-16874 153 -15874 153
+-16874 153 -16874 370
+e 38 2
+-16874 370 -16874 153
+-16874 370 -17044 370
+e 39 2
+-17044 370 -16874 370
+-17044 370 -17044 153
+e 40 2
+-17044 153 -17044 370
+-17044 153 -18044 153
+e 41 2
+-18739 153 -17739 153
+-18739 153 -18739 365
+e 42 2
+-18739 365 -18739 153
+-18739 365 -18909 365
+e 43 2
+-18909 365 -18739 365
+-18909 365 -18909 150
+e 44 2
+-18909 150 -18909 365
+-18909 150 -19909 150
+e 45 2
+-20594 150 -19594 150
+-20594 150 -20594 370
+e 46 2
+-20594 370 -20594 150
+-20594 370 -20764 370
+e 47 2
+-20764 370 -20594 370
+-20764 370 -20764 150
+e 48 2
+-20764 150 -20764 370
+-20764 150 -21764 150
+Grid.9
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.10
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.11
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 Mar 18 17:06:40 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

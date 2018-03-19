@@ -1,0 +1,44 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECEC471_lib
+* Top Cell Name: sim_inv
+* View Name:     schematic
+* Netlisted on:  Nov 10 17:43:42 2017
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    std_inv_15
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT std_inv_15 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTH W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTH W=132.5n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    sim_inv
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sim_inv
+*.PININFO
+CC0 inv_out gnd! 5f $[CP]
+XI4 inv_in inv_out / std_inv_15
+.ENDS
+

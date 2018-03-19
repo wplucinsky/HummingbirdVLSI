@@ -1,0 +1,59 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 09/01/2015 22:59 (sjfnl132) $
+          : sub-version  IC6.1.6-64b.500.13.2 
+Started at: 18-Mar-2018  19:18:57
+User Name : rm885
+Host Name : xunil-03.coe.drexel.edu
+Directory : /home/DREXEL/rm885/NCSU_FreePDK45
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/DREXEL/rm885/NCSU_FreePDK45/LFSR.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 Hummingbird
+strmFile                                /home/DREXEL/rm885/NCSU_FreePDK45/LFSR.calibre.db
+topCell                                 LFSR
+view                                    layout
+runDir                                  /home/DREXEL/rm885/NCSU_FreePDK45/
+logFile                                 PIPO.LOG.LFSR
+summaryFile                             PIPO.SUM.LFSR
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/DFFR_X1/layout as STRUCTURE DFFR_X1
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/XOR2_X1/layout as STRUCTURE XOR2_X1
+INFO (XSTRM-223): 3. Translating cellView Hummingbird/LFSR/layout as STRUCTURE LFSR
+
+Summary of Objects Translated:
+	Scalar Instances:                       19
+	Array Instances:                        0
+	Polygons:                               52
+	Paths:                                  0
+	Rectangles:                             153
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   38
+	TextDisplay:                            12
+	Cells:                                  3
+
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 1852KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

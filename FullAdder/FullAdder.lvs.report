@@ -1,0 +1,637 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         FullAdder.lvs.report
+LAYOUT NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/FullAdder.sp ('FullAdder')
+SOURCE NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/FullAdder.src.net ('FullAdder')
+RULE FILE:                /home/DREXEL/rm885/NCSU_FreePDK45/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sat Mar 17 13:30:42 2018
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      FullAdder                     FullAdder
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       YES
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Map Device
+
+   LVS MAP DEVICE                      MN(NMOS_VTL) MN(NM)
+   LVS MAP DEVICE                      MP(PMOS_VTL) MP(PM)
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         FullAdder
+SOURCE CELL NAME:         FullAdder
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:              34        24    *
+
+ Instances:         19        19         MN (4 pins)
+                    19        19         MP (4 pins)
+                ------    ------
+ Total Inst:        38        38
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:              25        15    *
+
+ Instances:          2         2         MN (4 pins)
+                     2         2         SPMP_2_1 (5 pins)
+                     3         3         _invv (4 pins)
+                     2         2         _nand2v (5 pins)
+                     3         3         _nor2v (5 pins)
+                     2         2         _smn2v (4 pins)
+                ------    ------
+ Total Inst:        14        14
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VSS!                                                  VSS!
+       --- 12 Connections On This Net ---                        --- 14 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  XI55/MM_i_13:b
+       ** missing connection **                                  XI54/MM_i_13:b
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 13                                                    ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 14                                                    ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net X6/8                                                  ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net X6/9                                                  ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X7/8                                                  ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net X7/9                                                  ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X8/10                                                 ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X8/11                                                 ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X9/10                                                 ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X9/11                                                 ** missing net **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 12    M5(0.717,-0.976)  MP(PM)                                  XI58/MM_i_1  MP(PM)
+         g: 7                                                      g: XI58/ZN_neg
+         s: COUT                                                   s: COUT
+         d: VDD!                                                   d: VDD!
+         b: 14                                                     ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    M2(0.717,-1.566)  MN(NM)                                  XI58/MM_i_0  MN(NM)
+         g: 7                                                      g: XI58/ZN_neg
+         s: COUT                                                   s: COUT
+         d: VSS!                                                   d: VSS!
+         b: 13                                                     ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    X7/M5(7.500,-1.003)  MP(PM)                               XI57/MM_i_1  MP(PM)
+         g: X7/3                                                   g: XI57/ZN_neg
+         s: 1                                                      s: and2_or
+         d: VDD!                                                   d: VDD!
+         b: X7/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    X7/M2(7.500,-1.593)  MN(NM)                               XI57/MM_i_0  MN(NM)
+         g: X7/3                                                   g: XI57/ZN_neg
+         s: 1                                                      s: and2_or
+         d: VSS!                                                   d: VSS!
+         b: X7/8                                                   ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    X6/M5(3.072,-1.003)  MP(PM)                               XI56/MM_i_1  MP(PM)
+         g: X6/3                                                   g: XI56/ZN_neg
+         s: 2                                                      s: and1_or
+         d: VDD!                                                   d: VDD!
+         b: X6/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    X6/M2(3.072,-1.593)  MN(NM)                               XI56/MM_i_0  MN(NM)
+         g: X6/3                                                   g: XI56/ZN_neg
+         s: 2                                                      s: and1_or
+         d: VSS!                                                   d: VSS!
+         b: X6/8                                                   ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    M3(0.337,-0.661)  MP(PM)                                  XI58/MM_i_4  MP(PM)
+         g: 1                                                      g: and2_or
+         d: VDD!                                                   d: VDD!
+         b: 14                                                     ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    M4(0.527,-0.661)  MP(PM)                                  XI58/MM_i_5  MP(PM)
+         g: 2                                                      g: and1_or
+         d: 7                                                      d: XI58/ZN_neg
+         b: 14                                                     ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    M0(0.337,-1.566)  MN(NM)                                  XI58/MM_i_2  MN(NM)
+         g: 1                                                      g: and2_or
+         s: 7                                                      s: XI58/ZN_neg
+         d: VSS!                                                   d: VSS!
+         b: 13                                                     ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    M1(0.527,-1.566)  MN(NM)                                  XI58/MM_i_3  MN(NM)
+         g: 2                                                      g: and1_or
+         s: 7                                                      s: XI58/ZN_neg
+         d: VSS!                                                   d: VSS!
+         b: 13                                                     ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    X8/M5(4.933,-0.688)  MP(PM)                               XI54/MM_i_30  MP(PM)
+         g: A                                                      g: A
+         d: VDD!                                                   d: VDD!
+         b: X8/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    X8/M6(5.123,-0.688)  MP(PM)                               XI54/MM_i_35  MP(PM)
+         g: B                                                      g: B
+         d: X8/2                                                   d: XI54/net_000
+         b: X8/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    X8/M0(4.933,-1.593)  MN(NM)                               XI54/MM_i_0  MN(NM)
+         g: A                                                      g: A
+         s: X8/2                                                   s: XI54/net_000
+         d: VSS!                                                   d: VSS!
+         b: X8/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    X8/M1(5.123,-1.593)  MN(NM)                               XI54/MM_i_7  MN(NM)
+         g: B                                                      g: B
+         s: X8/2                                                   s: XI54/net_000
+         d: VSS!                                                   d: VSS!
+         b: X8/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    X9/M5(9.808,-0.688)  MP(PM)                               XI55/MM_i_30  MP(PM)
+         g: 5                                                      g: xor1_out
+         d: VDD!                                                   d: VDD!
+         b: X9/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    X9/M6(9.998,-0.688)  MP(PM)                               XI55/MM_i_35  MP(PM)
+         g: CIN                                                    g: CIN
+         d: X9/2                                                   d: XI55/net_000
+         b: X9/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    X9/M0(9.808,-1.593)  MN(NM)                               XI55/MM_i_0  MN(NM)
+         g: 5                                                      g: xor1_out
+         s: X9/2                                                   s: XI55/net_000
+         d: VSS!                                                   d: VSS!
+         b: X9/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    X9/M1(9.998,-1.593)  MN(NM)                               XI55/MM_i_7  MN(NM)
+         g: CIN                                                    g: CIN
+         s: X9/2                                                   s: XI55/net_000
+         d: VSS!                                                   d: VSS!
+         b: X9/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    X6/M1(2.882,-1.593)  MN(NM)                               XI56/MM_i_3  MN(NM)
+         g: B                                                      g: B
+         d: VSS!                                                   d: VSS!
+         b: X6/8                                                   ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    X6/M0(2.692,-1.593)  MN(NM)                               XI56/MM_i_2  MN(NM)
+         g: A                                                      g: A
+         d: X6/3                                                   d: XI56/ZN_neg
+         b: X6/8                                                   ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    X6/M4(2.882,-0.688)  MP(PM)                               XI56/MM_i_5  MP(PM)
+         g: B                                                      g: B
+         s: X6/3                                                   s: XI56/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X6/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    X6/M3(2.692,-0.688)  MP(PM)                               XI56/MM_i_4  MP(PM)
+         g: A                                                      g: A
+         s: X6/3                                                   s: XI56/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X6/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    X7/M1(7.310,-1.593)  MN(NM)                               XI57/MM_i_3  MN(NM)
+         g: 5                                                      g: xor1_out
+         d: X7/3                                                   ** XI57/ZN_neg **
+         b: X7/8                                                   ** missing net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    X7/M0(7.120,-1.593)  MN(NM)                               XI57/MM_i_2  MN(NM)
+         g: CIN                                                    g: CIN
+         d: VSS!                                                   b: VSS!
+         b: X7/8                                                   ** missing net **
+         ** X7/3 **                                                d: XI57/ZN_neg
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    X7/M4(7.310,-0.688)  MP(PM)                               XI57/MM_i_5  MP(PM)
+         g: 5                                                      g: xor1_out
+         s: X7/3                                                   s: XI57/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X7/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    X7/M3(7.120,-0.688)  MP(PM)                               XI57/MM_i_4  MP(PM)
+         g: CIN                                                    g: CIN
+         s: X7/3                                                   s: XI57/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X7/9                                                   ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    X9/M3(10.383,-1.593)  MN(NM)                              XI55/MM_i_19  MN(NM)
+         g: 5                                                      g: xor1_out
+         d: SUM                                                    ** SUM **
+         b: X9/10                                                  ** missing net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    X9/M4(10.573,-1.593)  MN(NM)                              XI55/MM_i_24  MN(NM)
+         g: CIN                                                    g: CIN
+         d: VSS!                                                   b: VSS!
+         b: X9/10                                                  ** missing net **
+         ** SUM **                                                 d: SUM
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    X8/M3(5.508,-1.593)  MN(NM)                               XI54/MM_i_19  MN(NM)
+         g: A                                                      g: A
+         d: VSS!                                                   d: VSS!
+         b: X8/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    X8/M4(5.698,-1.593)  MN(NM)                               XI54/MM_i_24  MN(NM)
+         g: B                                                      g: B
+         d: 5                                                      d: xor1_out
+         b: X8/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    X8/M9(5.698,-1.003)  MP(PM)                               XI54/MM_i_53  MP(PM)
+         g: B                                                      g: B
+         b: X8/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    X8/M8(5.508,-1.003)  MP(PM)                               XI54/MM_i_47  MP(PM)
+         g: A                                                      g: A
+         b: X8/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    X8/M7(5.318,-1.003)  MP(PM)                               XI54/MM_i_41  MP(PM)
+         g: X8/2                                                   g: XI54/net_000
+         b: X8/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    X9/M9(10.573,-1.003)  MP(PM)                              XI55/MM_i_53  MP(PM)
+         g: CIN                                                    g: CIN
+         b: X9/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    X9/M8(10.383,-1.003)  MP(PM)                              XI55/MM_i_47  MP(PM)
+         g: 5                                                      g: xor1_out
+         b: X9/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    X9/M7(10.193,-1.003)  MP(PM)                              XI55/MM_i_41  MP(PM)
+         g: X9/2                                                   g: XI55/net_000
+         b: X9/11                                                  ** missing net **
+         ** VDD! **                                                b: VDD!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Nets:               15         15           10            0
+
+   Instances:           2          2            0            0    MN(NM)
+                        2          2            0            0    SPMP_2_1
+                        3          3            0            0    _invv
+                        2          2            0            0    _nand2v
+                        3          3            0            0    _nor2v
+                        2          2            0            0    _smn2v
+                  -------    -------    ---------    ---------
+   Total Inst:         14         14            0            0
+
+
+o Initial Correspondence Points:
+
+   Nets:         A B CIN COUT VSS! VDD! SUM
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/M2(5.318,-1.593)  MN(NM)                               XI54/MM_i_13  MN(NM)
+         g: X8/2                                                   g: XI54/net_000
+         s: VSS!                                                   s: VSS!
+         d: 5                                                      d: xor1_out
+         b: X8/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X9/M2(10.193,-1.593)  MN(NM)                              XI55/MM_i_13  MN(NM)
+         g: X9/2                                                   g: XI55/net_000
+         s: VSS!                                                   s: VSS!
+         d: SUM                                                    d: SUM
+         b: X9/10                                                  ** missing net **
+         ** VSS! **                                                b: VSS!
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

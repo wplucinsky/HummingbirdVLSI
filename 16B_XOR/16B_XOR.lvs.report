@@ -1,0 +1,1015 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         16B_XOR.lvs.report
+LAYOUT NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/16B_XOR.sp ('16B_XOR')
+SOURCE NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/16B_XOR.src.net ('16B_XOR')
+RULE FILE:                /home/DREXEL/rm885/NCSU_FreePDK45/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sun Mar 18 17:31:50 2018
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      16B_XOR                       16B_XOR
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       YES
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Map Device
+
+   LVS MAP DEVICE                      MN(NMOS_VTL) MN(NM)
+   LVS MAP DEVICE                      MP(PMOS_VTL) MP(PM)
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         16B_XOR
+SOURCE CELL NAME:         16B_XOR
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:             146       114    *
+
+ Instances:         80        80         MN (4 pins)
+                    80        80         MP (4 pins)
+                ------    ------
+ Total Inst:       160       160
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:              98        66    *
+
+ Instances:         16        16         MN (4 pins)
+                    16        16         SPMP_2_1 (5 pins)
+                    16        16         _nor2v (5 pins)
+                    16        16         _smn2v (4 pins)
+                ------    ------
+ Total Inst:        64        64
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VSS!                                                  VSS!
+       --- 48 Connections On This Net ---                        --- 64 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  XI0/MM_i_13:b
+       ** missing connection **                                  XI1/MM_i_13:b
+       ** missing connection **                                  XI2/MM_i_13:b
+       ** missing connection **                                  XI3/MM_i_13:b
+       ** missing connection **                                  XI4/MM_i_13:b
+       ** missing connection **                                  XI5/MM_i_13:b
+       ** missing connection **                                  XI6/MM_i_13:b
+       ** missing connection **                                  XI7/MM_i_13:b
+       ** missing connection **                                  XI8/MM_i_13:b
+       ** missing connection **                                  XI9/MM_i_13:b
+       ** missing connection **                                  XI10/MM_i_13:b
+       ** missing connection **                                  XI11/MM_i_13:b
+       ** missing connection **                                  XI12/MM_i_13:b
+       ** missing connection **                                  XI13/MM_i_13:b
+       ** missing connection **                                  XI14/MM_i_13:b
+       ** missing connection **                                  XI15/MM_i_13:b
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net X0/X0/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net X0/X0/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net X0/X0/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net X0/X0/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X0/X1/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net X0/X1/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X0/X1/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X0/X1/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X1/X0/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X1/X0/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net X1/X0/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net X1/X0/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X1/X1/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X1/X1/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net X1/X1/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net X1/X1/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net X2/X0/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net X2/X0/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net X2/X0/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net X2/X0/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net X2/X1/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net X2/X1/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net X2/X1/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net X2/X1/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net X3/X0/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net X3/X0/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net X3/X0/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net X3/X0/X1/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net X3/X1/X0/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net X3/X1/X0/11                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net X3/X1/X1/10                                           ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    Net X3/X1/X1/11                                           ** missing net **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 34    X1/X0/X1/M5(-17.947,0.442)  MP(PM)                        XI6/MM_i_30  MP(PM)
+         g: A<6>                                                   g: A<6>
+         d: VDD!                                                   d: VDD!
+         b: X1/X0/X1/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    X1/X0/X1/M6(-17.947,0.632)  MP(PM)                        XI6/MM_i_35  MP(PM)
+         g: B<6>                                                   g: B<6>
+         d: X1/X0/X1/2                                             d: XI6/net_000
+         b: X1/X0/X1/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    X1/X0/X1/M0(-17.042,0.442)  MN(NM)                        XI6/MM_i_0  MN(NM)
+         g: A<6>                                                   g: A<6>
+         s: X1/X0/X1/2                                             s: XI6/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    X1/X0/X1/M1(-17.042,0.632)  MN(NM)                        XI6/MM_i_7  MN(NM)
+         g: B<6>                                                   g: B<6>
+         s: X1/X0/X1/2                                             s: XI6/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    X3/X0/X0/M5(-1.207,0.442)  MP(PM)                         XI15/MM_i_30  MP(PM)
+         g: A<15>                                                  g: A<15>
+         d: X3/X0/X0/2                                             ** XI15/net_000 **
+         b: X3/X0/X0/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    X3/X0/X0/M6(-1.207,0.632)  MP(PM)                         XI15/MM_i_35  MP(PM)
+         g: B<15>                                                  g: B<15>
+         d: VDD!                                                   b: VDD!
+         b: X3/X0/X0/11                                            ** missing net **
+         ** X3/X0/X0/2 **                                          d: XI15/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    X3/X0/X0/M0(-0.302,0.442)  MN(NM)                         XI15/MM_i_0  MN(NM)
+         g: A<15>                                                  g: A<15>
+         s: X3/X0/X0/2                                             s: XI15/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    X3/X0/X0/M1(-0.302,0.632)  MN(NM)                         XI15/MM_i_7  MN(NM)
+         g: B<15>                                                  g: B<15>
+         s: X3/X0/X0/2                                             s: XI15/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    X1/X1/X0/M5(-19.807,0.442)  MP(PM)                        XI5/MM_i_30  MP(PM)
+         g: A<5>                                                   g: A<5>
+         d: VDD!                                                   d: VDD!
+         b: X1/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    X1/X1/X0/M6(-19.807,0.632)  MP(PM)                        XI5/MM_i_35  MP(PM)
+         g: B<5>                                                   g: B<5>
+         d: X1/X1/X0/2                                             d: XI5/net_000
+         b: X1/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    X1/X1/X0/M0(-18.902,0.442)  MN(NM)                        XI5/MM_i_0  MN(NM)
+         g: A<5>                                                   g: A<5>
+         s: X1/X1/X0/2                                             s: XI5/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    X1/X1/X0/M1(-18.902,0.632)  MN(NM)                        XI5/MM_i_7  MN(NM)
+         g: B<5>                                                   g: B<5>
+         s: X1/X1/X0/2                                             s: XI5/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    X2/X1/X1/M5(-14.227,0.442)  MP(PM)                        XI8/MM_i_30  MP(PM)
+         g: A<8>                                                   g: A<8>
+         d: X2/X1/X1/2                                             ** XI8/net_000 **
+         b: X2/X1/X1/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    X2/X1/X1/M6(-14.227,0.632)  MP(PM)                        XI8/MM_i_35  MP(PM)
+         g: B<8>                                                   g: B<8>
+         d: VDD!                                                   b: VDD!
+         b: X2/X1/X1/11                                            ** missing net **
+         ** X2/X1/X1/2 **                                          d: XI8/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 48    X2/X1/X1/M0(-13.322,0.442)  MN(NM)                        XI8/MM_i_0  MN(NM)
+         g: A<8>                                                   g: A<8>
+         s: X2/X1/X1/2                                             s: XI8/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 49    X2/X1/X1/M1(-13.322,0.632)  MN(NM)                        XI8/MM_i_7  MN(NM)
+         g: B<8>                                                   g: B<8>
+         s: X2/X1/X1/2                                             s: XI8/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 50    X1/X1/X1/M5(-21.667,0.442)  MP(PM)                        XI4/MM_i_30  MP(PM)
+         g: A<4>                                                   g: A<4>
+         d: X1/X1/X1/2                                             ** XI4/net_000 **
+         b: X1/X1/X1/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 51    X1/X1/X1/M6(-21.667,0.632)  MP(PM)                        XI4/MM_i_35  MP(PM)
+         g: B<4>                                                   g: B<4>
+         d: VDD!                                                   b: VDD!
+         b: X1/X1/X1/11                                            ** missing net **
+         ** X1/X1/X1/2 **                                          d: XI4/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 52    X1/X1/X1/M0(-20.762,0.442)  MN(NM)                        XI4/MM_i_0  MN(NM)
+         g: A<4>                                                   g: A<4>
+         s: X1/X1/X1/2                                             s: XI4/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 53    X1/X1/X1/M1(-20.762,0.632)  MN(NM)                        XI4/MM_i_7  MN(NM)
+         g: B<4>                                                   g: B<4>
+         s: X1/X1/X1/2                                             s: XI4/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 54    X2/X0/X0/M5(-8.647,0.442)  MP(PM)                         XI11/MM_i_30  MP(PM)
+         g: A<11>                                                  g: A<11>
+         d: X2/X0/X0/2                                             ** XI11/net_000 **
+         b: X2/X0/X0/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 55    X2/X0/X0/M6(-8.647,0.632)  MP(PM)                         XI11/MM_i_35  MP(PM)
+         g: B<11>                                                  g: B<11>
+         d: VDD!                                                   b: VDD!
+         b: X2/X0/X0/11                                            ** missing net **
+         ** X2/X0/X0/2 **                                          d: XI11/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 56    X2/X0/X0/M0(-7.742,0.442)  MN(NM)                         XI11/MM_i_0  MN(NM)
+         g: A<11>                                                  g: A<11>
+         s: X2/X0/X0/2                                             s: XI11/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 57    X2/X0/X0/M1(-7.742,0.632)  MN(NM)                         XI11/MM_i_7  MN(NM)
+         g: B<11>                                                  g: B<11>
+         s: X2/X0/X0/2                                             s: XI11/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 58    X0/X1/X1/M5(-29.107,0.442)  MP(PM)                        XI0/MM_i_30  MP(PM)
+         g: A<0>                                                   g: A<0>
+         d: X0/X1/X1/2                                             ** XI0/net_000 **
+         b: X0/X1/X1/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 59    X0/X1/X1/M6(-29.107,0.632)  MP(PM)                        XI0/MM_i_35  MP(PM)
+         g: B<0>                                                   g: B<0>
+         d: VDD!                                                   b: VDD!
+         b: X0/X1/X1/11                                            ** missing net **
+         ** X0/X1/X1/2 **                                          d: XI0/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 60    X0/X1/X1/M0(-28.202,0.442)  MN(NM)                        XI0/MM_i_0  MN(NM)
+         g: A<0>                                                   g: A<0>
+         s: X0/X1/X1/2                                             s: XI0/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 61    X0/X1/X1/M1(-28.202,0.632)  MN(NM)                        XI0/MM_i_7  MN(NM)
+         g: B<0>                                                   g: B<0>
+         s: X0/X1/X1/2                                             s: XI0/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 62    X2/X1/X0/M5(-12.367,0.442)  MP(PM)                        XI9/MM_i_30  MP(PM)
+         g: A<9>                                                   g: A<9>
+         d: X2/X1/X0/2                                             ** XI9/net_000 **
+         b: X2/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 63    X2/X1/X0/M6(-12.367,0.632)  MP(PM)                        XI9/MM_i_35  MP(PM)
+         g: B<9>                                                   g: B<9>
+         d: VDD!                                                   b: VDD!
+         b: X2/X1/X0/11                                            ** missing net **
+         ** X2/X1/X0/2 **                                          d: XI9/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 64    X2/X1/X0/M0(-11.462,0.442)  MN(NM)                        XI9/MM_i_0  MN(NM)
+         g: A<9>                                                   g: A<9>
+         s: X2/X1/X0/2                                             s: XI9/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 65    X2/X1/X0/M1(-11.462,0.632)  MN(NM)                        XI9/MM_i_7  MN(NM)
+         g: B<9>                                                   g: B<9>
+         s: X2/X1/X0/2                                             s: XI9/net_000
+         d: VSS!                                                   d: VSS!
+         b: X2/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 66    X1/X0/X0/M5(-16.087,0.442)  MP(PM)                        XI7/MM_i_30  MP(PM)
+         g: A<7>                                                   g: A<7>
+         d: X1/X0/X0/2                                             ** XI7/net_000 **
+         b: X1/X0/X0/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 67    X1/X0/X0/M6(-16.087,0.632)  MP(PM)                        XI7/MM_i_35  MP(PM)
+         g: B<7>                                                   g: B<7>
+         d: VDD!                                                   b: VDD!
+         b: X1/X0/X0/11                                            ** missing net **
+         ** X1/X0/X0/2 **                                          d: XI7/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 68    X1/X0/X0/M0(-15.182,0.442)  MN(NM)                        XI7/MM_i_0  MN(NM)
+         g: A<7>                                                   g: A<7>
+         s: X1/X0/X0/2                                             s: XI7/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 69    X1/X0/X0/M1(-15.182,0.632)  MN(NM)                        XI7/MM_i_7  MN(NM)
+         g: B<7>                                                   g: B<7>
+         s: X1/X0/X0/2                                             s: XI7/net_000
+         d: VSS!                                                   d: VSS!
+         b: X1/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 70    X3/X0/X1/M5(-3.067,0.442)  MP(PM)                         XI14/MM_i_30  MP(PM)
+         g: A<14>                                                  g: A<14>
+         d: X3/X0/X1/2                                             ** XI14/net_000 **
+         b: X3/X0/X1/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 71    X3/X0/X1/M6(-3.067,0.632)  MP(PM)                         XI14/MM_i_35  MP(PM)
+         g: B<14>                                                  g: B<14>
+         d: VDD!                                                   b: VDD!
+         b: X3/X0/X1/11                                            ** missing net **
+         ** X3/X0/X1/2 **                                          d: XI14/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 72    X3/X0/X1/M0(-2.162,0.442)  MN(NM)                         XI14/MM_i_0  MN(NM)
+         g: A<14>                                                  g: A<14>
+         s: X3/X0/X1/2                                             s: XI14/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 73    X3/X0/X1/M1(-2.162,0.632)  MN(NM)                         XI14/MM_i_7  MN(NM)
+         g: B<14>                                                  g: B<14>
+         s: X3/X0/X1/2                                             s: XI14/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 74    X0/X1/X0/M5(-27.247,0.442)  MP(PM)                        XI1/MM_i_30  MP(PM)
+         g: A<1>                                                   g: A<1>
+         d: VDD!                                                   d: VDD!
+         b: X0/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 75    X0/X1/X0/M6(-27.247,0.632)  MP(PM)                        XI1/MM_i_35  MP(PM)
+         g: B<1>                                                   g: B<1>
+         d: X0/X1/X0/2                                             d: XI1/net_000
+         b: X0/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 76    X0/X1/X0/M0(-26.342,0.442)  MN(NM)                        XI1/MM_i_0  MN(NM)
+         g: A<1>                                                   g: A<1>
+         s: X0/X1/X0/2                                             s: XI1/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 77    X0/X1/X0/M1(-26.342,0.632)  MN(NM)                        XI1/MM_i_7  MN(NM)
+         g: B<1>                                                   g: B<1>
+         s: X0/X1/X0/2                                             s: XI1/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 78    X3/X1/X0/M5(-4.927,0.442)  MP(PM)                         XI13/MM_i_30  MP(PM)
+         g: A<13>                                                  g: A<13>
+         d: X3/X1/X0/2                                             ** XI13/net_000 **
+         b: X3/X1/X0/11                                            ** missing net **
+         ** VDD! **                                                d: VDD!
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 79    X3/X1/X0/M6(-4.927,0.632)  MP(PM)                         XI13/MM_i_35  MP(PM)
+         g: B<13>                                                  g: B<13>
+         d: VDD!                                                   b: VDD!
+         b: X3/X1/X0/11                                            ** missing net **
+         ** X3/X1/X0/2 **                                          d: XI13/net_000
+
+--------------------------------------------------------------------------------------------------------------
+
+ 80    X3/X1/X0/M0(-4.022,0.442)  MN(NM)                         XI13/MM_i_0  MN(NM)
+         g: A<13>                                                  g: A<13>
+         s: X3/X1/X0/2                                             s: XI13/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 81    X3/X1/X0/M1(-4.022,0.632)  MN(NM)                         XI13/MM_i_7  MN(NM)
+         g: B<13>                                                  g: B<13>
+         s: X3/X1/X0/2                                             s: XI13/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 82    X0/X0/X1/M5(-25.387,0.442)  MP(PM)                        XI2/MM_i_30  MP(PM)
+         g: A<2>                                                   g: A<2>
+         d: VDD!                                                   d: VDD!
+         b: X0/X0/X1/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    X0/X0/X1/M6(-25.387,0.632)  MP(PM)                        XI2/MM_i_35  MP(PM)
+         g: B<2>                                                   g: B<2>
+         d: X0/X0/X1/2                                             d: XI2/net_000
+         b: X0/X0/X1/11                                            ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 84    X0/X0/X1/M0(-24.482,0.442)  MN(NM)                        XI2/MM_i_0  MN(NM)
+         g: A<2>                                                   g: A<2>
+         s: X0/X0/X1/2                                             s: XI2/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 85    X0/X0/X1/M1(-24.482,0.632)  MN(NM)                        XI2/MM_i_7  MN(NM)
+         g: B<2>                                                   g: B<2>
+         s: X0/X0/X1/2                                             s: XI2/net_000
+         d: VSS!                                                   d: VSS!
+         b: X0/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Nets:               66         66           32            0
+
+   Instances:          16         16            0            0    MN(NM)
+                       16         16            0            0    SPMP_2_1
+                       16         16            0            0    _nor2v
+                       16         16            0            0    _smn2v
+                  -------    -------    ---------    ---------
+   Total Inst:         64         64            0            0
+
+
+o Initial Correspondence Points:
+
+   Nets:         VSS! VDD! A<3> A<2> A<1> A<0> O<3> O<2> O<1> O<0> B<3> B<2> B<1> B<0> A<7> A<6>
+                 A<5> A<4> O<7> O<6> O<5> O<4> B<7> B<6> B<5> B<4> A<11> A<10> A<9> A<8> O<11>
+                 O<10> O<9> O<8> B<11> B<10> B<9> B<8> A<15> A<14> A<13> A<12> O<15> O<14> O<13>
+                 O<12> B<15> B<14> B<13> B<12>
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       X0/X0/X0/M2(-22.622,0.827)  MN(NM)                        XI3/MM_i_13  MN(NM)
+         g: X0/X0/X0/2                                             g: XI3/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<3>                                                   d: O<3>
+         b: X0/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X0/X0/X1/M2(-24.482,0.827)  MN(NM)                        XI2/MM_i_13  MN(NM)
+         g: X0/X0/X1/2                                             g: XI2/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<2>                                                   d: O<2>
+         b: X0/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X0/X1/X0/M2(-26.342,0.827)  MN(NM)                        XI1/MM_i_13  MN(NM)
+         g: X0/X1/X0/2                                             g: XI1/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<1>                                                   d: O<1>
+         b: X0/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X0/X1/X1/M2(-28.202,0.827)  MN(NM)                        XI0/MM_i_13  MN(NM)
+         g: X0/X1/X1/2                                             g: XI0/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<0>                                                   d: O<0>
+         b: X0/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X1/X0/X0/M2(-15.182,0.827)  MN(NM)                        XI7/MM_i_13  MN(NM)
+         g: X1/X0/X0/2                                             g: XI7/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<7>                                                   d: O<7>
+         b: X1/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X1/X0/X1/M2(-17.042,0.827)  MN(NM)                        XI6/MM_i_13  MN(NM)
+         g: X1/X0/X1/2                                             g: XI6/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<6>                                                   d: O<6>
+         b: X1/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X1/X1/X0/M2(-18.902,0.827)  MN(NM)                        XI5/MM_i_13  MN(NM)
+         g: X1/X1/X0/2                                             g: XI5/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<5>                                                   d: O<5>
+         b: X1/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X1/X1/X1/M2(-20.762,0.827)  MN(NM)                        XI4/MM_i_13  MN(NM)
+         g: X1/X1/X1/2                                             g: XI4/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<4>                                                   d: O<4>
+         b: X1/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X2/X0/X0/M2(-7.742,0.827)  MN(NM)                         XI11/MM_i_13  MN(NM)
+         g: X2/X0/X0/2                                             g: XI11/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<11>                                                  d: O<11>
+         b: X2/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X2/X0/X1/M2(-9.602,0.827)  MN(NM)                         XI10/MM_i_13  MN(NM)
+         g: X2/X0/X1/2                                             g: XI10/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<10>                                                  d: O<10>
+         b: X2/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X2/X1/X0/M2(-11.462,0.827)  MN(NM)                        XI9/MM_i_13  MN(NM)
+         g: X2/X1/X0/2                                             g: XI9/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<9>                                                   d: O<9>
+         b: X2/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X2/X1/X1/M2(-13.322,0.827)  MN(NM)                        XI8/MM_i_13  MN(NM)
+         g: X2/X1/X1/2                                             g: XI8/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<8>                                                   d: O<8>
+         b: X2/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X3/X0/X0/M2(-0.302,0.827)  MN(NM)                         XI15/MM_i_13  MN(NM)
+         g: X3/X0/X0/2                                             g: XI15/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<15>                                                  d: O<15>
+         b: X3/X0/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X3/X0/X1/M2(-2.162,0.827)  MN(NM)                         XI14/MM_i_13  MN(NM)
+         g: X3/X0/X1/2                                             g: XI14/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<14>                                                  d: O<14>
+         b: X3/X0/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X3/X1/X0/M2(-4.022,0.827)  MN(NM)                         XI13/MM_i_13  MN(NM)
+         g: X3/X1/X0/2                                             g: XI13/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<13>                                                  d: O<13>
+         b: X3/X1/X0/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+       X3/X1/X1/M2(-5.882,0.827)  MN(NM)                         XI12/MM_i_13  MN(NM)
+         g: X3/X1/X1/2                                             g: XI12/net_000
+         s: VSS!                                                   s: VSS!
+         d: O<12>                                                  d: O<12>
+         b: X3/X1/X1/10                                            ** missing net **
+         ** VSS! **                                                b: VSS!
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

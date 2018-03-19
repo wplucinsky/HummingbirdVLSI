@@ -1,0 +1,143 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: 3Input_16BitAdder
+* View Name:     schematic
+* Netlisted on:  Mar 13 18:05:45 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
++        gnd!
+
+*.PIN VSS!
+*+    VDD!
+*+    gnd!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    AND2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2_X1 A1 A2 ZN
+*.PININFO A1:I A2:I ZN:O
+MM_i_2 net_0 A1 ZN_neg VSS! NM W=2.1E-07 L=5E-08
+MM_i_3 VSS! A2 net_0 VSS! NM W=2.1E-07 L=5E-08
+MM_i_0 ZN ZN_neg VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_5 VDD! A2 ZN_neg VDD! PM W=3.15E-07 L=5E-08
+MM_i_4 ZN_neg A1 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_1 ZN ZN_neg VDD! VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    OR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2_X1 A1 A2 ZN
+*.PININFO A1:I A2:I ZN:O
+MM_i_2 ZN_neg A1 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_3 VSS! A2 ZN_neg VSS! NM W=2.1E-07 L=5E-08
+MM_i_0 ZN ZN_neg VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_4 net_0 A1 ZN_neg VDD! PM W=3.15E-07 L=5E-08
+MM_i_5 VDD! A2 net_0 VDD! PM W=3.15E-07 L=5E-08
+MM_i_1 ZN ZN_neg VDD! VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B Z
+*.PININFO A:I B:I Z:O
+MM_i_19 net_001 A Z VSS! NM W=4.15E-07 L=5E-08
+MM_i_24 VSS! B net_001 VSS! NM W=4.15E-07 L=5E-08
+MM_i_0 net_000 A VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_13 Z net_000 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 VSS! B net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_30 net_002 A net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_35 VDD! B net_002 VDD! PM W=3.15E-07 L=5E-08
+MM_i_41 net_003 net_000 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_47 Z A net_003 VDD! PM W=6.3E-07 L=5E-08
+MM_i_53 net_003 B Z VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    FullAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FullAdder A B Cin Cout Sum
+*.PININFO A:I B:I Cin:I Cout:O Sum:O
+XI57 Cin xor1_out and2_or / AND2_X1
+XI56 A B and1_or / AND2_X1
+XI58 and2_or and1_or Cout / OR2_X1
+XI54 A B xor1_out / XOR2_X1
+XI55 xor1_out Cin Sum / XOR2_X1
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    3Input_16BitAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 3Input_16BitAdder a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> a<8> a<9> 
++ a<10> a<11> a<12> a<13> a<14> a<15> b<0> b<1> b<2> b<3> b<4> b<5> b<6> b<7> 
++ b<8> b<9> b<10> b<11> b<12> b<13> b<14> b<15> c<0> c<1> c<2> c<3> c<4> c<5> 
++ c<6> c<7> c<8> c<9> c<10> c<11> c<12> c<13> c<14> c<15> cout sum<0> sum<1> 
++ sum<2> sum<3> sum<4> sum<5> sum<6> sum<7> sum<8> sum<9> sum<10> sum<11> 
++ sum<12> sum<13> sum<14> sum<15>
+*.PININFO a<0>:I a<1>:I a<2>:I a<3>:I a<4>:I a<5>:I a<6>:I a<7>:I a<8>:I 
+*.PININFO a<9>:I a<10>:I a<11>:I a<12>:I a<13>:I a<14>:I a<15>:I b<0>:I b<1>:I 
+*.PININFO b<2>:I b<3>:I b<4>:I b<5>:I b<6>:I b<7>:I b<8>:I b<9>:I b<10>:I 
+*.PININFO b<11>:I b<12>:I b<13>:I b<14>:I b<15>:I c<0>:I c<1>:I c<2>:I c<3>:I 
+*.PININFO c<4>:I c<5>:I c<6>:I c<7>:I c<8>:I c<9>:I c<10>:I c<11>:I c<12>:I 
+*.PININFO c<13>:I c<14>:I c<15>:I cout:O sum<0>:O sum<1>:O sum<2>:O sum<3>:O 
+*.PININFO sum<4>:O sum<5>:O sum<6>:O sum<7>:O sum<8>:O sum<9>:O sum<10>:O 
+*.PININFO sum<11>:O sum<12>:O sum<13>:O sum<14>:O sum<15>:O
+XI33 net192 c<0> net133 c_out_test<16> sum<0> / FullAdder
+XI31 net193 c<1> c_out_test<16> c_out_test<17> sum<1> / FullAdder
+XI30 net194 c<2> c_out_test<17> c_out_test<18> sum<2> / FullAdder
+XI29 net195 c<3> c_out_test<18> c_out_test<19> sum<3> / FullAdder
+XI28 net196 c<4> c_out_test<19> c_out_test<20> sum<4> / FullAdder
+XI27 net197 c<5> c_out_test<20> c_out_test<21> sum<5> / FullAdder
+XI26 net198 c<6> c_out_test<21> c_out_test<22> sum<6> / FullAdder
+XI25 net199 c<7> c_out_test<22> c_out_test<23> sum<7> / FullAdder
+XI24 net200 c<8> c_out_test<23> c_out_test<24> sum<8> / FullAdder
+XI23 net201 c<9> c_out_test<24> c_out_test<25> sum<9> / FullAdder
+XI22 net202 c<10> c_out_test<25> c_out_test<26> sum<10> / FullAdder
+XI21 net203 c<11> c_out_test<26> c_out_test<27> sum<11> / FullAdder
+XI20 net204 c<12> c_out_test<27> c_out_test<28> sum<12> / FullAdder
+XI19 net205 c<13> c_out_test<28> c_out_test<29> sum<13> / FullAdder
+XI18 net206 c<14> c_out_test<29> c_out_test<30> sum<14> / FullAdder
+XI17 net207 c<15> c_out_test<30> cout sum<15> / FullAdder
+XI0 a<0> b<0> gnd! c_out_test<0> net192 / FullAdder
+XI1 a<1> b<1> c_out_test<0> c_out_test<1> net193 / FullAdder
+XI2 a<2> b<2> c_out_test<1> c_out_test<2> net194 / FullAdder
+XI3 a<3> b<3> c_out_test<2> c_out_test<3> net195 / FullAdder
+XI7 a<4> b<4> c_out_test<3> c_out_test<4> net196 / FullAdder
+XI4 a<5> b<5> c_out_test<4> c_out_test<5> net197 / FullAdder
+XI5 a<6> b<6> c_out_test<5> c_out_test<6> net198 / FullAdder
+XI6 a<7> b<7> c_out_test<6> c_out_test<7> net199 / FullAdder
+XI15 a<8> b<8> c_out_test<7> c_out_test<8> net200 / FullAdder
+XI8 a<9> b<9> c_out_test<8> c_out_test<9> net201 / FullAdder
+XI9 a<10> b<10> c_out_test<9> c_out_test<10> net202 / FullAdder
+XI10 a<11> b<11> c_out_test<10> c_out_test<11> net203 / FullAdder
+XI14 a<12> b<12> c_out_test<11> c_out_test<12> net204 / FullAdder
+XI11 a<13> b<13> c_out_test<12> c_out_test<13> net205 / FullAdder
+XI12 a<14> b<14> c_out_test<13> c_out_test<14> net206 / FullAdder
+XI13 a<15> b<15> c_out_test<14> net133 net207 / FullAdder
+.ENDS
+

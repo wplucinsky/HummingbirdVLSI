@@ -1,0 +1,34 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECEC471_lib
+* Top Cell Name: nor_gate
+* View Name:     schematic
+* Netlisted on:  Dec 13 22:28:30 2017
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    nor_gate
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor_gate a b out
+*.PININFO a:I b:I out:O
+MM1 out b gnd! gnd! NMOS_VTH W=200n L=50n m=1
+MM0 out a gnd! gnd! NMOS_VTH W=200n L=50n m=1
+MM3 out b net07 vdd! PMOS_VTH W=400n L=50n m=1
+MM2 net07 a vdd! vdd! PMOS_VTH W=400n L=50n m=1
+.ENDS
+

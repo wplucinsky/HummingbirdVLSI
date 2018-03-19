@@ -1,0 +1,3804 @@
+2x4_decoder 1000
+Well.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of well = 0.2
+Poly.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of poly = 0.025
+Poly.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of gate poly = 0.07
+Poly.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min extension of poly past active = 0.025
+Poly.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of gate = 0.0525
+Poly.5
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of poly to active = 0.025
+Poly.6
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of field poly = 0.05
+Active.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum well enclosure of active = 0.055
+Active.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Active must be inside well
+Implant.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of contact = 0.0325
+Contact.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact = 0.0375
+Contact.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of contact = 0.0025
+Contact.5
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum poly enclosure of contact = 0.0025
+Contact.6
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact to poly = 0.0175
+Metal1.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal1 = 0.035
+Metal1.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 = 0.0325
+Metal1.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past contact by 0.0175 on two opposite sides
+Metal1.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+Via1.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal1
+Via1.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 Mar 18 19:07:33 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+72 72 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1505 163 1505 339
+1505 163 1632 163
+e 2 2
+1632 163 1505 163
+1632 163 1632 339
+e 3 2
+1632 339 1632 163
+1632 339 1505 339
+e 4 2
+1505 339 1632 339
+1505 339 1505 163
+e 5 2
+1522 552 1522 967
+1522 552 1782 552
+e 6 2
+1782 552 1522 552
+1782 552 1782 967
+e 7 2
+1782 967 1782 552
+1782 967 1522 967
+e 8 2
+1522 967 1782 967
+1522 967 1522 552
+e 9 2
+1522 1142 1522 1772
+1522 1142 1782 1142
+e 10 2
+1782 1142 1522 1142
+1782 1142 1782 1772
+e 11 2
+1782 1772 1782 1142
+1782 1772 1522 1772
+e 12 2
+1522 1772 1782 1772
+1522 1772 1522 1142
+e 13 2
+1529 1976 1529 2152
+1529 1976 1656 1976
+e 14 2
+1656 1976 1529 1976
+1656 1976 1656 2152
+e 15 2
+1656 2152 1656 1976
+1656 2152 1529 2152
+e 16 2
+1529 2152 1656 2152
+1529 2152 1529 1976
+e 17 2
+2473 552 2473 967
+2473 552 2733 552
+e 18 2
+2733 552 2473 552
+2733 552 2733 967
+e 19 2
+2733 967 2733 552
+2733 967 2473 967
+e 20 2
+2473 967 2733 967
+2473 967 2473 552
+e 21 2
+2473 1142 2473 1772
+2473 1142 2733 1142
+e 22 2
+2733 1142 2473 1142
+2733 1142 2733 1772
+e 23 2
+2733 1772 2733 1142
+2733 1772 2473 1772
+e 24 2
+2473 1772 2733 1772
+2473 1772 2473 1142
+e 25 2
+3619 552 3619 762
+3619 552 4259 552
+e 26 2
+4259 552 3619 552
+4259 552 4259 967
+e 27 2
+4259 967 4259 552
+4259 967 4034 967
+e 28 2
+4034 967 4259 967
+4034 967 4034 762
+e 29 2
+4034 762 4034 967
+4034 762 3619 762
+e 30 2
+3619 762 4034 762
+3619 762 3619 552
+e 31 2
+3619 1457 3619 1772
+3619 1457 4034 1457
+e 32 2
+4034 1457 3619 1457
+4034 1457 4034 1142
+e 33 2
+4034 1142 4034 1457
+4034 1142 4259 1142
+e 34 2
+4259 1142 4034 1142
+4259 1142 4259 1772
+e 35 2
+4259 1772 4259 1142
+4259 1772 3619 1772
+e 36 2
+3619 1772 4259 1772
+3619 1772 3619 1457
+e 37 2
+5287 552 5287 762
+5287 552 5927 552
+e 38 2
+5927 552 5287 552
+5927 552 5927 967
+e 39 2
+5927 967 5927 552
+5927 967 5702 967
+e 40 2
+5702 967 5927 967
+5702 967 5702 762
+e 41 2
+5702 762 5702 967
+5702 762 5287 762
+e 42 2
+5287 762 5702 762
+5287 762 5287 552
+e 43 2
+5287 1457 5287 1772
+5287 1457 5702 1457
+e 44 2
+5702 1457 5287 1457
+5702 1457 5702 1142
+e 45 2
+5702 1142 5702 1457
+5702 1142 5927 1142
+e 46 2
+5927 1142 5702 1142
+5927 1142 5927 1772
+e 47 2
+5927 1772 5927 1142
+5927 1772 5287 1772
+e 48 2
+5287 1772 5927 1772
+5287 1772 5287 1457
+e 49 2
+6946 552 6946 762
+6946 552 7586 552
+e 50 2
+7586 552 6946 552
+7586 552 7586 967
+e 51 2
+7586 967 7586 552
+7586 967 7361 967
+e 52 2
+7361 967 7586 967
+7361 967 7361 762
+e 53 2
+7361 762 7361 967
+7361 762 6946 762
+e 54 2
+6946 762 7361 762
+6946 762 6946 552
+e 55 2
+6946 1457 6946 1772
+6946 1457 7361 1457
+e 56 2
+7361 1457 6946 1457
+7361 1457 7361 1142
+e 57 2
+7361 1142 7361 1457
+7361 1142 7586 1142
+e 58 2
+7586 1142 7361 1142
+7586 1142 7586 1772
+e 59 2
+7586 1772 7586 1142
+7586 1772 6946 1772
+e 60 2
+6946 1772 7586 1772
+6946 1772 6946 1457
+e 61 2
+8509 552 8509 762
+8509 552 9149 552
+e 62 2
+9149 552 8509 552
+9149 552 9149 967
+e 63 2
+9149 967 9149 552
+9149 967 8924 967
+e 64 2
+8924 967 9149 967
+8924 967 8924 762
+e 65 2
+8924 762 8924 967
+8924 762 8509 762
+e 66 2
+8509 762 8924 762
+8509 762 8509 552
+e 67 2
+8509 1457 8509 1772
+8509 1457 8924 1457
+e 68 2
+8924 1457 8509 1457
+8924 1457 8924 1142
+e 69 2
+8924 1142 8924 1457
+8924 1142 9149 1142
+e 70 2
+9149 1142 8924 1142
+9149 1142 9149 1772
+e 71 2
+9149 1772 9149 1142
+9149 1772 8509 1772
+e 72 2
+8509 1772 9149 1772
+8509 1772 8509 1457
+Grid.2
+24 24 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1457 437 1457 1437
+1457 437 1887 437
+e 2 2
+1887 437 1457 437
+1887 437 1887 1437
+e 3 2
+1887 1887 1887 887
+1887 1887 1457 1887
+e 4 2
+1457 1887 1887 1887
+1457 1887 1457 887
+e 5 2
+2408 437 2408 1437
+2408 437 2838 437
+e 6 2
+2838 437 2408 437
+2838 437 2838 1437
+e 7 2
+2838 1887 2838 887
+2838 1887 2408 1887
+e 8 2
+2408 1887 2838 1887
+2408 1887 2408 887
+e 9 2
+3554 437 3554 1437
+3554 437 4364 437
+e 10 2
+4364 437 3554 437
+4364 437 4364 1437
+e 11 2
+4364 1887 4364 887
+4364 1887 3554 1887
+e 12 2
+3554 1887 4364 1887
+3554 1887 3554 887
+e 13 2
+5222 437 5222 1437
+5222 437 6032 437
+e 14 2
+6032 437 5222 437
+6032 437 6032 1437
+e 15 2
+6032 1887 6032 887
+6032 1887 5222 1887
+e 16 2
+5222 1887 6032 1887
+5222 1887 5222 887
+e 17 2
+6881 437 6881 1437
+6881 437 7691 437
+e 18 2
+7691 437 6881 437
+7691 437 7691 1437
+e 19 2
+7691 1887 7691 887
+7691 1887 6881 1887
+e 20 2
+6881 1887 7691 1887
+6881 1887 6881 887
+e 21 2
+8444 437 8444 1437
+8444 437 9254 437
+e 22 2
+9254 437 8444 437
+9254 437 9254 1437
+e 23 2
+9254 1887 9254 887
+9254 1887 8444 1887
+e 24 2
+8444 1887 9254 1887
+8444 1887 8444 887
+Grid.3
+32 32 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1367 347 1367 1347
+1367 347 1435 347
+e 2 2
+1435 347 1367 347
+1435 347 1435 89
+e 3 2
+1435 89 1435 347
+1435 89 1704 89
+e 4 2
+1704 89 1435 89
+1704 89 1704 347
+e 5 2
+1704 347 1704 89
+1704 347 1977 347
+e 6 2
+1977 347 1704 347
+1977 347 1977 1347
+e 7 2
+1977 1977 1977 977
+1977 1977 1735 1977
+e 8 2
+1735 1977 1977 1977
+1735 1977 1735 2226
+e 9 2
+1735 2226 1735 1977
+1735 2226 1462 2226
+e 10 2
+1462 2226 1735 2226
+1462 2226 1462 1977
+e 11 2
+1462 1977 1462 2226
+1462 1977 1367 1977
+e 12 2
+1367 1977 1462 1977
+1367 1977 1367 977
+e 13 2
+2318 347 2318 1347
+2318 347 2928 347
+e 14 2
+2928 347 2318 347
+2928 347 2928 1347
+e 15 2
+2928 1977 2928 977
+2928 1977 2318 1977
+e 16 2
+2318 1977 2928 1977
+2318 1977 2318 977
+e 17 2
+3464 347 3464 1347
+3464 347 4454 347
+e 18 2
+4454 347 3464 347
+4454 347 4454 1347
+e 19 2
+4454 1977 4454 977
+4454 1977 3464 1977
+e 20 2
+3464 1977 4454 1977
+3464 1977 3464 977
+e 21 2
+5132 347 5132 1347
+5132 347 6122 347
+e 22 2
+6122 347 5132 347
+6122 347 6122 1347
+e 23 2
+6122 1977 6122 977
+6122 1977 5132 1977
+e 24 2
+5132 1977 6122 1977
+5132 1977 5132 977
+e 25 2
+6791 347 6791 1347
+6791 347 7781 347
+e 26 2
+7781 347 6791 347
+7781 347 7781 1347
+e 27 2
+7781 1977 7781 977
+7781 1977 6791 1977
+e 28 2
+6791 1977 7781 1977
+6791 1977 6791 977
+e 29 2
+8354 347 8354 1347
+8354 347 9344 347
+e 30 2
+9344 347 8354 347
+9344 347 9344 1347
+e 31 2
+9344 1977 9344 977
+9344 1977 8354 1977
+e 32 2
+8354 1977 9344 1977
+8354 1977 8354 977
+Grid.4
+320 320 2 Mar 18 19:07:34 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1527 647 1527 712
+1527 647 1592 647
+e 2 2
+1592 647 1527 647
+1592 647 1592 712
+e 3 2
+1592 712 1592 647
+1592 712 1527 712
+e 4 2
+1527 712 1592 712
+1527 712 1527 647
+e 5 2
+1527 787 1527 852
+1527 787 1592 787
+e 6 2
+1592 787 1527 787
+1592 787 1592 852
+e 7 2
+1592 852 1592 787
+1592 852 1527 852
+e 8 2
+1527 852 1592 852
+1527 852 1527 787
+e 9 2
+1527 1472 1527 1537
+1527 1472 1592 1472
+e 10 2
+1592 1472 1527 1472
+1592 1472 1592 1537
+e 11 2
+1592 1537 1592 1472
+1592 1537 1527 1537
+e 12 2
+1527 1537 1592 1537
+1527 1537 1527 1472
+e 13 2
+1527 1612 1527 1677
+1527 1612 1592 1612
+e 14 2
+1592 1612 1527 1612
+1592 1612 1592 1677
+e 15 2
+1592 1677 1592 1612
+1592 1677 1527 1677
+e 16 2
+1527 1677 1592 1677
+1527 1677 1527 1612
+e 17 2
+1535 183 1535 248
+1535 183 1600 183
+e 18 2
+1600 183 1535 183
+1600 183 1600 248
+e 19 2
+1600 248 1600 183
+1600 248 1535 248
+e 20 2
+1535 248 1600 248
+1535 248 1535 183
+e 21 2
+1561 2067 1561 2132
+1561 2067 1626 2067
+e 22 2
+1626 2067 1561 2067
+1626 2067 1626 2132
+e 23 2
+1626 2132 1626 2067
+1626 2132 1561 2132
+e 24 2
+1561 2132 1626 2132
+1561 2132 1561 2067
+e 25 2
+1582 1022 1582 1087
+1582 1022 1647 1022
+e 26 2
+1647 1022 1582 1022
+1647 1022 1647 1087
+e 27 2
+1647 1087 1647 1022
+1647 1087 1582 1087
+e 28 2
+1582 1087 1647 1087
+1582 1087 1582 1022
+e 29 2
+1712 647 1712 712
+1712 647 1777 647
+e 30 2
+1777 647 1712 647
+1777 647 1777 712
+e 31 2
+1777 712 1777 647
+1777 712 1712 712
+e 32 2
+1712 712 1777 712
+1712 712 1712 647
+e 33 2
+1712 787 1712 852
+1712 787 1777 787
+e 34 2
+1777 787 1712 787
+1777 787 1777 852
+e 35 2
+1777 852 1777 787
+1777 852 1712 852
+e 36 2
+1712 852 1777 852
+1712 852 1712 787
+e 37 2
+1712 1472 1712 1537
+1712 1472 1777 1472
+e 38 2
+1777 1472 1712 1472
+1777 1472 1777 1537
+e 39 2
+1777 1537 1777 1472
+1777 1537 1712 1537
+e 40 2
+1712 1537 1777 1537
+1712 1537 1712 1472
+e 41 2
+1712 1612 1712 1677
+1712 1612 1777 1612
+e 42 2
+1777 1612 1712 1612
+1777 1612 1777 1677
+e 43 2
+1777 1677 1777 1612
+1777 1677 1712 1677
+e 44 2
+1712 1677 1777 1677
+1712 1677 1712 1612
+e 45 2
+2478 647 2478 712
+2478 647 2543 647
+e 46 2
+2543 647 2478 647
+2543 647 2543 712
+e 47 2
+2543 712 2543 647
+2543 712 2478 712
+e 48 2
+2478 712 2543 712
+2478 712 2478 647
+e 49 2
+2478 787 2478 852
+2478 787 2543 787
+e 50 2
+2543 787 2478 787
+2543 787 2543 852
+e 51 2
+2543 852 2543 787
+2543 852 2478 852
+e 52 2
+2478 852 2543 852
+2478 852 2478 787
+e 53 2
+2478 1472 2478 1537
+2478 1472 2543 1472
+e 54 2
+2543 1472 2478 1472
+2543 1472 2543 1537
+e 55 2
+2543 1537 2543 1472
+2543 1537 2478 1537
+e 56 2
+2478 1537 2543 1537
+2478 1537 2478 1472
+e 57 2
+2478 1612 2478 1677
+2478 1612 2543 1612
+e 58 2
+2543 1612 2478 1612
+2543 1612 2543 1677
+e 59 2
+2543 1677 2543 1612
+2543 1677 2478 1677
+e 60 2
+2478 1677 2543 1677
+2478 1677 2478 1612
+e 61 2
+2533 1022 2533 1087
+2533 1022 2598 1022
+e 62 2
+2598 1022 2533 1022
+2598 1022 2598 1087
+e 63 2
+2598 1087 2598 1022
+2598 1087 2533 1087
+e 64 2
+2533 1087 2598 1087
+2533 1087 2533 1022
+e 65 2
+2663 647 2663 712
+2663 647 2728 647
+e 66 2
+2728 647 2663 647
+2728 647 2728 712
+e 67 2
+2728 712 2728 647
+2728 712 2663 712
+e 68 2
+2663 712 2728 712
+2663 712 2663 647
+e 69 2
+2663 787 2663 852
+2663 787 2728 787
+e 70 2
+2728 787 2663 787
+2728 787 2728 852
+e 71 2
+2728 852 2728 787
+2728 852 2663 852
+e 72 2
+2663 852 2728 852
+2663 852 2663 787
+e 73 2
+2663 1472 2663 1537
+2663 1472 2728 1472
+e 74 2
+2728 1472 2663 1472
+2728 1472 2728 1537
+e 75 2
+2728 1537 2728 1472
+2728 1537 2663 1537
+e 76 2
+2663 1537 2728 1537
+2663 1537 2663 1472
+e 77 2
+2663 1612 2663 1677
+2663 1612 2728 1612
+e 78 2
+2728 1612 2663 1612
+2728 1612 2728 1677
+e 79 2
+2728 1677 2728 1612
+2728 1677 2663 1677
+e 80 2
+2663 1677 2728 1677
+2663 1677 2663 1612
+e 81 2
+3624 687 3624 752
+3624 687 3689 687
+e 82 2
+3689 687 3624 687
+3689 687 3689 752
+e 83 2
+3689 752 3689 687
+3689 752 3624 752
+e 84 2
+3624 752 3689 752
+3624 752 3624 687
+e 85 2
+3624 1472 3624 1537
+3624 1472 3689 1472
+e 86 2
+3689 1472 3624 1472
+3689 1472 3689 1537
+e 87 2
+3689 1537 3689 1472
+3689 1537 3624 1537
+e 88 2
+3624 1537 3689 1537
+3624 1537 3624 1472
+e 89 2
+3624 1612 3624 1677
+3624 1612 3689 1612
+e 90 2
+3689 1612 3624 1612
+3689 1612 3689 1677
+e 91 2
+3689 1677 3689 1612
+3689 1677 3624 1677
+e 92 2
+3624 1677 3689 1677
+3624 1677 3624 1612
+e 93 2
+3699 1022 3699 1087
+3699 1022 3764 1022
+e 94 2
+3764 1022 3699 1022
+3764 1022 3764 1087
+e 95 2
+3764 1087 3764 1022
+3764 1087 3699 1087
+e 96 2
+3699 1087 3764 1087
+3699 1087 3699 1022
+e 97 2
+3814 1472 3814 1537
+3814 1472 3879 1472
+e 98 2
+3879 1472 3814 1472
+3879 1472 3879 1537
+e 99 2
+3879 1537 3879 1472
+3879 1537 3814 1537
+e 100 2
+3814 1537 3879 1537
+3814 1537 3814 1472
+e 101 2
+3814 1612 3814 1677
+3814 1612 3879 1612
+e 102 2
+3879 1612 3814 1612
+3879 1612 3879 1677
+e 103 2
+3879 1677 3879 1612
+3879 1677 3814 1677
+e 104 2
+3814 1677 3879 1677
+3814 1677 3814 1612
+e 105 2
+3894 1022 3894 1087
+3894 1022 3959 1022
+e 106 2
+3959 1022 3894 1022
+3959 1022 3959 1087
+e 107 2
+3959 1087 3959 1022
+3959 1087 3894 1087
+e 108 2
+3894 1087 3959 1087
+3894 1087 3894 1022
+e 109 2
+3999 687 3999 752
+3999 687 4064 687
+e 110 2
+4064 687 3999 687
+4064 687 4064 752
+e 111 2
+4064 752 4064 687
+4064 752 3999 752
+e 112 2
+3999 752 4064 752
+3999 752 3999 687
+e 113 2
+3999 1472 3999 1537
+3999 1472 4064 1472
+e 114 2
+4064 1472 3999 1472
+4064 1472 4064 1537
+e 115 2
+4064 1537 4064 1472
+4064 1537 3999 1537
+e 116 2
+3999 1537 4064 1537
+3999 1537 3999 1472
+e 117 2
+3999 1612 3999 1677
+3999 1612 4064 1612
+e 118 2
+4064 1612 3999 1612
+4064 1612 4064 1677
+e 119 2
+4064 1677 4064 1612
+4064 1677 3999 1677
+e 120 2
+3999 1677 4064 1677
+3999 1677 3999 1612
+e 121 2
+4054 1022 4054 1087
+4054 1022 4119 1022
+e 122 2
+4119 1022 4054 1022
+4119 1022 4119 1087
+e 123 2
+4119 1087 4119 1022
+4119 1087 4054 1087
+e 124 2
+4054 1087 4119 1087
+4054 1087 4054 1022
+e 125 2
+4189 687 4189 752
+4189 687 4254 687
+e 126 2
+4254 687 4189 687
+4254 687 4254 752
+e 127 2
+4254 752 4254 687
+4254 752 4189 752
+e 128 2
+4189 752 4254 752
+4189 752 4189 687
+e 129 2
+4189 827 4189 892
+4189 827 4254 827
+e 130 2
+4254 827 4189 827
+4254 827 4254 892
+e 131 2
+4254 892 4254 827
+4254 892 4189 892
+e 132 2
+4189 892 4254 892
+4189 892 4189 827
+e 133 2
+4189 1472 4189 1537
+4189 1472 4254 1472
+e 134 2
+4254 1472 4189 1472
+4254 1472 4254 1537
+e 135 2
+4254 1537 4254 1472
+4254 1537 4189 1537
+e 136 2
+4189 1537 4254 1537
+4189 1537 4189 1472
+e 137 2
+4189 1612 4189 1677
+4189 1612 4254 1612
+e 138 2
+4254 1612 4189 1612
+4254 1612 4254 1677
+e 139 2
+4254 1677 4254 1612
+4254 1677 4189 1677
+e 140 2
+4189 1677 4254 1677
+4189 1677 4189 1612
+e 141 2
+5292 687 5292 752
+5292 687 5357 687
+e 142 2
+5357 687 5292 687
+5357 687 5357 752
+e 143 2
+5357 752 5357 687
+5357 752 5292 752
+e 144 2
+5292 752 5357 752
+5292 752 5292 687
+e 145 2
+5292 1472 5292 1537
+5292 1472 5357 1472
+e 146 2
+5357 1472 5292 1472
+5357 1472 5357 1537
+e 147 2
+5357 1537 5357 1472
+5357 1537 5292 1537
+e 148 2
+5292 1537 5357 1537
+5292 1537 5292 1472
+e 149 2
+5292 1612 5292 1677
+5292 1612 5357 1612
+e 150 2
+5357 1612 5292 1612
+5357 1612 5357 1677
+e 151 2
+5357 1677 5357 1612
+5357 1677 5292 1677
+e 152 2
+5292 1677 5357 1677
+5292 1677 5292 1612
+e 153 2
+5367 1022 5367 1087
+5367 1022 5432 1022
+e 154 2
+5432 1022 5367 1022
+5432 1022 5432 1087
+e 155 2
+5432 1087 5432 1022
+5432 1087 5367 1087
+e 156 2
+5367 1087 5432 1087
+5367 1087 5367 1022
+e 157 2
+5482 1472 5482 1537
+5482 1472 5547 1472
+e 158 2
+5547 1472 5482 1472
+5547 1472 5547 1537
+e 159 2
+5547 1537 5547 1472
+5547 1537 5482 1537
+e 160 2
+5482 1537 5547 1537
+5482 1537 5482 1472
+e 161 2
+5482 1612 5482 1677
+5482 1612 5547 1612
+e 162 2
+5547 1612 5482 1612
+5547 1612 5547 1677
+e 163 2
+5547 1677 5547 1612
+5547 1677 5482 1677
+e 164 2
+5482 1677 5547 1677
+5482 1677 5482 1612
+e 165 2
+5562 1022 5562 1087
+5562 1022 5627 1022
+e 166 2
+5627 1022 5562 1022
+5627 1022 5627 1087
+e 167 2
+5627 1087 5627 1022
+5627 1087 5562 1087
+e 168 2
+5562 1087 5627 1087
+5562 1087 5562 1022
+e 169 2
+5667 687 5667 752
+5667 687 5732 687
+e 170 2
+5732 687 5667 687
+5732 687 5732 752
+e 171 2
+5732 752 5732 687
+5732 752 5667 752
+e 172 2
+5667 752 5732 752
+5667 752 5667 687
+e 173 2
+5667 1472 5667 1537
+5667 1472 5732 1472
+e 174 2
+5732 1472 5667 1472
+5732 1472 5732 1537
+e 175 2
+5732 1537 5732 1472
+5732 1537 5667 1537
+e 176 2
+5667 1537 5732 1537
+5667 1537 5667 1472
+e 177 2
+5667 1612 5667 1677
+5667 1612 5732 1612
+e 178 2
+5732 1612 5667 1612
+5732 1612 5732 1677
+e 179 2
+5732 1677 5732 1612
+5732 1677 5667 1677
+e 180 2
+5667 1677 5732 1677
+5667 1677 5667 1612
+e 181 2
+5722 1022 5722 1087
+5722 1022 5787 1022
+e 182 2
+5787 1022 5722 1022
+5787 1022 5787 1087
+e 183 2
+5787 1087 5787 1022
+5787 1087 5722 1087
+e 184 2
+5722 1087 5787 1087
+5722 1087 5722 1022
+e 185 2
+5857 687 5857 752
+5857 687 5922 687
+e 186 2
+5922 687 5857 687
+5922 687 5922 752
+e 187 2
+5922 752 5922 687
+5922 752 5857 752
+e 188 2
+5857 752 5922 752
+5857 752 5857 687
+e 189 2
+5857 827 5857 892
+5857 827 5922 827
+e 190 2
+5922 827 5857 827
+5922 827 5922 892
+e 191 2
+5922 892 5922 827
+5922 892 5857 892
+e 192 2
+5857 892 5922 892
+5857 892 5857 827
+e 193 2
+5857 1472 5857 1537
+5857 1472 5922 1472
+e 194 2
+5922 1472 5857 1472
+5922 1472 5922 1537
+e 195 2
+5922 1537 5922 1472
+5922 1537 5857 1537
+e 196 2
+5857 1537 5922 1537
+5857 1537 5857 1472
+e 197 2
+5857 1612 5857 1677
+5857 1612 5922 1612
+e 198 2
+5922 1612 5857 1612
+5922 1612 5922 1677
+e 199 2
+5922 1677 5922 1612
+5922 1677 5857 1677
+e 200 2
+5857 1677 5922 1677
+5857 1677 5857 1612
+e 201 2
+6951 687 6951 752
+6951 687 7016 687
+e 202 2
+7016 687 6951 687
+7016 687 7016 752
+e 203 2
+7016 752 7016 687
+7016 752 6951 752
+e 204 2
+6951 752 7016 752
+6951 752 6951 687
+e 205 2
+6951 1472 6951 1537
+6951 1472 7016 1472
+e 206 2
+7016 1472 6951 1472
+7016 1472 7016 1537
+e 207 2
+7016 1537 7016 1472
+7016 1537 6951 1537
+e 208 2
+6951 1537 7016 1537
+6951 1537 6951 1472
+e 209 2
+6951 1612 6951 1677
+6951 1612 7016 1612
+e 210 2
+7016 1612 6951 1612
+7016 1612 7016 1677
+e 211 2
+7016 1677 7016 1612
+7016 1677 6951 1677
+e 212 2
+6951 1677 7016 1677
+6951 1677 6951 1612
+e 213 2
+7026 1022 7026 1087
+7026 1022 7091 1022
+e 214 2
+7091 1022 7026 1022
+7091 1022 7091 1087
+e 215 2
+7091 1087 7091 1022
+7091 1087 7026 1087
+e 216 2
+7026 1087 7091 1087
+7026 1087 7026 1022
+e 217 2
+7141 1472 7141 1537
+7141 1472 7206 1472
+e 218 2
+7206 1472 7141 1472
+7206 1472 7206 1537
+e 219 2
+7206 1537 7206 1472
+7206 1537 7141 1537
+e 220 2
+7141 1537 7206 1537
+7141 1537 7141 1472
+e 221 2
+7141 1612 7141 1677
+7141 1612 7206 1612
+e 222 2
+7206 1612 7141 1612
+7206 1612 7206 1677
+e 223 2
+7206 1677 7206 1612
+7206 1677 7141 1677
+e 224 2
+7141 1677 7206 1677
+7141 1677 7141 1612
+e 225 2
+7221 1022 7221 1087
+7221 1022 7286 1022
+e 226 2
+7286 1022 7221 1022
+7286 1022 7286 1087
+e 227 2
+7286 1087 7286 1022
+7286 1087 7221 1087
+e 228 2
+7221 1087 7286 1087
+7221 1087 7221 1022
+e 229 2
+7326 687 7326 752
+7326 687 7391 687
+e 230 2
+7391 687 7326 687
+7391 687 7391 752
+e 231 2
+7391 752 7391 687
+7391 752 7326 752
+e 232 2
+7326 752 7391 752
+7326 752 7326 687
+e 233 2
+7326 1472 7326 1537
+7326 1472 7391 1472
+e 234 2
+7391 1472 7326 1472
+7391 1472 7391 1537
+e 235 2
+7391 1537 7391 1472
+7391 1537 7326 1537
+e 236 2
+7326 1537 7391 1537
+7326 1537 7326 1472
+e 237 2
+7326 1612 7326 1677
+7326 1612 7391 1612
+e 238 2
+7391 1612 7326 1612
+7391 1612 7391 1677
+e 239 2
+7391 1677 7391 1612
+7391 1677 7326 1677
+e 240 2
+7326 1677 7391 1677
+7326 1677 7326 1612
+e 241 2
+7381 1022 7381 1087
+7381 1022 7446 1022
+e 242 2
+7446 1022 7381 1022
+7446 1022 7446 1087
+e 243 2
+7446 1087 7446 1022
+7446 1087 7381 1087
+e 244 2
+7381 1087 7446 1087
+7381 1087 7381 1022
+e 245 2
+7516 687 7516 752
+7516 687 7581 687
+e 246 2
+7581 687 7516 687
+7581 687 7581 752
+e 247 2
+7581 752 7581 687
+7581 752 7516 752
+e 248 2
+7516 752 7581 752
+7516 752 7516 687
+e 249 2
+7516 827 7516 892
+7516 827 7581 827
+e 250 2
+7581 827 7516 827
+7581 827 7581 892
+e 251 2
+7581 892 7581 827
+7581 892 7516 892
+e 252 2
+7516 892 7581 892
+7516 892 7516 827
+e 253 2
+7516 1472 7516 1537
+7516 1472 7581 1472
+e 254 2
+7581 1472 7516 1472
+7581 1472 7581 1537
+e 255 2
+7581 1537 7581 1472
+7581 1537 7516 1537
+e 256 2
+7516 1537 7581 1537
+7516 1537 7516 1472
+e 257 2
+7516 1612 7516 1677
+7516 1612 7581 1612
+e 258 2
+7581 1612 7516 1612
+7581 1612 7581 1677
+e 259 2
+7581 1677 7581 1612
+7581 1677 7516 1677
+e 260 2
+7516 1677 7581 1677
+7516 1677 7516 1612
+e 261 2
+8514 687 8514 752
+8514 687 8579 687
+e 262 2
+8579 687 8514 687
+8579 687 8579 752
+e 263 2
+8579 752 8579 687
+8579 752 8514 752
+e 264 2
+8514 752 8579 752
+8514 752 8514 687
+e 265 2
+8514 1472 8514 1537
+8514 1472 8579 1472
+e 266 2
+8579 1472 8514 1472
+8579 1472 8579 1537
+e 267 2
+8579 1537 8579 1472
+8579 1537 8514 1537
+e 268 2
+8514 1537 8579 1537
+8514 1537 8514 1472
+e 269 2
+8514 1612 8514 1677
+8514 1612 8579 1612
+e 270 2
+8579 1612 8514 1612
+8579 1612 8579 1677
+e 271 2
+8579 1677 8579 1612
+8579 1677 8514 1677
+e 272 2
+8514 1677 8579 1677
+8514 1677 8514 1612
+e 273 2
+8589 1022 8589 1087
+8589 1022 8654 1022
+e 274 2
+8654 1022 8589 1022
+8654 1022 8654 1087
+e 275 2
+8654 1087 8654 1022
+8654 1087 8589 1087
+e 276 2
+8589 1087 8654 1087
+8589 1087 8589 1022
+e 277 2
+8704 1472 8704 1537
+8704 1472 8769 1472
+e 278 2
+8769 1472 8704 1472
+8769 1472 8769 1537
+e 279 2
+8769 1537 8769 1472
+8769 1537 8704 1537
+e 280 2
+8704 1537 8769 1537
+8704 1537 8704 1472
+e 281 2
+8704 1612 8704 1677
+8704 1612 8769 1612
+e 282 2
+8769 1612 8704 1612
+8769 1612 8769 1677
+e 283 2
+8769 1677 8769 1612
+8769 1677 8704 1677
+e 284 2
+8704 1677 8769 1677
+8704 1677 8704 1612
+e 285 2
+8784 1022 8784 1087
+8784 1022 8849 1022
+e 286 2
+8849 1022 8784 1022
+8849 1022 8849 1087
+e 287 2
+8849 1087 8849 1022
+8849 1087 8784 1087
+e 288 2
+8784 1087 8849 1087
+8784 1087 8784 1022
+e 289 2
+8889 687 8889 752
+8889 687 8954 687
+e 290 2
+8954 687 8889 687
+8954 687 8954 752
+e 291 2
+8954 752 8954 687
+8954 752 8889 752
+e 292 2
+8889 752 8954 752
+8889 752 8889 687
+e 293 2
+8889 1472 8889 1537
+8889 1472 8954 1472
+e 294 2
+8954 1472 8889 1472
+8954 1472 8954 1537
+e 295 2
+8954 1537 8954 1472
+8954 1537 8889 1537
+e 296 2
+8889 1537 8954 1537
+8889 1537 8889 1472
+e 297 2
+8889 1612 8889 1677
+8889 1612 8954 1612
+e 298 2
+8954 1612 8889 1612
+8954 1612 8954 1677
+e 299 2
+8954 1677 8954 1612
+8954 1677 8889 1677
+e 300 2
+8889 1677 8954 1677
+8889 1677 8889 1612
+e 301 2
+8944 1022 8944 1087
+8944 1022 9009 1022
+e 302 2
+9009 1022 8944 1022
+9009 1022 9009 1087
+e 303 2
+9009 1087 9009 1022
+9009 1087 8944 1087
+e 304 2
+8944 1087 9009 1087
+8944 1087 8944 1022
+e 305 2
+9079 687 9079 752
+9079 687 9144 687
+e 306 2
+9144 687 9079 687
+9144 687 9144 752
+e 307 2
+9144 752 9144 687
+9144 752 9079 752
+e 308 2
+9079 752 9144 752
+9079 752 9079 687
+e 309 2
+9079 827 9079 892
+9079 827 9144 827
+e 310 2
+9144 827 9079 827
+9144 827 9144 892
+e 311 2
+9144 892 9144 827
+9144 892 9079 892
+e 312 2
+9079 892 9144 892
+9079 892 9079 827
+e 313 2
+9079 1472 9079 1537
+9079 1472 9144 1472
+e 314 2
+9144 1472 9079 1472
+9144 1472 9144 1537
+e 315 2
+9144 1537 9144 1472
+9144 1537 9079 1537
+e 316 2
+9079 1537 9144 1537
+9079 1537 9079 1472
+e 317 2
+9079 1612 9079 1677
+9079 1612 9144 1612
+e 318 2
+9144 1612 9079 1612
+9144 1612 9144 1677
+e 319 2
+9144 1677 9144 1612
+9144 1677 9079 1677
+e 320 2
+9079 1677 9144 1677
+9079 1677 9079 1612
+Grid.5
+112 112 2 Mar 18 19:07:34 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1577 1017 1577 1092
+1577 1017 1627 1017
+e 2 2
+1627 1017 1577 1017
+1627 1017 1627 502
+e 3 2
+1627 502 1627 1017
+1627 502 1677 502
+e 4 2
+1677 502 1627 502
+1677 502 1677 1502
+e 5 2
+1677 1822 1677 822
+1677 1822 1627 1822
+e 6 2
+1627 1822 1677 1822
+1627 1822 1627 1092
+e 7 2
+1627 1092 1627 1822
+1627 1092 1577 1092
+e 8 2
+1577 1092 1627 1092
+1577 1092 1577 1017
+e 9 2
+2528 1017 2528 1092
+2528 1017 2578 1017
+e 10 2
+2578 1017 2528 1017
+2578 1017 2578 502
+e 11 2
+2578 502 2578 1017
+2578 502 2628 502
+e 12 2
+2628 502 2578 502
+2628 502 2628 1502
+e 13 2
+2628 1822 2628 822
+2628 1822 2578 1822
+e 14 2
+2578 1822 2628 1822
+2578 1822 2578 1092
+e 15 2
+2578 1092 2578 1822
+2578 1092 2528 1092
+e 16 2
+2528 1092 2578 1092
+2528 1092 2528 1017
+e 17 2
+3694 1017 3694 1092
+3694 1017 3724 1017
+e 18 2
+3724 1017 3694 1017
+3724 1017 3724 502
+e 19 2
+3724 502 3724 1017
+3724 502 3774 502
+e 20 2
+3774 502 3724 502
+3774 502 3774 1502
+e 21 2
+3774 1822 3774 822
+3774 1822 3724 1822
+e 22 2
+3724 1822 3774 1822
+3724 1822 3724 1092
+e 23 2
+3724 1092 3724 1822
+3724 1092 3694 1092
+e 24 2
+3694 1092 3724 1092
+3694 1092 3694 1017
+e 25 2
+3889 1017 3889 1092
+3889 1017 3914 1017
+e 26 2
+3914 1017 3889 1017
+3914 1017 3914 502
+e 27 2
+3914 502 3914 1017
+3914 502 3964 502
+e 28 2
+3964 502 3914 502
+3964 502 3964 1502
+e 29 2
+3964 1822 3964 822
+3964 1822 3914 1822
+e 30 2
+3914 1822 3964 1822
+3914 1822 3914 1092
+e 31 2
+3914 1092 3914 1822
+3914 1092 3889 1092
+e 32 2
+3889 1092 3914 1092
+3889 1092 3889 1017
+e 33 2
+4049 1017 4049 1092
+4049 1017 4104 1017
+e 34 2
+4104 1017 4049 1017
+4104 1017 4104 502
+e 35 2
+4104 502 4104 1017
+4104 502 4154 502
+e 36 2
+4154 502 4104 502
+4154 502 4154 1502
+e 37 2
+4154 1822 4154 822
+4154 1822 4104 1822
+e 38 2
+4104 1822 4154 1822
+4104 1822 4104 1092
+e 39 2
+4104 1092 4104 1822
+4104 1092 4049 1092
+e 40 2
+4049 1092 4104 1092
+4049 1092 4049 1017
+e 41 2
+5362 1017 5362 1092
+5362 1017 5392 1017
+e 42 2
+5392 1017 5362 1017
+5392 1017 5392 502
+e 43 2
+5392 502 5392 1017
+5392 502 5442 502
+e 44 2
+5442 502 5392 502
+5442 502 5442 1502
+e 45 2
+5442 1822 5442 822
+5442 1822 5392 1822
+e 46 2
+5392 1822 5442 1822
+5392 1822 5392 1092
+e 47 2
+5392 1092 5392 1822
+5392 1092 5362 1092
+e 48 2
+5362 1092 5392 1092
+5362 1092 5362 1017
+e 49 2
+5557 1017 5557 1092
+5557 1017 5582 1017
+e 50 2
+5582 1017 5557 1017
+5582 1017 5582 502
+e 51 2
+5582 502 5582 1017
+5582 502 5632 502
+e 52 2
+5632 502 5582 502
+5632 502 5632 1502
+e 53 2
+5632 1822 5632 822
+5632 1822 5582 1822
+e 54 2
+5582 1822 5632 1822
+5582 1822 5582 1092
+e 55 2
+5582 1092 5582 1822
+5582 1092 5557 1092
+e 56 2
+5557 1092 5582 1092
+5557 1092 5557 1017
+e 57 2
+5717 1017 5717 1092
+5717 1017 5772 1017
+e 58 2
+5772 1017 5717 1017
+5772 1017 5772 502
+e 59 2
+5772 502 5772 1017
+5772 502 5822 502
+e 60 2
+5822 502 5772 502
+5822 502 5822 1502
+e 61 2
+5822 1822 5822 822
+5822 1822 5772 1822
+e 62 2
+5772 1822 5822 1822
+5772 1822 5772 1092
+e 63 2
+5772 1092 5772 1822
+5772 1092 5717 1092
+e 64 2
+5717 1092 5772 1092
+5717 1092 5717 1017
+e 65 2
+7021 1017 7021 1092
+7021 1017 7051 1017
+e 66 2
+7051 1017 7021 1017
+7051 1017 7051 502
+e 67 2
+7051 502 7051 1017
+7051 502 7101 502
+e 68 2
+7101 502 7051 502
+7101 502 7101 1502
+e 69 2
+7101 1822 7101 822
+7101 1822 7051 1822
+e 70 2
+7051 1822 7101 1822
+7051 1822 7051 1092
+e 71 2
+7051 1092 7051 1822
+7051 1092 7021 1092
+e 72 2
+7021 1092 7051 1092
+7021 1092 7021 1017
+e 73 2
+7216 1017 7216 1092
+7216 1017 7241 1017
+e 74 2
+7241 1017 7216 1017
+7241 1017 7241 502
+e 75 2
+7241 502 7241 1017
+7241 502 7291 502
+e 76 2
+7291 502 7241 502
+7291 502 7291 1502
+e 77 2
+7291 1822 7291 822
+7291 1822 7241 1822
+e 78 2
+7241 1822 7291 1822
+7241 1822 7241 1092
+e 79 2
+7241 1092 7241 1822
+7241 1092 7216 1092
+e 80 2
+7216 1092 7241 1092
+7216 1092 7216 1017
+e 81 2
+7376 1017 7376 1092
+7376 1017 7431 1017
+e 82 2
+7431 1017 7376 1017
+7431 1017 7431 502
+e 83 2
+7431 502 7431 1017
+7431 502 7481 502
+e 84 2
+7481 502 7431 502
+7481 502 7481 1502
+e 85 2
+7481 1822 7481 822
+7481 1822 7431 1822
+e 86 2
+7431 1822 7481 1822
+7431 1822 7431 1092
+e 87 2
+7431 1092 7431 1822
+7431 1092 7376 1092
+e 88 2
+7376 1092 7431 1092
+7376 1092 7376 1017
+e 89 2
+8584 1017 8584 1092
+8584 1017 8614 1017
+e 90 2
+8614 1017 8584 1017
+8614 1017 8614 502
+e 91 2
+8614 502 8614 1017
+8614 502 8664 502
+e 92 2
+8664 502 8614 502
+8664 502 8664 1502
+e 93 2
+8664 1822 8664 822
+8664 1822 8614 1822
+e 94 2
+8614 1822 8664 1822
+8614 1822 8614 1092
+e 95 2
+8614 1092 8614 1822
+8614 1092 8584 1092
+e 96 2
+8584 1092 8614 1092
+8584 1092 8584 1017
+e 97 2
+8779 1017 8779 1092
+8779 1017 8804 1017
+e 98 2
+8804 1017 8779 1017
+8804 1017 8804 502
+e 99 2
+8804 502 8804 1017
+8804 502 8854 502
+e 100 2
+8854 502 8804 502
+8854 502 8854 1502
+e 101 2
+8854 1822 8854 822
+8854 1822 8804 1822
+e 102 2
+8804 1822 8854 1822
+8804 1822 8804 1092
+e 103 2
+8804 1092 8804 1822
+8804 1092 8779 1092
+e 104 2
+8779 1092 8804 1092
+8779 1092 8779 1017
+e 105 2
+8939 1017 8939 1092
+8939 1017 8994 1017
+e 106 2
+8994 1017 8939 1017
+8994 1017 8994 502
+e 107 2
+8994 502 8994 1017
+8994 502 9044 502
+e 108 2
+9044 502 8994 502
+9044 502 9044 1502
+e 109 2
+9044 1822 9044 822
+9044 1822 8994 1822
+e 110 2
+8994 1822 9044 1822
+8994 1822 8994 1092
+e 111 2
+8994 1092 8994 1822
+8994 1092 8939 1092
+e 112 2
+8939 1092 8994 1092
+8939 1092 8939 1017
+Grid.6
+316 316 2 Mar 18 19:07:34 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1499 1010 1499 1150
+1499 1010 1542 1010
+e 2 2
+1542 1010 1499 1010
+1542 1010 1542 987
+e 3 2
+1542 987 1542 1010
+1542 987 1647 987
+e 4 2
+1647 987 1542 987
+1647 987 1647 1162
+e 5 2
+1647 1162 1647 987
+1647 1162 1542 1162
+e 6 2
+1542 1162 1647 1162
+1542 1162 1542 1150
+e 7 2
+1542 1150 1542 1162
+1542 1150 1499 1150
+e 8 2
+1499 1150 1542 1150
+1499 1150 1499 1010
+e 9 2
+1712 612 1712 1612
+1712 612 1807 612
+e 10 2
+1807 612 1712 612
+1807 612 1807 1013
+e 11 2
+1807 1013 1807 612
+1807 1013 1853 1013
+e 12 2
+1853 1013 1807 1013
+1853 1013 1853 1153
+e 13 2
+1853 1153 1853 1013
+1853 1153 1807 1153
+e 14 2
+1807 1153 1853 1153
+1807 1153 1807 1712
+e 15 2
+1807 1712 1807 1153
+1807 1712 1712 1712
+e 16 2
+1712 1712 1807 1712
+1712 1712 1712 712
+e 17 2
+2458 998 2458 1138
+2458 998 2493 998
+e 18 2
+2493 998 2458 998
+2493 998 2493 987
+e 19 2
+2493 987 2493 998
+2493 987 2598 987
+e 20 2
+2598 987 2493 987
+2598 987 2598 1162
+e 21 2
+2598 1162 2598 987
+2598 1162 2493 1162
+e 22 2
+2493 1162 2598 1162
+2493 1162 2493 1138
+e 23 2
+2493 1138 2493 1162
+2493 1138 2458 1138
+e 24 2
+2458 1138 2493 1138
+2458 1138 2458 998
+e 25 2
+2663 612 2663 1612
+2663 612 2758 612
+e 26 2
+2758 612 2663 612
+2758 612 2758 990
+e 27 2
+2758 990 2758 612
+2758 990 3639 990
+e 28 2
+3639 990 2758 990
+3639 990 3639 987
+e 29 2
+3639 987 3639 990
+3639 987 3764 987
+e 30 2
+3764 987 3639 987
+3764 987 3764 1162
+e 31 2
+3764 1162 3764 987
+3764 1162 3639 1162
+e 32 2
+3639 1162 3764 1162
+3639 1162 3639 1161
+e 33 2
+3639 1161 3639 1162
+3639 1161 2758 1161
+e 34 2
+2758 1161 3639 1161
+2758 1161 2758 1712
+e 35 2
+2758 1712 2758 1161
+2758 1712 2663 1712
+e 36 2
+2663 1712 2758 1712
+2663 1712 2663 712
+e 37 2
+3624 652 3624 922
+3624 652 3694 652
+e 38 2
+3694 652 3624 652
+3694 652 3694 852
+e 39 2
+3694 852 3694 652
+3694 852 4119 852
+e 40 2
+4119 852 3694 852
+4119 852 4119 1372
+e 41 2
+4119 1372 4119 852
+4119 1372 3884 1372
+e 42 2
+3884 1372 4119 1372
+3884 1372 3884 1712
+e 43 2
+3884 1712 3884 1372
+3884 1712 3814 1712
+e 44 2
+3814 1712 3884 1712
+3814 1712 3814 1302
+e 45 2
+3814 1302 3814 1712
+3814 1302 4049 1302
+e 46 2
+4049 1302 3814 1302
+4049 1302 4049 922
+e 47 2
+4049 922 4049 1302
+4049 922 3624 922
+e 48 2
+3624 922 4049 922
+3624 922 3624 652
+e 49 2
+3829 987 3829 1162
+3829 987 3959 987
+e 50 2
+3959 987 3829 987
+3959 987 3959 1004
+e 51 2
+3959 1004 3959 987
+3959 1004 3970 1004
+e 52 2
+3970 1004 3959 1004
+3970 1004 3970 1144
+e 53 2
+3970 1144 3970 1004
+3970 1144 3959 1144
+e 54 2
+3959 1144 3970 1144
+3959 1144 3959 1162
+e 55 2
+3959 1162 3959 1144
+3959 1162 3829 1162
+e 56 2
+3829 1162 3959 1162
+3829 1162 3829 987
+e 57 2
+4189 652 4189 1652
+4189 652 4279 652
+e 58 2
+4279 652 4189 652
+4279 652 4279 1652
+e 59 2
+4279 1712 4279 712
+4279 1712 4189 1712
+e 60 2
+4189 1712 4279 1712
+4189 1712 4189 712
+e 61 2
+5289 1012 5289 1152
+5289 1012 5307 1012
+e 62 2
+5307 1012 5289 1012
+5307 1012 5307 987
+e 63 2
+5307 987 5307 1012
+5307 987 5432 987
+e 64 2
+5432 987 5307 987
+5432 987 5432 1162
+e 65 2
+5432 1162 5432 987
+5432 1162 5307 1162
+e 66 2
+5307 1162 5432 1162
+5307 1162 5307 1152
+e 67 2
+5307 1152 5307 1162
+5307 1152 5289 1152
+e 68 2
+5289 1152 5307 1152
+5289 1152 5289 1012
+e 69 2
+5292 652 5292 922
+5292 652 5362 652
+e 70 2
+5362 652 5292 652
+5362 652 5362 852
+e 71 2
+5362 852 5362 652
+5362 852 5787 852
+e 72 2
+5787 852 5362 852
+5787 852 5787 1372
+e 73 2
+5787 1372 5787 852
+5787 1372 5552 1372
+e 74 2
+5552 1372 5787 1372
+5552 1372 5552 1712
+e 75 2
+5552 1712 5552 1372
+5552 1712 5482 1712
+e 76 2
+5482 1712 5552 1712
+5482 1712 5482 1302
+e 77 2
+5482 1302 5482 1712
+5482 1302 5717 1302
+e 78 2
+5717 1302 5482 1302
+5717 1302 5717 922
+e 79 2
+5717 922 5717 1302
+5717 922 5292 922
+e 80 2
+5292 922 5717 922
+5292 922 5292 652
+e 81 2
+5497 987 5497 1162
+5497 987 5627 987
+e 82 2
+5627 987 5497 987
+5627 987 5627 1003
+e 83 2
+5627 1003 5627 987
+5627 1003 5640 1003
+e 84 2
+5640 1003 5627 1003
+5640 1003 5640 1143
+e 85 2
+5640 1143 5640 1003
+5640 1143 5627 1143
+e 86 2
+5627 1143 5640 1143
+5627 1143 5627 1162
+e 87 2
+5627 1162 5627 1143
+5627 1162 5497 1162
+e 88 2
+5497 1162 5627 1162
+5497 1162 5497 987
+e 89 2
+5857 652 5857 1652
+5857 652 5947 652
+e 90 2
+5947 652 5857 652
+5947 652 5947 1652
+e 91 2
+5947 1712 5947 712
+5947 1712 5857 1712
+e 92 2
+5857 1712 5947 1712
+5857 1712 5857 712
+e 93 2
+6950 1006 6950 1146
+6950 1006 6966 1006
+e 94 2
+6966 1006 6950 1006
+6966 1006 6966 987
+e 95 2
+6966 987 6966 1006
+6966 987 7091 987
+e 96 2
+7091 987 6966 987
+7091 987 7091 1162
+e 97 2
+7091 1162 7091 987
+7091 1162 6966 1162
+e 98 2
+6966 1162 7091 1162
+6966 1162 6966 1146
+e 99 2
+6966 1146 6966 1162
+6966 1146 6950 1146
+e 100 2
+6950 1146 6966 1146
+6950 1146 6950 1006
+e 101 2
+6951 652 6951 922
+6951 652 7021 652
+e 102 2
+7021 652 6951 652
+7021 652 7021 852
+e 103 2
+7021 852 7021 652
+7021 852 7446 852
+e 104 2
+7446 852 7021 852
+7446 852 7446 1372
+e 105 2
+7446 1372 7446 852
+7446 1372 7211 1372
+e 106 2
+7211 1372 7446 1372
+7211 1372 7211 1712
+e 107 2
+7211 1712 7211 1372
+7211 1712 7141 1712
+e 108 2
+7141 1712 7211 1712
+7141 1712 7141 1302
+e 109 2
+7141 1302 7141 1712
+7141 1302 7376 1302
+e 110 2
+7376 1302 7141 1302
+7376 1302 7376 922
+e 111 2
+7376 922 7376 1302
+7376 922 6951 922
+e 112 2
+6951 922 7376 922
+6951 922 6951 652
+e 113 2
+7156 987 7156 1162
+7156 987 7286 987
+e 114 2
+7286 987 7156 987
+7286 987 7286 1004
+e 115 2
+7286 1004 7286 987
+7286 1004 7301 1004
+e 116 2
+7301 1004 7286 1004
+7301 1004 7301 1144
+e 117 2
+7301 1144 7301 1004
+7301 1144 7286 1144
+e 118 2
+7286 1144 7301 1144
+7286 1144 7286 1162
+e 119 2
+7286 1162 7286 1144
+7286 1162 7156 1162
+e 120 2
+7156 1162 7286 1162
+7156 1162 7156 987
+e 121 2
+7516 652 7516 1652
+7516 652 7606 652
+e 122 2
+7606 652 7516 652
+7606 652 7606 1652
+e 123 2
+7606 1712 7606 712
+7606 1712 7516 1712
+e 124 2
+7516 1712 7606 1712
+7516 1712 7516 712
+e 125 2
+8512 999 8512 1139
+8512 999 8529 999
+e 126 2
+8529 999 8512 999
+8529 999 8529 987
+e 127 2
+8529 987 8529 999
+8529 987 8654 987
+e 128 2
+8654 987 8529 987
+8654 987 8654 1162
+e 129 2
+8654 1162 8654 987
+8654 1162 8529 1162
+e 130 2
+8529 1162 8654 1162
+8529 1162 8529 1139
+e 131 2
+8529 1139 8529 1162
+8529 1139 8512 1139
+e 132 2
+8512 1139 8529 1139
+8512 1139 8512 999
+e 133 2
+8514 652 8514 922
+8514 652 8584 652
+e 134 2
+8584 652 8514 652
+8584 652 8584 852
+e 135 2
+8584 852 8584 652
+8584 852 9009 852
+e 136 2
+9009 852 8584 852
+9009 852 9009 1372
+e 137 2
+9009 1372 9009 852
+9009 1372 8774 1372
+e 138 2
+8774 1372 9009 1372
+8774 1372 8774 1712
+e 139 2
+8774 1712 8774 1372
+8774 1712 8704 1712
+e 140 2
+8704 1712 8774 1712
+8704 1712 8704 1302
+e 141 2
+8704 1302 8704 1712
+8704 1302 8939 1302
+e 142 2
+8939 1302 8704 1302
+8939 1302 8939 922
+e 143 2
+8939 922 8939 1302
+8939 922 8514 922
+e 144 2
+8514 922 8939 922
+8514 922 8514 652
+e 145 2
+8719 987 8719 1162
+8719 987 8849 987
+e 146 2
+8849 987 8719 987
+8849 987 8849 1004
+e 147 2
+8849 1004 8849 987
+8849 1004 8871 1004
+e 148 2
+8871 1004 8849 1004
+8871 1004 8871 1144
+e 149 2
+8871 1144 8871 1004
+8871 1144 8849 1144
+e 150 2
+8849 1144 8871 1144
+8849 1144 8849 1162
+e 151 2
+8849 1162 8849 1144
+8849 1162 8719 1162
+e 152 2
+8719 1162 8849 1162
+8719 1162 8719 987
+e 153 2
+1482 377 1482 547
+1482 377 1485 377
+e 154 2
+1485 377 1482 377
+1485 377 1485 151
+e 155 2
+1485 151 1485 377
+1485 151 1652 151
+e 156 2
+1652 151 1485 151
+1652 151 1652 377
+e 157 2
+1652 377 1652 151
+1652 377 1862 377
+e 158 2
+1862 377 1652 377
+1862 377 1862 398
+e 159 2
+1862 398 1862 377
+1862 398 2433 398
+e 160 2
+2433 398 1862 398
+2433 398 2433 377
+e 161 2
+2433 377 2433 398
+2433 377 2813 377
+e 162 2
+2813 377 2433 377
+2813 377 2813 398
+e 163 2
+2813 398 2813 377
+2813 398 3579 398
+e 164 2
+3579 398 2813 398
+3579 398 3579 377
+e 165 2
+3579 377 3579 398
+3579 377 4339 377
+e 166 2
+4339 377 3579 377
+4339 377 4339 398
+e 167 2
+4339 398 4339 377
+4339 398 5247 398
+e 168 2
+5247 398 4339 398
+5247 398 5247 377
+e 169 2
+5247 377 5247 398
+5247 377 6007 377
+e 170 2
+6007 377 5247 377
+6007 377 6007 398
+e 171 2
+6007 398 6007 377
+6007 398 6906 398
+e 172 2
+6906 398 6007 398
+6906 398 6906 377
+e 173 2
+6906 377 6906 398
+6906 377 7666 377
+e 174 2
+7666 377 6906 377
+7666 377 7666 398
+e 175 2
+7666 398 7666 377
+7666 398 8469 398
+e 176 2
+8469 398 7666 398
+8469 398 8469 377
+e 177 2
+8469 377 8469 398
+8469 377 9229 377
+e 178 2
+9229 377 8469 377
+9229 377 9229 547
+e 179 2
+9229 547 9229 377
+9229 547 8954 547
+e 180 2
+8954 547 9229 547
+8954 547 8954 787
+e 181 2
+8954 787 8954 547
+8954 787 8884 787
+e 182 2
+8884 787 8954 787
+8884 787 8884 547
+e 183 2
+8884 547 8884 787
+8884 547 8469 547
+e 184 2
+8469 547 8884 547
+8469 547 8469 526
+e 185 2
+8469 526 8469 547
+8469 526 7666 526
+e 186 2
+7666 526 8469 526
+7666 526 7666 547
+e 187 2
+7666 547 7666 526
+7666 547 7391 547
+e 188 2
+7391 547 7666 547
+7391 547 7391 787
+e 189 2
+7391 787 7391 547
+7391 787 7321 787
+e 190 2
+7321 787 7391 787
+7321 787 7321 547
+e 191 2
+7321 547 7321 787
+7321 547 6906 547
+e 192 2
+6906 547 7321 547
+6906 547 6906 526
+e 193 2
+6906 526 6906 547
+6906 526 6007 526
+e 194 2
+6007 526 6906 526
+6007 526 6007 547
+e 195 2
+6007 547 6007 526
+6007 547 5732 547
+e 196 2
+5732 547 6007 547
+5732 547 5732 787
+e 197 2
+5732 787 5732 547
+5732 787 5662 787
+e 198 2
+5662 787 5732 787
+5662 787 5662 547
+e 199 2
+5662 547 5662 787
+5662 547 5247 547
+e 200 2
+5247 547 5662 547
+5247 547 5247 526
+e 201 2
+5247 526 5247 547
+5247 526 4339 526
+e 202 2
+4339 526 5247 526
+4339 526 4339 547
+e 203 2
+4339 547 4339 526
+4339 547 4064 547
+e 204 2
+4064 547 4339 547
+4064 547 4064 787
+e 205 2
+4064 787 4064 547
+4064 787 3994 787
+e 206 2
+3994 787 4064 787
+3994 787 3994 547
+e 207 2
+3994 547 3994 787
+3994 547 3579 547
+e 208 2
+3579 547 3994 547
+3579 547 3579 526
+e 209 2
+3579 526 3579 547
+3579 526 2813 526
+e 210 2
+2813 526 3579 526
+2813 526 2813 547
+e 211 2
+2813 547 2813 526
+2813 547 2543 547
+e 212 2
+2543 547 2813 547
+2543 547 2543 887
+e 213 2
+2543 887 2543 547
+2543 887 2473 887
+e 214 2
+2473 887 2543 887
+2473 887 2473 547
+e 215 2
+2473 547 2473 887
+2473 547 2433 547
+e 216 2
+2433 547 2473 547
+2433 547 2433 526
+e 217 2
+2433 526 2433 547
+2433 526 1862 526
+e 218 2
+1862 526 2433 526
+1862 526 1862 547
+e 219 2
+1862 547 1862 526
+1862 547 1592 547
+e 220 2
+1592 547 1862 547
+1592 547 1592 887
+e 221 2
+1592 887 1592 547
+1592 887 1522 887
+e 222 2
+1522 887 1592 887
+1522 887 1522 547
+e 223 2
+1522 547 1522 887
+1522 547 1482 547
+e 224 2
+1482 547 1522 547
+1482 547 1482 377
+e 225 2
+1482 1777 1482 1947
+1482 1777 1522 1777
+e 226 2
+1522 1777 1482 1777
+1522 1777 1522 1437
+e 227 2
+1522 1437 1522 1777
+1522 1437 1592 1437
+e 228 2
+1592 1437 1522 1437
+1592 1437 1592 1777
+e 229 2
+1592 1777 1592 1437
+1592 1777 1862 1777
+e 230 2
+1862 1777 1592 1777
+1862 1777 1862 1794
+e 231 2
+1862 1794 1862 1777
+1862 1794 2433 1794
+e 232 2
+2433 1794 1862 1794
+2433 1794 2433 1777
+e 233 2
+2433 1777 2433 1794
+2433 1777 2473 1777
+e 234 2
+2473 1777 2433 1777
+2473 1777 2473 1437
+e 235 2
+2473 1437 2473 1777
+2473 1437 2543 1437
+e 236 2
+2543 1437 2473 1437
+2543 1437 2543 1777
+e 237 2
+2543 1777 2543 1437
+2543 1777 2813 1777
+e 238 2
+2813 1777 2543 1777
+2813 1777 2813 1794
+e 239 2
+2813 1794 2813 1777
+2813 1794 3579 1794
+e 240 2
+3579 1794 2813 1794
+3579 1794 3579 1777
+e 241 2
+3579 1777 3579 1794
+3579 1777 3619 1777
+e 242 2
+3619 1777 3579 1777
+3619 1777 3619 1437
+e 243 2
+3619 1437 3619 1777
+3619 1437 3689 1437
+e 244 2
+3689 1437 3619 1437
+3689 1437 3689 1777
+e 245 2
+3689 1777 3689 1437
+3689 1777 3994 1777
+e 246 2
+3994 1777 3689 1777
+3994 1777 3994 1437
+e 247 2
+3994 1437 3994 1777
+3994 1437 4064 1437
+e 248 2
+4064 1437 3994 1437
+4064 1437 4064 1777
+e 249 2
+4064 1777 4064 1437
+4064 1777 4339 1777
+e 250 2
+4339 1777 4064 1777
+4339 1777 4339 1794
+e 251 2
+4339 1794 4339 1777
+4339 1794 5247 1794
+e 252 2
+5247 1794 4339 1794
+5247 1794 5247 1777
+e 253 2
+5247 1777 5247 1794
+5247 1777 5287 1777
+e 254 2
+5287 1777 5247 1777
+5287 1777 5287 1437
+e 255 2
+5287 1437 5287 1777
+5287 1437 5357 1437
+e 256 2
+5357 1437 5287 1437
+5357 1437 5357 1777
+e 257 2
+5357 1777 5357 1437
+5357 1777 5662 1777
+e 258 2
+5662 1777 5357 1777
+5662 1777 5662 1437
+e 259 2
+5662 1437 5662 1777
+5662 1437 5732 1437
+e 260 2
+5732 1437 5662 1437
+5732 1437 5732 1777
+e 261 2
+5732 1777 5732 1437
+5732 1777 6007 1777
+e 262 2
+6007 1777 5732 1777
+6007 1777 6007 1794
+e 263 2
+6007 1794 6007 1777
+6007 1794 6906 1794
+e 264 2
+6906 1794 6007 1794
+6906 1794 6906 1777
+e 265 2
+6906 1777 6906 1794
+6906 1777 6946 1777
+e 266 2
+6946 1777 6906 1777
+6946 1777 6946 1437
+e 267 2
+6946 1437 6946 1777
+6946 1437 7016 1437
+e 268 2
+7016 1437 6946 1437
+7016 1437 7016 1777
+e 269 2
+7016 1777 7016 1437
+7016 1777 7321 1777
+e 270 2
+7321 1777 7016 1777
+7321 1777 7321 1437
+e 271 2
+7321 1437 7321 1777
+7321 1437 7391 1437
+e 272 2
+7391 1437 7321 1437
+7391 1437 7391 1777
+e 273 2
+7391 1777 7391 1437
+7391 1777 7666 1777
+e 274 2
+7666 1777 7391 1777
+7666 1777 7666 1794
+e 275 2
+7666 1794 7666 1777
+7666 1794 8469 1794
+e 276 2
+8469 1794 7666 1794
+8469 1794 8469 1777
+e 277 2
+8469 1777 8469 1794
+8469 1777 8509 1777
+e 278 2
+8509 1777 8469 1777
+8509 1777 8509 1437
+e 279 2
+8509 1437 8509 1777
+8509 1437 8579 1437
+e 280 2
+8579 1437 8509 1437
+8579 1437 8579 1777
+e 281 2
+8579 1777 8579 1437
+8579 1777 8884 1777
+e 282 2
+8884 1777 8579 1777
+8884 1777 8884 1437
+e 283 2
+8884 1437 8884 1777
+8884 1437 8954 1437
+e 284 2
+8954 1437 8884 1437
+8954 1437 8954 1777
+e 285 2
+8954 1777 8954 1437
+8954 1777 9229 1777
+e 286 2
+9229 1777 8954 1777
+9229 1777 9229 1947
+e 287 2
+9229 1947 9229 1777
+9229 1947 8469 1947
+e 288 2
+8469 1947 9229 1947
+8469 1947 8469 1922
+e 289 2
+8469 1922 8469 1947
+8469 1922 7666 1922
+e 290 2
+7666 1922 8469 1922
+7666 1922 7666 1947
+e 291 2
+7666 1947 7666 1922
+7666 1947 6906 1947
+e 292 2
+6906 1947 7666 1947
+6906 1947 6906 1922
+e 293 2
+6906 1922 6906 1947
+6906 1922 6007 1922
+e 294 2
+6007 1922 6906 1922
+6007 1922 6007 1947
+e 295 2
+6007 1947 6007 1922
+6007 1947 5247 1947
+e 296 2
+5247 1947 6007 1947
+5247 1947 5247 1922
+e 297 2
+5247 1922 5247 1947
+5247 1922 4339 1922
+e 298 2
+4339 1922 5247 1922
+4339 1922 4339 1947
+e 299 2
+4339 1947 4339 1922
+4339 1947 3579 1947
+e 300 2
+3579 1947 4339 1947
+3579 1947 3579 1922
+e 301 2
+3579 1922 3579 1947
+3579 1922 2813 1922
+e 302 2
+2813 1922 3579 1922
+2813 1922 2813 1947
+e 303 2
+2813 1947 2813 1922
+2813 1947 2433 1947
+e 304 2
+2433 1947 2813 1947
+2433 1947 2433 1922
+e 305 2
+2433 1922 2433 1947
+2433 1922 1862 1922
+e 306 2
+1862 1922 2433 1922
+1862 1922 1862 1947
+e 307 2
+1862 1947 1862 1922
+1862 1947 1676 1947
+e 308 2
+1676 1947 1862 1947
+1676 1947 1676 2164
+e 309 2
+1676 2164 1676 1947
+1676 2164 1509 2164
+e 310 2
+1509 2164 1676 2164
+1509 2164 1509 1947
+e 311 2
+1509 1947 1509 2164
+1509 1947 1482 1947
+e 312 2
+1482 1947 1509 1947
+1482 1947 1482 1777
+e 313 2
+9079 652 9079 1652
+9079 652 9169 652
+e 314 2
+9169 652 9079 652
+9169 652 9169 1652
+e 315 2
+9169 1712 9169 712
+9169 1712 9079 1712
+e 316 2
+9079 1712 9169 1712
+9079 1712 9079 712
+Grid.7
+44 44 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1534 1045 1534 1115
+1534 1045 1604 1045
+e 2 2
+1604 1045 1534 1045
+1604 1045 1604 1115
+e 3 2
+1604 1115 1604 1045
+1604 1115 1534 1115
+e 4 2
+1534 1115 1604 1115
+1534 1115 1534 1045
+e 5 2
+1748 1048 1748 1118
+1748 1048 1818 1048
+e 6 2
+1818 1048 1748 1048
+1818 1048 1818 1118
+e 7 2
+1818 1118 1818 1048
+1818 1118 1748 1118
+e 8 2
+1748 1118 1818 1118
+1748 1118 1748 1048
+e 9 2
+2493 1033 2493 1103
+2493 1033 2563 1033
+e 10 2
+2563 1033 2493 1033
+2563 1033 2563 1103
+e 11 2
+2563 1103 2563 1033
+2563 1103 2493 1103
+e 12 2
+2493 1103 2563 1103
+2493 1103 2493 1033
+e 13 2
+2949 1039 2949 1109
+2949 1039 3019 1039
+e 14 2
+3019 1039 2949 1039
+3019 1039 3019 1109
+e 15 2
+3019 1109 3019 1039
+3019 1109 2949 1109
+e 16 2
+2949 1109 3019 1109
+2949 1109 2949 1039
+e 17 2
+3865 1039 3865 1109
+3865 1039 3935 1039
+e 18 2
+3935 1039 3865 1039
+3935 1039 3935 1109
+e 19 2
+3935 1109 3935 1039
+3935 1109 3865 1109
+e 20 2
+3865 1109 3935 1109
+3865 1109 3865 1039
+e 21 2
+5324 1047 5324 1117
+5324 1047 5394 1047
+e 22 2
+5394 1047 5324 1047
+5394 1047 5394 1117
+e 23 2
+5394 1117 5394 1047
+5394 1117 5324 1117
+e 24 2
+5324 1117 5394 1117
+5324 1117 5324 1047
+e 25 2
+5535 1038 5535 1108
+5535 1038 5605 1038
+e 26 2
+5605 1038 5535 1038
+5605 1038 5605 1108
+e 27 2
+5605 1108 5605 1038
+5605 1108 5535 1108
+e 28 2
+5535 1108 5605 1108
+5535 1108 5535 1038
+e 29 2
+6985 1041 6985 1111
+6985 1041 7055 1041
+e 30 2
+7055 1041 6985 1041
+7055 1041 7055 1111
+e 31 2
+7055 1111 7055 1041
+7055 1111 6985 1111
+e 32 2
+6985 1111 7055 1111
+6985 1111 6985 1041
+e 33 2
+7196 1039 7196 1109
+7196 1039 7266 1039
+e 34 2
+7266 1039 7196 1039
+7266 1039 7266 1109
+e 35 2
+7266 1109 7266 1039
+7266 1109 7196 1109
+e 36 2
+7196 1109 7266 1109
+7196 1109 7196 1039
+e 37 2
+8547 1034 8547 1104
+8547 1034 8617 1034
+e 38 2
+8617 1034 8547 1034
+8617 1034 8617 1104
+e 39 2
+8617 1104 8617 1034
+8617 1104 8547 1104
+e 40 2
+8547 1104 8617 1104
+8547 1104 8547 1034
+e 41 2
+8766 1039 8766 1109
+8766 1039 8836 1039
+e 42 2
+8836 1039 8766 1039
+8836 1039 8836 1109
+e 43 2
+8836 1109 8836 1039
+8836 1109 8766 1109
+e 44 2
+8766 1109 8836 1109
+8766 1109 8766 1039
+Grid.8
+53 53 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1499 1010 1499 1150
+1499 1010 1639 1010
+e 2 2
+1639 1010 1499 1010
+1639 1010 1639 1150
+e 3 2
+1639 1150 1639 1010
+1639 1150 1499 1150
+e 4 2
+1499 1150 1639 1150
+1499 1150 1499 1010
+e 5 2
+2458 998 2458 1138
+2458 998 2598 998
+e 6 2
+2598 998 2458 998
+2598 998 2598 1138
+e 7 2
+2598 1138 2598 998
+2598 1138 2458 1138
+e 8 2
+2458 1138 2598 1138
+2458 1138 2458 998
+e 9 2
+5289 1012 5289 1152
+5289 1012 5429 1012
+e 10 2
+5429 1012 5289 1012
+5429 1012 5429 1152
+e 11 2
+5429 1152 5429 1012
+5429 1152 5289 1152
+e 12 2
+5289 1152 5429 1152
+5289 1152 5289 1012
+e 13 2
+2914 830 2914 1144
+2914 830 3914 830
+e 14 2
+5640 1143 5640 830
+5640 1143 5500 1143
+e 15 2
+5500 1143 5640 1143
+5500 1143 5500 1003
+e 16 2
+5500 1003 5500 1143
+5500 1003 5502 1003
+e 17 2
+5502 1003 5500 1003
+5502 1003 5502 900
+e 18 2
+5502 900 5502 1003
+5502 900 4502 900
+e 19 2
+3053 900 4053 900
+3053 900 3053 1004
+e 20 2
+3053 1004 3053 900
+3053 1004 3054 1004
+e 21 2
+3054 1004 3053 1004
+3054 1004 3054 1144
+e 22 2
+3054 1144 3054 1004
+3054 1144 2914 1144
+e 23 2
+2914 1144 3054 1144
+2914 1144 2914 830
+e 24 2
+6950 1006 6950 1146
+6950 1006 7090 1006
+e 25 2
+7090 1006 6950 1006
+7090 1006 7090 1146
+e 26 2
+7090 1146 7090 1006
+7090 1146 6950 1146
+e 27 2
+6950 1146 7090 1146
+6950 1146 6950 1006
+e 28 2
+1713 1013 1713 1389
+1713 1013 1853 1013
+e 29 2
+1853 1013 1713 1013
+1853 1013 1853 1239
+e 30 2
+1853 1239 1853 1013
+1853 1239 2853 1239
+e 31 2
+3830 1239 2830 1239
+3830 1239 3830 1004
+e 32 2
+3830 1004 3830 1239
+3830 1004 3970 1004
+e 33 2
+3970 1004 3830 1004
+3970 1004 3970 1239
+e 34 2
+3970 1239 3970 1004
+3970 1239 4970 1239
+e 35 2
+7163 1239 6163 1239
+7163 1239 7163 1144
+e 36 2
+7163 1144 7163 1239
+7163 1144 7161 1144
+e 37 2
+7161 1144 7163 1144
+7161 1144 7161 1004
+e 38 2
+7161 1004 7161 1144
+7161 1004 7301 1004
+e 39 2
+7301 1004 7161 1004
+7301 1004 7301 1144
+e 40 2
+7301 1144 7301 1004
+7301 1144 7266 1144
+e 41 2
+7266 1144 7301 1144
+7266 1144 7266 1239
+e 42 2
+7266 1239 7266 1144
+7266 1239 7293 1239
+e 43 2
+7293 1239 7266 1239
+7293 1239 7293 1389
+e 44 2
+7293 1389 7293 1239
+7293 1389 6293 1389
+e 45 2
+1713 1389 2713 1389
+1713 1389 1713 1013
+e 46 2
+8512 999 8512 1139
+8512 999 8652 999
+e 47 2
+8652 999 8512 999
+8652 999 8652 1139
+e 48 2
+8652 1139 8652 999
+8652 1139 8512 1139
+e 49 2
+8512 1139 8652 1139
+8512 1139 8512 999
+e 50 2
+8731 1004 8731 1144
+8731 1004 8871 1004
+e 51 2
+8871 1004 8731 1004
+8871 1004 8871 1144
+e 52 2
+8871 1144 8871 1004
+8871 1144 8731 1144
+e 53 2
+8731 1144 8871 1144
+8731 1144 8731 1004
+Grid.9
+24 24 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1534 1045 1534 1115
+1534 1045 1604 1045
+e 2 2
+1604 1045 1534 1045
+1604 1045 1604 1115
+e 3 2
+1604 1115 1604 1045
+1604 1115 1534 1115
+e 4 2
+1534 1115 1604 1115
+1534 1115 1534 1045
+e 5 2
+2493 1033 2493 1103
+2493 1033 2563 1033
+e 6 2
+2563 1033 2493 1033
+2563 1033 2563 1103
+e 7 2
+2563 1103 2563 1033
+2563 1103 2493 1103
+e 8 2
+2493 1103 2563 1103
+2493 1103 2493 1033
+e 9 2
+5324 1047 5324 1117
+5324 1047 5394 1047
+e 10 2
+5394 1047 5324 1047
+5394 1047 5394 1117
+e 11 2
+5394 1117 5394 1047
+5394 1117 5324 1117
+e 12 2
+5324 1117 5394 1117
+5324 1117 5324 1047
+e 13 2
+6985 1041 6985 1111
+6985 1041 7055 1041
+e 14 2
+7055 1041 6985 1041
+7055 1041 7055 1111
+e 15 2
+7055 1111 7055 1041
+7055 1111 6985 1111
+e 16 2
+6985 1111 7055 1111
+6985 1111 6985 1041
+e 17 2
+8547 1034 8547 1104
+8547 1034 8617 1034
+e 18 2
+8617 1034 8547 1034
+8617 1034 8617 1104
+e 19 2
+8617 1104 8617 1034
+8617 1104 8547 1104
+e 20 2
+8547 1104 8617 1104
+8547 1104 8547 1034
+e 21 2
+8766 1039 8766 1109
+8766 1039 8836 1039
+e 22 2
+8836 1039 8766 1039
+8836 1039 8836 1109
+e 23 2
+8836 1109 8836 1039
+8836 1109 8766 1109
+e 24 2
+8766 1109 8836 1109
+8766 1109 8766 1039
+Grid.10
+48 48 2 Mar 18 19:07:34 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+1499 773 1499 1150
+1499 773 1500 773
+e 2 2
+1500 773 1499 773
+1500 773 1500 719
+e 3 2
+1500 719 1500 773
+1500 719 2500 719
+e 4 2
+5289 719 4289 719
+5289 719 5289 717
+e 5 2
+5289 717 5289 719
+5289 717 5429 717
+e 6 2
+5429 717 5289 717
+5429 717 5429 719
+e 7 2
+5429 719 5429 717
+5429 719 6429 719
+e 8 2
+8648 719 7648 719
+8648 719 8648 805
+e 9 2
+8648 805 8648 719
+8648 805 8644 805
+e 10 2
+8644 805 8648 805
+8644 805 8644 999
+e 11 2
+8644 999 8644 805
+8644 999 8652 999
+e 12 2
+8652 999 8644 999
+8652 999 8652 1139
+e 13 2
+8652 1139 8652 999
+8652 1139 8512 1139
+e 14 2
+8512 1139 8652 1139
+8512 1139 8512 999
+e 15 2
+8512 999 8512 1139
+8512 999 8554 999
+e 16 2
+8554 999 8512 999
+8554 999 8554 805
+e 17 2
+8554 805 8554 999
+8554 805 7554 805
+e 18 2
+5429 805 6429 805
+5429 805 5429 1152
+e 19 2
+5429 1152 5429 805
+5429 1152 5289 1152
+e 20 2
+5289 1152 5429 1152
+5289 1152 5289 805
+e 21 2
+5289 805 5289 1152
+5289 805 4289 805
+e 22 2
+1639 805 2639 805
+1639 805 1639 1150
+e 23 2
+1639 1150 1639 805
+1639 1150 1499 1150
+e 24 2
+1499 1150 1639 1150
+1499 1150 1499 773
+e 25 2
+2458 998 2458 1138
+2458 998 2598 998
+e 26 2
+2598 998 2458 998
+2598 998 2598 1405
+e 27 2
+2598 1405 2598 998
+2598 1405 3598 1405
+e 28 2
+6976 1405 5976 1405
+6976 1405 6976 1146
+e 29 2
+6976 1146 6976 1405
+6976 1146 6950 1146
+e 30 2
+6950 1146 6976 1146
+6950 1146 6950 1006
+e 31 2
+6950 1006 6950 1146
+6950 1006 7090 1006
+e 32 2
+7090 1006 6950 1006
+7090 1006 7090 1146
+e 33 2
+7090 1146 7090 1006
+7090 1146 7066 1146
+e 34 2
+7066 1146 7090 1146
+7066 1146 7066 1405
+e 35 2
+7066 1405 7066 1146
+7066 1405 8066 1405
+e 36 2
+8751 1405 7751 1405
+8751 1405 8751 1144
+e 37 2
+8751 1144 8751 1405
+8751 1144 8731 1144
+e 38 2
+8731 1144 8751 1144
+8731 1144 8731 1004
+e 39 2
+8731 1004 8731 1144
+8731 1004 8871 1004
+e 40 2
+8871 1004 8731 1004
+8871 1004 8871 1144
+e 41 2
+8871 1144 8871 1004
+8871 1144 8855 1144
+e 42 2
+8855 1144 8871 1144
+8855 1144 8855 1405
+e 43 2
+8874 1405 8855 1405
+8874 1405 8874 1489
+e 44 2
+8874 1489 8874 1405
+8874 1489 7874 1489
+e 45 2
+2598 1489 3598 1489
+2598 1489 2598 1490
+e 46 2
+2598 1490 2598 1489
+2598 1490 2510 1490
+e 47 2
+2510 1138 2510 1490
+2510 1138 2458 1138
+e 48 2
+2458 1138 2510 1138
+2458 1138 2458 998
+Grid.11
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 Mar 18 19:07:34 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

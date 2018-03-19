@@ -1,0 +1,79 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 09/01/2015 22:59 (sjfnl132) $
+          : sub-version  IC6.1.6-64b.500.13.2 
+Started at: 18-Mar-2018  16:23:06
+User Name : rm885
+Host Name : xunil-03.coe.drexel.edu
+Directory : /home/DREXEL/rm885/NCSU_FreePDK45
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+Hummingbird/16_bit_register/layout                              16       0       0        123    0      0         52     0             0      0     0     0       0       
+NangateOpenCellLibrary/SDFFR_X1/layout                          0        0       44       85     0      0         13     9             0      0     0     0       0       
+NangateOpenCellLibrary/via1_0/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+Hummingbird/16_bit_register/layout                              0        0          0          0          0          0     0        32        0         0        
+NangateOpenCellLibrary/SDFFR_X1/layout                          0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via1_0/via                               0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+BOUND           drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        1        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        35       0        0        0             0    0   0   0     0      0      
+IP              drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
+metal1          drawing         11      0         20       91       0        61       0             0    0   0   0     0      0      
+via1            drawing         12      0         0        1        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         21       0        0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        1        0        0        0             0    0   0   0     0      0      
+text            drawing         230     0         0        0        0        0        9             0    0   0   0     0      0      
+contact         drawing         10      0         0        70       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         3        7        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		16
+	Array Instances:		0
+	Polygons:			44
+	Paths:				0
+	Rectangles:			211
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			32
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				65
+	TextDisplay:		9
+	Cells:				3
+Design Libraries: 
+
+DEFINE NangateOpenCellLibrary	/mnt/class_data/ecec571-f2015/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
+DEFINE Hummingbird	/home/DREXEL/rm885/NCSU_FreePDK45/Hummingbird

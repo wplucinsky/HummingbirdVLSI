@@ -1,0 +1,1893 @@
+3i_XOR 1000
+Well.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of well = 0.2
+Poly.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of poly = 0.025
+Poly.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of gate poly = 0.07
+Poly.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min extension of poly past active = 0.025
+Poly.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of gate = 0.0525
+Poly.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of poly to active = 0.025
+Poly.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of field poly = 0.05
+Active.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum well enclosure of active = 0.055
+Active.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Active must be inside well
+Implant.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of contact = 0.0325
+Contact.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact = 0.0375
+Contact.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of contact = 0.0025
+Contact.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum poly enclosure of contact = 0.0025
+Contact.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact to poly = 0.0175
+Metal1.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal1 = 0.035
+Metal1.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 = 0.0325
+Metal1.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past contact by 0.0175 on two opposite sides
+Metal1.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+Via1.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal1
+Via1.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+24 24 2 Mar 18 22:40:23 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5720 891 -5720 1101
+-5720 891 -4720 891
+e 2 2
+-4695 891 -5695 891
+-4695 891 -4695 1306
+e 3 2
+-4695 1306 -4695 891
+-4695 1306 -5300 1306
+e 4 2
+-5300 1306 -4695 1306
+-5300 1306 -5300 1101
+e 5 2
+-5300 1101 -5300 1306
+-5300 1101 -5720 1101
+e 6 2
+-5720 1101 -5300 1101
+-5720 1101 -5720 891
+e 7 2
+-5720 1796 -5720 2111
+-5720 1796 -5300 1796
+e 8 2
+-5300 1796 -5720 1796
+-5300 1796 -5300 1481
+e 9 2
+-5300 1481 -5300 1796
+-5300 1481 -4695 1481
+e 10 2
+-4695 1481 -5300 1481
+-4695 1481 -4695 2111
+e 11 2
+-4695 2111 -4695 1481
+-4695 2111 -5695 2111
+e 12 2
+-5720 2111 -4720 2111
+-5720 2111 -5720 1796
+e 13 2
+-3431 891 -3431 1101
+-3431 891 -2431 891
+e 14 2
+-2406 891 -3406 891
+-2406 891 -2406 1306
+e 15 2
+-2406 1306 -2406 891
+-2406 1306 -3011 1306
+e 16 2
+-3011 1306 -2406 1306
+-3011 1306 -3011 1101
+e 17 2
+-3011 1101 -3011 1306
+-3011 1101 -3431 1101
+e 18 2
+-3431 1101 -3011 1101
+-3431 1101 -3431 891
+e 19 2
+-3431 1796 -3431 2111
+-3431 1796 -3011 1796
+e 20 2
+-3011 1796 -3431 1796
+-3011 1796 -3011 1481
+e 21 2
+-3011 1481 -3011 1796
+-3011 1481 -2406 1481
+e 22 2
+-2406 1481 -3011 1481
+-2406 1481 -2406 2111
+e 23 2
+-2406 2111 -2406 1481
+-2406 2111 -3406 2111
+e 24 2
+-3431 2111 -2431 2111
+-3431 2111 -3431 1796
+Grid.2
+8 8 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5785 776 -5785 1776
+-5785 776 -4785 776
+e 2 2
+-4595 776 -5595 776
+-4595 776 -4595 1776
+e 3 2
+-4595 2226 -4595 1226
+-4595 2226 -5595 2226
+e 4 2
+-5785 2226 -4785 2226
+-5785 2226 -5785 1226
+e 5 2
+-3496 776 -3496 1776
+-3496 776 -2496 776
+e 6 2
+-2306 776 -3306 776
+-2306 776 -2306 1776
+e 7 2
+-2306 2226 -2306 1226
+-2306 2226 -3306 2226
+e 8 2
+-3496 2226 -2496 2226
+-3496 2226 -3496 1226
+Grid.3
+8 8 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5875 686 -5875 1686
+-5875 686 -4875 686
+e 2 2
+-4505 686 -5505 686
+-4505 686 -4505 1686
+e 3 2
+-4505 2316 -4505 1316
+-4505 2316 -5505 2316
+e 4 2
+-5875 2316 -4875 2316
+-5875 2316 -5875 1316
+e 5 2
+-3586 686 -3586 1686
+-3586 686 -2586 686
+e 6 2
+-2216 686 -3216 686
+-2216 686 -2216 1686
+e 7 2
+-2216 2316 -2216 1316
+-2216 2316 -3216 2316
+e 8 2
+-3586 2316 -2586 2316
+-3586 2316 -3586 1316
+Grid.4
+120 120 2 Mar 18 22:40:23 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5715 986 -5715 1051
+-5715 986 -5650 986
+e 2 2
+-5650 986 -5715 986
+-5650 986 -5650 1051
+e 3 2
+-5650 1051 -5650 986
+-5650 1051 -5715 1051
+e 4 2
+-5715 1051 -5650 1051
+-5715 1051 -5715 986
+e 5 2
+-5715 1951 -5715 2016
+-5715 1951 -5650 1951
+e 6 2
+-5650 1951 -5715 1951
+-5650 1951 -5650 2016
+e 7 2
+-5650 2016 -5650 1951
+-5650 2016 -5715 2016
+e 8 2
+-5715 2016 -5650 2016
+-5715 2016 -5715 1951
+e 9 2
+-5585 1501 -5585 1566
+-5585 1501 -5520 1501
+e 10 2
+-5520 1501 -5585 1501
+-5520 1501 -5520 1566
+e 11 2
+-5520 1566 -5520 1501
+-5520 1566 -5585 1566
+e 12 2
+-5585 1566 -5520 1566
+-5585 1566 -5585 1501
+e 13 2
+-5530 986 -5530 1051
+-5530 986 -5465 986
+e 14 2
+-5465 986 -5530 986
+-5465 986 -5465 1051
+e 15 2
+-5465 1051 -5465 986
+-5465 1051 -5530 1051
+e 16 2
+-5530 1051 -5465 1051
+-5530 1051 -5530 986
+e 17 2
+-5420 1676 -5420 1741
+-5420 1676 -5355 1676
+e 18 2
+-5355 1676 -5420 1676
+-5355 1676 -5355 1741
+e 19 2
+-5355 1741 -5355 1676
+-5355 1741 -5420 1741
+e 20 2
+-5420 1741 -5355 1741
+-5420 1741 -5420 1676
+e 21 2
+-5340 986 -5340 1051
+-5340 986 -5275 986
+e 22 2
+-5275 986 -5340 986
+-5275 986 -5275 1051
+e 23 2
+-5275 1051 -5275 986
+-5275 1051 -5340 1051
+e 24 2
+-5340 1051 -5275 1051
+-5340 1051 -5340 986
+e 25 2
+-5340 1986 -5340 2051
+-5340 1986 -5275 1986
+e 26 2
+-5275 1986 -5340 1986
+-5275 1986 -5275 2051
+e 27 2
+-5275 2051 -5275 1986
+-5275 2051 -5340 2051
+e 28 2
+-5340 2051 -5275 2051
+-5340 2051 -5340 1986
+e 29 2
+-5260 1361 -5260 1426
+-5260 1361 -5195 1361
+e 30 2
+-5195 1361 -5260 1361
+-5195 1361 -5195 1426
+e 31 2
+-5195 1426 -5195 1361
+-5195 1426 -5260 1426
+e 32 2
+-5260 1426 -5195 1426
+-5260 1426 -5260 1361
+e 33 2
+-5140 986 -5140 1051
+-5140 986 -5075 986
+e 34 2
+-5075 986 -5140 986
+-5075 986 -5075 1051
+e 35 2
+-5075 1051 -5075 986
+-5075 1051 -5140 1051
+e 36 2
+-5140 1051 -5075 1051
+-5140 1051 -5140 986
+e 37 2
+-5140 1976 -5140 2041
+-5140 1976 -5075 1976
+e 38 2
+-5075 1976 -5140 1976
+-5075 1976 -5075 2041
+e 39 2
+-5075 2041 -5075 1976
+-5075 2041 -5140 2041
+e 40 2
+-5140 2041 -5075 2041
+-5140 2041 -5140 1976
+e 41 2
+-5070 1361 -5070 1426
+-5070 1361 -5005 1361
+e 42 2
+-5005 1361 -5070 1361
+-5005 1361 -5005 1426
+e 43 2
+-5005 1426 -5005 1361
+-5005 1426 -5070 1426
+e 44 2
+-5070 1426 -5005 1426
+-5070 1426 -5070 1361
+e 45 2
+-4950 1841 -4950 1906
+-4950 1841 -4885 1841
+e 46 2
+-4885 1841 -4950 1841
+-4885 1841 -4885 1906
+e 47 2
+-4885 1906 -4885 1841
+-4885 1906 -4950 1906
+e 48 2
+-4950 1906 -4885 1906
+-4950 1906 -4950 1841
+e 49 2
+-4880 1361 -4880 1426
+-4880 1361 -4815 1361
+e 50 2
+-4815 1361 -4880 1361
+-4815 1361 -4815 1426
+e 51 2
+-4815 1426 -4815 1361
+-4815 1426 -4880 1426
+e 52 2
+-4880 1426 -4815 1426
+-4880 1426 -4880 1361
+e 53 2
+-4765 986 -4765 1051
+-4765 986 -4700 986
+e 54 2
+-4700 986 -4765 986
+-4700 986 -4700 1051
+e 55 2
+-4700 1051 -4700 986
+-4700 1051 -4765 1051
+e 56 2
+-4765 1051 -4700 1051
+-4765 1051 -4765 986
+e 57 2
+-4765 1976 -4765 2041
+-4765 1976 -4700 1976
+e 58 2
+-4700 1976 -4765 1976
+-4700 1976 -4700 2041
+e 59 2
+-4700 2041 -4700 1976
+-4700 2041 -4765 2041
+e 60 2
+-4765 2041 -4700 2041
+-4765 2041 -4765 1976
+e 61 2
+-3426 986 -3426 1051
+-3426 986 -3361 986
+e 62 2
+-3361 986 -3426 986
+-3361 986 -3361 1051
+e 63 2
+-3361 1051 -3361 986
+-3361 1051 -3426 1051
+e 64 2
+-3426 1051 -3361 1051
+-3426 1051 -3426 986
+e 65 2
+-3426 1951 -3426 2016
+-3426 1951 -3361 1951
+e 66 2
+-3361 1951 -3426 1951
+-3361 1951 -3361 2016
+e 67 2
+-3361 2016 -3361 1951
+-3361 2016 -3426 2016
+e 68 2
+-3426 2016 -3361 2016
+-3426 2016 -3426 1951
+e 69 2
+-3296 1501 -3296 1566
+-3296 1501 -3231 1501
+e 70 2
+-3231 1501 -3296 1501
+-3231 1501 -3231 1566
+e 71 2
+-3231 1566 -3231 1501
+-3231 1566 -3296 1566
+e 72 2
+-3296 1566 -3231 1566
+-3296 1566 -3296 1501
+e 73 2
+-3241 986 -3241 1051
+-3241 986 -3176 986
+e 74 2
+-3176 986 -3241 986
+-3176 986 -3176 1051
+e 75 2
+-3176 1051 -3176 986
+-3176 1051 -3241 1051
+e 76 2
+-3241 1051 -3176 1051
+-3241 1051 -3241 986
+e 77 2
+-3131 1676 -3131 1741
+-3131 1676 -3066 1676
+e 78 2
+-3066 1676 -3131 1676
+-3066 1676 -3066 1741
+e 79 2
+-3066 1741 -3066 1676
+-3066 1741 -3131 1741
+e 80 2
+-3131 1741 -3066 1741
+-3131 1741 -3131 1676
+e 81 2
+-3051 986 -3051 1051
+-3051 986 -2986 986
+e 82 2
+-2986 986 -3051 986
+-2986 986 -2986 1051
+e 83 2
+-2986 1051 -2986 986
+-2986 1051 -3051 1051
+e 84 2
+-3051 1051 -2986 1051
+-3051 1051 -3051 986
+e 85 2
+-3051 1986 -3051 2051
+-3051 1986 -2986 1986
+e 86 2
+-2986 1986 -3051 1986
+-2986 1986 -2986 2051
+e 87 2
+-2986 2051 -2986 1986
+-2986 2051 -3051 2051
+e 88 2
+-3051 2051 -2986 2051
+-3051 2051 -3051 1986
+e 89 2
+-2971 1361 -2971 1426
+-2971 1361 -2906 1361
+e 90 2
+-2906 1361 -2971 1361
+-2906 1361 -2906 1426
+e 91 2
+-2906 1426 -2906 1361
+-2906 1426 -2971 1426
+e 92 2
+-2971 1426 -2906 1426
+-2971 1426 -2971 1361
+e 93 2
+-2851 986 -2851 1051
+-2851 986 -2786 986
+e 94 2
+-2786 986 -2851 986
+-2786 986 -2786 1051
+e 95 2
+-2786 1051 -2786 986
+-2786 1051 -2851 1051
+e 96 2
+-2851 1051 -2786 1051
+-2851 1051 -2851 986
+e 97 2
+-2851 1976 -2851 2041
+-2851 1976 -2786 1976
+e 98 2
+-2786 1976 -2851 1976
+-2786 1976 -2786 2041
+e 99 2
+-2786 2041 -2786 1976
+-2786 2041 -2851 2041
+e 100 2
+-2851 2041 -2786 2041
+-2851 2041 -2851 1976
+e 101 2
+-2781 1361 -2781 1426
+-2781 1361 -2716 1361
+e 102 2
+-2716 1361 -2781 1361
+-2716 1361 -2716 1426
+e 103 2
+-2716 1426 -2716 1361
+-2716 1426 -2781 1426
+e 104 2
+-2781 1426 -2716 1426
+-2781 1426 -2781 1361
+e 105 2
+-2661 1841 -2661 1906
+-2661 1841 -2596 1841
+e 106 2
+-2596 1841 -2661 1841
+-2596 1841 -2596 1906
+e 107 2
+-2596 1906 -2596 1841
+-2596 1906 -2661 1906
+e 108 2
+-2661 1906 -2596 1906
+-2661 1906 -2661 1841
+e 109 2
+-2591 1361 -2591 1426
+-2591 1361 -2526 1361
+e 110 2
+-2526 1361 -2591 1361
+-2526 1361 -2526 1426
+e 111 2
+-2526 1426 -2526 1361
+-2526 1426 -2591 1426
+e 112 2
+-2591 1426 -2526 1426
+-2591 1426 -2591 1361
+e 113 2
+-2476 986 -2476 1051
+-2476 986 -2411 986
+e 114 2
+-2411 986 -2476 986
+-2411 986 -2411 1051
+e 115 2
+-2411 1051 -2411 986
+-2411 1051 -2476 1051
+e 116 2
+-2476 1051 -2411 1051
+-2476 1051 -2476 986
+e 117 2
+-2476 1976 -2476 2041
+-2476 1976 -2411 1976
+e 118 2
+-2411 1976 -2476 1976
+-2411 1976 -2411 2041
+e 119 2
+-2411 2041 -2411 1976
+-2411 2041 -2476 2041
+e 120 2
+-2476 2041 -2411 2041
+-2476 2041 -2476 1976
+Grid.5
+80 80 2 Mar 18 22:40:23 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5615 841 -5615 1841
+-5615 841 -5565 841
+e 2 2
+-5565 841 -5615 841
+-5565 841 -5565 1496
+e 3 2
+-5565 1496 -5565 841
+-5565 1496 -5515 1496
+e 4 2
+-5515 1496 -5565 1496
+-5515 1496 -5515 1571
+e 5 2
+-5515 1571 -5515 1496
+-5515 1571 -5565 1571
+e 6 2
+-5565 1571 -5515 1571
+-5565 1571 -5565 2161
+e 7 2
+-5565 2161 -5565 1571
+-5565 2161 -5615 2161
+e 8 2
+-5615 2161 -5565 2161
+-5615 2161 -5615 1161
+e 9 2
+-5425 841 -5425 1841
+-5425 841 -5375 841
+e 10 2
+-5375 841 -5425 841
+-5375 841 -5375 1671
+e 11 2
+-5375 1671 -5375 841
+-5375 1671 -5350 1671
+e 12 2
+-5350 1671 -5375 1671
+-5350 1671 -5350 1746
+e 13 2
+-5350 1746 -5350 1671
+-5350 1746 -5375 1746
+e 14 2
+-5375 1746 -5350 1746
+-5375 1746 -5375 2161
+e 15 2
+-5375 2161 -5375 1746
+-5375 2161 -5425 2161
+e 16 2
+-5425 2161 -5375 2161
+-5425 2161 -5425 1161
+e 17 2
+-5265 1356 -5265 1431
+-5265 1356 -5230 1356
+e 18 2
+-5230 1356 -5265 1356
+-5230 1356 -5230 841
+e 19 2
+-5230 841 -5230 1356
+-5230 841 -5180 841
+e 20 2
+-5180 841 -5230 841
+-5180 841 -5180 1841
+e 21 2
+-5180 2161 -5180 1161
+-5180 2161 -5230 2161
+e 22 2
+-5230 2161 -5180 2161
+-5230 2161 -5230 1431
+e 23 2
+-5230 1431 -5230 2161
+-5230 1431 -5265 1431
+e 24 2
+-5265 1431 -5230 1431
+-5265 1431 -5265 1356
+e 25 2
+-5075 1356 -5075 1431
+-5075 1356 -5040 1356
+e 26 2
+-5040 1356 -5075 1356
+-5040 1356 -5040 841
+e 27 2
+-5040 841 -5040 1356
+-5040 841 -4990 841
+e 28 2
+-4990 841 -5040 841
+-4990 841 -4990 1841
+e 29 2
+-4990 2161 -4990 1161
+-4990 2161 -5040 2161
+e 30 2
+-5040 2161 -4990 2161
+-5040 2161 -5040 1431
+e 31 2
+-5040 1431 -5040 2161
+-5040 1431 -5075 1431
+e 32 2
+-5075 1431 -5040 1431
+-5075 1431 -5075 1356
+e 33 2
+-4885 1356 -4885 1431
+-4885 1356 -4850 1356
+e 34 2
+-4850 1356 -4885 1356
+-4850 1356 -4850 841
+e 35 2
+-4850 841 -4850 1356
+-4850 841 -4800 841
+e 36 2
+-4800 841 -4850 841
+-4800 841 -4800 1841
+e 37 2
+-4800 2161 -4800 1161
+-4800 2161 -4850 2161
+e 38 2
+-4850 2161 -4800 2161
+-4850 2161 -4850 1431
+e 39 2
+-4850 1431 -4850 2161
+-4850 1431 -4885 1431
+e 40 2
+-4885 1431 -4850 1431
+-4885 1431 -4885 1356
+e 41 2
+-3326 841 -3326 1841
+-3326 841 -3276 841
+e 42 2
+-3276 841 -3326 841
+-3276 841 -3276 1496
+e 43 2
+-3276 1496 -3276 841
+-3276 1496 -3226 1496
+e 44 2
+-3226 1496 -3276 1496
+-3226 1496 -3226 1571
+e 45 2
+-3226 1571 -3226 1496
+-3226 1571 -3276 1571
+e 46 2
+-3276 1571 -3226 1571
+-3276 1571 -3276 2161
+e 47 2
+-3276 2161 -3276 1571
+-3276 2161 -3326 2161
+e 48 2
+-3326 2161 -3276 2161
+-3326 2161 -3326 1161
+e 49 2
+-3136 841 -3136 1841
+-3136 841 -3086 841
+e 50 2
+-3086 841 -3136 841
+-3086 841 -3086 1671
+e 51 2
+-3086 1671 -3086 841
+-3086 1671 -3061 1671
+e 52 2
+-3061 1671 -3086 1671
+-3061 1671 -3061 1746
+e 53 2
+-3061 1746 -3061 1671
+-3061 1746 -3086 1746
+e 54 2
+-3086 1746 -3061 1746
+-3086 1746 -3086 2161
+e 55 2
+-3086 2161 -3086 1746
+-3086 2161 -3136 2161
+e 56 2
+-3136 2161 -3086 2161
+-3136 2161 -3136 1161
+e 57 2
+-2976 1356 -2976 1431
+-2976 1356 -2941 1356
+e 58 2
+-2941 1356 -2976 1356
+-2941 1356 -2941 841
+e 59 2
+-2941 841 -2941 1356
+-2941 841 -2891 841
+e 60 2
+-2891 841 -2941 841
+-2891 841 -2891 1841
+e 61 2
+-2891 2161 -2891 1161
+-2891 2161 -2941 2161
+e 62 2
+-2941 2161 -2891 2161
+-2941 2161 -2941 1431
+e 63 2
+-2941 1431 -2941 2161
+-2941 1431 -2976 1431
+e 64 2
+-2976 1431 -2941 1431
+-2976 1431 -2976 1356
+e 65 2
+-2786 1356 -2786 1431
+-2786 1356 -2751 1356
+e 66 2
+-2751 1356 -2786 1356
+-2751 1356 -2751 841
+e 67 2
+-2751 841 -2751 1356
+-2751 841 -2701 841
+e 68 2
+-2701 841 -2751 841
+-2701 841 -2701 1841
+e 69 2
+-2701 2161 -2701 1161
+-2701 2161 -2751 2161
+e 70 2
+-2751 2161 -2701 2161
+-2751 2161 -2751 1431
+e 71 2
+-2751 1431 -2751 2161
+-2751 1431 -2786 1431
+e 72 2
+-2786 1431 -2751 1431
+-2786 1431 -2786 1356
+e 73 2
+-2596 1356 -2596 1431
+-2596 1356 -2561 1356
+e 74 2
+-2561 1356 -2596 1356
+-2561 1356 -2561 841
+e 75 2
+-2561 841 -2561 1356
+-2561 841 -2511 841
+e 76 2
+-2511 841 -2561 841
+-2511 841 -2511 1841
+e 77 2
+-2511 2161 -2511 1161
+-2511 2161 -2561 2161
+e 78 2
+-2561 2161 -2511 2161
+-2561 2161 -2561 1431
+e 79 2
+-2561 1431 -2561 2161
+-2561 1431 -2596 1431
+e 80 2
+-2596 1431 -2561 1431
+-2596 1431 -2596 1356
+Grid.6
+151 151 2 Mar 18 22:40:23 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-5720 1326 -5720 2051
+-5720 1326 -5535 1326
+e 2 2
+-5535 1326 -5720 1326
+-5535 1326 -5535 951
+e 3 2
+-5535 951 -5535 1326
+-5535 951 -5465 951
+e 4 2
+-5465 951 -5535 951
+-5465 951 -5465 1326
+e 5 2
+-5465 1326 -5465 951
+-5465 1326 -5195 1326
+e 6 2
+-5195 1326 -5465 1326
+-5195 1326 -5195 1461
+e 7 2
+-5195 1461 -5195 1326
+-5195 1461 -5265 1461
+e 8 2
+-5265 1461 -5195 1461
+-5265 1461 -5265 1396
+e 9 2
+-5265 1396 -5265 1461
+-5265 1396 -5650 1396
+e 10 2
+-5650 1396 -5265 1396
+-5650 1396 -5650 2051
+e 11 2
+-5650 2051 -5650 1396
+-5650 2051 -5720 2051
+e 12 2
+-5720 2051 -5650 2051
+-5720 2051 -5720 1326
+e 13 2
+-5175 1976 -5175 2046
+-5175 1976 -4665 1976
+e 14 2
+-4665 1976 -5175 1976
+-4665 1976 -4665 2046
+e 15 2
+-4665 2046 -4665 1976
+-4665 2046 -5175 2046
+e 16 2
+-5175 2046 -4665 2046
+-5175 2046 -5175 1976
+e 17 2
+-5585 1466 -5585 1601
+-5585 1466 -5515 1466
+e 18 2
+-5515 1466 -5585 1466
+-5515 1466 -5515 1531
+e 19 2
+-5515 1531 -5515 1466
+-5515 1531 -5130 1531
+e 20 2
+-5130 1531 -5515 1531
+-5130 1531 -5130 1326
+e 21 2
+-5130 1326 -5130 1531
+-5130 1326 -5005 1326
+e 22 2
+-5005 1326 -5130 1326
+-5005 1326 -5005 1461
+e 23 2
+-5005 1461 -5005 1326
+-5005 1461 -5060 1461
+e 24 2
+-5060 1461 -5005 1461
+-5060 1461 -5060 1601
+e 25 2
+-5060 1601 -5060 1461
+-5060 1601 -5585 1601
+e 26 2
+-5585 1601 -5060 1601
+-5585 1601 -5585 1466
+e 27 2
+-5455 1676 -5455 1746
+-5455 1676 -4940 1676
+e 28 2
+-4940 1676 -5455 1676
+-4940 1676 -4940 1326
+e 29 2
+-4940 1326 -4940 1676
+-4940 1326 -4815 1326
+e 30 2
+-4815 1326 -4940 1326
+-4815 1326 -4815 1461
+e 31 2
+-4815 1461 -4815 1326
+-4815 1461 -4870 1461
+e 32 2
+-4870 1461 -4815 1461
+-4870 1461 -4870 1746
+e 33 2
+-4870 1746 -4870 1461
+-4870 1746 -5455 1746
+e 34 2
+-5455 1746 -4870 1746
+-5455 1746 -5455 1676
+e 35 2
+-5140 951 -5140 1221
+-5140 951 -5070 951
+e 36 2
+-5070 951 -5140 951
+-5070 951 -5070 1151
+e 37 2
+-5070 1151 -5070 951
+-5070 1151 -4680 1151
+e 38 2
+-4680 1151 -5070 1151
+-4680 1151 -4680 1574
+e 39 2
+-4680 1574 -4680 1151
+-4680 1574 -4646 1574
+e 40 2
+-4646 1574 -4680 1574
+-4646 1574 -4646 1714
+e 41 2
+-4646 1714 -4646 1574
+-4646 1714 -4680 1714
+e 42 2
+-4680 1714 -4646 1714
+-4680 1714 -4680 1911
+e 43 2
+-4680 1911 -4680 1714
+-4680 1911 -4985 1911
+e 44 2
+-4985 1911 -4680 1911
+-4985 1911 -4985 1841
+e 45 2
+-4985 1841 -4985 1911
+-4985 1841 -4750 1841
+e 46 2
+-4750 1841 -4985 1841
+-4750 1841 -4750 1714
+e 47 2
+-4750 1714 -4750 1841
+-4750 1714 -4786 1714
+e 48 2
+-4786 1714 -4750 1714
+-4786 1714 -4786 1574
+e 49 2
+-4786 1574 -4786 1714
+-4786 1574 -4750 1574
+e 50 2
+-4750 1574 -4786 1574
+-4750 1574 -4750 1221
+e 51 2
+-4750 1221 -4750 1574
+-4750 1221 -5140 1221
+e 52 2
+-5140 1221 -4750 1221
+-5140 1221 -5140 951
+e 53 2
+-5760 2116 -5760 2286
+-5760 2116 -5340 2116
+e 54 2
+-5340 2116 -5760 2116
+-5340 2116 -5340 1951
+e 55 2
+-5340 1951 -5340 2116
+-5340 1951 -5270 1951
+e 56 2
+-5270 1951 -5340 1951
+-5270 1951 -5270 2116
+e 57 2
+-5270 2116 -5270 1951
+-5270 2116 -4620 2116
+e 58 2
+-4620 2116 -5270 2116
+-4620 2116 -4620 2121
+e 59 2
+-4620 2121 -4620 2116
+-4620 2121 -3620 2121
+e 60 2
+-3471 2121 -4471 2121
+-3471 2121 -3471 2116
+e 61 2
+-3471 2116 -3471 2121
+-3471 2116 -3051 2116
+e 62 2
+-3051 2116 -3471 2116
+-3051 2116 -3051 1951
+e 63 2
+-3051 1951 -3051 2116
+-3051 1951 -2981 1951
+e 64 2
+-2981 1951 -3051 1951
+-2981 1951 -2981 2116
+e 65 2
+-2981 2116 -2981 1951
+-2981 2116 -2331 2116
+e 66 2
+-2331 2116 -2981 2116
+-2331 2116 -2331 2286
+e 67 2
+-2331 2286 -2331 2116
+-2331 2286 -3331 2286
+e 68 2
+-3380 2286 -2380 2286
+-3380 2286 -3380 2291
+e 69 2
+-3380 2291 -3380 2286
+-3380 2291 -4380 2291
+e 70 2
+-4705 2291 -3705 2291
+-4705 2291 -4705 2286
+e 71 2
+-4705 2286 -4705 2291
+-4705 2286 -5705 2286
+e 72 2
+-5760 2286 -4760 2286
+-5760 2286 -5760 2116
+e 73 2
+-3431 1326 -3431 2051
+-3431 1326 -3246 1326
+e 74 2
+-3246 1326 -3431 1326
+-3246 1326 -3246 951
+e 75 2
+-3246 951 -3246 1326
+-3246 951 -3176 951
+e 76 2
+-3176 951 -3246 951
+-3176 951 -3176 1326
+e 77 2
+-3176 1326 -3176 951
+-3176 1326 -2906 1326
+e 78 2
+-2906 1326 -3176 1326
+-2906 1326 -2906 1461
+e 79 2
+-2906 1461 -2906 1326
+-2906 1461 -2976 1461
+e 80 2
+-2976 1461 -2906 1461
+-2976 1461 -2976 1396
+e 81 2
+-2976 1396 -2976 1461
+-2976 1396 -3361 1396
+e 82 2
+-3361 1396 -2976 1396
+-3361 1396 -3361 2051
+e 83 2
+-3361 2051 -3361 1396
+-3361 2051 -3431 2051
+e 84 2
+-3431 2051 -3361 2051
+-3431 2051 -3431 1326
+e 85 2
+-2886 1976 -2886 2046
+-2886 1976 -2376 1976
+e 86 2
+-2376 1976 -2886 1976
+-2376 1976 -2376 2046
+e 87 2
+-2376 2046 -2376 1976
+-2376 2046 -2886 2046
+e 88 2
+-2886 2046 -2376 2046
+-2886 2046 -2886 1976
+e 89 2
+-3296 1466 -3296 1606
+-3296 1466 -3226 1466
+e 90 2
+-3226 1466 -3296 1466
+-3226 1466 -3226 1531
+e 91 2
+-3226 1531 -3226 1466
+-3226 1531 -2841 1531
+e 92 2
+-2841 1531 -3226 1531
+-2841 1531 -2841 1326
+e 93 2
+-2841 1326 -2841 1531
+-2841 1326 -2716 1326
+e 94 2
+-2716 1326 -2841 1326
+-2716 1326 -2716 1461
+e 95 2
+-2716 1461 -2716 1326
+-2716 1461 -2771 1461
+e 96 2
+-2771 1461 -2716 1461
+-2771 1461 -2771 1601
+e 97 2
+-2771 1601 -2771 1461
+-2771 1601 -3226 1601
+e 98 2
+-3226 1601 -2771 1601
+-3226 1601 -3226 1606
+e 99 2
+-3226 1606 -3226 1601
+-3226 1606 -3296 1606
+e 100 2
+-3296 1606 -3226 1606
+-3296 1606 -3296 1466
+e 101 2
+-2851 951 -2851 1221
+-2851 951 -2781 951
+e 102 2
+-2781 951 -2851 951
+-2781 951 -2781 1151
+e 103 2
+-2781 1151 -2781 951
+-2781 1151 -2391 1151
+e 104 2
+-2391 1151 -2781 1151
+-2391 1151 -2391 1911
+e 105 2
+-2391 1911 -2391 1151
+-2391 1911 -2696 1911
+e 106 2
+-2696 1911 -2391 1911
+-2696 1911 -2696 1841
+e 107 2
+-2696 1841 -2696 1911
+-2696 1841 -2461 1841
+e 108 2
+-2461 1841 -2696 1841
+-2461 1841 -2461 1221
+e 109 2
+-2461 1221 -2461 1841
+-2461 1221 -2851 1221
+e 110 2
+-2851 1221 -2461 1221
+-2851 1221 -2851 951
+e 111 2
+-3166 1676 -3166 1746
+-3166 1676 -2651 1676
+e 112 2
+-2651 1676 -3166 1676
+-2651 1676 -2651 1326
+e 113 2
+-2651 1326 -2651 1676
+-2651 1326 -2526 1326
+e 114 2
+-2526 1326 -2651 1326
+-2526 1326 -2526 1461
+e 115 2
+-2526 1461 -2526 1326
+-2526 1461 -2581 1461
+e 116 2
+-2581 1461 -2526 1461
+-2581 1461 -2581 1746
+e 117 2
+-2581 1746 -2581 1461
+-2581 1746 -3166 1746
+e 118 2
+-3166 1746 -2581 1746
+-3166 1746 -3166 1676
+e 119 2
+-5760 716 -5760 886
+-5760 716 -4760 716
+e 120 2
+-4705 716 -5705 716
+-4705 716 -4705 715
+e 121 2
+-3385 716 -3385 715
+-3385 716 -2385 716
+e 122 2
+-2331 716 -3331 716
+-2331 716 -2331 886
+e 123 2
+-2331 886 -2331 716
+-2331 886 -2411 886
+e 124 2
+-2411 886 -2331 886
+-2411 886 -2411 1086
+e 125 2
+-2411 1086 -2411 886
+-2411 1086 -2481 1086
+e 126 2
+-2481 1086 -2411 1086
+-2481 1086 -2481 886
+e 127 2
+-2481 886 -2481 1086
+-2481 886 -2981 886
+e 128 2
+-2981 886 -2481 886
+-2981 886 -2981 1086
+e 129 2
+-2981 1086 -2981 886
+-2981 1086 -3051 1086
+e 130 2
+-3051 1086 -2981 1086
+-3051 1086 -3051 886
+e 131 2
+-3051 886 -3051 1086
+-3051 886 -3361 886
+e 132 2
+-3361 886 -3051 886
+-3361 886 -3361 1086
+e 133 2
+-3361 1086 -3361 886
+-3361 1086 -3431 1086
+e 134 2
+-3431 1086 -3361 1086
+-3431 1086 -3431 886
+e 135 2
+-3431 886 -3431 1086
+-3431 886 -3471 886
+e 136 2
+-3471 886 -3431 886
+-3471 886 -3471 885
+e 137 2
+-3471 885 -3471 886
+-3471 885 -4471 885
+e 138 2
+-4620 886 -4620 885
+-4620 886 -4700 886
+e 139 2
+-4700 886 -4620 886
+-4700 886 -4700 1086
+e 140 2
+-4700 1086 -4700 886
+-4700 1086 -4770 1086
+e 141 2
+-4770 1086 -4700 1086
+-4770 1086 -4770 886
+e 142 2
+-4770 886 -4770 1086
+-4770 886 -5270 886
+e 143 2
+-5270 886 -4770 886
+-5270 886 -5270 1086
+e 144 2
+-5270 1086 -5270 886
+-5270 1086 -5340 1086
+e 145 2
+-5340 1086 -5270 1086
+-5340 1086 -5340 886
+e 146 2
+-5340 886 -5340 1086
+-5340 886 -5650 886
+e 147 2
+-5650 886 -5340 886
+-5650 886 -5650 1086
+e 148 2
+-5650 1086 -5650 886
+-5650 1086 -5720 1086
+e 149 2
+-5720 1086 -5650 1086
+-5720 1086 -5720 886
+e 150 2
+-5720 886 -5720 1086
+-5720 886 -5760 886
+e 151 2
+-5760 886 -5720 886
+-5760 886 -5760 716
+Grid.7
+8 8 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-4751 1609 -4751 1679
+-4751 1609 -4681 1609
+e 2 2
+-4681 1609 -4751 1609
+-4681 1609 -4681 1679
+e 3 2
+-4681 1679 -4681 1609
+-4681 1679 -4751 1679
+e 4 2
+-4751 1679 -4681 1679
+-4751 1679 -4751 1609
+e 5 2
+-3296 1501 -3296 1571
+-3296 1501 -3226 1501
+e 6 2
+-3226 1501 -3296 1501
+-3226 1501 -3226 1571
+e 7 2
+-3226 1571 -3226 1501
+-3226 1571 -3296 1571
+e 8 2
+-3296 1571 -3226 1571
+-3296 1571 -3296 1501
+Grid.8
+9 9 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+-3296 1515 -4296 1515
+-3296 1515 -3296 1466
+e 2 2
+-3296 1466 -3296 1515
+-3296 1466 -3226 1466
+e 3 2
+-3226 1466 -3296 1466
+-3226 1466 -3226 1606
+e 4 2
+-3226 1606 -3226 1466
+-3226 1606 -3296 1606
+e 5 2
+-3296 1606 -3226 1606
+-3296 1606 -3296 1585
+e 6 2
+-3296 1585 -3296 1606
+-3296 1585 -4296 1585
+e 7 2
+-4681 1585 -3681 1585
+-4681 1585 -4681 1714
+e 8 2
+-4681 1714 -4681 1585
+-4681 1714 -4685 1714
+e 9 2
+-4685 1714 -4681 1714
+-4685 1714 -4685 1715
+Grid.9
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.10
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.11
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 Mar 18 22:40:23 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

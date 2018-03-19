@@ -1,0 +1,114 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         dff.lvs.report.ext
+LAYOUT NAME:              dff.calibre.db ('dff')
+CREATION TIME:            Fri Dec 15 18:50:36 2017
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+Extraction Errors and Warnings for cell "dff"
+---------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  1
+          (1)  name  "a"  at location  (-1.1975,0.55)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (-1.7875,0.5875)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  2
+          (1)  name  "a"  at location  (-0.4475,0.6675)  on layer  11 "metal1"
+          (2)  name  "b"  at location  (-1.635,0.735)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  4
+          (1)  name  "a"  at location  (2.55,0.6675)  on layer  11 "metal1"
+          (2)  name  "b"  at location  (2.1225,0.6975)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  9
+          (1)  name  "a"  at location  (0.3075,0.6675)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (-0.285,0.5875)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  10
+          (1)  name  "a"  at location  (1.055,0.6675)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (0.47,0.5875)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  13
+          (1)  name  "b"  at location  (1.37,0.735)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (1.97,0.5875)  on layer  11 "metal1"
+          The name "b" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  17
+          (1)  name  "b"  at location  (2.865,0.735)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (3.465,0.5875)  on layer  11 "metal1"
+          The name "b" was assigned to the net.
+
+WARNING:  Open circuit - Same name on different nets:
+          Name:  "a"
+          (1)  at location  (-1.95,0.6675)  on layer  11 "metal1"  on net id  6
+          (2)  at location  (-1.1975,0.55)  on layer  11 "metal1"  on net id  1
+          (3)  at location  (-0.4475,0.6675)  on layer  11 "metal1"  on net id  2
+          (4)  at location  (0.3075,0.6675)  on layer  11 "metal1"  on net id  9
+          (5)  at location  (1.055,0.6675)  on layer  11 "metal1"  on net id  10
+          (6)  at location  (1.8075,0.55)  on layer  11 "metal1"  on net id  12
+          (7)  at location  (2.55,0.6675)  on layer  11 "metal1"  on net id  4
+          (8)  at location  (3.3025,0.55)  on layer  11 "metal1"  on net id  5
+          The name was assigned to net 6 .
+
+WARNING:  Open circuit - Same name on different nets:
+          Name:  "b"
+          (1)  at location  (-0.8825,0.6975)  on layer  11 "metal1"  on net id  7
+          (2)  at location  (-0.1325,0.6975)  on layer  11 "metal1"  on net id  8
+          (3)  at location  (0.6225,0.6975)  on layer  11 "metal1"  on net id  3
+          (4)  at location  (1.37,0.735)  on layer  11 "metal1"  on net id  13
+          (5)  at location  (2.865,0.735)  on layer  11 "metal1"  on net id  17
+          (6)  at location  (3.6175,0.6975)  on layer  11 "metal1"  on net id  16
+          The name was assigned to net 7 .
+
+WARNING:  Open circuit - Same name on different nets:
+          Name:  "Out"
+          (1)  at location  (1.2175,0.5875)  on layer  11 "metal1"  on net id  11
+          (2)  at location  (2.7125,0.5875)  on layer  11 "metal1"  on net id  14
+          The name was assigned to net 11 .
+
+
+WARNING: Top level port name "a" on net 1 at location (-1.1975,0.55) already used on net 6; ignored.
+WARNING: Top level port name "Out" on net 1 at location (-1.7875,0.5875) already used on net 11; ignored.
+WARNING: Top level port name "a" on net 2 at location (-0.4475,0.6675) already used on net 6; ignored.
+WARNING: Top level port name "b" on net 2 at location (-1.635,0.735) already used on net 7; ignored.
+WARNING: Top level port name "b" on net 3 at location (0.6225,0.6975) already used on net 7; ignored.
+WARNING: Top level port name "a" on net 4 at location (2.55,0.6675) already used on net 6; ignored.
+WARNING: Top level port name "b" on net 4 at location (2.1225,0.6975) already used on net 7; ignored.
+WARNING: Top level port name "a" on net 5 at location (3.3025,0.55) already used on net 6; ignored.
+WARNING: Top level port name "b" on net 8 at location (-0.1325,0.6975) already used on net 7; ignored.
+WARNING: Top level port name "a" on net 9 at location (0.3075,0.6675) already used on net 6; ignored.
+WARNING: Top level port name "Out" on net 9 at location (-0.285,0.5875) already used on net 11; ignored.
+WARNING: Top level port name "a" on net 10 at location (1.055,0.6675) already used on net 6; ignored.
+WARNING: Top level port name "Out" on net 10 at location (0.47,0.5875) already used on net 11; ignored.
+WARNING: Top level port name "a" on net 12 at location (1.8075,0.55) already used on net 6; ignored.
+WARNING: Top level port name "b" on net 13 at location (1.37,0.735) already used on net 7; ignored.
+WARNING: Top level port name "Out" on net 13 at location (1.97,0.5875) already used on net 11; ignored.
+WARNING: Top level port name "Out" on net 14 at location (2.7125,0.5875) already used on net 11; ignored.
+WARNING: Top level port name "b" on net 16 at location (3.6175,0.6975) already used on net 7; ignored.
+WARNING: Top level port name "b" on net 17 at location (2.865,0.735) already used on net 7; ignored.
+WARNING: Top level port name "Out" on net 17 at location (3.465,0.5875) already used on net 11; ignored.

@@ -1,0 +1,52 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: 3i_XOR
+* View Name:     schematic
+* Netlisted on:  Mar 18 22:44:50 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
+
+*.PIN VSS!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B Z
+*.PININFO A:I B:I Z:O
+MM_i_19 net_001 A Z VSS! NM W=4.15E-07 L=5E-08
+MM_i_24 VSS! B net_001 VSS! NM W=4.15E-07 L=5E-08
+MM_i_0 net_000 A VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_13 Z net_000 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 VSS! B net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_30 net_002 A net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_35 VDD! B net_002 VDD! PM W=3.15E-07 L=5E-08
+MM_i_41 net_003 net_000 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_47 Z A net_003 VDD! PM W=6.3E-07 L=5E-08
+MM_i_53 net_003 B Z VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    3i_XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 3i_XOR A B C out
+*.PININFO A:I B:I C:I out:O
+XI1 net9 C out / XOR2_X1
+XI0 B A net9 / XOR2_X1
+.ENDS
+

@@ -1,0 +1,36 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECEC471_lib
+* Top Cell Name: inv_chain
+* View Name:     schematic
+* Netlisted on:  Dec  6 00:52:10 2017
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: ECEC471_lib
+* Cell Name:    inv_chain
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv_chain in out
+*.PININFO in:I out:O
+MM5 out net10 gnd! gnd! NMOS_VTH W=140.0n L=50n m=1
+MM2 net10 net5 gnd! gnd! NMOS_VTH W=140.0n L=50n m=1
+MM0 net5 in gnd! gnd! NMOS_VTH W=140.0n L=50n m=1
+MM4 out net10 vdd! vdd! PMOS_VTH W=195.00n L=50n m=1
+MM3 net10 net5 vdd! vdd! PMOS_VTH W=195.00n L=50n m=1
+MM1 net5 in vdd! vdd! PMOS_VTH W=195.00n L=50n m=1
+.ENDS
+

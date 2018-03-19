@@ -1,0 +1,40 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: XOR2_X1
+* View Name:     schematic
+* Netlisted on:  Mar 12 10:49:22 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VDD!
++        VSS!
+
+*.PIN VDD!
+*+    VSS!
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B VDD! VSS! Z
+*.PININFO A:I B:I VDD!:I VSS!:I Z:O
+MM_i_19 net_001 A Z VSS! NMOS_VTL W=210.0n L=50n m=1
+MM_i_24 VSS! B net_001 VSS! NMOS_VTL W=210.0n L=50n m=1
+MM_i_0 net_000 A VSS! VSS! NMOS_VTL W=210.0n L=50n m=1
+MM_i_13 Z net_000 VSS! VSS! NMOS_VTL W=210.0n L=50n m=1
+MM_i_7 VSS! B net_000 VSS! NMOS_VTL W=210.0n L=50n m=1
+MM_i_30 net_002 A net_000 VDD! PMOS_VTL W=630.0n L=50n m=1
+MM_i_35 VDD! B net_002 VDD! PMOS_VTL W=630.0n L=50n m=1
+MM_i_41 net_003 net_000 VDD! VDD! PMOS_VTL W=630.0n L=50n m=1
+MM_i_47 Z A net_003 VDD! PMOS_VTL W=630.0n L=50n m=1
+MM_i_53 net_003 B Z VDD! PMOS_VTL W=630.0n L=50n m=1
+.ENDS
+

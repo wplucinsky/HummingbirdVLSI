@@ -1,0 +1,4602 @@
+FullAdder 1000
+Well.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of well = 0.2
+Poly.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min width of poly = 0.025
+Poly.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min spacing of gate poly = 0.07
+Poly.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Min extension of poly past active = 0.025
+Poly.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of gate = 0.0525
+Poly.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of poly to active = 0.025
+Poly.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of field poly = 0.05
+Active.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum well enclosure of active = 0.055
+Active.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Active must be inside well
+Implant.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of contact = 0.0325
+Contact.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact = 0.0375
+Contact.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum active enclosure of contact = 0.0025
+Contact.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum poly enclosure of contact = 0.0025
+Contact.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of contact to poly = 0.0175
+Metal1.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal1 = 0.035
+Metal1.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 = 0.0325
+Metal1.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past contact by 0.0175 on two opposite sides
+Metal1.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+Via1.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal1
+Via1.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+96 96 2 Mar 18 16:50:06 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+321 -2145 321 -2055
+321 -2145 411 -2145
+e 2 2
+411 -2145 321 -2145
+411 -2145 411 -2055
+e 3 2
+411 -2055 411 -2145
+411 -2055 321 -2055
+e 4 2
+321 -2055 411 -2055
+321 -2055 321 -2145
+e 5 2
+336 180 336 270
+336 180 426 180
+e 6 2
+426 180 336 180
+426 180 426 270
+e 7 2
+426 270 426 180
+426 270 336 270
+e 8 2
+336 270 426 270
+336 270 336 180
+e 9 2
+232 -1566 232 -1356
+232 -1566 872 -1566
+e 10 2
+872 -1566 232 -1566
+872 -1566 872 -1151
+e 11 2
+872 -1151 872 -1566
+872 -1151 647 -1151
+e 12 2
+647 -1151 872 -1151
+647 -1151 647 -1356
+e 13 2
+647 -1356 647 -1151
+647 -1356 232 -1356
+e 14 2
+232 -1356 647 -1356
+232 -1356 232 -1566
+e 15 2
+232 -661 232 -346
+232 -661 647 -661
+e 16 2
+647 -661 232 -661
+647 -661 647 -976
+e 17 2
+647 -976 647 -661
+647 -976 872 -976
+e 18 2
+872 -976 647 -976
+872 -976 872 -346
+e 19 2
+872 -346 872 -976
+872 -346 232 -346
+e 20 2
+232 -346 872 -346
+232 -346 232 -661
+e 21 2
+2628 -2145 2628 -2055
+2628 -2145 2718 -2145
+e 22 2
+2718 -2145 2628 -2145
+2718 -2145 2718 -2055
+e 23 2
+2718 -2055 2718 -2145
+2718 -2055 2628 -2055
+e 24 2
+2628 -2055 2718 -2055
+2628 -2055 2628 -2145
+e 25 2
+2631 180 2631 270
+2631 180 2721 180
+e 26 2
+2721 180 2631 180
+2721 180 2721 270
+e 27 2
+2721 270 2721 180
+2721 270 2631 270
+e 28 2
+2631 270 2721 270
+2631 270 2631 180
+e 29 2
+2587 -1593 2587 -1383
+2587 -1593 3227 -1593
+e 30 2
+3227 -1593 2587 -1593
+3227 -1593 3227 -1178
+e 31 2
+3227 -1178 3227 -1593
+3227 -1178 3002 -1178
+e 32 2
+3002 -1178 3227 -1178
+3002 -1178 3002 -1383
+e 33 2
+3002 -1383 3002 -1178
+3002 -1383 2587 -1383
+e 34 2
+2587 -1383 3002 -1383
+2587 -1383 2587 -1593
+e 35 2
+2587 -688 2587 -373
+2587 -688 3002 -688
+e 36 2
+3002 -688 2587 -688
+3002 -688 3002 -1003
+e 37 2
+3002 -1003 3002 -688
+3002 -1003 3227 -1003
+e 38 2
+3227 -1003 3002 -1003
+3227 -1003 3227 -373
+e 39 2
+3227 -373 3227 -1003
+3227 -373 2587 -373
+e 40 2
+2587 -373 3227 -373
+2587 -373 2587 -688
+e 41 2
+4866 -2145 4866 -2055
+4866 -2145 4956 -2145
+e 42 2
+4956 -2145 4866 -2145
+4956 -2145 4956 -2055
+e 43 2
+4956 -2055 4956 -2145
+4956 -2055 4866 -2055
+e 44 2
+4866 -2055 4956 -2055
+4866 -2055 4866 -2145
+e 45 2
+4938 180 4938 270
+4938 180 5028 180
+e 46 2
+5028 180 4938 180
+5028 180 5028 270
+e 47 2
+5028 270 5028 180
+5028 270 4938 270
+e 48 2
+4938 270 5028 270
+4938 270 4938 180
+e 49 2
+4828 -1593 4828 -1383
+4828 -1593 5828 -1593
+e 50 2
+5853 -1593 4853 -1593
+5853 -1593 5853 -1178
+e 51 2
+5853 -1178 5853 -1593
+5853 -1178 5248 -1178
+e 52 2
+5248 -1178 5853 -1178
+5248 -1178 5248 -1383
+e 53 2
+5248 -1383 5248 -1178
+5248 -1383 4828 -1383
+e 54 2
+4828 -1383 5248 -1383
+4828 -1383 4828 -1593
+e 55 2
+4828 -688 4828 -373
+4828 -688 5248 -688
+e 56 2
+5248 -688 4828 -688
+5248 -688 5248 -1003
+e 57 2
+5248 -1003 5248 -688
+5248 -1003 5853 -1003
+e 58 2
+5853 -1003 5248 -1003
+5853 -1003 5853 -373
+e 59 2
+5853 -373 5853 -1003
+5853 -373 4853 -373
+e 60 2
+4828 -373 5828 -373
+4828 -373 4828 -688
+e 61 2
+7011 180 7011 270
+7011 180 7101 180
+e 62 2
+7101 180 7011 180
+7101 180 7101 270
+e 63 2
+7101 270 7101 180
+7101 270 7011 270
+e 64 2
+7011 270 7101 270
+7011 270 7011 180
+e 65 2
+7015 -1593 7015 -1383
+7015 -1593 7655 -1593
+e 66 2
+7655 -1593 7015 -1593
+7655 -1593 7655 -1178
+e 67 2
+7655 -1178 7655 -1593
+7655 -1178 7430 -1178
+e 68 2
+7430 -1178 7655 -1178
+7430 -1178 7430 -1383
+e 69 2
+7430 -1383 7430 -1178
+7430 -1383 7015 -1383
+e 70 2
+7015 -1383 7430 -1383
+7015 -1383 7015 -1593
+e 71 2
+7015 -688 7015 -373
+7015 -688 7430 -688
+e 72 2
+7430 -688 7015 -688
+7430 -688 7430 -1003
+e 73 2
+7430 -1003 7430 -688
+7430 -1003 7655 -1003
+e 74 2
+7655 -1003 7430 -1003
+7655 -1003 7655 -373
+e 75 2
+7655 -373 7655 -1003
+7655 -373 7015 -373
+e 76 2
+7015 -373 7655 -373
+7015 -373 7015 -688
+e 77 2
+9711 -2145 9711 -2055
+9711 -2145 9801 -2145
+e 78 2
+9801 -2145 9711 -2145
+9801 -2145 9801 -2055
+e 79 2
+9801 -2055 9801 -2145
+9801 -2055 9711 -2055
+e 80 2
+9711 -2055 9801 -2055
+9711 -2055 9711 -2145
+e 81 2
+9783 180 9783 270
+9783 180 9873 180
+e 82 2
+9873 180 9783 180
+9873 180 9873 270
+e 83 2
+9873 270 9873 180
+9873 270 9783 270
+e 84 2
+9783 270 9873 270
+9783 270 9783 180
+e 85 2
+9703 -1593 9703 -1383
+9703 -1593 10703 -1593
+e 86 2
+10728 -1593 9728 -1593
+10728 -1593 10728 -1178
+e 87 2
+10728 -1178 10728 -1593
+10728 -1178 10123 -1178
+e 88 2
+10123 -1178 10728 -1178
+10123 -1178 10123 -1383
+e 89 2
+10123 -1383 10123 -1178
+10123 -1383 9703 -1383
+e 90 2
+9703 -1383 10123 -1383
+9703 -1383 9703 -1593
+e 91 2
+9703 -688 9703 -373
+9703 -688 10123 -688
+e 92 2
+10123 -688 9703 -688
+10123 -688 10123 -1003
+e 93 2
+10123 -1003 10123 -688
+10123 -1003 10728 -1003
+e 94 2
+10728 -1003 10123 -1003
+10728 -1003 10728 -373
+e 95 2
+10728 -373 10728 -1003
+10728 -373 9728 -373
+e 96 2
+9703 -373 10703 -373
+9703 -373 9703 -688
+Grid.2
+56 56 2 Mar 18 16:50:06 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+167 -1681 167 -681
+167 -1681 977 -1681
+e 2 2
+977 -1681 167 -1681
+977 -1681 977 -681
+e 3 2
+977 -231 977 -1231
+977 -231 167 -231
+e 4 2
+167 -231 977 -231
+167 -231 167 -1231
+e 5 2
+321 -2145 321 -2055
+321 -2145 411 -2145
+e 6 2
+411 -2145 321 -2145
+411 -2145 411 -2055
+e 7 2
+411 -2055 411 -2145
+411 -2055 321 -2055
+e 8 2
+321 -2055 411 -2055
+321 -2055 321 -2145
+e 9 2
+336 180 336 270
+336 180 426 180
+e 10 2
+426 180 336 180
+426 180 426 270
+e 11 2
+426 270 426 180
+426 270 336 270
+e 12 2
+336 270 426 270
+336 270 336 180
+e 13 2
+2522 -1708 2522 -708
+2522 -1708 3332 -1708
+e 14 2
+3332 -1708 2522 -1708
+3332 -1708 3332 -708
+e 15 2
+3332 -258 3332 -1258
+3332 -258 2522 -258
+e 16 2
+2522 -258 3332 -258
+2522 -258 2522 -1258
+e 17 2
+2628 -2145 2628 -2055
+2628 -2145 2718 -2145
+e 18 2
+2718 -2145 2628 -2145
+2718 -2145 2718 -2055
+e 19 2
+2718 -2055 2718 -2145
+2718 -2055 2628 -2055
+e 20 2
+2628 -2055 2718 -2055
+2628 -2055 2628 -2145
+e 21 2
+2631 180 2631 270
+2631 180 2721 180
+e 22 2
+2721 180 2631 180
+2721 180 2721 270
+e 23 2
+2721 270 2721 180
+2721 270 2631 270
+e 24 2
+2631 270 2721 270
+2631 270 2631 180
+e 25 2
+4763 -1708 4763 -708
+4763 -1708 5763 -1708
+e 26 2
+5953 -1708 4953 -1708
+5953 -1708 5953 -708
+e 27 2
+5953 -258 5953 -1258
+5953 -258 4953 -258
+e 28 2
+4763 -258 5763 -258
+4763 -258 4763 -1258
+e 29 2
+4866 -2145 4866 -2055
+4866 -2145 4956 -2145
+e 30 2
+4956 -2145 4866 -2145
+4956 -2145 4956 -2055
+e 31 2
+4956 -2055 4956 -2145
+4956 -2055 4866 -2055
+e 32 2
+4866 -2055 4956 -2055
+4866 -2055 4866 -2145
+e 33 2
+4938 180 4938 270
+4938 180 5028 180
+e 34 2
+5028 180 4938 180
+5028 180 5028 270
+e 35 2
+5028 270 5028 180
+5028 270 4938 270
+e 36 2
+4938 270 5028 270
+4938 270 4938 180
+e 37 2
+6950 -1708 6950 -708
+6950 -1708 7760 -1708
+e 38 2
+7760 -1708 6950 -1708
+7760 -1708 7760 -708
+e 39 2
+7760 -258 7760 -1258
+7760 -258 6950 -258
+e 40 2
+6950 -258 7760 -258
+6950 -258 6950 -1258
+e 41 2
+7011 180 7011 270
+7011 180 7101 180
+e 42 2
+7101 180 7011 180
+7101 180 7101 270
+e 43 2
+7101 270 7101 180
+7101 270 7011 270
+e 44 2
+7011 270 7101 270
+7011 270 7011 180
+e 45 2
+9638 -1708 9638 -708
+9638 -1708 10638 -1708
+e 46 2
+10828 -1708 9828 -1708
+10828 -1708 10828 -708
+e 47 2
+10828 -258 10828 -1258
+10828 -258 9828 -258
+e 48 2
+9638 -258 10638 -258
+9638 -258 9638 -1258
+e 49 2
+9711 -2145 9711 -2055
+9711 -2145 9801 -2145
+e 50 2
+9801 -2145 9711 -2145
+9801 -2145 9801 -2055
+e 51 2
+9801 -2055 9801 -2145
+9801 -2055 9711 -2055
+e 52 2
+9711 -2055 9801 -2055
+9711 -2055 9711 -2145
+e 53 2
+9783 180 9783 270
+9783 180 9873 180
+e 54 2
+9873 180 9783 180
+9873 180 9873 270
+e 55 2
+9873 270 9873 180
+9873 270 9783 270
+e 56 2
+9783 270 9873 270
+9783 270 9783 180
+Grid.3
+60 60 2 Mar 18 16:50:06 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+77 -1771 77 -771
+77 -1771 1067 -1771
+e 2 2
+1067 -1771 77 -1771
+1067 -1771 1067 -771
+e 3 2
+1067 -141 1067 -1141
+1067 -141 77 -141
+e 4 2
+77 -141 1067 -141
+77 -141 77 -1141
+e 5 2
+240 -2229 240 -1971
+240 -2229 504 -2229
+e 6 2
+504 -2229 240 -2229
+504 -2229 504 -1971
+e 7 2
+504 -1971 504 -2229
+504 -1971 240 -1971
+e 8 2
+240 -1971 504 -1971
+240 -1971 240 -2229
+e 9 2
+255 96 255 354
+255 96 519 96
+e 10 2
+519 96 255 96
+519 96 519 354
+e 11 2
+519 354 519 96
+519 354 255 354
+e 12 2
+255 354 519 354
+255 354 255 96
+e 13 2
+2432 -1798 2432 -798
+2432 -1798 3422 -1798
+e 14 2
+3422 -1798 2432 -1798
+3422 -1798 3422 -798
+e 15 2
+3422 -168 3422 -1168
+3422 -168 2432 -168
+e 16 2
+2432 -168 3422 -168
+2432 -168 2432 -1168
+e 17 2
+2547 -2229 2547 -1971
+2547 -2229 2811 -2229
+e 18 2
+2811 -2229 2547 -2229
+2811 -2229 2811 -1971
+e 19 2
+2811 -1971 2811 -2229
+2811 -1971 2547 -1971
+e 20 2
+2547 -1971 2811 -1971
+2547 -1971 2547 -2229
+e 21 2
+2550 96 2550 354
+2550 96 2814 96
+e 22 2
+2814 96 2550 96
+2814 96 2814 354
+e 23 2
+2814 354 2814 96
+2814 354 2550 354
+e 24 2
+2550 354 2814 354
+2550 354 2550 96
+e 25 2
+4673 -1798 4673 -798
+4673 -1798 5673 -1798
+e 26 2
+6043 -1798 5043 -1798
+6043 -1798 6043 -798
+e 27 2
+6043 -168 6043 -1168
+6043 -168 5043 -168
+e 28 2
+4673 -168 5673 -168
+4673 -168 4673 -1168
+e 29 2
+4785 -2229 4785 -1971
+4785 -2229 5049 -2229
+e 30 2
+5049 -2229 4785 -2229
+5049 -2229 5049 -1971
+e 31 2
+5049 -1971 5049 -2229
+5049 -1971 4785 -1971
+e 32 2
+4785 -1971 5049 -1971
+4785 -1971 4785 -2229
+e 33 2
+4857 96 4857 354
+4857 96 5121 96
+e 34 2
+5121 96 4857 96
+5121 96 5121 354
+e 35 2
+5121 354 5121 96
+5121 354 4857 354
+e 36 2
+4857 354 5121 354
+4857 354 4857 96
+e 37 2
+6860 -1798 6860 -798
+6860 -1798 7850 -1798
+e 38 2
+7850 -1798 6860 -1798
+7850 -1798 7850 -798
+e 39 2
+7850 -168 7850 -1168
+7850 -168 6860 -168
+e 40 2
+6860 -168 7850 -168
+6860 -168 6860 -1168
+e 41 2
+6930 96 6930 354
+6930 96 7194 96
+e 42 2
+7194 96 6930 96
+7194 96 7194 354
+e 43 2
+7194 354 7194 96
+7194 354 6930 354
+e 44 2
+6930 354 7194 354
+6930 354 6930 96
+e 45 2
+6954 -2229 6954 -1971
+6954 -2229 7218 -2229
+e 46 2
+7218 -2229 6954 -2229
+7218 -2229 7218 -1971
+e 47 2
+7218 -1971 7218 -2229
+7218 -1971 6954 -1971
+e 48 2
+6954 -1971 7218 -1971
+6954 -1971 6954 -2229
+e 49 2
+9548 -1798 9548 -798
+9548 -1798 10548 -1798
+e 50 2
+10918 -1798 9918 -1798
+10918 -1798 10918 -798
+e 51 2
+10918 -168 10918 -1168
+10918 -168 9918 -168
+e 52 2
+9548 -168 10548 -168
+9548 -168 9548 -1168
+e 53 2
+9630 -2229 9630 -1971
+9630 -2229 9894 -2229
+e 54 2
+9894 -2229 9630 -2229
+9894 -2229 9894 -1971
+e 55 2
+9894 -1971 9894 -2229
+9894 -1971 9630 -1971
+e 56 2
+9630 -1971 9894 -1971
+9630 -1971 9630 -2229
+e 57 2
+9702 96 9702 354
+9702 96 9966 96
+e 58 2
+9966 96 9702 96
+9966 96 9966 354
+e 59 2
+9966 354 9966 96
+9966 354 9702 354
+e 60 2
+9702 354 9966 354
+9702 354 9702 96
+Grid.4
+324 324 2 Mar 18 16:50:06 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+237 -1471 237 -1406
+237 -1471 302 -1471
+e 2 2
+302 -1471 237 -1471
+302 -1471 302 -1406
+e 3 2
+302 -1406 302 -1471
+302 -1406 237 -1406
+e 4 2
+237 -1406 302 -1406
+237 -1406 237 -1471
+e 5 2
+237 -656 237 -591
+237 -656 302 -656
+e 6 2
+302 -656 237 -656
+302 -656 302 -591
+e 7 2
+302 -591 302 -656
+302 -591 237 -591
+e 8 2
+237 -591 302 -591
+237 -591 237 -656
+e 9 2
+237 -516 237 -451
+237 -516 302 -516
+e 10 2
+302 -516 237 -516
+302 -516 302 -451
+e 11 2
+302 -451 302 -516
+302 -451 237 -451
+e 12 2
+237 -451 302 -451
+237 -451 237 -516
+e 13 2
+312 -1096 312 -1031
+312 -1096 377 -1096
+e 14 2
+377 -1096 312 -1096
+377 -1096 377 -1031
+e 15 2
+377 -1031 377 -1096
+377 -1031 312 -1031
+e 16 2
+312 -1031 377 -1031
+312 -1031 312 -1096
+e 17 2
+333 -2130 333 -2065
+333 -2130 398 -2130
+e 18 2
+398 -2130 333 -2130
+398 -2130 398 -2065
+e 19 2
+398 -2065 398 -2130
+398 -2065 333 -2065
+e 20 2
+333 -2065 398 -2065
+333 -2065 333 -2130
+e 21 2
+348 195 348 260
+348 195 413 195
+e 22 2
+413 195 348 195
+413 195 413 260
+e 23 2
+413 260 413 195
+413 260 348 260
+e 24 2
+348 260 413 260
+348 260 348 195
+e 25 2
+427 -1471 427 -1406
+427 -1471 492 -1471
+e 26 2
+492 -1471 427 -1471
+492 -1471 492 -1406
+e 27 2
+492 -1406 492 -1471
+492 -1406 427 -1406
+e 28 2
+427 -1406 492 -1406
+427 -1406 427 -1471
+e 29 2
+507 -1096 507 -1031
+507 -1096 572 -1096
+e 30 2
+572 -1096 507 -1096
+572 -1096 572 -1031
+e 31 2
+572 -1031 572 -1096
+572 -1031 507 -1031
+e 32 2
+507 -1031 572 -1031
+507 -1031 507 -1096
+e 33 2
+612 -1471 612 -1406
+612 -1471 677 -1471
+e 34 2
+677 -1471 612 -1471
+677 -1471 677 -1406
+e 35 2
+677 -1406 677 -1471
+677 -1406 612 -1406
+e 36 2
+612 -1406 677 -1406
+612 -1406 612 -1471
+e 37 2
+612 -656 612 -591
+612 -656 677 -656
+e 38 2
+677 -656 612 -656
+677 -656 677 -591
+e 39 2
+677 -591 677 -656
+677 -591 612 -591
+e 40 2
+612 -591 677 -591
+612 -591 612 -656
+e 41 2
+612 -516 612 -451
+612 -516 677 -516
+e 42 2
+677 -516 612 -516
+677 -516 677 -451
+e 43 2
+677 -451 677 -516
+677 -451 612 -451
+e 44 2
+612 -451 677 -451
+612 -451 612 -516
+e 45 2
+667 -1096 667 -1031
+667 -1096 732 -1096
+e 46 2
+732 -1096 667 -1096
+732 -1096 732 -1031
+e 47 2
+732 -1031 732 -1096
+732 -1031 667 -1031
+e 48 2
+667 -1031 732 -1031
+667 -1031 667 -1096
+e 49 2
+802 -1471 802 -1406
+802 -1471 867 -1471
+e 50 2
+867 -1471 802 -1471
+867 -1471 867 -1406
+e 51 2
+867 -1406 867 -1471
+867 -1406 802 -1406
+e 52 2
+802 -1406 867 -1406
+802 -1406 802 -1471
+e 53 2
+802 -1331 802 -1266
+802 -1331 867 -1331
+e 54 2
+867 -1331 802 -1331
+867 -1331 867 -1266
+e 55 2
+867 -1266 867 -1331
+867 -1266 802 -1266
+e 56 2
+802 -1266 867 -1266
+802 -1266 802 -1331
+e 57 2
+802 -656 802 -591
+802 -656 867 -656
+e 58 2
+867 -656 802 -656
+867 -656 867 -591
+e 59 2
+867 -591 867 -656
+867 -591 802 -591
+e 60 2
+802 -591 867 -591
+802 -591 802 -656
+e 61 2
+802 -516 802 -451
+802 -516 867 -516
+e 62 2
+867 -516 802 -516
+867 -516 867 -451
+e 63 2
+867 -451 867 -516
+867 -451 802 -451
+e 64 2
+802 -451 867 -451
+802 -451 802 -516
+e 65 2
+2592 -1458 2592 -1393
+2592 -1458 2657 -1458
+e 66 2
+2657 -1458 2592 -1458
+2657 -1458 2657 -1393
+e 67 2
+2657 -1393 2657 -1458
+2657 -1393 2592 -1393
+e 68 2
+2592 -1393 2657 -1393
+2592 -1393 2592 -1458
+e 69 2
+2592 -673 2592 -608
+2592 -673 2657 -673
+e 70 2
+2657 -673 2592 -673
+2657 -673 2657 -608
+e 71 2
+2657 -608 2657 -673
+2657 -608 2592 -608
+e 72 2
+2592 -608 2657 -608
+2592 -608 2592 -673
+e 73 2
+2592 -533 2592 -468
+2592 -533 2657 -533
+e 74 2
+2657 -533 2592 -533
+2657 -533 2657 -468
+e 75 2
+2657 -468 2657 -533
+2657 -468 2592 -468
+e 76 2
+2592 -468 2657 -468
+2592 -468 2592 -533
+e 77 2
+2643 195 2643 260
+2643 195 2708 195
+e 78 2
+2708 195 2643 195
+2708 195 2708 260
+e 79 2
+2708 260 2708 195
+2708 260 2643 260
+e 80 2
+2643 260 2708 260
+2643 260 2643 195
+e 81 2
+2667 -1123 2667 -1058
+2667 -1123 2732 -1123
+e 82 2
+2732 -1123 2667 -1123
+2732 -1123 2732 -1058
+e 83 2
+2732 -1058 2732 -1123
+2732 -1058 2667 -1058
+e 84 2
+2667 -1058 2732 -1058
+2667 -1058 2667 -1123
+e 85 2
+2782 -673 2782 -608
+2782 -673 2847 -673
+e 86 2
+2847 -673 2782 -673
+2847 -673 2847 -608
+e 87 2
+2847 -608 2847 -673
+2847 -608 2782 -608
+e 88 2
+2782 -608 2847 -608
+2782 -608 2782 -673
+e 89 2
+2782 -533 2782 -468
+2782 -533 2847 -533
+e 90 2
+2847 -533 2782 -533
+2847 -533 2847 -468
+e 91 2
+2847 -468 2847 -533
+2847 -468 2782 -468
+e 92 2
+2782 -468 2847 -468
+2782 -468 2782 -533
+e 93 2
+2862 -1123 2862 -1058
+2862 -1123 2927 -1123
+e 94 2
+2927 -1123 2862 -1123
+2927 -1123 2927 -1058
+e 95 2
+2927 -1058 2927 -1123
+2927 -1058 2862 -1058
+e 96 2
+2862 -1058 2927 -1058
+2862 -1058 2862 -1123
+e 97 2
+2967 -1458 2967 -1393
+2967 -1458 3032 -1458
+e 98 2
+3032 -1458 2967 -1458
+3032 -1458 3032 -1393
+e 99 2
+3032 -1393 3032 -1458
+3032 -1393 2967 -1393
+e 100 2
+2967 -1393 3032 -1393
+2967 -1393 2967 -1458
+e 101 2
+2967 -673 2967 -608
+2967 -673 3032 -673
+e 102 2
+3032 -673 2967 -673
+3032 -673 3032 -608
+e 103 2
+3032 -608 3032 -673
+3032 -608 2967 -608
+e 104 2
+2967 -608 3032 -608
+2967 -608 2967 -673
+e 105 2
+2967 -533 2967 -468
+2967 -533 3032 -533
+e 106 2
+3032 -533 2967 -533
+3032 -533 3032 -468
+e 107 2
+3032 -468 3032 -533
+3032 -468 2967 -468
+e 108 2
+2967 -468 3032 -468
+2967 -468 2967 -533
+e 109 2
+3022 -1123 3022 -1058
+3022 -1123 3087 -1123
+e 110 2
+3087 -1123 3022 -1123
+3087 -1123 3087 -1058
+e 111 2
+3087 -1058 3087 -1123
+3087 -1058 3022 -1058
+e 112 2
+3022 -1058 3087 -1058
+3022 -1058 3022 -1123
+e 113 2
+3157 -1458 3157 -1393
+3157 -1458 3222 -1458
+e 114 2
+3222 -1458 3157 -1458
+3222 -1458 3222 -1393
+e 115 2
+3222 -1393 3222 -1458
+3222 -1393 3157 -1393
+e 116 2
+3157 -1393 3222 -1393
+3157 -1393 3157 -1458
+e 117 2
+3157 -1318 3157 -1253
+3157 -1318 3222 -1318
+e 118 2
+3222 -1318 3157 -1318
+3222 -1318 3222 -1253
+e 119 2
+3222 -1253 3222 -1318
+3222 -1253 3157 -1253
+e 120 2
+3157 -1253 3222 -1253
+3157 -1253 3157 -1318
+e 121 2
+3157 -673 3157 -608
+3157 -673 3222 -673
+e 122 2
+3222 -673 3157 -673
+3222 -673 3222 -608
+e 123 2
+3222 -608 3222 -673
+3222 -608 3157 -608
+e 124 2
+3157 -608 3222 -608
+3157 -608 3157 -673
+e 125 2
+3157 -533 3157 -468
+3157 -533 3222 -533
+e 126 2
+3222 -533 3157 -533
+3222 -533 3222 -468
+e 127 2
+3222 -468 3222 -533
+3222 -468 3157 -468
+e 128 2
+3157 -468 3222 -468
+3157 -468 3157 -533
+e 129 2
+4833 -1498 4833 -1433
+4833 -1498 4898 -1498
+e 130 2
+4898 -1498 4833 -1498
+4898 -1498 4898 -1433
+e 131 2
+4898 -1433 4898 -1498
+4898 -1433 4833 -1433
+e 132 2
+4833 -1433 4898 -1433
+4833 -1433 4833 -1498
+e 133 2
+4833 -533 4833 -468
+4833 -533 4898 -533
+e 134 2
+4898 -533 4833 -533
+4898 -533 4898 -468
+e 135 2
+4898 -468 4898 -533
+4898 -468 4833 -468
+e 136 2
+4833 -468 4898 -468
+4833 -468 4833 -533
+e 137 2
+4878 -2130 4878 -2065
+4878 -2130 4943 -2130
+e 138 2
+4943 -2130 4878 -2130
+4943 -2130 4943 -2065
+e 139 2
+4943 -2065 4943 -2130
+4943 -2065 4878 -2065
+e 140 2
+4878 -2065 4943 -2065
+4878 -2065 4878 -2130
+e 141 2
+4963 -983 4963 -918
+4963 -983 5028 -983
+e 142 2
+5028 -983 4963 -983
+5028 -983 5028 -918
+e 143 2
+5028 -918 5028 -983
+5028 -918 4963 -918
+e 144 2
+4963 -918 5028 -918
+4963 -918 4963 -983
+e 145 2
+5018 -1498 5018 -1433
+5018 -1498 5083 -1498
+e 146 2
+5083 -1498 5018 -1498
+5083 -1498 5083 -1433
+e 147 2
+5083 -1433 5083 -1498
+5083 -1433 5018 -1433
+e 148 2
+5018 -1433 5083 -1433
+5018 -1433 5018 -1498
+e 149 2
+5128 -808 5128 -743
+5128 -808 5193 -808
+e 150 2
+5193 -808 5128 -808
+5193 -808 5193 -743
+e 151 2
+5193 -743 5193 -808
+5193 -743 5128 -743
+e 152 2
+5128 -743 5193 -743
+5128 -743 5128 -808
+e 153 2
+5208 -1498 5208 -1433
+5208 -1498 5273 -1498
+e 154 2
+5273 -1498 5208 -1498
+5273 -1498 5273 -1433
+e 155 2
+5273 -1433 5273 -1498
+5273 -1433 5208 -1433
+e 156 2
+5208 -1433 5273 -1433
+5208 -1433 5208 -1498
+e 157 2
+5208 -498 5208 -433
+5208 -498 5273 -498
+e 158 2
+5273 -498 5208 -498
+5273 -498 5273 -433
+e 159 2
+5273 -433 5273 -498
+5273 -433 5208 -433
+e 160 2
+5208 -433 5273 -433
+5208 -433 5208 -498
+e 161 2
+5288 -1123 5288 -1058
+5288 -1123 5353 -1123
+e 162 2
+5353 -1123 5288 -1123
+5353 -1123 5353 -1058
+e 163 2
+5353 -1058 5353 -1123
+5353 -1058 5288 -1058
+e 164 2
+5288 -1058 5353 -1058
+5288 -1058 5288 -1123
+e 165 2
+5408 -1498 5408 -1433
+5408 -1498 5473 -1498
+e 166 2
+5473 -1498 5408 -1498
+5473 -1498 5473 -1433
+e 167 2
+5473 -1433 5473 -1498
+5473 -1433 5408 -1433
+e 168 2
+5408 -1433 5473 -1433
+5408 -1433 5408 -1498
+e 169 2
+5408 -508 5408 -443
+5408 -508 5473 -508
+e 170 2
+5473 -508 5408 -508
+5473 -508 5473 -443
+e 171 2
+5473 -443 5473 -508
+5473 -443 5408 -443
+e 172 2
+5408 -443 5473 -443
+5408 -443 5408 -508
+e 173 2
+5478 -1123 5478 -1058
+5478 -1123 5543 -1123
+e 174 2
+5543 -1123 5478 -1123
+5543 -1123 5543 -1058
+e 175 2
+5543 -1058 5543 -1123
+5543 -1058 5478 -1058
+e 176 2
+5478 -1058 5543 -1058
+5478 -1058 5478 -1123
+e 177 2
+5598 -643 5598 -578
+5598 -643 5663 -643
+e 178 2
+5663 -643 5598 -643
+5663 -643 5663 -578
+e 179 2
+5663 -578 5663 -643
+5663 -578 5598 -578
+e 180 2
+5598 -578 5663 -578
+5598 -578 5598 -643
+e 181 2
+5668 -1123 5668 -1058
+5668 -1123 5733 -1123
+e 182 2
+5733 -1123 5668 -1123
+5733 -1123 5733 -1058
+e 183 2
+5733 -1058 5733 -1123
+5733 -1058 5668 -1058
+e 184 2
+5668 -1058 5733 -1058
+5668 -1058 5668 -1123
+e 185 2
+5783 -1498 5783 -1433
+5783 -1498 5848 -1498
+e 186 2
+5848 -1498 5783 -1498
+5848 -1498 5848 -1433
+e 187 2
+5848 -1433 5848 -1498
+5848 -1433 5783 -1433
+e 188 2
+5783 -1433 5848 -1433
+5783 -1433 5783 -1498
+e 189 2
+5783 -508 5783 -443
+5783 -508 5848 -508
+e 190 2
+5848 -508 5783 -508
+5848 -508 5848 -443
+e 191 2
+5848 -443 5848 -508
+5848 -443 5783 -443
+e 192 2
+5783 -443 5848 -443
+5783 -443 5783 -508
+e 193 2
+7020 -1458 7020 -1393
+7020 -1458 7085 -1458
+e 194 2
+7085 -1458 7020 -1458
+7085 -1458 7085 -1393
+e 195 2
+7085 -1393 7085 -1458
+7085 -1393 7020 -1393
+e 196 2
+7020 -1393 7085 -1393
+7020 -1393 7020 -1458
+e 197 2
+7020 -673 7020 -608
+7020 -673 7085 -673
+e 198 2
+7085 -673 7020 -673
+7085 -673 7085 -608
+e 199 2
+7085 -608 7085 -673
+7085 -608 7020 -608
+e 200 2
+7020 -608 7085 -608
+7020 -608 7020 -673
+e 201 2
+7020 -533 7020 -468
+7020 -533 7085 -533
+e 202 2
+7085 -533 7020 -533
+7085 -533 7085 -468
+e 203 2
+7085 -468 7085 -533
+7085 -468 7020 -468
+e 204 2
+7020 -468 7085 -468
+7020 -468 7020 -533
+e 205 2
+7023 195 7023 260
+7023 195 7088 195
+e 206 2
+7088 195 7023 195
+7088 195 7088 260
+e 207 2
+7088 260 7088 195
+7088 260 7023 260
+e 208 2
+7023 260 7088 260
+7023 260 7023 195
+e 209 2
+7047 -2130 7047 -2065
+7047 -2130 7112 -2130
+e 210 2
+7112 -2130 7047 -2130
+7112 -2130 7112 -2065
+e 211 2
+7112 -2065 7112 -2130
+7112 -2065 7047 -2065
+e 212 2
+7047 -2065 7112 -2065
+7047 -2065 7047 -2130
+e 213 2
+7095 -1123 7095 -1058
+7095 -1123 7160 -1123
+e 214 2
+7160 -1123 7095 -1123
+7160 -1123 7160 -1058
+e 215 2
+7160 -1058 7160 -1123
+7160 -1058 7095 -1058
+e 216 2
+7095 -1058 7160 -1058
+7095 -1058 7095 -1123
+e 217 2
+7210 -673 7210 -608
+7210 -673 7275 -673
+e 218 2
+7275 -673 7210 -673
+7275 -673 7275 -608
+e 219 2
+7275 -608 7275 -673
+7275 -608 7210 -608
+e 220 2
+7210 -608 7275 -608
+7210 -608 7210 -673
+e 221 2
+7210 -533 7210 -468
+7210 -533 7275 -533
+e 222 2
+7275 -533 7210 -533
+7275 -533 7275 -468
+e 223 2
+7275 -468 7275 -533
+7275 -468 7210 -468
+e 224 2
+7210 -468 7275 -468
+7210 -468 7210 -533
+e 225 2
+7290 -1123 7290 -1058
+7290 -1123 7355 -1123
+e 226 2
+7355 -1123 7290 -1123
+7355 -1123 7355 -1058
+e 227 2
+7355 -1058 7355 -1123
+7355 -1058 7290 -1058
+e 228 2
+7290 -1058 7355 -1058
+7290 -1058 7290 -1123
+e 229 2
+7395 -1458 7395 -1393
+7395 -1458 7460 -1458
+e 230 2
+7460 -1458 7395 -1458
+7460 -1458 7460 -1393
+e 231 2
+7460 -1393 7460 -1458
+7460 -1393 7395 -1393
+e 232 2
+7395 -1393 7460 -1393
+7395 -1393 7395 -1458
+e 233 2
+7395 -673 7395 -608
+7395 -673 7460 -673
+e 234 2
+7460 -673 7395 -673
+7460 -673 7460 -608
+e 235 2
+7460 -608 7460 -673
+7460 -608 7395 -608
+e 236 2
+7395 -608 7460 -608
+7395 -608 7395 -673
+e 237 2
+7395 -533 7395 -468
+7395 -533 7460 -533
+e 238 2
+7460 -533 7395 -533
+7460 -533 7460 -468
+e 239 2
+7460 -468 7460 -533
+7460 -468 7395 -468
+e 240 2
+7395 -468 7460 -468
+7395 -468 7395 -533
+e 241 2
+7450 -1123 7450 -1058
+7450 -1123 7515 -1123
+e 242 2
+7515 -1123 7450 -1123
+7515 -1123 7515 -1058
+e 243 2
+7515 -1058 7515 -1123
+7515 -1058 7450 -1058
+e 244 2
+7450 -1058 7515 -1058
+7450 -1058 7450 -1123
+e 245 2
+7585 -1458 7585 -1393
+7585 -1458 7650 -1458
+e 246 2
+7650 -1458 7585 -1458
+7650 -1458 7650 -1393
+e 247 2
+7650 -1393 7650 -1458
+7650 -1393 7585 -1393
+e 248 2
+7585 -1393 7650 -1393
+7585 -1393 7585 -1458
+e 249 2
+7585 -1318 7585 -1253
+7585 -1318 7650 -1318
+e 250 2
+7650 -1318 7585 -1318
+7650 -1318 7650 -1253
+e 251 2
+7650 -1253 7650 -1318
+7650 -1253 7585 -1253
+e 252 2
+7585 -1253 7650 -1253
+7585 -1253 7585 -1318
+e 253 2
+7585 -673 7585 -608
+7585 -673 7650 -673
+e 254 2
+7650 -673 7585 -673
+7650 -673 7650 -608
+e 255 2
+7650 -608 7650 -673
+7650 -608 7585 -608
+e 256 2
+7585 -608 7650 -608
+7585 -608 7585 -673
+e 257 2
+7585 -533 7585 -468
+7585 -533 7650 -533
+e 258 2
+7650 -533 7585 -533
+7650 -533 7650 -468
+e 259 2
+7650 -468 7650 -533
+7650 -468 7585 -468
+e 260 2
+7585 -468 7650 -468
+7585 -468 7585 -533
+e 261 2
+9708 -1498 9708 -1433
+9708 -1498 9773 -1498
+e 262 2
+9773 -1498 9708 -1498
+9773 -1498 9773 -1433
+e 263 2
+9773 -1433 9773 -1498
+9773 -1433 9708 -1433
+e 264 2
+9708 -1433 9773 -1433
+9708 -1433 9708 -1498
+e 265 2
+9708 -533 9708 -468
+9708 -533 9773 -533
+e 266 2
+9773 -533 9708 -533
+9773 -533 9773 -468
+e 267 2
+9773 -468 9773 -533
+9773 -468 9708 -468
+e 268 2
+9708 -468 9773 -468
+9708 -468 9708 -533
+e 269 2
+9723 -2130 9723 -2065
+9723 -2130 9788 -2130
+e 270 2
+9788 -2130 9723 -2130
+9788 -2130 9788 -2065
+e 271 2
+9788 -2065 9788 -2130
+9788 -2065 9723 -2065
+e 272 2
+9723 -2065 9788 -2065
+9723 -2065 9723 -2130
+e 273 2
+9838 -983 9838 -918
+9838 -983 9903 -983
+e 274 2
+9903 -983 9838 -983
+9903 -983 9903 -918
+e 275 2
+9903 -918 9903 -983
+9903 -918 9838 -918
+e 276 2
+9838 -918 9903 -918
+9838 -918 9838 -983
+e 277 2
+9893 -1498 9893 -1433
+9893 -1498 9958 -1498
+e 278 2
+9958 -1498 9893 -1498
+9958 -1498 9958 -1433
+e 279 2
+9958 -1433 9958 -1498
+9958 -1433 9893 -1433
+e 280 2
+9893 -1433 9958 -1433
+9893 -1433 9893 -1498
+e 281 2
+10003 -808 10003 -743
+10003 -808 10068 -808
+e 282 2
+10068 -808 10003 -808
+10068 -808 10068 -743
+e 283 2
+10068 -743 10068 -808
+10068 -743 10003 -743
+e 284 2
+10003 -743 10068 -743
+10003 -743 10003 -808
+e 285 2
+10083 -1498 10083 -1433
+10083 -1498 10148 -1498
+e 286 2
+10148 -1498 10083 -1498
+10148 -1498 10148 -1433
+e 287 2
+10148 -1433 10148 -1498
+10148 -1433 10083 -1433
+e 288 2
+10083 -1433 10148 -1433
+10083 -1433 10083 -1498
+e 289 2
+10083 -498 10083 -433
+10083 -498 10148 -498
+e 290 2
+10148 -498 10083 -498
+10148 -498 10148 -433
+e 291 2
+10148 -433 10148 -498
+10148 -433 10083 -433
+e 292 2
+10083 -433 10148 -433
+10083 -433 10083 -498
+e 293 2
+10163 -1123 10163 -1058
+10163 -1123 10228 -1123
+e 294 2
+10228 -1123 10163 -1123
+10228 -1123 10228 -1058
+e 295 2
+10228 -1058 10228 -1123
+10228 -1058 10163 -1058
+e 296 2
+10163 -1058 10228 -1058
+10163 -1058 10163 -1123
+e 297 2
+10283 -1498 10283 -1433
+10283 -1498 10348 -1498
+e 298 2
+10348 -1498 10283 -1498
+10348 -1498 10348 -1433
+e 299 2
+10348 -1433 10348 -1498
+10348 -1433 10283 -1433
+e 300 2
+10283 -1433 10348 -1433
+10283 -1433 10283 -1498
+e 301 2
+10283 -508 10283 -443
+10283 -508 10348 -508
+e 302 2
+10348 -508 10283 -508
+10348 -508 10348 -443
+e 303 2
+10348 -443 10348 -508
+10348 -443 10283 -443
+e 304 2
+10283 -443 10348 -443
+10283 -443 10283 -508
+e 305 2
+10353 -1123 10353 -1058
+10353 -1123 10418 -1123
+e 306 2
+10418 -1123 10353 -1123
+10418 -1123 10418 -1058
+e 307 2
+10418 -1058 10418 -1123
+10418 -1058 10353 -1058
+e 308 2
+10353 -1058 10418 -1058
+10353 -1058 10353 -1123
+e 309 2
+10473 -643 10473 -578
+10473 -643 10538 -643
+e 310 2
+10538 -643 10473 -643
+10538 -643 10538 -578
+e 311 2
+10538 -578 10538 -643
+10538 -578 10473 -578
+e 312 2
+10473 -578 10538 -578
+10473 -578 10473 -643
+e 313 2
+10543 -1123 10543 -1058
+10543 -1123 10608 -1123
+e 314 2
+10608 -1123 10543 -1123
+10608 -1123 10608 -1058
+e 315 2
+10608 -1058 10608 -1123
+10608 -1058 10543 -1058
+e 316 2
+10543 -1058 10608 -1058
+10543 -1058 10543 -1123
+e 317 2
+10658 -1498 10658 -1433
+10658 -1498 10723 -1498
+e 318 2
+10723 -1498 10658 -1498
+10723 -1498 10723 -1433
+e 319 2
+10723 -1433 10723 -1498
+10723 -1433 10658 -1433
+e 320 2
+10658 -1433 10723 -1433
+10658 -1433 10658 -1498
+e 321 2
+10658 -508 10658 -443
+10658 -508 10723 -508
+e 322 2
+10723 -508 10658 -508
+10723 -508 10723 -443
+e 323 2
+10723 -443 10723 -508
+10723 -443 10658 -443
+e 324 2
+10658 -443 10723 -443
+10658 -443 10658 -508
+Grid.5
+152 152 2 Mar 18 16:50:06 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+307 -1101 307 -1026
+307 -1101 337 -1101
+e 2 2
+337 -1101 307 -1101
+337 -1101 337 -1616
+e 3 2
+337 -1616 337 -1101
+337 -1616 387 -1616
+e 4 2
+387 -1616 337 -1616
+387 -1616 387 -616
+e 5 2
+387 -296 387 -1296
+387 -296 337 -296
+e 6 2
+337 -296 387 -296
+337 -296 337 -1026
+e 7 2
+337 -1026 337 -296
+337 -1026 307 -1026
+e 8 2
+307 -1026 337 -1026
+307 -1026 307 -1101
+e 9 2
+502 -1101 502 -1026
+502 -1101 527 -1101
+e 10 2
+527 -1101 502 -1101
+527 -1101 527 -1616
+e 11 2
+527 -1616 527 -1101
+527 -1616 577 -1616
+e 12 2
+577 -1616 527 -1616
+577 -1616 577 -616
+e 13 2
+577 -296 577 -1296
+577 -296 527 -296
+e 14 2
+527 -296 577 -296
+527 -296 527 -1026
+e 15 2
+527 -1026 527 -296
+527 -1026 502 -1026
+e 16 2
+502 -1026 527 -1026
+502 -1026 502 -1101
+e 17 2
+662 -1101 662 -1026
+662 -1101 717 -1101
+e 18 2
+717 -1101 662 -1101
+717 -1101 717 -1616
+e 19 2
+717 -1616 717 -1101
+717 -1616 767 -1616
+e 20 2
+767 -1616 717 -1616
+767 -1616 767 -616
+e 21 2
+767 -296 767 -1296
+767 -296 717 -296
+e 22 2
+717 -296 767 -296
+717 -296 717 -1026
+e 23 2
+717 -1026 717 -296
+717 -1026 662 -1026
+e 24 2
+662 -1026 717 -1026
+662 -1026 662 -1101
+e 25 2
+2662 -1128 2662 -1053
+2662 -1128 2692 -1128
+e 26 2
+2692 -1128 2662 -1128
+2692 -1128 2692 -1643
+e 27 2
+2692 -1643 2692 -1128
+2692 -1643 2742 -1643
+e 28 2
+2742 -1643 2692 -1643
+2742 -1643 2742 -643
+e 29 2
+2742 -323 2742 -1323
+2742 -323 2692 -323
+e 30 2
+2692 -323 2742 -323
+2692 -323 2692 -1053
+e 31 2
+2692 -1053 2692 -323
+2692 -1053 2662 -1053
+e 32 2
+2662 -1053 2692 -1053
+2662 -1053 2662 -1128
+e 33 2
+2857 -1128 2857 -1053
+2857 -1128 2882 -1128
+e 34 2
+2882 -1128 2857 -1128
+2882 -1128 2882 -1643
+e 35 2
+2882 -1643 2882 -1128
+2882 -1643 2932 -1643
+e 36 2
+2932 -1643 2882 -1643
+2932 -1643 2932 -643
+e 37 2
+2932 -323 2932 -1323
+2932 -323 2882 -323
+e 38 2
+2882 -323 2932 -323
+2882 -323 2882 -1053
+e 39 2
+2882 -1053 2882 -323
+2882 -1053 2857 -1053
+e 40 2
+2857 -1053 2882 -1053
+2857 -1053 2857 -1128
+e 41 2
+3017 -1128 3017 -1053
+3017 -1128 3072 -1128
+e 42 2
+3072 -1128 3017 -1128
+3072 -1128 3072 -1643
+e 43 2
+3072 -1643 3072 -1128
+3072 -1643 3122 -1643
+e 44 2
+3122 -1643 3072 -1643
+3122 -1643 3122 -643
+e 45 2
+3122 -323 3122 -1323
+3122 -323 3072 -323
+e 46 2
+3072 -323 3122 -323
+3072 -323 3072 -1053
+e 47 2
+3072 -1053 3072 -323
+3072 -1053 3017 -1053
+e 48 2
+3017 -1053 3072 -1053
+3017 -1053 3017 -1128
+e 49 2
+4933 -1643 4933 -643
+4933 -1643 4983 -1643
+e 50 2
+4983 -1643 4933 -1643
+4983 -1643 4983 -988
+e 51 2
+4983 -988 4983 -1643
+4983 -988 5033 -988
+e 52 2
+5033 -988 4983 -988
+5033 -988 5033 -913
+e 53 2
+5033 -913 5033 -988
+5033 -913 4983 -913
+e 54 2
+4983 -913 5033 -913
+4983 -913 4983 -323
+e 55 2
+4983 -323 4983 -913
+4983 -323 4933 -323
+e 56 2
+4933 -323 4983 -323
+4933 -323 4933 -1323
+e 57 2
+5123 -1643 5123 -643
+5123 -1643 5173 -1643
+e 58 2
+5173 -1643 5123 -1643
+5173 -1643 5173 -813
+e 59 2
+5173 -813 5173 -1643
+5173 -813 5198 -813
+e 60 2
+5198 -813 5173 -813
+5198 -813 5198 -738
+e 61 2
+5198 -738 5198 -813
+5198 -738 5173 -738
+e 62 2
+5173 -738 5198 -738
+5173 -738 5173 -323
+e 63 2
+5173 -323 5173 -738
+5173 -323 5123 -323
+e 64 2
+5123 -323 5173 -323
+5123 -323 5123 -1323
+e 65 2
+5283 -1128 5283 -1053
+5283 -1128 5318 -1128
+e 66 2
+5318 -1128 5283 -1128
+5318 -1128 5318 -1643
+e 67 2
+5318 -1643 5318 -1128
+5318 -1643 5368 -1643
+e 68 2
+5368 -1643 5318 -1643
+5368 -1643 5368 -643
+e 69 2
+5368 -323 5368 -1323
+5368 -323 5318 -323
+e 70 2
+5318 -323 5368 -323
+5318 -323 5318 -1053
+e 71 2
+5318 -1053 5318 -323
+5318 -1053 5283 -1053
+e 72 2
+5283 -1053 5318 -1053
+5283 -1053 5283 -1128
+e 73 2
+5473 -1128 5473 -1053
+5473 -1128 5508 -1128
+e 74 2
+5508 -1128 5473 -1128
+5508 -1128 5508 -1643
+e 75 2
+5508 -1643 5508 -1128
+5508 -1643 5558 -1643
+e 76 2
+5558 -1643 5508 -1643
+5558 -1643 5558 -643
+e 77 2
+5558 -323 5558 -1323
+5558 -323 5508 -323
+e 78 2
+5508 -323 5558 -323
+5508 -323 5508 -1053
+e 79 2
+5508 -1053 5508 -323
+5508 -1053 5473 -1053
+e 80 2
+5473 -1053 5508 -1053
+5473 -1053 5473 -1128
+e 81 2
+5663 -1128 5663 -1053
+5663 -1128 5698 -1128
+e 82 2
+5698 -1128 5663 -1128
+5698 -1128 5698 -1643
+e 83 2
+5698 -1643 5698 -1128
+5698 -1643 5748 -1643
+e 84 2
+5748 -1643 5698 -1643
+5748 -1643 5748 -643
+e 85 2
+5748 -323 5748 -1323
+5748 -323 5698 -323
+e 86 2
+5698 -323 5748 -323
+5698 -323 5698 -1053
+e 87 2
+5698 -1053 5698 -323
+5698 -1053 5663 -1053
+e 88 2
+5663 -1053 5698 -1053
+5663 -1053 5663 -1128
+e 89 2
+7090 -1128 7090 -1053
+7090 -1128 7120 -1128
+e 90 2
+7120 -1128 7090 -1128
+7120 -1128 7120 -1643
+e 91 2
+7120 -1643 7120 -1128
+7120 -1643 7170 -1643
+e 92 2
+7170 -1643 7120 -1643
+7170 -1643 7170 -643
+e 93 2
+7170 -323 7170 -1323
+7170 -323 7120 -323
+e 94 2
+7120 -323 7170 -323
+7120 -323 7120 -1053
+e 95 2
+7120 -1053 7120 -323
+7120 -1053 7090 -1053
+e 96 2
+7090 -1053 7120 -1053
+7090 -1053 7090 -1128
+e 97 2
+7285 -1128 7285 -1053
+7285 -1128 7310 -1128
+e 98 2
+7310 -1128 7285 -1128
+7310 -1128 7310 -1643
+e 99 2
+7310 -1643 7310 -1128
+7310 -1643 7360 -1643
+e 100 2
+7360 -1643 7310 -1643
+7360 -1643 7360 -643
+e 101 2
+7360 -323 7360 -1323
+7360 -323 7310 -323
+e 102 2
+7310 -323 7360 -323
+7310 -323 7310 -1053
+e 103 2
+7310 -1053 7310 -323
+7310 -1053 7285 -1053
+e 104 2
+7285 -1053 7310 -1053
+7285 -1053 7285 -1128
+e 105 2
+7445 -1128 7445 -1053
+7445 -1128 7500 -1128
+e 106 2
+7500 -1128 7445 -1128
+7500 -1128 7500 -1643
+e 107 2
+7500 -1643 7500 -1128
+7500 -1643 7550 -1643
+e 108 2
+7550 -1643 7500 -1643
+7550 -1643 7550 -643
+e 109 2
+7550 -323 7550 -1323
+7550 -323 7500 -323
+e 110 2
+7500 -323 7550 -323
+7500 -323 7500 -1053
+e 111 2
+7500 -1053 7500 -323
+7500 -1053 7445 -1053
+e 112 2
+7445 -1053 7500 -1053
+7445 -1053 7445 -1128
+e 113 2
+9808 -1643 9808 -643
+9808 -1643 9858 -1643
+e 114 2
+9858 -1643 9808 -1643
+9858 -1643 9858 -988
+e 115 2
+9858 -988 9858 -1643
+9858 -988 9908 -988
+e 116 2
+9908 -988 9858 -988
+9908 -988 9908 -913
+e 117 2
+9908 -913 9908 -988
+9908 -913 9858 -913
+e 118 2
+9858 -913 9908 -913
+9858 -913 9858 -323
+e 119 2
+9858 -323 9858 -913
+9858 -323 9808 -323
+e 120 2
+9808 -323 9858 -323
+9808 -323 9808 -1323
+e 121 2
+9998 -1643 9998 -643
+9998 -1643 10048 -1643
+e 122 2
+10048 -1643 9998 -1643
+10048 -1643 10048 -813
+e 123 2
+10048 -813 10048 -1643
+10048 -813 10073 -813
+e 124 2
+10073 -813 10048 -813
+10073 -813 10073 -738
+e 125 2
+10073 -738 10073 -813
+10073 -738 10048 -738
+e 126 2
+10048 -738 10073 -738
+10048 -738 10048 -323
+e 127 2
+10048 -323 10048 -738
+10048 -323 9998 -323
+e 128 2
+9998 -323 10048 -323
+9998 -323 9998 -1323
+e 129 2
+10158 -1128 10158 -1053
+10158 -1128 10193 -1128
+e 130 2
+10193 -1128 10158 -1128
+10193 -1128 10193 -1643
+e 131 2
+10193 -1643 10193 -1128
+10193 -1643 10243 -1643
+e 132 2
+10243 -1643 10193 -1643
+10243 -1643 10243 -643
+e 133 2
+10243 -323 10243 -1323
+10243 -323 10193 -323
+e 134 2
+10193 -323 10243 -323
+10193 -323 10193 -1053
+e 135 2
+10193 -1053 10193 -323
+10193 -1053 10158 -1053
+e 136 2
+10158 -1053 10193 -1053
+10158 -1053 10158 -1128
+e 137 2
+10348 -1128 10348 -1053
+10348 -1128 10383 -1128
+e 138 2
+10383 -1128 10348 -1128
+10383 -1128 10383 -1643
+e 139 2
+10383 -1643 10383 -1128
+10383 -1643 10433 -1643
+e 140 2
+10433 -1643 10383 -1643
+10433 -1643 10433 -643
+e 141 2
+10433 -323 10433 -1323
+10433 -323 10383 -323
+e 142 2
+10383 -323 10433 -323
+10383 -323 10383 -1053
+e 143 2
+10383 -1053 10383 -323
+10383 -1053 10348 -1053
+e 144 2
+10348 -1053 10383 -1053
+10348 -1053 10348 -1128
+e 145 2
+10538 -1128 10538 -1053
+10538 -1128 10573 -1128
+e 146 2
+10573 -1128 10538 -1128
+10573 -1128 10573 -1643
+e 147 2
+10573 -1643 10573 -1128
+10573 -1643 10623 -1643
+e 148 2
+10623 -1643 10573 -1643
+10623 -1643 10623 -643
+e 149 2
+10623 -323 10623 -1323
+10623 -323 10573 -323
+e 150 2
+10573 -323 10623 -323
+10573 -323 10573 -1053
+e 151 2
+10573 -1053 10573 -323
+10573 -1053 10538 -1053
+e 152 2
+10538 -1053 10573 -1053
+10538 -1053 10538 -1128
+Grid.6
+442 442 2 Mar 18 16:50:06 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+230 -1108 230 -968
+230 -1108 252 -1108
+e 2 2
+252 -1108 230 -1108
+252 -1108 252 -1131
+e 3 2
+252 -1131 252 -1108
+252 -1131 377 -1131
+e 4 2
+377 -1131 252 -1131
+377 -1131 377 -956
+e 5 2
+377 -956 377 -1131
+377 -956 252 -956
+e 6 2
+252 -956 377 -956
+252 -956 252 -968
+e 7 2
+252 -968 252 -956
+252 -968 230 -968
+e 8 2
+230 -968 252 -968
+230 -968 230 -1108
+e 9 2
+237 -826 237 -416
+237 -826 662 -826
+e 10 2
+662 -826 237 -826
+662 -826 662 -1236
+e 11 2
+662 -1236 662 -826
+662 -1236 427 -1236
+e 12 2
+427 -1236 662 -1236
+427 -1236 427 -1506
+e 13 2
+427 -1506 427 -1236
+427 -1506 497 -1506
+e 14 2
+497 -1506 427 -1506
+497 -1506 497 -1306
+e 15 2
+497 -1306 497 -1506
+497 -1306 732 -1306
+e 16 2
+732 -1306 497 -1306
+732 -1306 732 -756
+e 17 2
+732 -756 732 -1306
+732 -756 307 -756
+e 18 2
+307 -756 732 -756
+307 -756 307 -416
+e 19 2
+307 -416 307 -756
+307 -416 237 -416
+e 20 2
+237 -416 307 -416
+237 -416 237 -826
+e 21 2
+442 -1131 442 -956
+442 -1131 572 -1131
+e 22 2
+572 -1131 442 -1131
+572 -1131 572 -1108
+e 23 2
+572 -1108 572 -1131
+572 -1108 586 -1108
+e 24 2
+586 -1108 572 -1108
+586 -1108 586 -968
+e 25 2
+586 -968 586 -1108
+586 -968 572 -968
+e 26 2
+572 -968 586 -968
+572 -968 572 -956
+e 27 2
+572 -956 572 -968
+572 -956 442 -956
+e 28 2
+442 -956 572 -956
+442 -956 442 -1131
+e 29 2
+802 -1506 802 -506
+802 -1506 892 -1506
+e 30 2
+892 -1506 802 -1506
+892 -1506 892 -1503
+e 31 2
+892 -1503 892 -1506
+892 -1503 981 -1503
+e 32 2
+981 -1503 892 -1503
+981 -1503 981 -1359
+e 33 2
+981 -1359 981 -1503
+981 -1359 892 -1359
+e 34 2
+892 -1359 981 -1359
+892 -1359 892 -416
+e 35 2
+892 -416 892 -1359
+892 -416 802 -416
+e 36 2
+802 -416 892 -416
+802 -416 802 -1416
+e 37 2
+2607 -1135 2585 -1135
+2607 -1135 2607 -1158
+e 38 2
+2607 -1158 2607 -1135
+2607 -1158 2732 -1158
+e 39 2
+2732 -1158 2607 -1158
+2732 -1158 2732 -983
+e 40 2
+2732 -983 2732 -1158
+2732 -983 2607 -983
+e 41 2
+2607 -983 2732 -983
+2607 -983 2607 -995
+e 42 2
+2607 -995 2607 -983
+2607 -995 2585 -995
+e 43 2
+2592 -1493 2592 -1223
+2592 -1493 2662 -1493
+e 44 2
+2662 -1493 2592 -1493
+2662 -1493 2662 -1293
+e 45 2
+2662 -1293 2662 -1493
+2662 -1293 3087 -1293
+e 46 2
+3087 -1293 2662 -1293
+3087 -1293 3087 -773
+e 47 2
+3087 -773 3087 -1293
+3087 -773 2852 -773
+e 48 2
+2852 -773 3087 -773
+2852 -773 2852 -433
+e 49 2
+2852 -433 2852 -773
+2852 -433 2782 -433
+e 50 2
+2782 -433 2852 -433
+2782 -433 2782 -843
+e 51 2
+2782 -843 2782 -433
+2782 -843 3017 -843
+e 52 2
+3017 -843 2782 -843
+3017 -843 3017 -1223
+e 53 2
+3017 -1223 3017 -843
+3017 -1223 2592 -1223
+e 54 2
+2592 -1223 3017 -1223
+2592 -1223 2592 -1493
+e 55 2
+2797 -1158 2797 -983
+2797 -1158 2927 -1158
+e 56 2
+2927 -1158 2797 -1158
+2927 -1158 2927 -1132
+e 57 2
+2927 -1132 2927 -1158
+2927 -1132 2941 -1132
+e 58 2
+2941 -1132 2927 -1132
+2941 -1132 2941 -992
+e 59 2
+2941 -992 2941 -1132
+2941 -992 2927 -992
+e 60 2
+2927 -992 2941 -992
+2927 -992 2927 -983
+e 61 2
+2927 -983 2927 -992
+2927 -983 2797 -983
+e 62 2
+2797 -983 2927 -983
+2797 -983 2797 -1158
+e 63 2
+3157 -1493 3157 -493
+3157 -1493 3247 -1493
+e 64 2
+3247 -1493 3157 -1493
+3247 -1493 3247 -757
+e 65 2
+3247 -757 3247 -1493
+3247 -757 3301 -757
+e 66 2
+3301 -757 3247 -757
+3301 -757 3301 -617
+e 67 2
+3301 -617 3301 -757
+3301 -617 3247 -617
+e 68 2
+3247 -617 3301 -617
+3247 -617 3247 -433
+e 69 2
+3247 -433 3247 -617
+3247 -433 3157 -433
+e 70 2
+3157 -433 3247 -433
+3157 -433 3157 -1433
+e 71 2
+4828 -1158 4828 -433
+4828 -1158 5013 -1158
+e 72 2
+5013 -1158 4828 -1158
+5013 -1158 5013 -1533
+e 73 2
+5013 -1533 5013 -1158
+5013 -1533 5083 -1533
+e 74 2
+5083 -1533 5013 -1533
+5083 -1533 5083 -1158
+e 75 2
+5083 -1158 5083 -1533
+5083 -1158 5353 -1158
+e 76 2
+5353 -1158 5083 -1158
+5353 -1158 5353 -1023
+e 77 2
+5353 -1023 5353 -1158
+5353 -1023 5283 -1023
+e 78 2
+5283 -1023 5353 -1023
+5283 -1023 5283 -1088
+e 79 2
+5283 -1088 5283 -1023
+5283 -1088 4898 -1088
+e 80 2
+4898 -1088 5283 -1088
+4898 -1088 4898 -433
+e 81 2
+4898 -433 4898 -1088
+4898 -433 4828 -433
+e 82 2
+4828 -433 4898 -433
+4828 -433 4828 -1158
+e 83 2
+5373 -508 5373 -438
+5373 -508 5883 -508
+e 84 2
+5883 -508 5373 -508
+5883 -508 5883 -438
+e 85 2
+5883 -438 5883 -508
+5883 -438 5373 -438
+e 86 2
+5373 -438 5883 -438
+5373 -438 5373 -508
+e 87 2
+4963 -1018 4963 -883
+4963 -1018 5104 -1018
+e 88 2
+5104 -1018 4963 -1018
+5104 -1018 5104 -953
+e 89 2
+5104 -953 5104 -1018
+5104 -953 5418 -953
+e 90 2
+5418 -953 5104 -953
+5418 -953 5418 -1158
+e 91 2
+5418 -1158 5418 -953
+5418 -1158 5543 -1158
+e 92 2
+5543 -1158 5418 -1158
+5543 -1158 5543 -1023
+e 93 2
+5543 -1023 5543 -1158
+5543 -1023 5488 -1023
+e 94 2
+5488 -1023 5543 -1023
+5488 -1023 5488 -883
+e 95 2
+5488 -883 5488 -1023
+5488 -883 5104 -883
+e 96 2
+5104 -883 5488 -883
+5104 -883 5104 -878
+e 97 2
+5104 -878 5104 -883
+5104 -878 4964 -878
+e 98 2
+4964 -878 5104 -878
+4964 -878 4964 -883
+e 99 2
+4964 -883 4964 -878
+4964 -883 4963 -883
+e 100 2
+4963 -883 4964 -883
+4963 -883 4963 -1018
+e 101 2
+5093 -808 5093 -738
+5093 -808 5561 -808
+e 102 2
+5561 -808 5093 -808
+5561 -808 5561 -856
+e 103 2
+5561 -856 5561 -808
+5561 -856 5608 -856
+e 104 2
+5608 -856 5561 -856
+5608 -856 5608 -1158
+e 105 2
+5608 -1158 5608 -856
+5608 -1158 5733 -1158
+e 106 2
+5733 -1158 5608 -1158
+5733 -1158 5733 -1023
+e 107 2
+5733 -1023 5733 -1158
+5733 -1023 5678 -1023
+e 108 2
+5678 -1023 5733 -1023
+5678 -1023 5678 -856
+e 109 2
+5678 -856 5678 -1023
+5678 -856 5701 -856
+e 110 2
+5701 -856 5678 -856
+5701 -856 5701 -716
+e 111 2
+5701 -716 5701 -856
+5701 -716 5561 -716
+e 112 2
+5561 -716 5701 -716
+5561 -716 5561 -738
+e 113 2
+5561 -738 5561 -716
+5561 -738 5093 -738
+e 114 2
+5093 -738 5561 -738
+5093 -738 5093 -808
+e 115 2
+5408 -1533 5408 -1263
+5408 -1533 5478 -1533
+e 116 2
+5478 -1533 5408 -1533
+5478 -1533 5478 -1333
+e 117 2
+5478 -1333 5478 -1533
+5478 -1333 5868 -1333
+e 118 2
+5868 -1333 5478 -1333
+5868 -1333 5868 -1162
+e 119 2
+5868 -1162 5868 -1333
+5868 -1162 5944 -1162
+e 120 2
+5944 -1162 5868 -1162
+5944 -1162 5944 -1022
+e 121 2
+5944 -1022 5944 -1162
+5944 -1022 5868 -1022
+e 122 2
+5868 -1022 5944 -1022
+5868 -1022 5868 -573
+e 123 2
+5868 -573 5868 -1022
+5868 -573 5563 -573
+e 124 2
+5563 -573 5868 -573
+5563 -573 5563 -643
+e 125 2
+5563 -643 5563 -573
+5563 -643 5798 -643
+e 126 2
+5798 -643 5563 -643
+5798 -643 5798 -1263
+e 127 2
+5798 -1263 5798 -643
+5798 -1263 5408 -1263
+e 128 2
+5408 -1263 5798 -1263
+5408 -1263 5408 -1533
+e 129 2
+7004 -1147 7004 -1007
+7004 -1147 7035 -1147
+e 130 2
+7035 -1147 7004 -1147
+7035 -1147 7035 -1158
+e 131 2
+7035 -1158 7035 -1147
+7035 -1158 7160 -1158
+e 132 2
+7160 -1158 7035 -1158
+7160 -1158 7160 -983
+e 133 2
+7160 -983 7160 -1158
+7160 -983 7035 -983
+e 134 2
+7035 -983 7160 -983
+7035 -983 7035 -1007
+e 135 2
+7035 -1007 7035 -983
+7035 -1007 7004 -1007
+e 136 2
+7004 -1007 7035 -1007
+7004 -1007 7004 -1147
+e 137 2
+7020 -1493 7020 -1223
+7020 -1493 7090 -1493
+e 138 2
+7090 -1493 7020 -1493
+7090 -1493 7090 -1293
+e 139 2
+7090 -1293 7090 -1493
+7090 -1293 7515 -1293
+e 140 2
+7515 -1293 7090 -1293
+7515 -1293 7515 -773
+e 141 2
+7515 -773 7515 -1293
+7515 -773 7280 -773
+e 142 2
+7280 -773 7515 -773
+7280 -773 7280 -433
+e 143 2
+7280 -433 7280 -773
+7280 -433 7210 -433
+e 144 2
+7210 -433 7280 -433
+7210 -433 7210 -843
+e 145 2
+7210 -843 7210 -433
+7210 -843 7445 -843
+e 146 2
+7445 -843 7210 -843
+7445 -843 7445 -1223
+e 147 2
+7445 -1223 7445 -843
+7445 -1223 7020 -1223
+e 148 2
+7020 -1223 7445 -1223
+7020 -1223 7020 -1493
+e 149 2
+7225 -1158 7225 -983
+7225 -1158 7355 -1158
+e 150 2
+7355 -1158 7225 -1158
+7355 -1158 7355 -1147
+e 151 2
+7355 -1147 7355 -1158
+7355 -1147 7366 -1147
+e 152 2
+7366 -1147 7355 -1147
+7366 -1147 7366 -1007
+e 153 2
+7366 -1007 7366 -1147
+7366 -1007 7355 -1007
+e 154 2
+7355 -1007 7366 -1007
+7355 -1007 7355 -983
+e 155 2
+7355 -983 7355 -1007
+7355 -983 7225 -983
+e 156 2
+7225 -983 7355 -983
+7225 -983 7225 -1158
+e 157 2
+7585 -1493 7585 -493
+7585 -1493 7675 -1493
+e 158 2
+7675 -1493 7585 -1493
+7675 -1493 7675 -658
+e 159 2
+7675 -658 7675 -1493
+7675 -658 7726 -658
+e 160 2
+7726 -658 7675 -658
+7726 -658 7726 -518
+e 161 2
+7726 -518 7726 -658
+7726 -518 7675 -518
+e 162 2
+7675 -518 7726 -518
+7675 -518 7675 -433
+e 163 2
+7675 -433 7675 -518
+7675 -433 7585 -433
+e 164 2
+7585 -433 7675 -433
+7585 -433 7585 -1433
+e 165 2
+192 -341 192 -171
+192 -341 607 -341
+e 166 2
+607 -341 192 -341
+607 -341 607 -691
+e 167 2
+607 -691 607 -341
+607 -691 677 -691
+e 168 2
+677 -691 607 -691
+677 -691 677 -341
+e 169 2
+677 -341 677 -691
+677 -341 952 -341
+e 170 2
+952 -341 677 -341
+952 -341 952 -321
+e 171 2
+952 -321 952 -341
+952 -321 1952 -321
+e 172 2
+2547 -321 1547 -321
+2547 -321 2547 -368
+e 173 2
+2547 -368 2547 -321
+2547 -368 2587 -368
+e 174 2
+2587 -368 2547 -368
+2587 -368 2587 -708
+e 175 2
+2587 -708 2587 -368
+2587 -708 2657 -708
+e 176 2
+2657 -708 2587 -708
+2657 -708 2657 -368
+e 177 2
+2657 -368 2657 -708
+2657 -368 2962 -368
+e 178 2
+2962 -368 2657 -368
+2962 -368 2962 -708
+e 179 2
+2962 -708 2962 -368
+2962 -708 3032 -708
+e 180 2
+3032 -708 2962 -708
+3032 -708 3032 -368
+e 181 2
+3032 -368 3032 -708
+3032 -368 3307 -368
+e 182 2
+3307 -368 3032 -368
+3307 -368 3307 -321
+e 183 2
+3307 -321 3307 -368
+3307 -321 4307 -321
+e 184 2
+4788 -321 3788 -321
+4788 -321 4788 -368
+e 185 2
+4788 -368 4788 -321
+4788 -368 5208 -368
+e 186 2
+5208 -368 4788 -368
+5208 -368 5208 -533
+e 187 2
+5208 -533 5208 -368
+5208 -533 5278 -533
+e 188 2
+5278 -533 5208 -533
+5278 -533 5278 -368
+e 189 2
+5278 -368 5278 -533
+5278 -368 5928 -368
+e 190 2
+5928 -368 5278 -368
+5928 -368 5928 -321
+e 191 2
+5928 -321 5928 -368
+5928 -321 6928 -321
+e 192 2
+6975 -321 5975 -321
+6975 -321 6975 -368
+e 193 2
+6975 -368 6975 -321
+6975 -368 7015 -368
+e 194 2
+7015 -368 6975 -368
+7015 -368 7015 -708
+e 195 2
+7015 -708 7015 -368
+7015 -708 7085 -708
+e 196 2
+7085 -708 7015 -708
+7085 -708 7085 -368
+e 197 2
+7085 -368 7085 -708
+7085 -368 7390 -368
+e 198 2
+7390 -368 7085 -368
+7390 -368 7390 -708
+e 199 2
+7390 -708 7390 -368
+7390 -708 7460 -708
+e 200 2
+7460 -708 7390 -708
+7460 -708 7460 -368
+e 201 2
+7460 -368 7460 -708
+7460 -368 7735 -368
+e 202 2
+7735 -368 7460 -368
+7735 -368 7735 -321
+e 203 2
+7735 -321 7735 -368
+7735 -321 8735 -321
+e 204 2
+9663 -321 8663 -321
+9663 -321 9663 -368
+e 205 2
+9663 -368 9663 -321
+9663 -368 10083 -368
+e 206 2
+10083 -368 9663 -368
+10083 -368 10083 -533
+e 207 2
+10083 -533 10083 -368
+10083 -533 10153 -533
+e 208 2
+10153 -533 10083 -533
+10153 -533 10153 -368
+e 209 2
+10153 -368 10153 -533
+10153 -368 10803 -368
+e 210 2
+10803 -368 10153 -368
+10803 -368 10803 -198
+e 211 2
+10803 -198 10803 -368
+10803 -198 9873 -198
+e 212 2
+9873 -198 10803 -198
+9873 -198 9873 153
+e 213 2
+9873 153 9873 -198
+9873 153 9900 153
+e 214 2
+9900 153 9873 153
+9900 153 9900 297
+e 215 2
+9900 297 9900 153
+9900 297 9756 297
+e 216 2
+9756 297 9900 297
+9756 297 9756 153
+e 217 2
+9756 153 9756 297
+9756 153 9783 153
+e 218 2
+9783 153 9756 153
+9783 153 9783 -198
+e 219 2
+9783 -198 9783 153
+9783 -198 9663 -198
+e 220 2
+9663 -198 9783 -198
+9663 -198 9663 -207
+e 221 2
+9663 -207 9663 -198
+9663 -207 8663 -207
+e 222 2
+7735 -207 8735 -207
+7735 -207 7735 -198
+e 223 2
+7735 -198 7735 -207
+7735 -198 7101 -198
+e 224 2
+7101 -198 7735 -198
+7101 -198 7101 153
+e 225 2
+7101 153 7101 -198
+7101 153 7128 153
+e 226 2
+7128 153 7101 153
+7128 153 7128 297
+e 227 2
+7128 297 7128 153
+7128 297 6984 297
+e 228 2
+6984 297 7128 297
+6984 297 6984 153
+e 229 2
+6984 153 6984 297
+6984 153 7011 153
+e 230 2
+7011 153 6984 153
+7011 153 7011 -198
+e 231 2
+7011 -198 7011 153
+7011 -198 6975 -198
+e 232 2
+6975 -198 7011 -198
+6975 -198 6975 -207
+e 233 2
+6975 -207 6975 -198
+6975 -207 5975 -207
+e 234 2
+5928 -207 6928 -207
+5928 -207 5928 -198
+e 235 2
+5928 -198 5928 -207
+5928 -198 5028 -198
+e 236 2
+5028 -198 5928 -198
+5028 -198 5028 153
+e 237 2
+5028 153 5028 -198
+5028 153 5055 153
+e 238 2
+5055 153 5028 153
+5055 153 5055 297
+e 239 2
+5055 297 5055 153
+5055 297 4911 297
+e 240 2
+4911 297 5055 297
+4911 297 4911 153
+e 241 2
+4911 153 4911 297
+4911 153 4938 153
+e 242 2
+4938 153 4911 153
+4938 153 4938 -198
+e 243 2
+4938 -198 4938 153
+4938 -198 4788 -198
+e 244 2
+4788 -198 4938 -198
+4788 -198 4788 -207
+e 245 2
+4788 -207 4788 -198
+4788 -207 3788 -207
+e 246 2
+3307 -207 4307 -207
+3307 -207 3307 -198
+e 247 2
+3307 -198 3307 -207
+3307 -198 2721 -198
+e 248 2
+2721 -198 3307 -198
+2721 -198 2721 153
+e 249 2
+2721 153 2721 -198
+2721 153 2748 153
+e 250 2
+2748 153 2721 153
+2748 153 2748 297
+e 251 2
+2748 297 2748 153
+2748 297 2604 297
+e 252 2
+2604 297 2748 297
+2604 297 2604 153
+e 253 2
+2604 153 2604 297
+2604 153 2631 153
+e 254 2
+2631 153 2604 153
+2631 153 2631 -198
+e 255 2
+2631 -198 2631 153
+2631 -198 2547 -198
+e 256 2
+2547 -198 2631 -198
+2547 -198 2547 -207
+e 257 2
+2547 -207 2547 -198
+2547 -207 1547 -207
+e 258 2
+952 -207 1952 -207
+952 -207 952 -171
+e 259 2
+952 -171 952 -207
+952 -171 426 -171
+e 260 2
+426 -171 952 -171
+426 -171 426 153
+e 261 2
+426 153 426 -171
+426 153 453 153
+e 262 2
+453 153 426 153
+453 153 453 297
+e 263 2
+453 297 453 153
+453 297 309 297
+e 264 2
+309 297 453 297
+309 297 309 153
+e 265 2
+309 153 309 297
+309 153 336 153
+e 266 2
+336 153 309 153
+336 153 336 -171
+e 267 2
+336 -171 336 153
+336 -171 192 -171
+e 268 2
+192 -171 336 -171
+192 -171 192 -341
+e 269 2
+9703 -1158 9703 -433
+9703 -1158 9888 -1158
+e 270 2
+9888 -1158 9703 -1158
+9888 -1158 9888 -1533
+e 271 2
+9888 -1533 9888 -1158
+9888 -1533 9958 -1533
+e 272 2
+9958 -1533 9888 -1533
+9958 -1533 9958 -1158
+e 273 2
+9958 -1158 9958 -1533
+9958 -1158 10228 -1158
+e 274 2
+10228 -1158 9958 -1158
+10228 -1158 10228 -1023
+e 275 2
+10228 -1023 10228 -1158
+10228 -1023 10158 -1023
+e 276 2
+10158 -1023 10228 -1023
+10158 -1023 10158 -1088
+e 277 2
+10158 -1088 10158 -1023
+10158 -1088 9773 -1088
+e 278 2
+9773 -1088 10158 -1088
+9773 -1088 9773 -433
+e 279 2
+9773 -433 9773 -1088
+9773 -433 9703 -433
+e 280 2
+9703 -433 9773 -433
+9703 -433 9703 -1158
+e 281 2
+10248 -508 10248 -438
+10248 -508 10758 -508
+e 282 2
+10758 -508 10248 -508
+10758 -508 10758 -438
+e 283 2
+10758 -438 10758 -508
+10758 -438 10248 -438
+e 284 2
+10248 -438 10758 -438
+10248 -438 10248 -508
+e 285 2
+9838 -1018 9838 -883
+9838 -1018 9979 -1018
+e 286 2
+9979 -1018 9838 -1018
+9979 -1018 9979 -953
+e 287 2
+9979 -953 9979 -1018
+9979 -953 10293 -953
+e 288 2
+10293 -953 9979 -953
+10293 -953 10293 -1158
+e 289 2
+10293 -1158 10293 -953
+10293 -1158 10418 -1158
+e 290 2
+10418 -1158 10293 -1158
+10418 -1158 10418 -1023
+e 291 2
+10418 -1023 10418 -1158
+10418 -1023 10363 -1023
+e 292 2
+10363 -1023 10418 -1023
+10363 -1023 10363 -883
+e 293 2
+10363 -883 10363 -1023
+10363 -883 9979 -883
+e 294 2
+9979 -883 10363 -883
+9979 -883 9979 -878
+e 295 2
+9979 -878 9979 -883
+9979 -878 9839 -878
+e 296 2
+9839 -878 9979 -878
+9839 -878 9839 -883
+e 297 2
+9839 -883 9839 -878
+9839 -883 9838 -883
+e 298 2
+9838 -883 9839 -883
+9838 -883 9838 -1018
+e 299 2
+9968 -808 9968 -738
+9968 -808 10430 -808
+e 300 2
+10430 -808 9968 -808
+10430 -808 10430 -856
+e 301 2
+10430 -856 10430 -808
+10430 -856 10483 -856
+e 302 2
+10483 -856 10430 -856
+10483 -856 10483 -1158
+e 303 2
+10483 -1158 10483 -856
+10483 -1158 10608 -1158
+e 304 2
+10608 -1158 10483 -1158
+10608 -1158 10608 -1023
+e 305 2
+10608 -1023 10608 -1158
+10608 -1023 10553 -1023
+e 306 2
+10553 -1023 10608 -1023
+10553 -1023 10553 -856
+e 307 2
+10553 -856 10553 -1023
+10553 -856 10570 -856
+e 308 2
+10570 -856 10553 -856
+10570 -856 10570 -716
+e 309 2
+10570 -716 10570 -856
+10570 -716 10430 -716
+e 310 2
+10430 -716 10570 -716
+10430 -716 10430 -738
+e 311 2
+10430 -738 10430 -716
+10430 -738 9968 -738
+e 312 2
+9968 -738 10430 -738
+9968 -738 9968 -808
+e 313 2
+192 -1741 192 -1571
+192 -1741 321 -1741
+e 314 2
+321 -1741 192 -1741
+321 -1741 321 -2028
+e 315 2
+321 -2028 321 -1741
+321 -2028 294 -2028
+e 316 2
+294 -2028 321 -2028
+294 -2028 294 -2172
+e 317 2
+294 -2172 294 -2028
+294 -2172 438 -2172
+e 318 2
+438 -2172 294 -2172
+438 -2172 438 -2028
+e 319 2
+438 -2028 438 -2172
+438 -2028 411 -2028
+e 320 2
+411 -2028 438 -2028
+411 -2028 411 -1741
+e 321 2
+411 -1741 411 -2028
+411 -1741 952 -1741
+e 322 2
+952 -1741 411 -1741
+952 -1741 952 -1734
+e 323 2
+952 -1734 952 -1741
+952 -1734 1952 -1734
+e 324 2
+2547 -1734 1547 -1734
+2547 -1734 2547 -1768
+e 325 2
+2547 -1768 2547 -1734
+2547 -1768 2628 -1768
+e 326 2
+2628 -1768 2547 -1768
+2628 -1768 2628 -2028
+e 327 2
+2628 -2028 2628 -1768
+2628 -2028 2601 -2028
+e 328 2
+2601 -2028 2628 -2028
+2601 -2028 2601 -2172
+e 329 2
+2601 -2172 2601 -2028
+2601 -2172 2745 -2172
+e 330 2
+2745 -2172 2601 -2172
+2745 -2172 2745 -2028
+e 331 2
+2745 -2028 2745 -2172
+2745 -2028 2718 -2028
+e 332 2
+2718 -2028 2745 -2028
+2718 -2028 2718 -1768
+e 333 2
+2718 -1768 2718 -2028
+2718 -1768 3307 -1768
+e 334 2
+3307 -1768 2718 -1768
+3307 -1768 3307 -1737
+e 335 2
+3307 -1737 3307 -1768
+3307 -1737 4307 -1737
+e 336 2
+4788 -1737 3788 -1737
+4788 -1737 4788 -1768
+e 337 2
+4788 -1768 4788 -1737
+4788 -1768 4866 -1768
+e 338 2
+4866 -1768 4788 -1768
+4866 -1768 4866 -2028
+e 339 2
+4866 -2028 4866 -1768
+4866 -2028 4839 -2028
+e 340 2
+4839 -2028 4866 -2028
+4839 -2028 4839 -2172
+e 341 2
+4839 -2172 4839 -2028
+4839 -2172 4983 -2172
+e 342 2
+4983 -2172 4839 -2172
+4983 -2172 4983 -2028
+e 343 2
+4983 -2028 4983 -2172
+4983 -2028 4956 -2028
+e 344 2
+4956 -2028 4983 -2028
+4956 -2028 4956 -1768
+e 345 2
+4956 -1768 4956 -2028
+4956 -1768 5928 -1768
+e 346 2
+5928 -1768 4956 -1768
+5928 -1768 5928 -1752
+e 347 2
+5928 -1752 5928 -1768
+5928 -1752 6928 -1752
+e 348 2
+6975 -1752 5975 -1752
+6975 -1752 6975 -1768
+e 349 2
+6975 -1768 6975 -1752
+6975 -1768 7035 -1768
+e 350 2
+7035 -1768 6975 -1768
+7035 -1768 7035 -2028
+e 351 2
+7035 -2028 7035 -1768
+7035 -2028 7008 -2028
+e 352 2
+7008 -2028 7035 -2028
+7008 -2028 7008 -2172
+e 353 2
+7008 -2172 7008 -2028
+7008 -2172 7152 -2172
+e 354 2
+7152 -2172 7008 -2172
+7152 -2172 7152 -2028
+e 355 2
+7152 -2028 7152 -2172
+7152 -2028 7125 -2028
+e 356 2
+7125 -2028 7152 -2028
+7125 -2028 7125 -1768
+e 357 2
+7125 -1768 7125 -2028
+7125 -1768 7735 -1768
+e 358 2
+7735 -1768 7125 -1768
+7735 -1768 7735 -1752
+e 359 2
+7735 -1752 7735 -1768
+7735 -1752 8735 -1752
+e 360 2
+9663 -1752 8663 -1752
+9663 -1752 9663 -1768
+e 361 2
+9663 -1768 9663 -1752
+9663 -1768 9711 -1768
+e 362 2
+9711 -1768 9663 -1768
+9711 -1768 9711 -2028
+e 363 2
+9711 -2028 9711 -1768
+9711 -2028 9684 -2028
+e 364 2
+9684 -2028 9711 -2028
+9684 -2028 9684 -2172
+e 365 2
+9684 -2172 9684 -2028
+9684 -2172 9828 -2172
+e 366 2
+9828 -2172 9684 -2172
+9828 -2172 9828 -2028
+e 367 2
+9828 -2028 9828 -2172
+9828 -2028 9801 -2028
+e 368 2
+9801 -2028 9828 -2028
+9801 -2028 9801 -1768
+e 369 2
+9801 -1768 9801 -2028
+9801 -1768 10801 -1768
+e 370 2
+10803 -1768 9803 -1768
+10803 -1768 10803 -1598
+e 371 2
+10803 -1598 10803 -1768
+10803 -1598 10723 -1598
+e 372 2
+10723 -1598 10803 -1598
+10723 -1598 10723 -1398
+e 373 2
+10723 -1398 10723 -1598
+10723 -1398 10653 -1398
+e 374 2
+10653 -1398 10723 -1398
+10653 -1398 10653 -1598
+e 375 2
+10653 -1598 10653 -1398
+10653 -1598 10153 -1598
+e 376 2
+10153 -1598 10653 -1598
+10153 -1598 10153 -1398
+e 377 2
+10153 -1398 10153 -1598
+10153 -1398 10083 -1398
+e 378 2
+10083 -1398 10153 -1398
+10083 -1398 10083 -1598
+e 379 2
+10083 -1598 10083 -1398
+10083 -1598 9773 -1598
+e 380 2
+9773 -1598 10083 -1598
+9773 -1598 9773 -1398
+e 381 2
+9773 -1398 9773 -1598
+9773 -1398 9703 -1398
+e 382 2
+9703 -1398 9773 -1398
+9703 -1398 9703 -1598
+e 383 2
+9703 -1598 9703 -1398
+9703 -1598 9663 -1598
+e 384 2
+9663 -1598 9703 -1598
+9663 -1598 9663 -1638
+e 385 2
+9663 -1638 9663 -1598
+9663 -1638 8663 -1638
+e 386 2
+7735 -1638 8735 -1638
+7735 -1638 7735 -1598
+e 387 2
+7735 -1598 7735 -1638
+7735 -1598 7460 -1598
+e 388 2
+7460 -1598 7735 -1598
+7460 -1598 7460 -1358
+e 389 2
+7460 -1358 7460 -1598
+7460 -1358 7390 -1358
+e 390 2
+7390 -1358 7460 -1358
+7390 -1358 7390 -1598
+e 391 2
+7390 -1598 7390 -1358
+7390 -1598 6975 -1598
+e 392 2
+6975 -1598 7390 -1598
+6975 -1598 6975 -1638
+e 393 2
+6975 -1638 6975 -1598
+6975 -1638 5975 -1638
+e 394 2
+5928 -1638 6928 -1638
+5928 -1638 5928 -1598
+e 395 2
+5928 -1598 5928 -1638
+5928 -1598 5848 -1598
+e 396 2
+5848 -1598 5928 -1598
+5848 -1598 5848 -1398
+e 397 2
+5848 -1398 5848 -1598
+5848 -1398 5778 -1398
+e 398 2
+5778 -1398 5848 -1398
+5778 -1398 5778 -1598
+e 399 2
+5778 -1598 5778 -1398
+5778 -1598 5278 -1598
+e 400 2
+5278 -1598 5778 -1598
+5278 -1598 5278 -1398
+e 401 2
+5278 -1398 5278 -1598
+5278 -1398 5208 -1398
+e 402 2
+5208 -1398 5278 -1398
+5208 -1398 5208 -1598
+e 403 2
+5208 -1598 5208 -1398
+5208 -1598 4898 -1598
+e 404 2
+4898 -1598 5208 -1598
+4898 -1598 4898 -1398
+e 405 2
+4898 -1398 4898 -1598
+4898 -1398 4828 -1398
+e 406 2
+4828 -1398 4898 -1398
+4828 -1398 4828 -1598
+e 407 2
+4828 -1598 4828 -1398
+4828 -1598 4788 -1598
+e 408 2
+4788 -1598 4828 -1598
+4788 -1598 4788 -1623
+e 409 2
+4788 -1623 4788 -1598
+4788 -1623 3788 -1623
+e 410 2
+3307 -1623 4307 -1623
+3307 -1623 3307 -1598
+e 411 2
+3307 -1598 3307 -1623
+3307 -1598 3032 -1598
+e 412 2
+3032 -1598 3307 -1598
+3032 -1598 3032 -1358
+e 413 2
+3032 -1358 3032 -1598
+3032 -1358 2962 -1358
+e 414 2
+2962 -1358 3032 -1358
+2962 -1358 2962 -1598
+e 415 2
+2962 -1598 2962 -1358
+2962 -1598 2547 -1598
+e 416 2
+2547 -1598 2962 -1598
+2547 -1598 2547 -1620
+e 417 2
+2547 -1620 2547 -1598
+2547 -1620 1547 -1620
+e 418 2
+952 -1620 1952 -1620
+952 -1620 952 -1571
+e 419 2
+952 -1571 952 -1620
+952 -1571 677 -1571
+e 420 2
+677 -1571 952 -1571
+677 -1571 677 -1371
+e 421 2
+677 -1371 677 -1571
+677 -1371 607 -1371
+e 422 2
+607 -1371 677 -1371
+607 -1371 607 -1571
+e 423 2
+607 -1571 607 -1371
+607 -1571 302 -1571
+e 424 2
+302 -1571 607 -1571
+302 -1571 302 -1371
+e 425 2
+302 -1371 302 -1571
+302 -1371 232 -1371
+e 426 2
+232 -1371 302 -1371
+232 -1371 232 -1571
+e 427 2
+232 -1571 232 -1371
+232 -1571 192 -1571
+e 428 2
+192 -1571 232 -1571
+192 -1571 192 -1741
+e 429 2
+10283 -1533 10283 -1263
+10283 -1533 10353 -1533
+e 430 2
+10353 -1533 10283 -1533
+10353 -1533 10353 -1333
+e 431 2
+10353 -1333 10353 -1533
+10353 -1333 10743 -1333
+e 432 2
+10743 -1333 10353 -1333
+10743 -1333 10743 -930
+e 433 2
+10743 -930 10743 -1333
+10743 -930 11691 -930
+e 434 2
+11691 -930 10743 -930
+11691 -930 11691 -852
+e 435 2
+11691 -852 11691 -930
+11691 -852 10743 -852
+e 436 2
+10743 -852 11691 -852
+10743 -852 10743 -573
+e 437 2
+10743 -573 10743 -852
+10743 -573 10438 -573
+e 438 2
+10438 -573 10743 -573
+10438 -573 10438 -643
+e 439 2
+10438 -643 10438 -573
+10438 -643 10673 -643
+e 440 2
+10673 -643 10438 -643
+10673 -643 10673 -1263
+e 441 2
+10673 -1263 10673 -643
+10673 -1263 10283 -1263
+e 442 2
+10283 -1263 10673 -1263
+10283 -1263 10283 -1533
+Grid.7
+48 48 2 Mar 18 16:50:06 2018                   
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+265 -1073 265 -1003
+265 -1073 335 -1073
+e 2 2
+335 -1073 265 -1073
+335 -1073 335 -1003
+e 3 2
+335 -1003 335 -1073
+335 -1003 265 -1003
+e 4 2
+265 -1003 335 -1003
+265 -1003 265 -1073
+e 5 2
+481 -1073 481 -1003
+481 -1073 551 -1073
+e 6 2
+551 -1073 481 -1073
+551 -1073 551 -1003
+e 7 2
+551 -1003 551 -1073
+551 -1003 481 -1003
+e 8 2
+481 -1003 551 -1003
+481 -1003 481 -1073
+e 9 2
+2836 -1097 2836 -1027
+2836 -1097 2906 -1097
+e 10 2
+2906 -1097 2836 -1097
+2906 -1097 2906 -1027
+e 11 2
+2906 -1027 2906 -1097
+2906 -1027 2836 -1027
+e 12 2
+2836 -1027 2906 -1027
+2836 -1027 2836 -1097
+e 13 2
+3196 -722 3196 -652
+3196 -722 3266 -722
+e 14 2
+3266 -722 3196 -722
+3266 -722 3266 -652
+e 15 2
+3266 -652 3266 -722
+3266 -652 3196 -652
+e 16 2
+3196 -652 3266 -652
+3196 -652 3196 -722
+e 17 2
+4999 -983 4999 -913
+4999 -983 5069 -983
+e 18 2
+5069 -983 4999 -983
+5069 -983 5069 -913
+e 19 2
+5069 -913 5069 -983
+5069 -913 4999 -913
+e 20 2
+4999 -913 5069 -913
+4999 -913 4999 -983
+e 21 2
+5596 -821 5596 -751
+5596 -821 5666 -821
+e 22 2
+5666 -821 5596 -821
+5666 -821 5666 -751
+e 23 2
+5666 -751 5666 -821
+5666 -751 5596 -751
+e 24 2
+5596 -751 5666 -751
+5596 -751 5596 -821
+e 25 2
+5839 -1127 5839 -1057
+5839 -1127 5909 -1127
+e 26 2
+5909 -1127 5839 -1127
+5909 -1127 5909 -1057
+e 27 2
+5909 -1057 5909 -1127
+5909 -1057 5839 -1057
+e 28 2
+5839 -1057 5909 -1057
+5839 -1057 5839 -1127
+e 29 2
+7039 -1112 7039 -1042
+7039 -1112 7109 -1112
+e 30 2
+7109 -1112 7039 -1112
+7109 -1112 7109 -1042
+e 31 2
+7109 -1042 7109 -1112
+7109 -1042 7039 -1042
+e 32 2
+7039 -1042 7109 -1042
+7039 -1042 7039 -1112
+e 33 2
+7261 -1112 7261 -1042
+7261 -1112 7331 -1112
+e 34 2
+7331 -1112 7261 -1112
+7331 -1112 7331 -1042
+e 35 2
+7331 -1042 7331 -1112
+7331 -1042 7261 -1042
+e 36 2
+7261 -1042 7331 -1042
+7261 -1042 7261 -1112
+e 37 2
+7621 -623 7621 -553
+7621 -623 7691 -623
+e 38 2
+7691 -623 7621 -623
+7691 -623 7691 -553
+e 39 2
+7691 -553 7691 -623
+7691 -553 7621 -553
+e 40 2
+7621 -553 7691 -553
+7621 -553 7621 -623
+e 41 2
+9874 -983 9874 -913
+9874 -983 9944 -983
+e 42 2
+9944 -983 9874 -983
+9944 -983 9944 -913
+e 43 2
+9944 -913 9944 -983
+9944 -913 9874 -913
+e 44 2
+9874 -913 9944 -913
+9874 -913 9874 -983
+e 45 2
+10465 -821 10465 -751
+10465 -821 10535 -821
+e 46 2
+10535 -821 10465 -821
+10535 -821 10535 -751
+e 47 2
+10535 -751 10535 -821
+10535 -751 10465 -751
+e 48 2
+10465 -751 10535 -751
+10465 -751 10465 -821
+Grid.8
+133 133 2 Mar 18 16:50:06 2018                 
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+e 1 2
+446 -1108 446 -968
+446 -1108 468 -1108
+e 2 2
+468 -1108 446 -1108
+468 -1108 468 -1125
+e 3 2
+468 -1125 468 -1108
+468 -1125 538 -1125
+e 4 2
+538 -1125 468 -1125
+538 -1125 538 -1108
+e 5 2
+538 -1108 538 -1125
+538 -1108 586 -1108
+e 6 2
+586 -1108 538 -1108
+586 -1108 586 -968
+e 7 2
+586 -968 586 -1108
+586 -968 538 -968
+e 8 2
+538 -968 586 -968
+538 -968 538 -756
+e 9 2
+538 -756 538 -968
+538 -756 1538 -756
+e 10 2
+3161 -756 2161 -756
+3161 -756 3161 -757
+e 11 2
+3161 -757 3161 -756
+3161 -757 3301 -757
+e 12 2
+3301 -757 3161 -757
+3301 -757 3301 -617
+e 13 2
+3301 -617 3301 -757
+3301 -617 3161 -617
+e 14 2
+3161 -617 3301 -617
+3161 -617 3161 -686
+e 15 2
+3161 -686 3161 -617
+3161 -686 2161 -686
+e 16 2
+468 -686 1468 -686
+468 -686 468 -968
+e 17 2
+468 -968 468 -686
+468 -968 446 -968
+e 18 2
+446 -968 468 -968
+446 -968 446 -1108
+e 19 2
+2610 -1383 2610 -1135
+2610 -1383 3610 -1383
+e 20 2
+3705 -1383 2705 -1383
+3705 -1383 3705 -2019
+e 21 2
+3705 -2019 3705 -1383
+3705 -2019 3837 -2019
+e 22 2
+3837 -2019 3705 -2019
+3837 -2019 3837 -1383
+e 23 2
+3837 -1383 3837 -2019
+3837 -1383 4837 -1383
+e 24 2
+5035 -1383 4035 -1383
+5035 -1383 5035 -1018
+e 25 2
+5035 -1018 5035 -1383
+5035 -1018 5104 -1018
+e 26 2
+5104 -1018 5035 -1018
+5104 -1018 5104 -878
+e 27 2
+5104 -878 5104 -1018
+5104 -878 4964 -878
+e 28 2
+4964 -878 5104 -878
+4964 -878 4964 -1018
+e 29 2
+4964 -1018 4964 -878
+4964 -1018 4965 -1018
+e 30 2
+4965 -1018 4964 -1018
+4965 -1018 4965 -1313
+e 31 2
+4965 -1313 4965 -1018
+4965 -1313 3965 -1313
+e 32 2
+2680 -1313 3680 -1313
+2680 -1313 2680 -1135
+e 33 2
+2801 -1132 2801 -992
+2801 -1132 2941 -1132
+e 34 2
+2941 -1132 2801 -1132
+2941 -1132 2941 -992
+e 35 2
+2941 -992 2941 -1132
+2941 -992 2872 -992
+e 36 2
+2872 -992 2941 -992
+2872 -992 2872 -900
+e 37 2
+2872 -900 2872 -992
+2872 -900 3872 -900
+e 38 2
+4011 -900 3011 -900
+4011 -900 4011 -1137
+e 39 2
+4011 -1137 4011 -900
+4011 -1137 4143 -1137
+e 40 2
+4143 -1137 4011 -1137
+4143 -1137 4143 -900
+e 41 2
+4143 -900 4143 -1137
+4143 -900 4677 -900
+e 42 2
+4677 -900 4143 -900
+4677 -900 4677 -903
+e 43 2
+4677 -903 4677 -900
+4677 -903 4747 -903
+e 44 2
+4747 -903 4677 -903
+4747 -903 4747 -786
+e 45 2
+4747 -786 4747 -903
+4747 -786 5561 -786
+e 46 2
+5561 -786 4747 -786
+5561 -786 5561 -856
+e 47 2
+5561 -856 5561 -786
+5561 -856 5701 -856
+e 48 2
+5701 -856 5561 -856
+5701 -856 5701 -716
+e 49 2
+5701 -716 5701 -856
+5701 -716 4701 -716
+e 50 2
+4677 -716 5677 -716
+4677 -716 4677 -830
+e 51 2
+4677 -830 4677 -716
+4677 -830 3677 -830
+e 52 2
+2872 -830 3872 -830
+2872 -830 2872 -828
+e 53 2
+2872 -828 2872 -830
+2872 -828 2802 -828
+e 54 2
+2802 -828 2872 -828
+2802 -828 2802 -992
+e 55 2
+2802 -992 2802 -828
+2802 -992 2801 -992
+e 56 2
+2801 -992 2802 -992
+2801 -992 2801 -1132
+e 57 2
+230 -1108 230 -968
+230 -1108 282 -1108
+e 58 2
+282 -1108 230 -1108
+282 -1108 282 -1125
+e 59 2
+282 -1125 282 -1108
+282 -1125 352 -1125
+e 60 2
+352 -1125 282 -1125
+352 -1125 352 -1108
+e 61 2
+352 -1108 352 -1125
+352 -1108 370 -1108
+e 62 2
+370 -1108 352 -1108
+370 -1108 370 -968
+e 63 2
+370 -968 370 -1108
+370 -968 352 -968
+e 64 2
+352 -968 370 -968
+352 -968 352 -540
+e 65 2
+352 -540 352 -968
+352 -540 1352 -540
+e 66 2
+7586 -540 6586 -540
+7586 -540 7586 -658
+e 67 2
+7586 -658 7586 -540
+7586 -658 7726 -658
+e 68 2
+7726 -658 7586 -658
+7726 -658 7726 -518
+e 69 2
+7726 -518 7726 -658
+7726 -518 7725 -518
+e 70 2
+7725 -518 7726 -518
+7725 -518 7725 -470
+e 71 2
+288 -470 1288 -470
+288 -470 288 -471
+e 72 2
+288 -471 288 -470
+288 -471 282 -471
+e 73 2
+282 -471 288 -471
+282 -471 282 -968
+e 74 2
+282 -968 282 -471
+282 -968 230 -968
+e 75 2
+230 -968 282 -968
+230 -968 230 -1108
+e 76 2
+5799 -1164 5799 -839
+5799 -1164 5869 -1164
+e 77 2
+5869 -1164 5799 -1164
+5869 -1164 5869 -1162
+e 78 2
+5869 -1162 5869 -1164
+5869 -1162 5944 -1162
+e 79 2
+5944 -1162 5869 -1162
+5944 -1162 5944 -1022
+e 80 2
+5944 -1022 5944 -1162
+5944 -1022 5869 -1022
+e 81 2
+5869 -1022 5944 -1022
+5869 -1022 5869 -909
+e 82 2
+5869 -909 5869 -1022
+5869 -909 6869 -909
+e 83 2
+7260 -909 6260 -909
+7260 -909 7260 -1007
+e 84 2
+7260 -1007 7260 -909
+7260 -1007 7226 -1007
+e 85 2
+7226 -1007 7260 -1007
+7226 -1007 7226 -1147
+e 86 2
+7226 -1147 7226 -1007
+7226 -1147 7260 -1147
+e 87 2
+7260 -1147 7226 -1147
+7260 -1147 7260 -1158
+e 88 2
+7260 -1158 7260 -1147
+7260 -1158 7330 -1158
+e 89 2
+7330 -1158 7260 -1158
+7330 -1158 7330 -1147
+e 90 2
+7330 -1147 7330 -1158
+7330 -1147 7366 -1147
+e 91 2
+7366 -1147 7330 -1147
+7366 -1147 7366 -1007
+e 92 2
+7366 -1007 7366 -1147
+7366 -1007 7330 -1007
+e 93 2
+7330 -1007 7366 -1007
+7330 -1007 7330 -909
+e 94 2
+7330 -909 7330 -1007
+7330 -909 8330 -909
+e 95 2
+9839 -909 8839 -909
+9839 -909 9839 -1018
+e 96 2
+9839 -1018 9839 -909
+9839 -1018 9979 -1018
+e 97 2
+9979 -1018 9839 -1018
+9979 -1018 9979 -878
+e 98 2
+9979 -878 9979 -1018
+9979 -878 9978 -878
+e 99 2
+9978 -878 9979 -878
+9978 -878 9978 -839
+e 100 2
+9978 -839 9978 -878
+9978 -839 8978 -839
+e 101 2
+7330 -839 8330 -839
+7330 -839 7330 -837
+e 102 2
+7330 -837 7330 -839
+7330 -837 7260 -837
+e 103 2
+7260 -837 7330 -837
+7260 -837 7260 -839
+e 104 2
+7260 -839 7260 -837
+7260 -839 6260 -839
+e 105 2
+5799 -839 6799 -839
+5799 -839 5799 -1164
+e 106 2
+6630 -1992 6630 -1047
+6630 -1992 6700 -1992
+e 107 2
+6700 -1992 6630 -1992
+6700 -1992 6700 -1117
+e 108 2
+6700 -1117 6700 -1992
+6700 -1117 7004 -1117
+e 109 2
+7004 -1117 6700 -1117
+7004 -1117 7004 -1147
+e 110 2
+7004 -1147 7004 -1117
+7004 -1147 7068 -1147
+e 111 2
+7068 -1147 7004 -1147
+7068 -1147 7068 -1400
+e 112 2
+7068 -1400 7068 -1147
+7068 -1400 7047 -1400
+e 113 2
+7047 -1400 7068 -1400
+7047 -1400 7047 -1470
+e 114 2
+7047 -1470 7047 -1400
+7047 -1470 8047 -1470
+e 115 2
+10534 -1470 9534 -1470
+10534 -1470 10534 -856
+e 116 2
+10534 -856 10534 -1470
+10534 -856 10570 -856
+e 117 2
+10570 -856 10534 -856
+10570 -856 10570 -716
+e 118 2
+10570 -716 10570 -856
+10570 -716 10430 -716
+e 119 2
+10430 -716 10570 -716
+10430 -716 10430 -856
+e 120 2
+10430 -856 10430 -716
+10430 -856 10464 -856
+e 121 2
+10464 -856 10430 -856
+10464 -856 10464 -1400
+e 122 2
+10464 -1400 10464 -856
+10464 -1400 9464 -1400
+e 123 2
+7138 -1400 8138 -1400
+7138 -1400 7138 -1147
+e 124 2
+7138 -1147 7138 -1400
+7138 -1147 7144 -1147
+e 125 2
+7144 -1147 7138 -1147
+7144 -1147 7144 -1117
+e 126 2
+7144 -1117 7144 -1147
+7144 -1117 7149 -1117
+e 127 2
+7149 -1117 7144 -1117
+7149 -1117 7149 -1047
+e 128 2
+7149 -1047 7149 -1117
+7149 -1047 7144 -1047
+e 129 2
+7144 -1047 7149 -1047
+7144 -1047 7144 -1007
+e 130 2
+7144 -1007 7144 -1047
+7144 -1007 7004 -1007
+e 131 2
+7004 -1007 7144 -1007
+7004 -1007 7004 -1047
+e 132 2
+7004 -1047 7004 -1007
+7004 -1047 6630 -1047
+e 133 2
+6630 -1047 7004 -1047
+6630 -1047 6630 -1992
+Grid.9
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.10
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.11
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 Mar 18 16:50:06 2018                     
+Rule File Pathname: /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC_mod.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

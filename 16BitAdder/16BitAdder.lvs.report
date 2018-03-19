@@ -1,0 +1,3661 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         16BitAdder.lvs.report
+LAYOUT NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/16BitAdder.sp ('16BitAdder')
+SOURCE NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/16BitAdder.src.net ('16BitAdder')
+RULE FILE:                /home/DREXEL/rm885/NCSU_FreePDK45/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sun Mar 18 16:55:51 2018
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      16BitAdder                    16BitAdder
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       YES
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Map Device
+
+   LVS MAP DEVICE                      MN(NMOS_VTL) MN(NM)
+   LVS MAP DEVICE                      MP(PMOS_VTL) MP(PM)
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         16BitAdder
+SOURCE CELL NAME:         16BitAdder
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:             529       339    *
+
+ Instances:        304       304         MN (4 pins)
+                   304       304         MP (4 pins)
+                ------    ------
+ Total Inst:       608       608
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:             385       195    *
+
+ Instances:        167        32    *    MN (4 pins)
+                   105         0    *    MP (4 pins)
+                    60         0    *    SMN2 (4 pins)
+                    45         0    *    SMP2 (4 pins)
+                    32        32         SPMP_2_1 (5 pins)
+                     3        48    *    _invv (4 pins)
+                     2        32    *    _nand2v (5 pins)
+                     3        48    *    _nor2v (5 pins)
+                     2        32    *    _smn2v (4 pins)
+                ------    ------
+ Total Inst:       419       224
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net COUT                                                  COUT
+       --- 2 Connections On This Net ---                         --- 1 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X0/X0/X0/M5(2.982,-2.788):d                               ** missing connection **
+       X0/X0/X0/M2(2.982,-3.378):d                               ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI13/XI58/MM_i_0:d
+                                                                   XI13/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net VSS!                                                  VSS!
+       --- 12 Connections On This Net ---                        --- 224 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI15/XI54/MM_i_19:b
+                                                                   XI15/XI54/MM_i_24:b
+                                                                   XI15/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI15/XI55/MM_i_19:b
+                                                                   XI15/XI55/MM_i_24:b
+                                                                   XI15/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI14/XI54/MM_i_19:b
+                                                                   XI14/XI54/MM_i_24:b
+                                                                   XI14/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI14/XI55/MM_i_19:b
+                                                                   XI14/XI55/MM_i_24:b
+                                                                   XI14/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI13/XI54/MM_i_19:b
+                                                                   XI13/XI54/MM_i_24:b
+                                                                   XI13/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI13/XI55/MM_i_19:b
+                                                                   XI13/XI55/MM_i_24:b
+                                                                   XI13/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI12/XI54/MM_i_19:b
+                                                                   XI12/XI54/MM_i_24:b
+                                                                   XI12/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI12/XI55/MM_i_19:b
+                                                                   XI12/XI55/MM_i_24:b
+                                                                   XI12/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI11/XI54/MM_i_19:b
+                                                                   XI11/XI54/MM_i_24:b
+                                                                   XI11/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI11/XI55/MM_i_19:b
+                                                                   XI11/XI55/MM_i_24:b
+                                                                   XI11/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI10/XI54/MM_i_19:b
+                                                                   XI10/XI54/MM_i_24:b
+                                                                   XI10/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI10/XI55/MM_i_19:b
+                                                                   XI10/XI55/MM_i_24:b
+                                                                   XI10/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI9/XI54/MM_i_19:b
+                                                                   XI9/XI54/MM_i_24:b
+                                                                   XI9/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI9/XI55/MM_i_19:b
+                                                                   XI9/XI55/MM_i_24:b
+                                                                   XI9/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI8/XI54/MM_i_19:b
+                                                                   XI8/XI54/MM_i_24:b
+                                                                   XI8/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI8/XI55/MM_i_19:b
+                                                                   XI8/XI55/MM_i_24:b
+                                                                   XI8/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI7/XI54/MM_i_19:b
+                                                                   XI7/XI54/MM_i_24:b
+                                                                   XI7/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI7/XI55/MM_i_19:b
+                                                                   XI7/XI55/MM_i_24:b
+                                                                   XI7/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI6/XI54/MM_i_19:b
+                                                                   XI6/XI54/MM_i_24:b
+                                                                   XI6/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI6/XI55/MM_i_19:b
+                                                                   XI6/XI55/MM_i_24:b
+                                                                   XI6/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI5/XI54/MM_i_19:b
+                                                                   XI5/XI54/MM_i_24:b
+                                                                   XI5/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI5/XI55/MM_i_19:b
+                                                                   XI5/XI55/MM_i_24:b
+                                                                   XI5/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI4/XI54/MM_i_19:b
+                                                                   XI4/XI54/MM_i_24:b
+                                                                   XI4/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI4/XI55/MM_i_19:b
+                                                                   XI4/XI55/MM_i_24:b
+                                                                   XI4/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI3/XI54/MM_i_19:b
+                                                                   XI3/XI54/MM_i_24:b
+                                                                   XI3/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI3/XI55/MM_i_19:b
+                                                                   XI3/XI55/MM_i_24:b
+                                                                   XI3/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI2/XI54/MM_i_19:b
+                                                                   XI2/XI54/MM_i_24:b
+                                                                   XI2/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI2/XI55/MM_i_19:b
+                                                                   XI2/XI55/MM_i_24:b
+                                                                   XI2/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI1/XI54/MM_i_19:b
+                                                                   XI1/XI54/MM_i_24:b
+                                                                   XI1/XI54/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_smn2v):out2
+                                                                   XI1/XI55/MM_i_19:b
+                                                                   XI1/XI55/MM_i_24:b
+                                                                   XI1/XI55/MM_i_24:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI13/XI57/MM_i_3:b
+                                                                   XI13/XI57/MM_i_2:b
+                                                                   XI13/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI9/XI57/MM_i_3:b
+                                                                   XI9/XI57/MM_i_2:b
+                                                                   XI9/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI14/XI57/MM_i_3:b
+                                                                   XI14/XI57/MM_i_2:b
+                                                                   XI14/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI14/XI56/MM_i_3:b
+                                                                   XI14/XI56/MM_i_2:b
+                                                                   XI14/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI12/XI57/MM_i_3:b
+                                                                   XI12/XI57/MM_i_2:b
+                                                                   XI12/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI5/XI57/MM_i_3:b
+                                                                   XI5/XI57/MM_i_2:b
+                                                                   XI5/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI5/XI56/MM_i_3:b
+                                                                   XI5/XI56/MM_i_2:b
+                                                                   XI5/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI9/XI56/MM_i_3:b
+                                                                   XI9/XI56/MM_i_2:b
+                                                                   XI9/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI6/XI56/MM_i_3:b
+                                                                   XI6/XI56/MM_i_2:b
+                                                                   XI6/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI6/XI57/MM_i_3:b
+                                                                   XI6/XI57/MM_i_2:b
+                                                                   XI6/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI15/XI57/MM_i_3:b
+                                                                   XI15/XI57/MM_i_2:b
+                                                                   XI15/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI15/XI56/MM_i_3:b
+                                                                   XI15/XI56/MM_i_2:b
+                                                                   XI15/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI13/XI56/MM_i_3:b
+                                                                   XI13/XI56/MM_i_2:b
+                                                                   XI13/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI7/XI56/MM_i_3:b
+                                                                   XI7/XI56/MM_i_2:b
+                                                                   XI7/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI7/XI57/MM_i_3:b
+                                                                   XI7/XI57/MM_i_2:b
+                                                                   XI7/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI8/XI57/MM_i_3:b
+                                                                   XI8/XI57/MM_i_2:b
+                                                                   XI8/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI8/XI56/MM_i_3:b
+                                                                   XI8/XI56/MM_i_2:b
+                                                                   XI8/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI12/XI56/MM_i_3:b
+                                                                   XI12/XI56/MM_i_2:b
+                                                                   XI12/XI56/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI10/XI57/MM_i_3:b
+                                                                   XI10/XI57/MM_i_2:b
+                                                                   XI10/XI57/MM_i_2:d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XI3/XI56/MM_i_3:b
+                                                                   XI3/XI56/MM_i_2:b
+                                                                   XI3/XI56/MM_i_2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net VDD!                                                  VDD!
+       --- 10 Connections On This Net ---                        --- 160 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI1/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI1/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI2/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI2/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI3/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI3/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI4/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI4/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI5/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI5/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI6/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI6/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI7/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI7/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI8/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI8/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI9/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI9/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI10/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI10/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI11/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI11/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI12/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI12/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI13/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI13/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI14/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI14/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI15/XI55/MM_i_41:s
+       
+       
+       ** missing connection **                                  (SPMP_2_1):output
+                                                                   XI15/XI54/MM_i_41:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI13/XI57/MM_i_5:b
+                                                                   XI13/XI57/MM_i_5:d
+                                                                   XI13/XI57/MM_i_4:b
+                                                                   XI13/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI9/XI57/MM_i_5:b
+                                                                   XI9/XI57/MM_i_5:d
+                                                                   XI9/XI57/MM_i_4:b
+                                                                   XI9/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI14/XI57/MM_i_5:b
+                                                                   XI14/XI57/MM_i_5:d
+                                                                   XI14/XI57/MM_i_4:b
+                                                                   XI14/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI14/XI56/MM_i_5:b
+                                                                   XI14/XI56/MM_i_5:d
+                                                                   XI14/XI56/MM_i_4:b
+                                                                   XI14/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI12/XI57/MM_i_5:b
+                                                                   XI12/XI57/MM_i_5:d
+                                                                   XI12/XI57/MM_i_4:b
+                                                                   XI12/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI5/XI57/MM_i_5:b
+                                                                   XI5/XI57/MM_i_5:d
+                                                                   XI5/XI57/MM_i_4:b
+                                                                   XI5/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI5/XI56/MM_i_5:b
+                                                                   XI5/XI56/MM_i_5:d
+                                                                   XI5/XI56/MM_i_4:b
+                                                                   XI5/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI9/XI56/MM_i_5:b
+                                                                   XI9/XI56/MM_i_5:d
+                                                                   XI9/XI56/MM_i_4:b
+                                                                   XI9/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI6/XI56/MM_i_5:b
+                                                                   XI6/XI56/MM_i_5:d
+                                                                   XI6/XI56/MM_i_4:b
+                                                                   XI6/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI6/XI57/MM_i_5:b
+                                                                   XI6/XI57/MM_i_5:d
+                                                                   XI6/XI57/MM_i_4:b
+                                                                   XI6/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI15/XI57/MM_i_5:b
+                                                                   XI15/XI57/MM_i_5:d
+                                                                   XI15/XI57/MM_i_4:b
+                                                                   XI15/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI15/XI56/MM_i_5:b
+                                                                   XI15/XI56/MM_i_5:d
+                                                                   XI15/XI56/MM_i_4:b
+                                                                   XI15/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI13/XI56/MM_i_5:b
+                                                                   XI13/XI56/MM_i_5:d
+                                                                   XI13/XI56/MM_i_4:b
+                                                                   XI13/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI7/XI56/MM_i_5:b
+                                                                   XI7/XI56/MM_i_5:d
+                                                                   XI7/XI56/MM_i_4:b
+                                                                   XI7/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI7/XI57/MM_i_5:b
+                                                                   XI7/XI57/MM_i_5:d
+                                                                   XI7/XI57/MM_i_4:b
+                                                                   XI7/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI8/XI57/MM_i_5:b
+                                                                   XI8/XI57/MM_i_5:d
+                                                                   XI8/XI57/MM_i_4:b
+                                                                   XI8/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI8/XI56/MM_i_5:b
+                                                                   XI8/XI56/MM_i_5:d
+                                                                   XI8/XI56/MM_i_4:b
+                                                                   XI8/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI12/XI56/MM_i_5:b
+                                                                   XI12/XI56/MM_i_5:d
+                                                                   XI12/XI56/MM_i_4:b
+                                                                   XI12/XI56/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI10/XI57/MM_i_5:b
+                                                                   XI10/XI57/MM_i_5:d
+                                                                   XI10/XI57/MM_i_4:b
+                                                                   XI10/XI57/MM_i_4:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XI3/XI56/MM_i_5:b
+                                                                   XI3/XI56/MM_i_5:d
+                                                                   XI3/XI56/MM_i_4:b
+                                                                   XI3/XI56/MM_i_4:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net A<15>                                                 A<15>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X8/M3(7.773,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X0/X8/M5(7.198,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X6/M0(4.957,-3.405):g
+       
+       
+       X0/X0/X0/X6/M3(4.957,-2.500):g                            ** missing connection **
+       X0/X0/X0/X8/M0(7.198,-3.405):g                            ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI13/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI13/XI56/MM_i_4:g
+                                                                   XI13/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI13/XI54/MM_i_0:g
+                                                                   XI13/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net B<15>                                                 B<15>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X8/M4(7.963,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X0/X8/M6(7.388,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X6/M1(5.147,-3.405):g
+       
+       
+       X0/X0/X0/X6/M4(5.147,-2.500):g                            ** missing connection **
+       X0/X0/X0/X8/M1(7.388,-3.405):g                            ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI13/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI13/XI56/MM_i_5:g
+                                                                   XI13/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI13/XI54/MM_i_7:g
+                                                                   XI13/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net A<14>                                                 A<14>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X8/M3(19.665,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X1/X8/M5(19.090,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X6/M0(16.849,-3.405):g
+       
+       
+       X0/X0/X1/X6/M3(16.849,-2.500):g                           ** missing connection **
+       X0/X0/X1/X8/M0(19.090,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI12/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI12/XI56/MM_i_4:g
+                                                                   XI12/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI12/XI54/MM_i_0:g
+                                                                   XI12/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net B<14>                                                 B<14>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X8/M4(19.855,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X1/X8/M6(19.280,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X6/M1(17.039,-3.405):g
+       
+       
+       X0/X0/X1/X6/M4(17.039,-2.500):g                           ** missing connection **
+       X0/X0/X1/X8/M1(19.280,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI12/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI12/XI56/MM_i_5:g
+                                                                   XI12/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI12/XI54/MM_i_7:g
+                                                                   XI12/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net A<13>                                                 A<13>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X8/M3(31.563,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X0/X8/M5(30.988,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X6/M0(28.747,-3.405):g
+       
+       
+       X0/X1/X0/X6/M3(28.747,-2.500):g                           ** missing connection **
+       X0/X1/X0/X8/M0(30.988,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI11/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI11/XI56/MM_i_4:g
+                                                                   XI11/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI11/XI54/MM_i_0:g
+                                                                   XI11/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net B<13>                                                 B<13>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X8/M4(31.753,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X0/X8/M6(31.178,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X6/M1(28.937,-3.405):g
+       
+       
+       X0/X1/X0/X6/M4(28.937,-2.500):g                           ** missing connection **
+       X0/X1/X0/X8/M1(31.178,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI11/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI11/XI56/MM_i_5:g
+                                                                   XI11/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI11/XI54/MM_i_7:g
+                                                                   XI11/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net A<12>                                                 A<12>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X8/M3(43.455,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X1/X8/M5(42.880,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X6/M0(40.639,-3.405):g
+       
+       
+       X0/X1/X1/X6/M3(40.639,-2.500):g                           ** missing connection **
+       X0/X1/X1/X8/M0(42.880,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI14/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI14/XI56/MM_i_4:g
+                                                                   XI14/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI14/XI54/MM_i_0:g
+                                                                   XI14/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net B<12>                                                 B<12>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X8/M4(43.645,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X1/X8/M6(43.070,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X6/M1(40.829,-3.405):g
+       
+       
+       X0/X1/X1/X6/M4(40.829,-2.500):g                           ** missing connection **
+       X0/X1/X1/X8/M1(43.070,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI14/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI14/XI56/MM_i_5:g
+                                                                   XI14/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI14/XI54/MM_i_7:g
+                                                                   XI14/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net A<11>                                                 A<11>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X8/M3(55.464,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X0/X8/M5(54.889,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X6/M0(52.648,-3.405):g
+       
+       
+       X1/X0/X0/X6/M3(52.648,-2.500):g                           ** missing connection **
+       X1/X0/X0/X8/M0(54.889,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI10/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI10/XI56/MM_i_4:g
+                                                                   XI10/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI10/XI54/MM_i_0:g
+                                                                   XI10/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net B<11>                                                 B<11>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X8/M4(55.654,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X0/X8/M6(55.079,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X6/M1(52.838,-3.405):g
+       
+       
+       X1/X0/X0/X6/M4(52.838,-2.500):g                           ** missing connection **
+       X1/X0/X0/X8/M1(55.079,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI10/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI10/XI56/MM_i_5:g
+                                                                   XI10/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI10/XI54/MM_i_7:g
+                                                                   XI10/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net A<10>                                                 A<10>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X8/M3(67.356,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X1/X8/M5(66.781,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X6/M0(64.540,-3.405):g
+       
+       
+       X1/X0/X1/X6/M3(64.540,-2.500):g                           ** missing connection **
+       X1/X0/X1/X8/M0(66.781,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI9/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI9/XI56/MM_i_4:g
+                                                                   XI9/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI9/XI54/MM_i_0:g
+                                                                   XI9/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net B<10>                                                 B<10>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X8/M4(67.546,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X1/X8/M6(66.971,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X6/M1(64.730,-3.405):g
+       
+       
+       X1/X0/X1/X6/M4(64.730,-2.500):g                           ** missing connection **
+       X1/X0/X1/X8/M1(66.971,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI9/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI9/XI56/MM_i_5:g
+                                                                   XI9/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI9/XI54/MM_i_7:g
+                                                                   XI9/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net A<9>                                                  A<9>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X8/M3(79.254,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X0/X8/M5(78.679,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X6/M0(76.438,-3.405):g
+       
+       
+       X1/X1/X0/X6/M3(76.438,-2.500):g                           ** missing connection **
+       X1/X1/X0/X8/M0(78.679,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI8/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI8/XI56/MM_i_4:g
+                                                                   XI8/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI8/XI54/MM_i_0:g
+                                                                   XI8/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net B<9>                                                  B<9>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X8/M4(79.444,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X0/X8/M6(78.869,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X6/M1(76.628,-3.405):g
+       
+       
+       X1/X1/X0/X6/M4(76.628,-2.500):g                           ** missing connection **
+       X1/X1/X0/X8/M1(78.869,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI8/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI8/XI56/MM_i_5:g
+                                                                   XI8/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI8/XI54/MM_i_7:g
+                                                                   XI8/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net A<8>                                                  A<8>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X8/M3(91.146,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X1/X8/M5(90.571,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X6/M0(88.330,-3.405):g
+       
+       
+       X1/X1/X1/X6/M3(88.330,-2.500):g                           ** missing connection **
+       X1/X1/X1/X8/M0(90.571,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI15/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI15/XI56/MM_i_4:g
+                                                                   XI15/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI15/XI54/MM_i_0:g
+                                                                   XI15/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net B<8>                                                  B<8>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X8/M4(91.336,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X1/X8/M6(90.761,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X6/M1(88.520,-3.405):g
+       
+       
+       X1/X1/X1/X6/M4(88.520,-2.500):g                           ** missing connection **
+       X1/X1/X1/X8/M1(90.761,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI15/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI15/XI56/MM_i_5:g
+                                                                   XI15/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI15/XI54/MM_i_7:g
+                                                                   XI15/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net A<7>                                                  A<7>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X8/M3(103.035,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X0/X8/M5(102.460,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X6/M0(100.219,-3.405):g
+       
+       
+       X2/X0/X0/X6/M3(100.219,-2.500):g                          ** missing connection **
+       X2/X0/X0/X8/M0(102.460,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI6/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI6/XI56/MM_i_4:g
+                                                                   XI6/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI6/XI54/MM_i_0:g
+                                                                   XI6/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net B<7>                                                  B<7>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X8/M4(103.225,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X0/X8/M6(102.650,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X6/M1(100.409,-3.405):g
+       
+       
+       X2/X0/X0/X6/M4(100.409,-2.500):g                          ** missing connection **
+       X2/X0/X0/X8/M1(102.650,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI6/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI6/XI56/MM_i_5:g
+                                                                   XI6/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI6/XI54/MM_i_7:g
+                                                                   XI6/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net A<6>                                                  A<6>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X8/M3(114.927,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X1/X8/M5(114.352,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X6/M0(112.111,-3.405):g
+       
+       
+       X2/X0/X1/X6/M3(112.111,-2.500):g                          ** missing connection **
+       X2/X0/X1/X8/M0(114.352,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI5/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI5/XI56/MM_i_4:g
+                                                                   XI5/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI5/XI54/MM_i_0:g
+                                                                   XI5/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net B<6>                                                  B<6>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X8/M4(115.117,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X1/X8/M6(114.542,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X6/M1(112.301,-3.405):g
+       
+       
+       X2/X0/X1/X6/M4(112.301,-2.500):g                          ** missing connection **
+       X2/X0/X1/X8/M1(114.542,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI5/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI5/XI56/MM_i_5:g
+                                                                   XI5/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI5/XI54/MM_i_7:g
+                                                                   XI5/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net A<5>                                                  A<5>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X8/M3(126.825,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X0/X8/M5(126.250,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X6/M0(124.009,-3.405):g
+       
+       
+       X2/X1/X0/X6/M3(124.009,-2.500):g                          ** missing connection **
+       X2/X1/X0/X8/M0(126.250,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI4/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI4/XI56/MM_i_4:g
+                                                                   XI4/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI4/XI54/MM_i_0:g
+                                                                   XI4/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net B<5>                                                  B<5>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X8/M4(127.015,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X0/X8/M6(126.440,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X6/M1(124.199,-3.405):g
+       
+       
+       X2/X1/X0/X6/M4(124.199,-2.500):g                          ** missing connection **
+       X2/X1/X0/X8/M1(126.440,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI4/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI4/XI56/MM_i_5:g
+                                                                   XI4/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI4/XI54/MM_i_7:g
+                                                                   XI4/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net A<4>                                                  A<4>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X8/M3(138.717,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X1/X8/M5(138.142,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X6/M0(135.901,-3.405):g
+       
+       
+       X2/X1/X1/X6/M3(135.901,-2.500):g                          ** missing connection **
+       X2/X1/X1/X8/M0(138.142,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI7/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI7/XI56/MM_i_4:g
+                                                                   XI7/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI7/XI54/MM_i_0:g
+                                                                   XI7/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net B<4>                                                  B<4>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X8/M4(138.907,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X1/X8/M6(138.332,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X6/M1(136.091,-3.405):g
+       
+       
+       X2/X1/X1/X6/M4(136.091,-2.500):g                          ** missing connection **
+       X2/X1/X1/X8/M1(138.332,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI7/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI7/XI56/MM_i_5:g
+                                                                   XI7/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI7/XI54/MM_i_7:g
+                                                                   XI7/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net A<3>                                                  A<3>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X8/M3(150.618,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X0/X8/M5(150.043,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X6/M0(147.802,-3.405):g
+       
+       
+       X3/X0/X0/X6/M3(147.802,-2.500):g                          ** missing connection **
+       X3/X0/X0/X8/M0(150.043,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI3/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI3/XI56/MM_i_4:g
+                                                                   XI3/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI3/XI54/MM_i_0:g
+                                                                   XI3/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net B<3>                                                  B<3>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X8/M4(150.808,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X0/X8/M6(150.233,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X6/M1(147.992,-3.405):g
+       
+       
+       X3/X0/X0/X6/M4(147.992,-2.500):g                          ** missing connection **
+       X3/X0/X0/X8/M1(150.233,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI3/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI3/XI56/MM_i_5:g
+                                                                   XI3/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI3/XI54/MM_i_7:g
+                                                                   XI3/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net A<2>                                                  A<2>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X8/M3(162.510,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X1/X8/M5(161.935,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X6/M0(159.694,-3.405):g
+       
+       
+       X3/X0/X1/X6/M3(159.694,-2.500):g                          ** missing connection **
+       X3/X0/X1/X8/M0(161.935,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI2/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI2/XI56/MM_i_4:g
+                                                                   XI2/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI2/XI54/MM_i_0:g
+                                                                   XI2/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net B<2>                                                  B<2>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X8/M4(162.700,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X1/X8/M6(162.125,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X6/M1(159.884,-3.405):g
+       
+       
+       X3/X0/X1/X6/M4(159.884,-2.500):g                          ** missing connection **
+       X3/X0/X1/X8/M1(162.125,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI2/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI2/XI56/MM_i_5:g
+                                                                   XI2/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI2/XI54/MM_i_7:g
+                                                                   XI2/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net A<1>                                                  A<1>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X8/M3(174.408,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X1/X0/X8/M5(173.833,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X6/M0(171.592,-3.405):g
+       
+       
+       X3/X1/X0/X6/M3(171.592,-2.500):g                          ** missing connection **
+       X3/X1/X0/X8/M0(173.833,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI1/XI54/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI1/XI56/MM_i_4:g
+                                                                   XI1/XI56/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI1/XI54/MM_i_0:g
+                                                                   XI1/XI54/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    Net B<1>                                                  B<1>
+       --- 6 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X8/M4(174.598,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X1/X0/X8/M6(174.023,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X6/M1(171.782,-3.405):g
+       
+       
+       X3/X1/X0/X6/M4(171.782,-2.500):g                          ** missing connection **
+       X3/X1/X0/X8/M1(174.023,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI1/XI54/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI1/XI56/MM_i_5:g
+                                                                   XI1/XI56/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI1/XI54/MM_i_7:g
+                                                                   XI1/XI54/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    Net 2                                                     c_out_test<14>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X9/M4(12.838,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X0/X9/M6(12.263,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X7/M0(9.385,-3.405):g
+       
+       
+       X0/X0/X1/M5(14.874,-2.788):d                              ** missing connection **
+       X0/X0/X1/M2(14.874,-3.378):d                              ** missing connection **
+       X0/X0/X0/X7/M3(9.385,-2.500):g                            ** missing connection **
+       X0/X0/X0/X9/M1(12.263,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI13/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI13/XI57/MM_i_4:g
+                                                                   XI13/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI13/XI55/MM_i_7:g
+                                                                   XI13/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI12/XI58/MM_i_0:d
+                                                                   XI12/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    Net 3                                                     c_out_test<13>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X9/M4(24.730,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X1/X9/M6(24.155,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X1/X7/M0(21.277,-3.405):g
+       
+       
+       X0/X1/X0/M5(26.772,-2.788):d                              ** missing connection **
+       X0/X1/X0/M2(26.772,-3.378):d                              ** missing connection **
+       X0/X0/X1/X7/M3(21.277,-2.500):g                           ** missing connection **
+       X0/X0/X1/X9/M1(24.155,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI12/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI12/XI57/MM_i_4:g
+                                                                   XI12/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI12/XI55/MM_i_7:g
+                                                                   XI12/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI11/XI58/MM_i_0:d
+                                                                   XI11/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    Net 4                                                     c_out_test<12>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X9/M4(36.628,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X0/X9/M6(36.053,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X0/X7/M0(33.175,-3.405):g
+       
+       
+       X0/X1/X1/M5(38.664,-2.788):d                              ** missing connection **
+       X0/X1/X1/M2(38.664,-3.378):d                              ** missing connection **
+       X0/X1/X0/X7/M3(33.175,-2.500):g                           ** missing connection **
+       X0/X1/X0/X9/M1(36.053,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI11/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI11/XI57/MM_i_4:g
+                                                                   XI11/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI11/XI55/MM_i_7:g
+                                                                   XI11/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI14/XI58/MM_i_0:d
+                                                                   XI14/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    Net 5                                                     c_out_test<11>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X9/M4(48.520,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X1/X1/X9/M6(47.945,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X1/X1/X7/M0(45.067,-3.405):g
+       
+       
+       X1/X0/X0/M5(50.673,-2.788):d                              ** missing connection **
+       X1/X0/X0/M2(50.673,-3.378):d                              ** missing connection **
+       X0/X1/X1/X7/M3(45.067,-2.500):g                           ** missing connection **
+       X0/X1/X1/X9/M1(47.945,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI14/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI14/XI57/MM_i_4:g
+                                                                   XI14/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI14/XI55/MM_i_7:g
+                                                                   XI14/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI10/XI58/MM_i_0:d
+                                                                   XI10/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    Net 6                                                     c_out_test<10>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X9/M4(60.529,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X0/X9/M6(59.954,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X0/X7/M0(57.076,-3.405):g
+       
+       
+       X1/X0/X1/M5(62.565,-2.788):d                              ** missing connection **
+       X1/X0/X1/M2(62.565,-3.378):d                              ** missing connection **
+       X1/X0/X0/X7/M3(57.076,-2.500):g                           ** missing connection **
+       X1/X0/X0/X9/M1(59.954,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI10/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI10/XI57/MM_i_4:g
+                                                                   XI10/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI10/XI55/MM_i_7:g
+                                                                   XI10/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI9/XI58/MM_i_0:d
+                                                                   XI9/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    Net 7                                                     c_out_test<9>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X9/M4(72.421,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X0/X1/X9/M6(71.846,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X0/X1/X7/M0(68.968,-3.405):g
+       
+       
+       X1/X1/X0/M5(74.463,-2.788):d                              ** missing connection **
+       X1/X1/X0/M2(74.463,-3.378):d                              ** missing connection **
+       X1/X0/X1/X7/M3(68.968,-2.500):g                           ** missing connection **
+       X1/X0/X1/X9/M1(71.846,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI9/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI9/XI57/MM_i_4:g
+                                                                   XI9/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI9/XI55/MM_i_7:g
+                                                                   XI9/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI8/XI58/MM_i_0:d
+                                                                   XI8/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    Net 8                                                     c_out_test<8>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X9/M4(84.319,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X0/X9/M6(83.744,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X0/X7/M0(80.866,-3.405):g
+       
+       
+       X1/X1/X1/M5(86.355,-2.788):d                              ** missing connection **
+       X1/X1/X1/M2(86.355,-3.378):d                              ** missing connection **
+       X1/X1/X0/X7/M3(80.866,-2.500):g                           ** missing connection **
+       X1/X1/X0/X9/M1(83.744,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI8/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI8/XI57/MM_i_4:g
+                                                                   XI8/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI8/XI55/MM_i_7:g
+                                                                   XI8/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI15/XI58/MM_i_0:d
+                                                                   XI15/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    Net 9                                                     c_out_test<7>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X9/M4(96.211,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X1/X1/X1/X9/M6(95.636,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X1/X1/X1/X7/M0(92.758,-3.405):g
+       
+       
+       X2/X0/X0/M5(98.244,-2.788):d                              ** missing connection **
+       X2/X0/X0/M2(98.244,-3.378):d                              ** missing connection **
+       X1/X1/X1/X7/M3(92.758,-2.500):g                           ** missing connection **
+       X1/X1/X1/X9/M1(95.636,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI15/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI15/XI57/MM_i_4:g
+                                                                   XI15/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI15/XI55/MM_i_7:g
+                                                                   XI15/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI6/XI58/MM_i_0:d
+                                                                   XI6/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    Net 10                                                    c_out_test<6>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X9/M4(108.100,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X0/X9/M6(107.525,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X0/X7/M0(104.647,-3.405):g
+       
+       
+       X2/X0/X1/M5(110.136,-2.788):d                             ** missing connection **
+       X2/X0/X1/M2(110.136,-3.378):d                             ** missing connection **
+       X2/X0/X0/X7/M3(104.647,-2.500):g                          ** missing connection **
+       X2/X0/X0/X9/M1(107.525,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI6/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI6/XI57/MM_i_4:g
+                                                                   XI6/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI6/XI55/MM_i_7:g
+                                                                   XI6/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI5/XI58/MM_i_0:d
+                                                                   XI5/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    Net 11                                                    c_out_test<5>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X9/M4(119.992,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X0/X1/X9/M6(119.417,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X0/X1/X7/M0(116.539,-3.405):g
+       
+       
+       X2/X1/X0/M5(122.034,-2.788):d                             ** missing connection **
+       X2/X1/X0/M2(122.034,-3.378):d                             ** missing connection **
+       X2/X0/X1/X7/M3(116.539,-2.500):g                          ** missing connection **
+       X2/X0/X1/X9/M1(119.417,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI5/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI5/XI57/MM_i_4:g
+                                                                   XI5/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI5/XI55/MM_i_7:g
+                                                                   XI5/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI4/XI58/MM_i_0:d
+                                                                   XI4/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    Net 12                                                    c_out_test<4>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X9/M4(131.890,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X0/X9/M6(131.315,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X0/X7/M0(128.437,-3.405):g
+       
+       
+       X2/X1/X1/M5(133.926,-2.788):d                             ** missing connection **
+       X2/X1/X1/M2(133.926,-3.378):d                             ** missing connection **
+       X2/X1/X0/X7/M3(128.437,-2.500):g                          ** missing connection **
+       X2/X1/X0/X9/M1(131.315,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI4/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI4/XI57/MM_i_4:g
+                                                                   XI4/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI4/XI55/MM_i_7:g
+                                                                   XI4/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI7/XI58/MM_i_0:d
+                                                                   XI7/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    Net 13                                                    c_out_test<3>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X9/M4(143.782,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X2/X1/X1/X9/M6(143.207,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X2/X1/X1/X7/M0(140.329,-3.405):g
+       
+       
+       X3/X0/X0/M5(145.827,-2.788):d                             ** missing connection **
+       X3/X0/X0/M2(145.827,-3.378):d                             ** missing connection **
+       X2/X1/X1/X7/M3(140.329,-2.500):g                          ** missing connection **
+       X2/X1/X1/X9/M1(143.207,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI7/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI7/XI57/MM_i_4:g
+                                                                   XI7/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI7/XI55/MM_i_7:g
+                                                                   XI7/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI3/XI58/MM_i_0:d
+                                                                   XI3/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    Net 14                                                    c_out_test<2>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X9/M4(155.683,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X0/X9/M6(155.108,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X0/X7/M0(152.230,-3.405):g
+       
+       
+       X3/X0/X1/M5(157.719,-2.788):d                             ** missing connection **
+       X3/X0/X1/M2(157.719,-3.378):d                             ** missing connection **
+       X3/X0/X0/X7/M3(152.230,-2.500):g                          ** missing connection **
+       X3/X0/X0/X9/M1(155.108,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI3/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI3/XI57/MM_i_4:g
+                                                                   XI3/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI3/XI55/MM_i_7:g
+                                                                   XI3/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI2/XI58/MM_i_0:d
+                                                                   XI2/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    Net 15                                                    c_out_test<1>
+       --- 8 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X9/M4(167.575,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X0/X1/X9/M6(167.000,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X0/X1/X7/M0(164.122,-3.405):g
+       
+       
+       X3/X1/X0/M5(169.617,-2.788):d                             ** missing connection **
+       X3/X1/X0/M2(169.617,-3.378):d                             ** missing connection **
+       X3/X0/X1/X7/M3(164.122,-2.500):g                          ** missing connection **
+       X3/X0/X1/X9/M1(167.000,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI2/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI2/XI57/MM_i_4:g
+                                                                   XI2/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI2/XI55/MM_i_7:g
+                                                                   XI2/XI55/MM_i_35:g
+       
+       
+       ** missing connection **                                  (_invv):out
+                                                                   XI1/XI58/MM_i_0:d
+                                                                   XI1/XI58/MM_i_1:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 48    Net 16                                                    c_out_test<0>
+       --- 7 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X9/M4(179.473,-3.405):g
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X3/X1/X0/X9/M6(178.898,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X3/X1/X0/X7/M0(176.020,-3.405):g
+       
+       
+       X3/X1/X0/X7/M3(176.020,-2.500):g                          ** missing connection **
+       X3/X1/X0/X9/M1(178.898,-3.405):g                          ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):in1
+                                                                   XI1/XI55/MM_i_24:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI1/XI57/MM_i_4:g
+                                                                   XI1/XI57/MM_i_2:g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI1/XI55/MM_i_7:g
+                                                                   XI1/XI55/MM_i_35:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 49    Net X0/X0/X0/10                                           XI13/xor1_out
+       --- 9 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X9/M3(12.648,-3.405):g
+       
+       
+       (SMN2):output                                             ** missing connection **
+         X0/X0/X0/X8/M3(7.773,-3.405):s
+       
+       
+       (SMP2):input                                              ** missing connection **
+         X0/X0/X0/X9/M5(12.073,-2.500):g
+       
+       
+       (SMN2):input                                              ** missing connection **
+         X0/X0/X0/X7/M1(9.575,-3.405):g
+       
+       
+       X0/X0/X0/X7/M4(9.575,-2.500):g                            ** missing connection **
+       X0/X0/X0/X9/M0(12.073,-3.405):g                           ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_smn2v):out1
+                                                                   XI13/XI54/MM_i_19:d
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   XI13/XI55/MM_i_19:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI13/XI57/MM_i_5:g
+                                                                   XI13/XI57/MM_i_3:g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI13/XI55/MM_i_0:g
+                                                                   XI13/XI55/MM_i_30:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 50    Net X0/X0/X0/X8/6                                         XI13/XI54/net_000
+       --- 5 Connections On This Net ---                         --- 3 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (SMP2):output                                             ** missing connection **
+         X0/X0/X0/X8/M5(7.198,-2.500):s
+       
+       
+       X0/X0/X0/X8/M1(7.388,-3.405):s                            ** missing connection **
+       X0/X0/X0/X8/M0(7.198,-3.405):d                            ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_nor2v):out
+                                                                   XI13/XI54/MM_i_0:d
+                                                                   XI13/XI54/MM_i_7:s
+                                                                   XI13/XI54/MM_i_30:d
+       
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 51    X3/X1/X1/X7/M5(188.292,-2.815)  MP(PM)                    XI0/XI57/MM_i_1  MP(PM)
+         g: X3/X1/X1/X7/6                                          g: XI0/XI57/ZN_neg
+         s: X3/X1/X1/8                                             s: XI0/and2_or
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X7/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 52    X3/X1/X1/X7/M2(188.292,-3.405)  MN(NM)                    XI0/XI57/MM_i_0  MN(NM)
+         g: X3/X1/X1/X7/6                                          g: XI0/XI57/ZN_neg
+         s: X3/X1/X1/8                                             s: XI0/and2_or
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X7/8                                          ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 53    X3/X1/X1/X6/M5(183.864,-2.815)  MP(PM)                    XI0/XI56/MM_i_1  MP(PM)
+         g: X3/X1/X1/X6/6                                          g: XI0/XI56/ZN_neg
+         s: X3/X1/X1/9                                             s: XI0/and1_or
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X6/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 54    X3/X1/X1/X6/M2(183.864,-3.405)  MN(NM)                    XI0/XI56/MM_i_0  MN(NM)
+         g: X3/X1/X1/X6/6                                          g: XI0/XI56/ZN_neg
+         s: X3/X1/X1/9                                             s: XI0/and1_or
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X6/8                                          ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 55    X3/X1/X1/M5(181.509,-2.788)  MP(PM)                       XI0/XI58/MM_i_1  MP(PM)
+         g: X3/X1/X1/11                                            g: XI0/XI58/ZN_neg
+         s: 16                                                     s: c_out_test<0>
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/14                                            ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 56    X3/X1/X1/M2(181.509,-3.378)  MN(NM)                       XI0/XI58/MM_i_0  MN(NM)
+         g: X3/X1/X1/11                                            g: XI0/XI58/ZN_neg
+         s: 16                                                     s: c_out_test<0>
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/13                                            ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 57    X3/X1/X1/M4(181.319,-2.473)  MP(PM)                       XI0/XI58/MM_i_5  MP(PM)
+         g: X3/X1/X1/9                                             g: XI0/and1_or
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/14                                            ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 58    X3/X1/X1/M3(181.129,-2.473)  MP(PM)                       XI0/XI58/MM_i_4  MP(PM)
+         g: X3/X1/X1/8                                             g: XI0/and2_or
+         d: X3/X1/X1/11                                            d: XI0/XI58/ZN_neg
+         b: X3/X1/X1/14                                            ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 59    X3/X1/X1/M1(181.319,-3.378)  MN(NM)                       XI0/XI58/MM_i_3  MN(NM)
+         g: X3/X1/X1/9                                             g: XI0/and1_or
+         s: X3/X1/X1/11                                            s: XI0/XI58/ZN_neg
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/13                                            ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 60    X3/X1/X1/M0(181.129,-3.378)  MN(NM)                       XI0/XI58/MM_i_2  MN(NM)
+         g: X3/X1/X1/8                                             g: XI0/and2_or
+         s: X3/X1/X1/11                                            s: XI0/XI58/ZN_neg
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/13                                            ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 61    X3/X1/X1/X8/M6(185.915,-2.500)  MP(PM)                    XI0/XI54/MM_i_35  MP(PM)
+         g: B<0>                                                   g: B<0>
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 62    X3/X1/X1/X8/M5(185.725,-2.500)  MP(PM)                    XI0/XI54/MM_i_30  MP(PM)
+         g: A<0>                                                   g: A<0>
+         d: X3/X1/X1/X8/6                                          d: XI0/XI54/net_000
+         b: X3/X1/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 63    X3/X1/X1/X8/M1(185.915,-3.405)  MN(NM)                    XI0/XI54/MM_i_7  MN(NM)
+         g: B<0>                                                   g: B<0>
+         s: X3/X1/X1/X8/6                                          s: XI0/XI54/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X8/10                                         ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 64    X3/X1/X1/X8/M0(185.725,-3.405)  MN(NM)                    XI0/XI54/MM_i_0  MN(NM)
+         g: A<0>                                                   g: A<0>
+         s: X3/X1/X1/X8/6                                          s: XI0/XI54/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X8/10                                         ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 65    X3/X1/X1/X9/M6(190.790,-2.500)  MP(PM)                    XI0/XI55/MM_i_35  MP(PM)
+         g: GND!                                                   g: GND!
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 66    X3/X1/X1/X9/M5(190.600,-2.500)  MP(PM)                    XI0/XI55/MM_i_30  MP(PM)
+         g: X3/X1/X1/10                                            g: XI0/xor1_out
+         d: X3/X1/X1/X9/6                                          d: XI0/XI55/net_000
+         b: X3/X1/X1/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 67    X3/X1/X1/X9/M1(190.790,-3.405)  MN(NM)                    XI0/XI55/MM_i_7  MN(NM)
+         g: GND!                                                   g: GND!
+         s: X3/X1/X1/X9/6                                          s: XI0/XI55/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X9/10                                         ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 68    X3/X1/X1/X9/M0(190.600,-3.405)  MN(NM)                    XI0/XI55/MM_i_0  MN(NM)
+         g: X3/X1/X1/10                                            g: XI0/xor1_out
+         s: X3/X1/X1/X9/6                                          s: XI0/XI55/net_000
+         d: VSS!                                                   d: VSS!
+         b: X3/X1/X1/X9/10                                         ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 69    X3/X1/X1/X7/M0(187.912,-3.405)  MN(NM)                    XI0/XI57/MM_i_2  MN(NM)
+         g: GND!                                                   g: GND!
+         d: X3/X1/X1/X7/6                                          ** XI0/XI57/ZN_neg **
+         b: X3/X1/X1/X7/8                                          ** no similar net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 70    X3/X1/X1/X7/M1(188.102,-3.405)  MN(NM)                    XI0/XI57/MM_i_3  MN(NM)
+         g: X3/X1/X1/10                                            g: XI0/xor1_out
+         d: VSS!                                                   b: VSS!
+         b: X3/X1/X1/X7/8                                          ** no similar net **
+         ** X3/X1/X1/X7/6 **                                       d: XI0/XI57/ZN_neg
+
+--------------------------------------------------------------------------------------------------------------
+
+ 71    X3/X1/X1/X7/M3(187.912,-2.500)  MP(PM)                    XI0/XI57/MM_i_4  MP(PM)
+         g: GND!                                                   g: GND!
+         s: X3/X1/X1/X7/6                                          s: XI0/XI57/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X7/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 72    X3/X1/X1/X7/M4(188.102,-2.500)  MP(PM)                    XI0/XI57/MM_i_5  MP(PM)
+         g: X3/X1/X1/10                                            g: XI0/xor1_out
+         s: X3/X1/X1/X7/6                                          s: XI0/XI57/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X7/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 73    X3/X1/X1/X6/M0(183.484,-3.405)  MN(NM)                    XI0/XI56/MM_i_2  MN(NM)
+         g: A<0>                                                   g: A<0>
+         d: X3/X1/X1/X6/6                                          ** XI0/XI56/ZN_neg **
+         b: X3/X1/X1/X6/8                                          ** no similar net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 74    X3/X1/X1/X6/M1(183.674,-3.405)  MN(NM)                    XI0/XI56/MM_i_3  MN(NM)
+         g: B<0>                                                   g: B<0>
+         d: VSS!                                                   b: VSS!
+         b: X3/X1/X1/X6/8                                          ** no similar net **
+         ** X3/X1/X1/X6/6 **                                       d: XI0/XI56/ZN_neg
+
+--------------------------------------------------------------------------------------------------------------
+
+ 75    X3/X1/X1/X6/M3(183.484,-2.500)  MP(PM)                    XI0/XI56/MM_i_4  MP(PM)
+         g: A<0>                                                   g: A<0>
+         s: X3/X1/X1/X6/6                                          s: XI0/XI56/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X6/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 76    X3/X1/X1/X6/M4(183.674,-2.500)  MP(PM)                    XI0/XI56/MM_i_5  MP(PM)
+         g: B<0>                                                   g: B<0>
+         s: X3/X1/X1/X6/6                                          s: XI0/XI56/ZN_neg
+         d: VDD!                                                   d: VDD!
+         b: X3/X1/X1/X6/9                                          ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 77    X3/X1/X1/X9/M4(191.365,-3.405)  MN(NM)                    XI0/XI55/MM_i_24  MN(NM)
+         g: GND!                                                   g: GND!
+         d: SUM<0>                                                 ** SUM<0> **
+         b: X3/X1/X1/X9/10                                         ** no similar net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 78    X3/X1/X1/X9/M3(191.175,-3.405)  MN(NM)                    XI0/XI55/MM_i_19  MN(NM)
+         g: X3/X1/X1/10                                            g: XI0/xor1_out
+         d: VSS!                                                   b: VSS!
+         b: X3/X1/X1/X9/10                                         ** no similar net **
+         ** SUM<0> **                                              d: SUM<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 79    X3/X1/X1/X8/M4(186.490,-3.405)  MN(NM)                    XI0/XI54/MM_i_24  MN(NM)
+         g: B<0>                                                   g: B<0>
+         d: X3/X1/X1/10                                            ** XI0/xor1_out **
+         b: X3/X1/X1/X8/10                                         ** no similar net **
+         ** VSS! **                                                d: VSS!
+         ** VSS! **                                                b: VSS!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 80    X3/X1/X1/X8/M3(186.300,-3.405)  MN(NM)                    XI0/XI54/MM_i_19  MN(NM)
+         g: A<0>                                                   g: A<0>
+         d: VSS!                                                   b: VSS!
+         b: X3/X1/X1/X8/10                                         ** no similar net **
+         ** X3/X1/X1/10 **                                         d: XI0/xor1_out
+
+--------------------------------------------------------------------------------------------------------------
+
+ 81    X0/X0/X0/X8/M9(7.963,-2.815)  MP(PM)                      XI13/XI54/MM_i_53  MP(PM)
+         g: B<15>                                                  g: B<15>
+         b: X0/X0/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 82    X0/X0/X0/X8/M8(7.773,-2.815)  MP(PM)                      XI13/XI54/MM_i_47  MP(PM)
+         g: A<15>                                                  g: A<15>
+         b: X0/X0/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    X0/X0/X0/X8/M7(7.583,-2.815)  MP(PM)                      XI13/XI54/MM_i_41  MP(PM)
+         g: X0/X0/X0/X8/6                                          g: XI13/XI54/net_000
+         b: X0/X0/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 84    X0/X0/X0/X9/M9(12.838,-2.815)  MP(PM)                     XI13/XI55/MM_i_53  MP(PM)
+         g: 2                                                      g: c_out_test<14>
+         b: X0/X0/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 85    X0/X0/X0/X9/M8(12.648,-2.815)  MP(PM)                     XI13/XI55/MM_i_47  MP(PM)
+         g: X0/X0/X0/10                                            g: XI13/xor1_out
+         b: X0/X0/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 86    X0/X0/X0/X9/M7(12.458,-2.815)  MP(PM)                     XI13/XI55/MM_i_41  MP(PM)
+         g: X0/X0/X0/X9/6                                          g: XI13/XI55/net_000
+         b: X0/X0/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 87    X0/X0/X1/X8/M9(19.855,-2.815)  MP(PM)                     XI12/XI54/MM_i_53  MP(PM)
+         g: B<14>                                                  g: B<14>
+         b: X0/X0/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 88    X0/X0/X1/X8/M8(19.665,-2.815)  MP(PM)                     XI12/XI54/MM_i_47  MP(PM)
+         g: A<14>                                                  g: A<14>
+         b: X0/X0/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 89    X0/X0/X1/X8/M7(19.475,-2.815)  MP(PM)                     XI12/XI54/MM_i_41  MP(PM)
+         g: X0/X0/X1/X8/6                                          g: XI12/XI54/net_000
+         b: X0/X0/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 90    X0/X0/X1/X9/M9(24.730,-2.815)  MP(PM)                     XI12/XI55/MM_i_53  MP(PM)
+         g: 3                                                      g: c_out_test<13>
+         b: X0/X0/X1/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 91    X0/X0/X1/X9/M8(24.540,-2.815)  MP(PM)                     XI12/XI55/MM_i_47  MP(PM)
+         g: X0/X0/X1/10                                            g: XI12/xor1_out
+         b: X0/X0/X1/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 92    X0/X0/X1/X9/M7(24.350,-2.815)  MP(PM)                     XI12/XI55/MM_i_41  MP(PM)
+         g: X0/X0/X1/X9/6                                          g: XI12/XI55/net_000
+         b: X0/X0/X1/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 93    X0/X1/X0/X8/M9(31.753,-2.815)  MP(PM)                     XI11/XI54/MM_i_53  MP(PM)
+         g: B<13>                                                  g: B<13>
+         b: X0/X1/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 94    X0/X1/X0/X8/M8(31.563,-2.815)  MP(PM)                     XI11/XI54/MM_i_47  MP(PM)
+         g: A<13>                                                  g: A<13>
+         b: X0/X1/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 95    X0/X1/X0/X8/M7(31.373,-2.815)  MP(PM)                     XI11/XI54/MM_i_41  MP(PM)
+         g: X0/X1/X0/X8/6                                          g: XI11/XI54/net_000
+         b: X0/X1/X0/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 96    X0/X1/X0/X9/M9(36.628,-2.815)  MP(PM)                     XI11/XI55/MM_i_53  MP(PM)
+         g: 4                                                      g: c_out_test<12>
+         b: X0/X1/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 97    X0/X1/X0/X9/M8(36.438,-2.815)  MP(PM)                     XI11/XI55/MM_i_47  MP(PM)
+         g: X0/X1/X0/10                                            g: XI11/xor1_out
+         b: X0/X1/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 98    X0/X1/X0/X9/M7(36.248,-2.815)  MP(PM)                     XI11/XI55/MM_i_41  MP(PM)
+         g: X0/X1/X0/X9/6                                          g: XI11/XI55/net_000
+         b: X0/X1/X0/X9/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 99    X0/X1/X1/X8/M9(43.645,-2.815)  MP(PM)                     XI14/XI54/MM_i_53  MP(PM)
+         g: B<12>                                                  g: B<12>
+         b: X0/X1/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+100    X0/X1/X1/X8/M8(43.455,-2.815)  MP(PM)                     XI14/XI54/MM_i_47  MP(PM)
+         g: A<12>                                                  g: A<12>
+         b: X0/X1/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+101    X0/X1/X1/X8/M7(43.265,-2.815)  MP(PM)                     XI14/XI54/MM_i_41  MP(PM)
+         g: X0/X1/X1/X8/6                                          g: XI14/XI54/net_000
+         b: X0/X1/X1/X8/11                                         ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Nets:              116        116          269           79
+
+   Instances:          28         28          139            4    MN(NM)
+                        0          0          105            0    MP(PM)
+                        0          0           60            0    SMN2
+                        0          0           45            0    SMP2
+                       32         32            0            0    SPMP_2_1
+                        3          3            0           45    _invv
+                        2          2            0           30    _nand2v
+                        3          3            0           45    _nor2v
+                        2          2            0           30    _smn2v
+                  -------    -------    ---------    ---------
+   Total Inst:         70         70          349          154
+
+
+o Statistics:
+
+   2 nets were matched arbitrarily.
+
+
+o Initial Correspondence Points:
+
+   Nets:         COUT VSS! VDD! SUM<15> SUM<14> SUM<13> SUM<12> SUM<11> SUM<10> SUM<9> SUM<8>
+                 SUM<7> SUM<6> SUM<5> SUM<4> SUM<3> SUM<2> SUM<1> SUM<0> A<15> B<15> A<14> B<14>
+                 A<13> B<13> A<12> B<12> A<11> B<11> A<10> B<10> A<9> B<9> A<8> B<8> A<7> B<7>
+                 A<6> B<6> A<5> B<5> A<4> B<4> A<3> B<3> A<2> B<2> A<1> B<1> A<0>
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X3/X1/X1/11                                               XI0/XI58/ZN_neg
+       X3/X1/X1/9                                                XI0/and1_or
+
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X0/X0/X0/10                                       output: XI13/xor1_out
+         input: B<15>                                              input: B<15>
+         input: A<15>                                              input: A<15>
+         input: X0/X0/X0/X8/6                                      input: XI13/XI54/net_000
+         output: X0/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X0/X0/X8/M9(7.963,-2.815)  MP(PM)                      XI13/XI54/MM_i_53  MP(PM)
+         X0/X0/X0/X8/M8(7.773,-2.815)  MP(PM)                      XI13/XI54/MM_i_47  MP(PM)
+         X0/X0/X0/X8/M7(7.583,-2.815)  MP(PM)                      XI13/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<15>                                           output: SUM<15>
+         input: 2                                                  input: c_out_test<14>
+         input: X0/X0/X0/10                                        input: XI13/xor1_out
+         input: X0/X0/X0/X9/6                                      input: XI13/XI55/net_000
+         output: X0/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X0/X0/X9/M9(12.838,-2.815)  MP(PM)                     XI13/XI55/MM_i_53  MP(PM)
+         X0/X0/X0/X9/M8(12.648,-2.815)  MP(PM)                     XI13/XI55/MM_i_47  MP(PM)
+         X0/X0/X0/X9/M7(12.458,-2.815)  MP(PM)                     XI13/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X0/X0/X1/10                                       output: XI12/xor1_out
+         input: B<14>                                              input: B<14>
+         input: A<14>                                              input: A<14>
+         input: X0/X0/X1/X8/6                                      input: XI12/XI54/net_000
+         output: X0/21                                             ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X0/X1/X8/M9(19.855,-2.815)  MP(PM)                     XI12/XI54/MM_i_53  MP(PM)
+         X0/X0/X1/X8/M8(19.665,-2.815)  MP(PM)                     XI12/XI54/MM_i_47  MP(PM)
+         X0/X0/X1/X8/M7(19.475,-2.815)  MP(PM)                     XI12/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<14>                                           output: SUM<14>
+         input: 3                                                  input: c_out_test<13>
+         input: X0/X0/X1/10                                        input: XI12/xor1_out
+         input: X0/X0/X1/X9/6                                      input: XI12/XI55/net_000
+         output: X0/21                                             ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X0/X1/X9/M9(24.730,-2.815)  MP(PM)                     XI12/XI55/MM_i_53  MP(PM)
+         X0/X0/X1/X9/M8(24.540,-2.815)  MP(PM)                     XI12/XI55/MM_i_47  MP(PM)
+         X0/X0/X1/X9/M7(24.350,-2.815)  MP(PM)                     XI12/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X0/X1/X0/10                                       output: XI11/xor1_out
+         input: B<13>                                              input: B<13>
+         input: A<13>                                              input: A<13>
+         input: X0/X1/X0/X8/6                                      input: XI11/XI54/net_000
+         output: X0/X1/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X1/X0/X8/M9(31.753,-2.815)  MP(PM)                     XI11/XI54/MM_i_53  MP(PM)
+         X0/X1/X0/X8/M8(31.563,-2.815)  MP(PM)                     XI11/XI54/MM_i_47  MP(PM)
+         X0/X1/X0/X8/M7(31.373,-2.815)  MP(PM)                     XI11/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<13>                                           output: SUM<13>
+         input: 4                                                  input: c_out_test<12>
+         input: X0/X1/X0/10                                        input: XI11/xor1_out
+         input: X0/X1/X0/X9/6                                      input: XI11/XI55/net_000
+         output: X0/X1/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X1/X0/X9/M9(36.628,-2.815)  MP(PM)                     XI11/XI55/MM_i_53  MP(PM)
+         X0/X1/X0/X9/M8(36.438,-2.815)  MP(PM)                     XI11/XI55/MM_i_47  MP(PM)
+         X0/X1/X0/X9/M7(36.248,-2.815)  MP(PM)                     XI11/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X0/X1/X1/10                                       output: XI14/xor1_out
+         input: B<12>                                              input: B<12>
+         input: A<12>                                              input: A<12>
+         input: X0/X1/X1/X8/6                                      input: XI14/XI54/net_000
+         output: 23                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X1/X1/X8/M9(43.645,-2.815)  MP(PM)                     XI14/XI54/MM_i_53  MP(PM)
+         X0/X1/X1/X8/M8(43.455,-2.815)  MP(PM)                     XI14/XI54/MM_i_47  MP(PM)
+         X0/X1/X1/X8/M7(43.265,-2.815)  MP(PM)                     XI14/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<12>                                           output: SUM<12>
+         input: 5                                                  input: c_out_test<11>
+         input: X0/X1/X1/10                                        input: XI14/xor1_out
+         input: X0/X1/X1/X9/6                                      input: XI14/XI55/net_000
+         output: 23                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X0/X1/X1/X9/M9(48.520,-2.815)  MP(PM)                     XI14/XI55/MM_i_53  MP(PM)
+         X0/X1/X1/X9/M8(48.330,-2.815)  MP(PM)                     XI14/XI55/MM_i_47  MP(PM)
+         X0/X1/X1/X9/M7(48.140,-2.815)  MP(PM)                     XI14/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X1/X0/X0/10                                       output: XI10/xor1_out
+         input: B<11>                                              input: B<11>
+         input: A<11>                                              input: A<11>
+         input: X1/X0/X0/X8/6                                      input: XI10/XI54/net_000
+         output: X1/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X1/X0/X0/X8/M9(55.654,-2.815)  MP(PM)                     XI10/XI54/MM_i_53  MP(PM)
+         X1/X0/X0/X8/M8(55.464,-2.815)  MP(PM)                     XI10/XI54/MM_i_47  MP(PM)
+         X1/X0/X0/X8/M7(55.274,-2.815)  MP(PM)                     XI10/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<11>                                           output: SUM<11>
+         input: 6                                                  input: c_out_test<10>
+         input: X1/X0/X0/10                                        input: XI10/xor1_out
+         input: X1/X0/X0/X9/6                                      input: XI10/XI55/net_000
+         output: X1/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X1/X0/X0/X9/M9(60.529,-2.815)  MP(PM)                     XI10/XI55/MM_i_53  MP(PM)
+         X1/X0/X0/X9/M8(60.339,-2.815)  MP(PM)                     XI10/XI55/MM_i_47  MP(PM)
+         X1/X0/X0/X9/M7(60.149,-2.815)  MP(PM)                     XI10/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         input: B<10>                                              input: B<10>
+         input: A<10>                                              input: A<10>
+         input: X1/X0/X1/X8/6                                      input: XI9/XI54/net_000
+         output: X1/21                                             ** no similar net **
+         output: X1/X0/X1/10                                       ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      output: XI9/xor1_out
+
+       Transistors:
+         X1/X0/X1/X8/M9(67.546,-2.815)  MP(PM)                     XI9/XI54/MM_i_53  MP(PM)
+         X1/X0/X1/X8/M8(67.356,-2.815)  MP(PM)                     XI9/XI54/MM_i_47  MP(PM)
+         X1/X0/X1/X8/M7(67.166,-2.815)  MP(PM)                     XI9/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<10>                                           output: SUM<10>
+         input: 7                                                  input: c_out_test<9>
+         input: X1/X0/X1/X9/6                                      input: XI9/XI55/net_000
+         output: X1/21                                             ** no similar net **
+         input: X1/X0/X1/10                                        ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      input: XI9/xor1_out
+
+       Transistors:
+         X1/X0/X1/X9/M9(72.421,-2.815)  MP(PM)                     XI9/XI55/MM_i_53  MP(PM)
+         X1/X0/X1/X9/M7(72.041,-2.815)  MP(PM)                     XI9/XI55/MM_i_41  MP(PM)
+
+         X1/X0/X1/X9/M8(72.231,-2.815)  MP(PM)
+
+                                                                   XI9/XI55/MM_i_47  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         input: B<9>                                               input: B<9>
+         input: A<9>                                               input: A<9>
+         input: X1/X1/X0/X8/6                                      input: XI8/XI54/net_000
+         output: X1/X1/13                                          ** no similar net **
+         output: X1/X1/X0/10                                       ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      output: XI8/xor1_out
+
+       Transistors:
+         X1/X1/X0/X8/M9(79.444,-2.815)  MP(PM)                     XI8/XI54/MM_i_53  MP(PM)
+         X1/X1/X0/X8/M8(79.254,-2.815)  MP(PM)                     XI8/XI54/MM_i_47  MP(PM)
+         X1/X1/X0/X8/M7(79.064,-2.815)  MP(PM)                     XI8/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<9>                                            output: SUM<9>
+         input: 8                                                  input: c_out_test<8>
+         input: X1/X1/X0/X9/6                                      input: XI8/XI55/net_000
+         output: X1/X1/13                                          ** no similar net **
+         input: X1/X1/X0/10                                        ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      input: XI8/xor1_out
+
+       Transistors:
+         X1/X1/X0/X9/M9(84.319,-2.815)  MP(PM)                     XI8/XI55/MM_i_53  MP(PM)
+         X1/X1/X0/X9/M7(83.939,-2.815)  MP(PM)                     XI8/XI55/MM_i_41  MP(PM)
+
+         X1/X1/X0/X9/M8(84.129,-2.815)  MP(PM)
+
+                                                                   XI8/XI55/MM_i_47  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X1/X1/X1/10                                       output: XI15/xor1_out
+         input: B<8>                                               input: B<8>
+         input: A<8>                                               input: A<8>
+         input: X1/X1/X1/X8/6                                      input: XI15/XI54/net_000
+         output: 29                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X1/X1/X1/X8/M9(91.336,-2.815)  MP(PM)                     XI15/XI54/MM_i_53  MP(PM)
+         X1/X1/X1/X8/M8(91.146,-2.815)  MP(PM)                     XI15/XI54/MM_i_47  MP(PM)
+         X1/X1/X1/X8/M7(90.956,-2.815)  MP(PM)                     XI15/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<8>                                            output: SUM<8>
+         input: 9                                                  input: c_out_test<7>
+         input: X1/X1/X1/10                                        input: XI15/xor1_out
+         input: X1/X1/X1/X9/6                                      input: XI15/XI55/net_000
+         output: 29                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X1/X1/X1/X9/M9(96.211,-2.815)  MP(PM)                     XI15/XI55/MM_i_53  MP(PM)
+         X1/X1/X1/X9/M8(96.021,-2.815)  MP(PM)                     XI15/XI55/MM_i_47  MP(PM)
+         X1/X1/X1/X9/M7(95.831,-2.815)  MP(PM)                     XI15/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X2/X0/X0/10                                       output: XI6/xor1_out
+         input: B<7>                                               input: B<7>
+         input: A<7>                                               input: A<7>
+         input: X2/X0/X0/X8/6                                      input: XI6/XI54/net_000
+         output: X2/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X0/X0/X8/M9(103.225,-2.815)  MP(PM)                    XI6/XI54/MM_i_53  MP(PM)
+         X2/X0/X0/X8/M8(103.035,-2.815)  MP(PM)                    XI6/XI54/MM_i_47  MP(PM)
+         X2/X0/X0/X8/M7(102.845,-2.815)  MP(PM)                    XI6/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<7>                                            output: SUM<7>
+         input: 10                                                 input: c_out_test<6>
+         input: X2/X0/X0/10                                        input: XI6/xor1_out
+         input: X2/X0/X0/X9/6                                      input: XI6/XI55/net_000
+         output: X2/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X0/X0/X9/M9(108.100,-2.815)  MP(PM)                    XI6/XI55/MM_i_53  MP(PM)
+         X2/X0/X0/X9/M8(107.910,-2.815)  MP(PM)                    XI6/XI55/MM_i_47  MP(PM)
+         X2/X0/X0/X9/M7(107.720,-2.815)  MP(PM)                    XI6/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X2/X0/X1/10                                       output: XI5/xor1_out
+         input: B<6>                                               input: B<6>
+         input: A<6>                                               input: A<6>
+         input: X2/X0/X1/X8/6                                      input: XI5/XI54/net_000
+         output: X2/21                                             ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X0/X1/X8/M9(115.117,-2.815)  MP(PM)                    XI5/XI54/MM_i_53  MP(PM)
+         X2/X0/X1/X8/M8(114.927,-2.815)  MP(PM)                    XI5/XI54/MM_i_47  MP(PM)
+         X2/X0/X1/X8/M7(114.737,-2.815)  MP(PM)                    XI5/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<6>                                            output: SUM<6>
+         input: 11                                                 input: c_out_test<5>
+         input: X2/X0/X1/10                                        input: XI5/xor1_out
+         input: X2/X0/X1/X9/6                                      input: XI5/XI55/net_000
+         output: X2/21                                             ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X0/X1/X9/M9(119.992,-2.815)  MP(PM)                    XI5/XI55/MM_i_53  MP(PM)
+         X2/X0/X1/X9/M8(119.802,-2.815)  MP(PM)                    XI5/XI55/MM_i_47  MP(PM)
+         X2/X0/X1/X9/M7(119.612,-2.815)  MP(PM)                    XI5/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X2/X1/X0/10                                       output: XI4/xor1_out
+         input: B<5>                                               input: B<5>
+         input: A<5>                                               input: A<5>
+         input: X2/X1/X0/X8/6                                      input: XI4/XI54/net_000
+         output: X2/X1/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X1/X0/X8/M9(127.015,-2.815)  MP(PM)                    XI4/XI54/MM_i_53  MP(PM)
+         X2/X1/X0/X8/M8(126.825,-2.815)  MP(PM)                    XI4/XI54/MM_i_47  MP(PM)
+         X2/X1/X0/X8/M7(126.635,-2.815)  MP(PM)                    XI4/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<5>                                            output: SUM<5>
+         input: 12                                                 input: c_out_test<4>
+         input: X2/X1/X0/10                                        input: XI4/xor1_out
+         input: X2/X1/X0/X9/6                                      input: XI4/XI55/net_000
+         output: X2/X1/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X1/X0/X9/M9(131.890,-2.815)  MP(PM)                    XI4/XI55/MM_i_53  MP(PM)
+         X2/X1/X0/X9/M8(131.700,-2.815)  MP(PM)                    XI4/XI55/MM_i_47  MP(PM)
+         X2/X1/X0/X9/M7(131.510,-2.815)  MP(PM)                    XI4/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X2/X1/X1/10                                       output: XI7/xor1_out
+         input: B<4>                                               input: B<4>
+         input: A<4>                                               input: A<4>
+         input: X2/X1/X1/X8/6                                      input: XI7/XI54/net_000
+         output: 35                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X1/X1/X8/M9(138.907,-2.815)  MP(PM)                    XI7/XI54/MM_i_53  MP(PM)
+         X2/X1/X1/X8/M8(138.717,-2.815)  MP(PM)                    XI7/XI54/MM_i_47  MP(PM)
+         X2/X1/X1/X8/M7(138.527,-2.815)  MP(PM)                    XI7/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<4>                                            output: SUM<4>
+         input: 13                                                 input: c_out_test<3>
+         input: X2/X1/X1/10                                        input: XI7/xor1_out
+         input: X2/X1/X1/X9/6                                      input: XI7/XI55/net_000
+         output: 35                                                ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X2/X1/X1/X9/M9(143.782,-2.815)  MP(PM)                    XI7/XI55/MM_i_53  MP(PM)
+         X2/X1/X1/X9/M8(143.592,-2.815)  MP(PM)                    XI7/XI55/MM_i_47  MP(PM)
+         X2/X1/X1/X9/M7(143.402,-2.815)  MP(PM)                    XI7/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: X3/X0/X0/10                                       output: XI3/xor1_out
+         input: B<3>                                               input: B<3>
+         input: A<3>                                               input: A<3>
+         input: X3/X0/X0/X8/6                                      input: XI3/XI54/net_000
+         output: X3/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X3/X0/X0/X8/M9(150.808,-2.815)  MP(PM)                    XI3/XI54/MM_i_53  MP(PM)
+         X3/X0/X0/X8/M8(150.618,-2.815)  MP(PM)                    XI3/XI54/MM_i_47  MP(PM)
+         X3/X0/X0/X8/M7(150.428,-2.815)  MP(PM)                    XI3/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<3>                                            output: SUM<3>
+         input: 14                                                 input: c_out_test<2>
+         input: X3/X0/X0/10                                        input: XI3/xor1_out
+         input: X3/X0/X0/X9/6                                      input: XI3/XI55/net_000
+         output: X3/X0/13                                          ** no similar net **
+         ** VDD! **                                                output: VDD!
+
+       Transistors:
+         X3/X0/X0/X9/M9(155.683,-2.815)  MP(PM)                    XI3/XI55/MM_i_53  MP(PM)
+         X3/X0/X0/X9/M8(155.493,-2.815)  MP(PM)                    XI3/XI55/MM_i_47  MP(PM)
+         X3/X0/X0/X9/M7(155.303,-2.815)  MP(PM)                    XI3/XI55/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         input: B<2>                                               input: B<2>
+         input: A<2>                                               input: A<2>
+         input: X3/X0/X1/X8/6                                      input: XI2/XI54/net_000
+         output: X3/21                                             ** no similar net **
+         output: X3/X0/X1/10                                       ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      output: XI2/xor1_out
+
+       Transistors:
+         X3/X0/X1/X8/M9(162.700,-2.815)  MP(PM)                    XI2/XI54/MM_i_53  MP(PM)
+         X3/X0/X1/X8/M8(162.510,-2.815)  MP(PM)                    XI2/XI54/MM_i_47  MP(PM)
+         X3/X0/X1/X8/M7(162.320,-2.815)  MP(PM)                    XI2/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<2>                                            output: SUM<2>
+         input: 15                                                 input: c_out_test<1>
+         input: X3/X0/X1/X9/6                                      input: XI2/XI55/net_000
+         output: X3/21                                             ** no similar net **
+         input: X3/X0/X1/10                                        ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      input: XI2/xor1_out
+
+       Transistors:
+         X3/X0/X1/X9/M9(167.575,-2.815)  MP(PM)                    XI2/XI55/MM_i_53  MP(PM)
+         X3/X0/X1/X9/M7(167.195,-2.815)  MP(PM)                    XI2/XI55/MM_i_41  MP(PM)
+
+         X3/X0/X1/X9/M8(167.385,-2.815)  MP(PM)
+
+                                                                   XI2/XI55/MM_i_47  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         input: B<1>                                               input: B<1>
+         input: A<1>                                               input: A<1>
+         input: X3/X1/X0/X8/6                                      input: XI1/XI54/net_000
+         output: X3/X1/13                                          ** no similar net **
+         output: X3/X1/X0/10                                       ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      output: XI1/xor1_out
+
+       Transistors:
+         X3/X1/X0/X8/M9(174.598,-2.815)  MP(PM)                    XI1/XI54/MM_i_53  MP(PM)
+         X3/X1/X0/X8/M8(174.408,-2.815)  MP(PM)                    XI1/XI54/MM_i_47  MP(PM)
+         X3/X1/X0/X8/M7(174.218,-2.815)  MP(PM)                    XI1/XI54/MM_i_41  MP(PM)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_1)                                                (SPMP_2_1)
+         output: SUM<1>                                            output: SUM<1>
+         input: 16                                                 input: c_out_test<0>
+         input: X3/X1/X0/X9/6                                      input: XI1/XI55/net_000
+         output: X3/X1/13                                          ** no similar net **
+         input: X3/X1/X0/10                                        ** no similar net **
+         ** VDD! **                                                output: VDD!
+         ** no similar net **                                      input: XI1/xor1_out
+
+       Transistors:
+         X3/X1/X0/X9/M9(179.473,-2.815)  MP(PM)                    XI1/XI55/MM_i_53  MP(PM)
+         X3/X1/X0/X9/M7(179.093,-2.815)  MP(PM)                    XI1/XI55/MM_i_41  MP(PM)
+
+         X3/X1/X0/X9/M8(179.283,-2.815)  MP(PM)
+
+                                                                   XI1/XI55/MM_i_47  MP(PM)
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       X3/X1/X0/X8/M2(174.218,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X1/X8/M2(162.320,-3.405)  MN(NM)                    ** unmatched instance **
+       X1/X1/X0/X8/M2(79.064,-3.405)  MN(NM)                     ** unmatched instance **
+       X1/X0/X1/X8/M2(67.166,-3.405)  MN(NM)                     ** unmatched instance **
+       X3/X1/X0/X9/M0(178.708,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X1/X0/X9/M1(178.898,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X1/X0/X8/M0(173.833,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X1/X0/X8/M1(174.023,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X1/X0/M0(169.237,-3.378)  MN(NM)                       ** unmatched instance **
+       X3/X1/X0/M1(169.427,-3.378)  MN(NM)                       ** unmatched instance **
+       X3/X0/X1/X9/M0(166.810,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X1/X9/M1(167.000,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X1/X8/M0(161.935,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X1/X8/M1(162.125,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X1/M0(157.339,-3.378)  MN(NM)                       ** unmatched instance **
+       X3/X0/X1/M1(157.529,-3.378)  MN(NM)                       ** unmatched instance **
+       X3/X0/X0/X9/M0(154.918,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X0/X9/M1(155.108,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X0/X8/M0(150.043,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X0/X8/M1(150.233,-3.405)  MN(NM)                    ** unmatched instance **
+       X3/X0/X0/M0(145.447,-3.378)  MN(NM)                       ** unmatched instance **
+       X3/X0/X0/M1(145.637,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X1/X1/X9/M0(143.017,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X1/X9/M1(143.207,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X1/X8/M0(138.142,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X1/X8/M1(138.332,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X1/M0(133.546,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X1/X1/M1(133.736,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X1/X0/X9/M0(131.125,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X0/X9/M1(131.315,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X0/X8/M0(126.250,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X0/X8/M1(126.440,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X1/X0/M0(121.654,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X1/X0/M1(121.844,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X0/X1/X9/M0(119.227,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X1/X9/M1(119.417,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X1/X8/M0(114.352,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X1/X8/M1(114.542,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X1/M0(109.756,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X0/X1/M1(109.946,-3.378)  MN(NM)                       ** unmatched instance **
+       X2/X0/X0/X9/M0(107.335,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X0/X9/M1(107.525,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X0/X8/M0(102.460,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X0/X8/M1(102.650,-3.405)  MN(NM)                    ** unmatched instance **
+       X2/X0/X0/M0(97.864,-3.378)  MN(NM)                        ** unmatched instance **
+       X2/X0/X0/M1(98.054,-3.378)  MN(NM)                        ** unmatched instance **
+       X1/X1/X1/X9/M0(95.446,-3.405)  MN(NM)                     ** unmatched instance **
+       X1/X1/X1/X9/M1(95.636,-3.405)  MN(NM)                     ** unmatched instance **
+       X1/X1/X1/X8/M0(90.571,-3.405)  MN(NM)                     ** unmatched instance **
+       X1/X1/X1/X8/M1(90.761,-3.405)  MN(NM)                     ** unmatched instance **
+
+       ** unmatched instance **                                  XI9/XI54/MM_i_13  MN(NM)
+       ** unmatched instance **                                  XI8/XI54/MM_i_13  MN(NM)
+       ** unmatched instance **                                  XI2/XI54/MM_i_13  MN(NM)
+       ** unmatched instance **                                  XI1/XI54/MM_i_13  MN(NM)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

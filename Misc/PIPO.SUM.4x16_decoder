@@ -1,0 +1,103 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 09/01/2015 22:59 (sjfnl132) $
+          : sub-version  IC6.1.6-64b.500.13.2 
+Started at: 18-Mar-2018  23:35:27
+User Name : rm885
+Host Name : xunil-03.coe.drexel.edu
+Directory : /home/DREXEL/rm885/NCSU_FreePDK45
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+NangateOpenCellLibrary/INV_X1/layout                            0        0       7        18     0      0         8      4             0      0     0     0       0       
+NangateOpenCellLibrary/via1_3/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via2_6/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+Hummingbird/2x4_decoder/layout  6        0       0        26     0      0         8      0             0      0     0     0       0       
+Hummingbird/4x16_decoder/layout 34       0       0        0      0      179       30     0             0      0     0     0       0       
+NangateOpenCellLibrary/via3_1/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via2_1/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/AND2_X1/layout                           0        0       13       23     0      0         9      5             0      0     0     0       0       
+NangateOpenCellLibrary/via1_4/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via3_0/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via2_3/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via2_0/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+NangateOpenCellLibrary/via1_0/via                               0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+NangateOpenCellLibrary/INV_X1/layout                            0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via1_3/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via2_6/via                               0        0          0          0          0          0     0        0         0         0        
+Hummingbird/2x4_decoder/layout  0        0          0          0          0          0     0        17        0         0        
+Hummingbird/4x16_decoder/layout 0        0          0          0          0          0     0        108       0         0        
+NangateOpenCellLibrary/via3_1/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via2_1/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/AND2_X1/layout                           0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via1_4/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via3_0/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via2_3/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via2_0/via                               0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/via1_0/via                               0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+BOUND           drawing         0       0         0        2        0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        3        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        14       0        8        0             0    0   0   0     0      75     
+IP              drawing         63      0         0        0        0        8        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        4        0        0        0             0    0   0   0     0      0      
+via3            drawing         16      0         0        2        0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        3        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         4        0        0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        3        0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        2        0        0        0             0    0   0   0     0      8      
+metal1          drawing         11      0         14       13       0        39       0             0    0   0   0     0      78     
+pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        14       0        0        0             0    0   0   0     0      18     
+text            drawing         230     0         0        0        0        0        9             0    0   0   0     0      0      
+contact         drawing         10      0         0        26       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         2        4        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		40
+	Array Instances:		0
+	Polygons:			20
+	Paths:				0
+	Rectangles:			94
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			125
+	CdsGen Vias:			0
+	Pathsegs:			179
+	Text:				55
+	TextDisplay:		9
+	Cells:				13
+Design Libraries: 
+
+DEFINE NangateOpenCellLibrary	/mnt/class_data/ecec571-f2015/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
+DEFINE Hummingbird	/home/DREXEL/rm885/NCSU_FreePDK45/Hummingbird

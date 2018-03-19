@@ -1,0 +1,3847 @@
+//  Calibre v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+//  Calibre Utility Library   v0-6_18-2015-1    Thu Jun 18 05:47:52 PDT 2015
+//  Litho Libraries v2015.3_25.16  Tue Sep 1 14:37:32 PDT 2015
+//
+//        Copyright Mentor Graphics Corporation 1996-2015
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux xunil-03.coe.drexel.edu 3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017 x86_64 glibc 2.17/NPTL 2.17
+//
+//  Entries in /proc/meminfo:
+//
+//  MemTotal:       131845248 kB
+//  MemFree:        94364292 kB
+//  MemAvailable:   121996060 kB
+//  Buffers:         1018436 kB
+//  Cached:         20412744 kB
+//  SwapCached:            0 kB
+//  Active:         19374156 kB
+//  Inactive:        9680312 kB
+//  Active(anon):    7897460 kB
+//  Inactive(anon):   145460 kB
+//  Active(file):   11476696 kB
+//  Inactive(file):  9534852 kB
+//  Unevictable:          56 kB
+//  Mlocked:              56 kB
+//  SwapTotal:      16383996 kB
+//  SwapFree:       16383996 kB
+//  Dirty:                24 kB
+//  Writeback:             0 kB
+//  AnonPages:       7622584 kB
+//  Mapped:           548800 kB
+//  Shmem:            419640 kB
+//  Slab:            7501536 kB
+//  SReclaimable:    7240164 kB
+//  SUnreclaim:       261372 kB
+//  KernelStack:       11200 kB
+//  PageTables:        81400 kB
+//  NFS_Unstable:          0 kB
+//  Bounce:                0 kB
+//  WritebackTmp:          0 kB
+//  CommitLimit:    82306620 kB
+//  Committed_AS:   11861904 kB
+//  VmallocTotal:   34359738367 kB
+//  VmallocUsed:      488860 kB
+//  VmallocChunk:   34291859452 kB
+//  HardwareCorrupted:     0 kB
+//  AnonHugePages:   2093056 kB
+//  HugePages_Total:       0
+//  HugePages_Free:        0
+//  HugePages_Rsvd:        0
+//  HugePages_Surp:        0
+//  Hugepagesize:       2048 kB
+//  DirectMap4k:      215616 kB
+//  DirectMap2M:     5009408 kB
+//  DirectMap1G:    128974848 kB
+//
+//  Processor AMD Opteron(tm) Processor 6344                  [1520]
+//  CPU Info: Cores = 24
+//  Max file descriptors: 4096
+//  64 bit virtual addressing enabled
+//  Running aoi_cal_2015.3_25.16/pkgs/icv/pvt/calibre -drc -hier -nowait /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC.rul_
+//  Process ID: 25098
+//
+//  Starting time: Wed Dec 13 20:57:08 2017
+//
+//  Running on 1 CPU (pending licensing) 
+//
+//
+
+--- CALIBRE::DRC-H - Wed Dec 13 20:57:14 2017
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----          STANDARD VERIFICATION RULE FILE COMPILATION MODULE          -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- RULE FILE = /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC.rul_
+
+//
+//  Rule file generated on Wed Dec 13 20:57:07 EST 2017
+//     by Calibre Interactive - DRC (v2015.3_25.16)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "nand_gate.calibre.db"
+LAYOUT PRIMARY "nand_gate"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "nand_gate.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "nand_gate.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/class_data/ecec571-f2015/NCSU_FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+
+
+
+--- STANDARD VERIFICATION RULE FILE COMPILATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/4
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_CMD_LINE='/opt/mentor/calibre/aoi_cal_2015.3_25.16/pkgs/icv/pvt/calibre  -drc -hier -nowait /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC.rul_'
+CALIBRE_ECHO_RULE_FILE=
+CALIBRE_HOME=/opt/mentor/calibre/aoi_cal_2015.3_25.16
+CALIBRE_INITIAL_CMD_LINE='/opt/mentor/calibre/aoi_cal_2015.3_25.16/bin/calibre -drc -hier -nowait /home/DREXEL/rm885/NCSU_FreePDK45/_calibreDRC.rul_'
+CALIBRE_MT_DISABLE_CPUINFO=yes
+CALIBRE_READDB_LD_LIBRARY_PATH=/opt/mentor/calibre/aoi_cal_2015.3_25.16/shared/pkgs/icv/tools/calibre_client/lib/64:/opt/mentor/calibre/aoi_cal_2015.3_25.16/pkgs/calibre_base/lib64:/opt/mentor/calibre/aoi_cal_2015.3_25.16/pkgs/icv_lib/lib64:/opt/mentor/calibre/aoi_cal_2015.3_25.16/pkgs/icv_qt_comp/plugins:/opt/mentor/calibre/aoi_cal_2015.3_25.16/pkgs/umc_libs/lib/lnx32:/opt/mentor/calibre/aoi_cal_2015.3_25.16/shared/pkgs/icv_oa/22.41.004/lib/linux_rhel40_gcc44x_64/opt:/opt/cadence/IC616/tools/lib:/opt/cadence/IC616/oa_v22.43.053/lib/linux_rhel50_gcc44x_64/opt:/opt/cadence/IC616/tools/Qt/64bit/lib:/opt/cadence/IC616/tools/dfII/lib/64bit:/opt/cadence/IC616/tools/sev/lib/64bit:/opt/cadence/IC616/tools/lib/64bit:/opt/cadence/IC616/tools/inca/lib/64bit:/mnt/class_data/ecec571-f2015/NCSU_FreePDK45/ncsu_basekit:/mnt/class_data/ecec571-f2015/NCSU_FreePDK45/ncsu_basekit:/mnt/class_data/ecec571-f2015/NCSU_FreePDK45/ncsu_basekit:/opt/cadence/ASSURA41/tools/bin:/opt/cadence/EDI142/tools.lnx86/lib/64bit/:/opt/cadence/EDI142/oa_v22.50.011/lib/linux_rhel50_gcc44x_64/opt:/opt/cadence/IC616/oa_v22.43.053/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/oa/lib/linux_rhel40_gcc44x_64/opt:/opt/synopsys/PyCell/plat_linux_gcc44x_64/lib:/opt/cadence/ASSURA41/tools/bin:/opt/cadence/EDI142/tools.lnx86/lib/64bit/:/opt/cadence/EDI142/oa_v22.50.011/lib/linux_rhel50_gcc44x_64/opt:/opt/cadence/IC616/oa_v22.43.053/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/oa/lib/linux_rhel40_gcc44x_64/opt:/opt/synopsys/PyCell/plat_linux_gcc44x_64/lib:/opt/cadence/ASSURA41/tools/bin:/opt/cadence/EDI142/tools.lnx86/lib/64bit/:/opt/cadence/EDI142/oa_v22.50.011/lib/linux_rhel50_gcc44x_64/opt:/opt/cadence/IC616/oa_v22.43.053/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/lib:/opt/synopsys/PyCell/plat_linux_gcc44x_64/3rd/oa/lib/linux_rhel40_gcc44x_64/opt:/opt/synopsys/PyCell/plat_linux_gcc44x_64/lib
+CALIBRE_SKIP_OS_CHECKS=
+CALIBRE_SSE3_SUPPORTED=1
+
+--- SELECTED RULE CHECKS:
+    Well.1
+    Well.2
+    Well.4
+    Poly.1
+    Poly.2
+    Poly.3
+    Poly.4
+    Poly.5
+    Poly.6
+    Active.1
+    Active.2
+    Active.3
+    Active.4
+    Implant.1
+    Implant.2
+    Implant.3
+    Implant.4
+    Implant.6
+    Contact.1
+    Contact.2
+    Contact.3
+    Contact.4
+    Contact.5
+    Contact.6
+    Metal1.1
+    Metal1.2
+    Metal1.3
+    Metal1.4
+    Via1.1
+    Via1.2
+    Via1.3
+    Via1.4
+    Metal2.1
+    Metal2.2
+    Metal2.3
+    Metal2.4
+    Via2.1
+    Via2.2
+    Via2.3
+    Via2.4
+    Metal3.1
+    Metal3.2
+    Metal3.3
+    Metal3.4
+    Via3.1
+    Via3.2
+    Via3.3
+    Via3.4
+    Metal4.1
+    Metal4.2
+    Metal4.3
+    Via4.1
+    Via4.2
+    Via4.3
+    Via4.4
+    Metal5.1
+    Metal5.2
+    Metal5.3
+    Via5.1
+    Via5.2
+    Via5.3
+    Via5.4
+    Metal6.1
+    Metal6.2
+    Metal6.3
+    Via6.1
+    Via6.2
+    Via6.3
+    Via6.4
+    Metal7.1
+    Metal7.2
+    Metal7.3
+    Via7.1
+    Via7.2
+    Via7.3
+    Via7.4
+    Metal8.1
+    Metal8.2
+    Metal8.3
+    Via8.1
+    Via8.2
+    Via8.3
+    Via8.4
+    Metal9.1
+    Metal9.2
+    Metal9.3
+    Via9.1
+    Via9.2
+    Via9.3
+    Via9.4
+    Metal10.1
+    Metal10.2
+    Metal10.3
+    Metal1.5
+    Metal1.6
+    Metal1.7
+    Metal1.8
+    Metal1.9
+    Metal2.5
+    Metal2.6
+    Metal2.7
+    Metal2.8
+    Metal2.9
+    Metal3.5
+    Metal3.6
+    Metal3.7
+    Metal3.8
+    Metal3.9
+    Metal4.5
+    Metal4.6
+    Metal4.7
+    Metal4.8
+    Metal5.5
+    Metal5.6
+    Metal5.7
+    Metal5.8
+    Metal6.5
+    Metal6.6
+    Metal6.7
+    Metal6.8
+    Metal7.5
+    Metal7.6
+    Metal7.7
+    Metal8.5
+    Metal8.6
+    Metal8.7
+    Metal9.5
+    Metal9.6
+    Metal10.5
+    Metal10.6
+    Grid.1
+    Grid.2
+    Grid.3
+    Grid.4
+    Grid.5
+    Grid.6
+    Grid.7
+    Grid.8
+    Grid.9
+    Grid.10
+    Grid.11
+    Grid.12
+    Grid.13
+    Grid.14
+    Grid.15
+    Grid.16
+    Grid.17
+    Grid.18
+    Grid.19
+    Grid.20
+    Grid.21
+    Grid.22
+    Grid.23
+    Grid.24
+    Grid.25
+    Grid.26
+    Antenna.poly
+    Antenna.metal1
+    Antenna.metal2
+    Antenna.metal3
+    Antenna.metal4
+    Antenna.metal5
+    Antenna.metal6
+    Antenna.metal7
+    Antenna.metal8
+    Antenna.metal9
+    Antenna.metal10
+
+--- UNSELECTED RULE CHECKS:
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                  CALIBRE::DRC-H - LICENSING MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+//  Applying licensing policy...
+//  calibrehdrc license acquired.
+//  calibredrc license acquired.
+
+//  Licensed Products
+//  -----------------
+//  Base products running on 1 core:
+//  - DRC (Hierarchical)
+
+--- CALIBRE::DRC-H LICENSING MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 6
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                   CALIBRE LAYOUT DATA INPUT MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- LAYOUT SYSTEM = GDS
+--- LAYOUT MAGNIFICATION = 1
+
+--------------------------------------------------------------------------------
+-----                     GDS FILE SUMMARY INFORMATION                     -----
+--------------------------------------------------------------------------------
+
+GDS FILENAME:        nand_gate.calibre.db
+GDS VERSION:         5
+LIBRARY NAME:        ECEC471_lib
+LAST MODIFIED:       ON 2017/12/13 AT 20:57:5
+LAST ACCESSED:       ON 2017/12/13 AT 20:57:6
+DATABASE PRECISION:  0.0005 user units per database unit
+PHYSICAL PRECISION:  5e-10 meters per database unit
+MAGNIFICATION:       1
+
+--------------------------------------------------------------------------------
+-----                 GDS INPUT DATA FOR INDIVIDUAL CELLS                  -----
+--------------------------------------------------------------------------------
+     CELL NAME                  PLACEMENTS   ARRAYS   POLYGONS    PATHS    TEXTS
+--------------------------------------------------------------------------------
+NTAP_CDNS_513216626680                   0        0          5        0        0
+PTAP_CDNS_513216626681                   0        0          5        0        0
+nand_gate                                2        0         35        0        5
+
+NOTE: UNUSED geometric data is present on the following layer/datatype pairs:
+
+NOTE: USED geometric data is present on the following layer/datatype pairs:
+    SIMPLE LAYER = 1
+        LAYER = 1 DATATYPE = 0
+    SIMPLE LAYER = 2
+        LAYER = 2 DATATYPE = 0
+    SIMPLE LAYER = 3
+        LAYER = 3 DATATYPE = 0
+    SIMPLE LAYER = 4
+        LAYER = 4 DATATYPE = 0
+    SIMPLE LAYER = 5
+        LAYER = 5 DATATYPE = 0
+    SIMPLE LAYER = 7
+        LAYER = 7 DATATYPE = 0
+    SIMPLE LAYER = 9
+        LAYER = 9 DATATYPE = 0
+    SIMPLE LAYER = 10
+        LAYER = 10 DATATYPE = 0
+    SIMPLE LAYER = 11
+        LAYER = 11 DATATYPE = 0
+
+NOTE: The following required simple layers are EMPTY:
+    6
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+
+--- LAYOUT DATABASE CONSTRUCTOR COMPLETED.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/4/4
+
+CONSTRUCTING HIERARCHICAL DATABASE
+    COPYING LAYOUT DATABASE
+    PROCESSING TEXT
+    ELIMINATING DUPLICATE TEXT
+    ELIMINATING EMPTY CELLS
+    COMPUTING RECTANGULAR EXTENTS
+    ELIMINATING DUPLICATE PLACEMENTS
+    IDENTIFYING TOP LAYER CELLS
+    IDENTIFYING ADDITIONAL TOP LAYER CELLS
+    IDENTIFYING VERY SMALL CELLS
+        PTAP_CDNS_513216626681
+        NTAP_CDNS_513216626680
+    CHECKING ACUTE/SKEW/ANGLED/OFFGRID
+    FLATTENING SELECTED LAYERS
+    EXPANDING UNIQUE VERY SMALL CELL PLACEMENTS
+        NTAP_CDNS_513216626680 in nand_gate at (1.3225,0.6425)
+        PTAP_CDNS_513216626681 in nand_gate at (1.3225,0.05)
+    EXPANDING UNIQUE TOP LAYER CELL PLACEMENTS
+    EXPANDING UNIQUE MONO-GEOMETRIC CELL PLACEMENTS
+    COMPUTING RECTILINEAR EXTENTS
+    SORTING PLACEMENTS
+    ELIMINATING DUPLICATE PLACEMENTS
+    EXPANDING UNIQUE TRANSPARENT CELL PLACEMENTS
+    EXPANDING UNIQUE LIGHT-WEIGHT CELL PLACEMENTS
+    EXPANDING UNIQUE ROW CELL PLACEMENTS
+    EXPANDING TRIVIAL CELL PLACEMENTS
+    EXPANDING VERY SPARSE ARRAY PLACEMENTS
+    EXPANDING LARGE CELL ARRAY PLACEMENTS
+    EXPANDING VERY SPARSE CELL PLACEMENTS
+    ELIMINATING DUPLICATE SUPER-HIERARCHICAL PLACEMENTS
+    EXPANDING DENSE OVERLAPS
+    EXPANDING UNIQUE META-CELL PLACEMENTS
+    ANALYZING HIERARCHY FOR AUTOMATIC TURBO FLEX
+    INJECTING HIERARCHY
+    COMPUTING RECTANGULAR EXTENTS
+    SORTING PLACEMENTS
+    PUSHING VERY SMALL CELL PLACEMENTS
+    PUSHING TOP LAYER CELL PLACEMENTS
+    COMPUTING CELL-TO-WORLD TRANSFORMS
+    SORTING PLACEMENTS
+    PACKING HIERARCHY
+    COMPUTING PLACEMENT OVERLAP RECORDS
+    COMPUTING CELL OVERLAP AREAS
+    INTERSECTING PLACEMENTS AND OVERLAP AREAS
+HIERARCHICAL DATABASE CONSTRUCTOR COMPLETE.
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR CONNECTIVITY EXTRACTION               -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                TEXT OBJECTS FOR WITH TEXT OPERATIONS                 -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR EXPAND TEXT OPERATIONS                -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                  TEXT OBJECTS FOR CAPI OPERATIONS                    -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----             LAYER READ SUMMARY (SIMPLE LAYER GEOMETRIES)             -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER      GEOMETRIES                                                    
+--------------------------------------------------------------------------------
+
+  1                      4
+  2                      2
+  3                      2
+  4                      2
+  5                      2
+  6                      0
+  7                      2
+  9                      8
+  10                     9
+  11                    14
+  12                     0
+  13                     0
+  14                     0
+  15                     0
+  16                     0
+  17                     0
+  18                     0
+  19                     0
+  20                     0
+  21                     0
+  22                     0
+  23                     0
+  24                     0
+  25                     0
+  26                     0
+  27                     0
+  28                     0
+  29                     0
+
+--------------------------------------------------------------------------------
+-----            LAYER READ SUMMARY (ORIGINAL LAYER GEOMETRIES)            -----
+--------------------------------------------------------------------------------
+ORIGINAL LAYER       INITIAL GEOMETRIES                 FINAL GEOMETRIES        
+--------------------------------------------------------------------------------
+
+pwell                      2 (2)                            2 (2)               
+nwell                      2 (2)                            2 (2)               
+active                     4 (4)                            4 (4)               
+poly                       8 (8)                            8 (8)               
+pimplant                   2 (2)                            2 (2)               
+nimplant                   2 (2)                            2 (2)               
+vth                        2 (2)                            2 (2)               
+vtg                        0 (0)                            0 (0)               
+metal1                    14 (14)                          14 (14)              
+contact                    9 (9)                            9 (9)               
+metal2                     0 (0)                            0 (0)               
+metal3                     0 (0)                            0 (0)               
+metal4                     0 (0)                            0 (0)               
+metal5                     0 (0)                            0 (0)               
+metal6                     0 (0)                            0 (0)               
+metal7                     0 (0)                            0 (0)               
+metal8                     0 (0)                            0 (0)               
+metal9                     0 (0)                            0 (0)               
+metal10                    0 (0)                            0 (0)               
+via1                       0 (0)                            0 (0)               
+via2                       0 (0)                            0 (0)               
+via3                       0 (0)                            0 (0)               
+via4                       0 (0)                            0 (0)               
+via5                       0 (0)                            0 (0)               
+via6                       0 (0)                            0 (0)               
+via7                       0 (0)                            0 (0)               
+via8                       0 (0)                            0 (0)               
+via9                       0 (0)                            0 (0)               
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR CONNECTIVITY EXTRACTION)        -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----          LAYER READ SUMMARY (TEXT FOR WITH TEXT OPERATIONS)          -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR EXPAND TEXT OPERATIONS)         -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----            LAYER READ SUMMARY (TEXT FOR CAPI OPERATIONS)             -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER              TEXTS                                                 
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                      CELL AND PLACEMENT SUMMARY                      -----
+--------------------------------------------------------------------------------
+CELL TYPE                 CELLS           PLACEMENTS       FLAT PLACEMENTS      
+--------------------------------------------------------------------------------
+
+USER                          1                    0                     0
+ VERY SMALL                   0                    0                     0
+ TOP LAYER                    0                    0                     0
+  VERY SMALL                  0                    0                     0
+PSEUDO                        0                    0                     0
+TOTAL                         1                    0                     0
+
+--------------------------------------------------------------------------------
+-----                   LAYOUT DATA INPUT MODULE SUMMARY                   -----
+--------------------------------------------------------------------------------
+
+--- TOTAL GEOMETRIES READ FROM SIMPLE LAYERS = 45
+--- TOTAL GEOMETRIES READ FROM ORIGINAL LAYERS = 45 (45)
+--- TOTAL GEOMETRIES WRITTEN TO ORIGINAL LAYERS = 45 (45)
+--- LVHEAP = 1/5/5
+--- DATABASE EXTENT = [ 1.305 , -0.2025 ] -> [ 2.15 , 1.0925 ]
+--- GEOMETRIC DEPTH = ALL
+--- TEXT DEPTH FOR CONNECTIVITY EXTRACTION = PRIMARY
+--- TOTAL TEXT OBJECTS FOR CONNECTIVITY EXTRACTION = 0 (0)
+--- TOTAL TEXT OBJECTS FOR WITH TEXT OPERATIONS = 0 (0)
+--- TOTAL TEXT OBJECTS FOR EXPAND TEXT OPERATIONS = 0 (0)
+--- TOTAL TEXT OBJECTS FOR CAPI OPERATIONS = 0 (0)
+--- GEOMETRY FLAGGING = ACUTE (NO)  SKEW (NO)  ANGLED (NO)  OFFGRID (NO)
+                        NONSIMPLE POLYGON (NO)  NONSIMPLE PATH (NO)
+--- PRIMARY CELL = nand_gate
+--- EXCLUDED CELLS =
+--- LAYOUT BASE LAYER = (NOT SPECIFIED)
+--- LAYOUT TOP LAYER = (NOT SPECIFIED)
+
+--- CALIBRE LAYOUT DATA INPUT MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----        CALIBRE::DRC-H - RESULTS DATABASE INITIALIZATION MODULE       -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- GLOBAL DRC RESULTS DATABASE FILE = nand_gate.drc.results (ASCII)
+--- GLOBAL MAXIMUM RESULTS PER RULECHECK = 1000
+--- GLOBAL MAXIMUM VERTICES PER RESULT POLYGON = 4096
+--- CHECK TEXT MAPPING = COMMENTS + RULE FILE INFORMATION
+--- KEEP EMPTY RULE CHECKS = YES
+--- DRC RESULTS MAGNIFICATION = 1
+--- DRC RESULTS DATABASE PRECISION = 2000
+
+--------------------------------------------------------------------------------
+-----              DRC RULECHECK -> RESULTS DATABASE MAPPING               -----
+--------------------------------------------------------------------------------
+                                                          DATA        MAX    MAX
+RULECHECK            RESULTS DATABASE         TYPE LAYER  TYPE     RESULT VERTEX
+--------------------------------------------------------------------------------
+Well.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Well.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Well.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.5               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Poly.6               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Active.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Active.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Active.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Active.4             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Implant.1            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Implant.2            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Implant.3            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Implant.4            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Implant.6            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.1            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.2            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.3            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.4            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.5            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Contact.6            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.4             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via1.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via1.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via1.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via1.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.4             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via2.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via2.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via2.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via2.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.4             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via3.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via3.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via3.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via3.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via4.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via4.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via4.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via4.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via5.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via5.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via5.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via5.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via6.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via6.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via6.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via6.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via7.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via7.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via7.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via7.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via8.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via8.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via8.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via8.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal9.1             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal9.2             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal9.3             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via9.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via9.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via9.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Via9.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal10.1            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal10.2            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal10.3            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal1.9             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal2.9             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal3.9             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal4.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal5.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal6.8             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal7.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal8.7             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal9.5             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal9.6             nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal10.5            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Metal10.6            nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.1               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.2               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.3               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.4               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.5               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.6               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.7               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.8               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.9               nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.10              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.11              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.12              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.13              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.14              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.15              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.16              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.17              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.18              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.19              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.20              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.21              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.22              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.23              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.24              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.25              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Grid.26              nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.poly         nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal1       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal2       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal3       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal4       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal5       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal6       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal7       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal8       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal9       nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+Antenna.metal10      nand_gate.drc.results   ASCII   N/A   N/A       1000   4096
+
+--- CALIBRE::DRC-H RESULTS DATABASE INITIALIZATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                   CALIBRE::DRC-H - EXECUTIVE MODULE                  -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+nwell = OR nwell
+----------------
+nwell (HIER TYP=1 CFG=1 HGC=1 FGC=1 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 1 OF 350  ELAPSED TIME = 12
+
+Original Layer nwell DELETED -- LVHEAP = 1/5/5
+
+pwell = OR pwell
+----------------
+pwell (HIER TYP=1 CFG=1 HGC=1 FGC=1 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 2 OF 350  ELAPSED TIME = 12
+
+Original Layer pwell DELETED -- LVHEAP = 1/5/5
+
+Well.1::<1> = nwell AND pwell
+-----------------------------
+Well.1::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 3 OF 350  ELAPSED TIME = 12
+
+Layer Well.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Well.1 COMPLETED. Number of Results = 0 (0)
+
+Well.2::<1> = EXT nwell pwell < 0.225
+-------------------------------------
+Well.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 4 OF 350  ELAPSED TIME = 12
+
+Layer Well.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Well.2 COMPLETED. Number of Results = 0 (0)
+
+well = nwell OR pwell
+---------------------
+well (HIER TYP=1 CFG=1 HGC=2 FGC=2 HEC=16 FEC=16 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 5 OF 350  ELAPSED TIME = 12
+
+Layer nwell DELETED -- LVHEAP = 1/5/5
+
+Layer pwell DELETED -- LVHEAP = 1/5/5
+
+Well.4::<1> = INT well < 0.2
+----------------------------
+Well.4::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 6 OF 350  ELAPSED TIME = 12
+
+Layer Well.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Well.4 COMPLETED. Number of Results = 0 (0)
+
+poly = OR poly
+--------------
+poly (HIER TYP=1 CFG=3 HGC=2 FGC=2 HEC=16 FEC=16 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 7 OF 350  ELAPSED TIME = 12
+
+Original Layer poly DELETED -- LVHEAP = 1/5/5
+
+Poly.1::<1> = INT poly < 0.05
+-----------------------------
+Poly.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 8 OF 350  ELAPSED TIME = 12
+
+Layer Poly.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.1 COMPLETED. Number of Results = 0 (0)
+
+active = OR active
+------------------
+active (HIER TYP=1 CFG=1 HGC=4 FGC=4 HEC=16 FEC=16 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 9 OF 350  ELAPSED TIME = 12
+
+Original Layer active DELETED -- LVHEAP = 1/5/5
+
+gate = poly AND active
+----------------------
+gate (HIER TYP=1 CFG=3 HGC=4 FGC=4 HEC=16 FEC=16 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 10 OF 350  ELAPSED TIME = 12
+
+Poly.2::<1> = EXT gate < 0.14
+-----------------------------
+Poly.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 11 OF 350  ELAPSED TIME = 12
+
+Layer Poly.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.2 COMPLETED. Number of Results = 0 (0)
+
+Poly.5::<1> = EXT active poly < 0.05
+Poly.3::<1> = ENC active poly < 0.05
+Poly.4::<1> = ENC poly active < 0.07
+------------------------------------
+Poly.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Poly.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Poly.4::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 14 OF 350  ELAPSED TIME = 12
+
+Layer Poly.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.3 COMPLETED. Number of Results = 0 (0)
+
+Layer Poly.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.4 COMPLETED. Number of Results = 0 (0)
+
+Layer Poly.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.5 COMPLETED. Number of Results = 0 (0)
+
+fieldpoly = poly NOT active
+---------------------------
+fieldpoly (HIER TYP=1 CFG=1 HGC=6 FGC=6 HEC=32 FEC=32 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 15 OF 350  ELAPSED TIME = 12
+
+Poly.6::<1> = EXT fieldpoly < 0.075
+-----------------------------------
+Poly.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 16 OF 350  ELAPSED TIME = 12
+
+Layer fieldpoly DELETED -- LVHEAP = 1/5/5
+
+Layer Poly.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Poly.6 COMPLETED. Number of Results = 0 (0)
+
+Active.2::<1> = EXT active < 0.08
+Active.1::<1> = INT active < 0.09
+---------------------------------
+Active.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Active.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 18 OF 350  ELAPSED TIME = 12
+
+Layer Active.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Active.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Active.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Active.2 COMPLETED. Number of Results = 0 (0)
+
+Active.3::<1> = ENC active well < 0.055
+---------------------------------------
+Active.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 19 OF 350  ELAPSED TIME = 12
+
+Layer Active.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Active.3 COMPLETED. Number of Results = 0 (0)
+
+Active.4::<1> = active NOT well
+-------------------------------
+Active.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 20 OF 350  ELAPSED TIME = 12
+
+Layer Active.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Active.4 COMPLETED. Number of Results = 0 (0)
+
+nimplant = OR nimplant
+----------------------
+nimplant (HIER TYP=1 CFG=1 HGC=2 FGC=2 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 21 OF 350  ELAPSED TIME = 12
+
+Original Layer nimplant DELETED -- LVHEAP = 1/5/5
+
+pimplant = OR pimplant
+----------------------
+pimplant (HIER TYP=1 CFG=1 HGC=2 FGC=2 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 22 OF 350  ELAPSED TIME = 12
+
+Original Layer pimplant DELETED -- LVHEAP = 1/5/5
+
+implant = nimplant OR pimplant
+------------------------------
+implant (HIER TYP=1 CFG=1 HGC=4 FGC=4 HEC=16 FEC=16 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 23 OF 350  ELAPSED TIME = 12
+
+Implant.1::<1> = EXT implant gate < 0.07
+----------------------------------------
+Implant.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 24 OF 350  ELAPSED TIME = 12
+
+Layer Implant.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Implant.1 COMPLETED. Number of Results = 0 (0)
+
+contact = OR contact
+--------------------
+contact (HIER TYP=1 CFG=1 HGC=9 FGC=9 HEC=36 FEC=36 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 25 OF 350  ELAPSED TIME = 12
+
+Original Layer contact DELETED -- LVHEAP = 1/5/5
+
+Implant.2::<1> = EXT implant contact < 0.025
+--------------------------------------------
+Implant.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 26 OF 350  ELAPSED TIME = 12
+
+Layer Implant.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Implant.2 COMPLETED. Number of Results = 0 (0)
+
+Implant.3::<1> = EXT implant < 0.045
+Implant.4::<1> = INT implant < 0.045
+------------------------------------
+Implant.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Implant.4::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 28 OF 350  ELAPSED TIME = 12
+
+Layer Implant.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Implant.3 COMPLETED. Number of Results = 0 (0)
+
+Layer Implant.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Implant.4 COMPLETED. Number of Results = 0 (0)
+
+Implant.6::<1> = nimplant AND pimplant
+--------------------------------------
+Implant.6::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 29 OF 350  ELAPSED TIME = 12
+
+Layer nimplant DELETED -- LVHEAP = 1/5/5
+
+Layer pimplant DELETED -- LVHEAP = 1/5/5
+
+Layer Implant.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Implant.6 COMPLETED. Number of Results = 0 (0)
+
+Contact.2::<1> = EXT contact < 0.075
+Contact.1::<1> = INT contact < 0.065
+------------------------------------
+Contact.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Contact.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 31 OF 350  ELAPSED TIME = 12
+
+Layer Contact.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Contact.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.2 COMPLETED. Number of Results = 0 (0)
+
+contactenc1 = active OR poly
+----------------------------
+contactenc1 (HIER TYP=1 CFG=0 HGC=3 FGC=3 HEC=49 FEC=49 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 32 OF 350  ELAPSED TIME = 12
+
+metal1 = OR metal1
+------------------
+metal1 (HIER TYP=1 CFG=3 HGC=5 FGC=5 HEC=52 FEC=52 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 33 OF 350  ELAPSED TIME = 12
+
+Original Layer metal1 DELETED -- LVHEAP = 1/5/5
+
+contactenc = contactenc1 AND metal1
+-----------------------------------
+contactenc (HIER TYP=1 CFG=0 HGC=10 FGC=10 HEC=40 FEC=40 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 34 OF 350  ELAPSED TIME = 12
+
+Layer contactenc1 DELETED -- LVHEAP = 1/5/5
+
+Contact.3::<1> = contact NOT contactenc
+---------------------------------------
+Contact.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 35 OF 350  ELAPSED TIME = 12
+
+Layer contactenc DELETED -- LVHEAP = 1/5/5
+
+Layer Contact.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.3 COMPLETED. Number of Results = 0 (0)
+
+Contact.4::<1> = ENC contact active < 0.005
+-------------------------------------------
+Contact.4::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 36 OF 350  ELAPSED TIME = 12
+
+Layer Contact.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.4 COMPLETED. Number of Results = 0 (0)
+
+Contact.6::<1> = EXT contact poly < 0.035
+Contact.5::<1> = ENC contact poly < 0.005
+-----------------------------------------
+Contact.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Contact.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 38 OF 350  ELAPSED TIME = 12
+
+Layer Contact.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.5 COMPLETED. Number of Results = 0 (0)
+
+Layer Contact.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Contact.6 COMPLETED. Number of Results = 0 (0)
+
+Metal1.2::<1> = EXT metal1 < 0.065
+Metal1.1::<1> = INT metal1 < 0.065
+----------------------------------
+Metal1.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal1.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 40 OF 350  ELAPSED TIME = 12
+
+Layer Metal1.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal1.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.2 COMPLETED. Number of Results = 0 (0)
+
+Metal1.3::<1> = RECTANGLE ENCLOSURE contact metal1
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal1.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 41 OF 350  ELAPSED TIME = 12
+
+Layer Metal1.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.3 COMPLETED. Number of Results = 0 (0)
+
+via1 = OR via1
+--------------
+via1 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 42 OF 350  ELAPSED TIME = 12
+
+Original Layer via1 DELETED -- LVHEAP = 1/5/5
+
+Metal1.4::<1> = RECTANGLE ENCLOSURE via1 metal1
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal1.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 43 OF 350  ELAPSED TIME = 12
+
+Layer Metal1.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.4 COMPLETED. Number of Results = 0 (0)
+
+Via1.2::<1> = EXT via1 < 0.075
+Via1.1::<1> = INT via1 < 0.065
+------------------------------
+Via1.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via1.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 45 OF 350  ELAPSED TIME = 12
+
+Layer Via1.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via1.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via1.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via1.2 COMPLETED. Number of Results = 0 (0)
+
+Via1.3::<1> = via1 NOT metal1
+-----------------------------
+Via1.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 46 OF 350  ELAPSED TIME = 12
+
+Layer Via1.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via1.3 COMPLETED. Number of Results = 0 (0)
+
+metal2 = OR metal2
+------------------
+metal2 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 47 OF 350  ELAPSED TIME = 12
+
+Original Layer metal2 DELETED -- LVHEAP = 1/5/5
+
+Via1.4::<1> = via1 NOT metal2
+-----------------------------
+Via1.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 48 OF 350  ELAPSED TIME = 12
+
+Layer Via1.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via1.4 COMPLETED. Number of Results = 0 (0)
+
+Metal2.2::<1> = EXT metal2 < 0.07
+Metal2.1::<1> = INT metal2 < 0.07
+---------------------------------
+Metal2.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal2.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 50 OF 350  ELAPSED TIME = 12
+
+Layer Metal2.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal2.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.2 COMPLETED. Number of Results = 0 (0)
+
+Metal2.3::<1> = RECTANGLE ENCLOSURE via1 metal2
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal2.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 51 OF 350  ELAPSED TIME = 12
+
+Layer Metal2.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.3 COMPLETED. Number of Results = 0 (0)
+
+via2 = OR via2
+--------------
+via2 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 52 OF 350  ELAPSED TIME = 12
+
+Original Layer via2 DELETED -- LVHEAP = 1/5/5
+
+Metal2.4::<1> = RECTANGLE ENCLOSURE via2 metal2
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal2.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 53 OF 350  ELAPSED TIME = 12
+
+Layer Metal2.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.4 COMPLETED. Number of Results = 0 (0)
+
+Via2.2::<1> = EXT via2 < 0.075
+Via2.1::<1> = INT via2 < 0.065
+------------------------------
+Via2.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via2.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 55 OF 350  ELAPSED TIME = 12
+
+Layer Via2.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via2.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via2.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via2.2 COMPLETED. Number of Results = 0 (0)
+
+Via2.3::<1> = via2 NOT metal2
+-----------------------------
+Via2.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 56 OF 350  ELAPSED TIME = 12
+
+Layer Via2.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via2.3 COMPLETED. Number of Results = 0 (0)
+
+metal3 = OR metal3
+------------------
+metal3 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 57 OF 350  ELAPSED TIME = 12
+
+Original Layer metal3 DELETED -- LVHEAP = 1/5/5
+
+Via2.4::<1> = via2 NOT metal3
+-----------------------------
+Via2.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 58 OF 350  ELAPSED TIME = 12
+
+Layer Via2.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via2.4 COMPLETED. Number of Results = 0 (0)
+
+Metal3.2::<1> = EXT metal3 < 0.07
+Metal3.1::<1> = INT metal3 < 0.07
+---------------------------------
+Metal3.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal3.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 60 OF 350  ELAPSED TIME = 12
+
+Layer Metal3.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal3.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.2 COMPLETED. Number of Results = 0 (0)
+
+Metal3.3::<1> = RECTANGLE ENCLOSURE via2 metal3
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal3.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 61 OF 350  ELAPSED TIME = 12
+
+Layer Metal3.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.3 COMPLETED. Number of Results = 0 (0)
+
+via3 = OR via3
+--------------
+via3 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 62 OF 350  ELAPSED TIME = 12
+
+Original Layer via3 DELETED -- LVHEAP = 1/5/5
+
+Metal3.4::<1> = RECTANGLE ENCLOSURE via3 metal3
+                                    GOOD 0 0.035 OPPOSITE 0 0.035 OPPOSITE
+--------------------------------------------------------------------------
+Metal3.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 63 OF 350  ELAPSED TIME = 12
+
+Layer Metal3.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.4 COMPLETED. Number of Results = 0 (0)
+
+Via3.2::<1> = EXT via3 < 0.075
+Via3.1::<1> = INT via3 < 0.065
+------------------------------
+Via3.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via3.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 65 OF 350  ELAPSED TIME = 12
+
+Layer Via3.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via3.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via3.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via3.2 COMPLETED. Number of Results = 0 (0)
+
+Via3.3::<1> = via3 NOT metal3
+-----------------------------
+Via3.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 66 OF 350  ELAPSED TIME = 12
+
+Layer Via3.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via3.3 COMPLETED. Number of Results = 0 (0)
+
+metal4 = OR metal4
+------------------
+metal4 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 67 OF 350  ELAPSED TIME = 12
+
+Original Layer metal4 DELETED -- LVHEAP = 1/5/5
+
+Via3.4::<1> = via3 NOT metal4
+-----------------------------
+Via3.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 68 OF 350  ELAPSED TIME = 12
+
+Layer Via3.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via3.4 COMPLETED. Number of Results = 0 (0)
+
+Metal4.2::<1> = EXT metal4 < 0.14
+Metal4.1::<1> = INT metal4 < 0.14
+---------------------------------
+Metal4.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal4.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 70 OF 350  ELAPSED TIME = 12
+
+Layer Metal4.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal4.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.2 COMPLETED. Number of Results = 0 (0)
+
+Metal4.3::<1> = ENC metal4 via3 < 0.0025
+----------------------------------------
+Metal4.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 71 OF 350  ELAPSED TIME = 12
+
+Layer Metal4.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.3 COMPLETED. Number of Results = 0 (0)
+
+via4 = OR via4
+--------------
+via4 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 72 OF 350  ELAPSED TIME = 12
+
+Original Layer via4 DELETED -- LVHEAP = 1/5/5
+
+Via4.2::<1> = EXT via4 < 0.14
+Via4.1::<1> = INT via4 < 0.14
+-----------------------------
+Via4.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via4.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 74 OF 350  ELAPSED TIME = 12
+
+Layer Via4.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via4.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via4.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via4.2 COMPLETED. Number of Results = 0 (0)
+
+Via4.3::<1> = via4 NOT metal4
+-----------------------------
+Via4.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 75 OF 350  ELAPSED TIME = 12
+
+Layer Via4.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via4.3 COMPLETED. Number of Results = 0 (0)
+
+metal5 = OR metal5
+------------------
+metal5 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 76 OF 350  ELAPSED TIME = 12
+
+Original Layer metal5 DELETED -- LVHEAP = 1/5/5
+
+Via4.4::<1> = via4 NOT metal5
+-----------------------------
+Via4.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 77 OF 350  ELAPSED TIME = 12
+
+Layer Via4.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via4.4 COMPLETED. Number of Results = 0 (0)
+
+Metal5.2::<1> = EXT metal5 < 0.14
+Metal5.1::<1> = INT metal5 < 0.14
+---------------------------------
+Metal5.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal5.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 79 OF 350  ELAPSED TIME = 12
+
+Layer Metal5.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal5.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.2 COMPLETED. Number of Results = 0 (0)
+
+Metal5.3::<1> = ENC metal5 via4 < 0.0025
+----------------------------------------
+Metal5.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 80 OF 350  ELAPSED TIME = 12
+
+Layer Metal5.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.3 COMPLETED. Number of Results = 0 (0)
+
+via5 = OR via5
+--------------
+via5 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 81 OF 350  ELAPSED TIME = 12
+
+Original Layer via5 DELETED -- LVHEAP = 1/5/5
+
+Via5.2::<1> = EXT via5 < 0.14
+Via5.1::<1> = INT via5 < 0.14
+-----------------------------
+Via5.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via5.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 83 OF 350  ELAPSED TIME = 12
+
+Layer Via5.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via5.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via5.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via5.2 COMPLETED. Number of Results = 0 (0)
+
+Via5.3::<1> = via5 NOT metal5
+-----------------------------
+Via5.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 84 OF 350  ELAPSED TIME = 12
+
+Layer Via5.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via5.3 COMPLETED. Number of Results = 0 (0)
+
+metal6 = OR metal6
+------------------
+metal6 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 85 OF 350  ELAPSED TIME = 12
+
+Original Layer metal6 DELETED -- LVHEAP = 1/5/5
+
+Via5.4::<1> = via5 NOT metal6
+-----------------------------
+Via5.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 86 OF 350  ELAPSED TIME = 12
+
+Layer Via5.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via5.4 COMPLETED. Number of Results = 0 (0)
+
+Metal6.2::<1> = EXT metal6 < 0.14
+Metal6.1::<1> = INT metal6 < 0.14
+---------------------------------
+Metal6.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal6.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 88 OF 350  ELAPSED TIME = 12
+
+Layer Metal6.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal6.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.2 COMPLETED. Number of Results = 0 (0)
+
+Metal6.3::<1> = ENC metal6 via5 < 0.0025
+----------------------------------------
+Metal6.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 89 OF 350  ELAPSED TIME = 12
+
+Layer Metal6.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.3 COMPLETED. Number of Results = 0 (0)
+
+via6 = OR via6
+--------------
+via6 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 90 OF 350  ELAPSED TIME = 12
+
+Original Layer via6 DELETED -- LVHEAP = 1/5/5
+
+Via6.2::<1> = EXT via6 < 0.14
+Via6.1::<1> = INT via6 < 0.14
+-----------------------------
+Via6.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via6.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 92 OF 350  ELAPSED TIME = 12
+
+Layer Via6.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via6.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via6.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via6.2 COMPLETED. Number of Results = 0 (0)
+
+Via6.3::<1> = via6 NOT metal6
+-----------------------------
+Via6.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 93 OF 350  ELAPSED TIME = 12
+
+Layer Via6.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via6.3 COMPLETED. Number of Results = 0 (0)
+
+metal7 = OR metal7
+------------------
+metal7 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 94 OF 350  ELAPSED TIME = 12
+
+Original Layer metal7 DELETED -- LVHEAP = 1/5/5
+
+Via6.4::<1> = via6 NOT metal7
+-----------------------------
+Via6.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 95 OF 350  ELAPSED TIME = 12
+
+Layer Via6.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via6.4 COMPLETED. Number of Results = 0 (0)
+
+Metal7.2::<1> = EXT metal7 < 0.4
+Metal7.1::<1> = INT metal7 < 0.4
+--------------------------------
+Metal7.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal7.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 97 OF 350  ELAPSED TIME = 12
+
+Layer Metal7.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal7.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.2 COMPLETED. Number of Results = 0 (0)
+
+Metal7.3::<1> = ENC metal7 via6 < 0.0025
+----------------------------------------
+Metal7.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 98 OF 350  ELAPSED TIME = 12
+
+Layer Metal7.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.3 COMPLETED. Number of Results = 0 (0)
+
+via7 = OR via7
+--------------
+via7 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 99 OF 350  ELAPSED TIME = 12
+
+Original Layer via7 DELETED -- LVHEAP = 1/5/5
+
+Via7.2::<1> = EXT via7 < 0.44
+Via7.1::<1> = INT via7 < 0.4
+-----------------------------
+Via7.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via7.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 101 OF 350  ELAPSED TIME = 12
+
+Layer Via7.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via7.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via7.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via7.2 COMPLETED. Number of Results = 0 (0)
+
+Via7.3::<1> = via7 NOT metal7
+-----------------------------
+Via7.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 102 OF 350  ELAPSED TIME = 12
+
+Layer Via7.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via7.3 COMPLETED. Number of Results = 0 (0)
+
+metal8 = OR metal8
+------------------
+metal8 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 103 OF 350  ELAPSED TIME = 12
+
+Original Layer metal8 DELETED -- LVHEAP = 1/5/5
+
+Via7.4::<1> = via7 NOT metal8
+-----------------------------
+Via7.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 104 OF 350  ELAPSED TIME = 12
+
+Layer Via7.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via7.4 COMPLETED. Number of Results = 0 (0)
+
+Metal8.2::<1> = EXT metal8 < 0.4
+Metal8.1::<1> = INT metal8 < 0.4
+--------------------------------
+Metal8.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal8.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 106 OF 350  ELAPSED TIME = 12
+
+Layer Metal8.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal8.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.2 COMPLETED. Number of Results = 0 (0)
+
+Metal8.3::<1> = ENC metal8 via7 < 0.0025
+----------------------------------------
+Metal8.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 107 OF 350  ELAPSED TIME = 12
+
+Layer Metal8.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.3 COMPLETED. Number of Results = 0 (0)
+
+via8 = OR via8
+--------------
+via8 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 108 OF 350  ELAPSED TIME = 12
+
+Original Layer via8 DELETED -- LVHEAP = 1/5/5
+
+Via8.2::<1> = EXT via8 < 0.44
+Via8.1::<1> = INT via8 < 0.4
+-----------------------------
+Via8.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via8.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 110 OF 350  ELAPSED TIME = 12
+
+Layer Via8.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via8.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via8.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via8.2 COMPLETED. Number of Results = 0 (0)
+
+Via8.3::<1> = via8 NOT metal8
+-----------------------------
+Via8.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 111 OF 350  ELAPSED TIME = 12
+
+Layer Via8.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via8.3 COMPLETED. Number of Results = 0 (0)
+
+metal9 = OR metal9
+------------------
+metal9 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 112 OF 350  ELAPSED TIME = 12
+
+Original Layer metal9 DELETED -- LVHEAP = 1/5/5
+
+Via8.4::<1> = via8 NOT metal9
+-----------------------------
+Via8.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 113 OF 350  ELAPSED TIME = 12
+
+Layer Via8.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via8.4 COMPLETED. Number of Results = 0 (0)
+
+Metal9.2::<1> = EXT metal9 < 0.8
+Metal9.1::<1> = INT metal9 < 0.8
+--------------------------------
+Metal9.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal9.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 115 OF 350  ELAPSED TIME = 12
+
+Layer Metal9.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal9.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal9.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal9.2 COMPLETED. Number of Results = 0 (0)
+
+Metal9.3::<1> = ENC metal9 via8 < 0.0025
+----------------------------------------
+Metal9.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 116 OF 350  ELAPSED TIME = 12
+
+Layer Metal9.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal9.3 COMPLETED. Number of Results = 0 (0)
+
+via9 = OR via9
+--------------
+via9 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 117 OF 350  ELAPSED TIME = 12
+
+Original Layer via9 DELETED -- LVHEAP = 1/5/5
+
+Via9.2::<1> = EXT via9 < 0.88
+Via9.1::<1> = INT via9 < 0.8
+-----------------------------
+Via9.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Via9.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 119 OF 350  ELAPSED TIME = 12
+
+Layer Via9.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via9.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Via9.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via9.2 COMPLETED. Number of Results = 0 (0)
+
+Via9.3::<1> = via9 NOT metal9
+-----------------------------
+Via9.3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 120 OF 350  ELAPSED TIME = 12
+
+Layer Via9.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via9.3 COMPLETED. Number of Results = 0 (0)
+
+metal10 = OR metal10
+--------------------
+metal10 (HIER TYP=1 CFG=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 121 OF 350  ELAPSED TIME = 12
+
+Original Layer metal10 DELETED -- LVHEAP = 1/5/5
+
+Via9.4::<1> = via9 NOT metal10
+------------------------------
+Via9.4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 122 OF 350  ELAPSED TIME = 12
+
+Layer Via9.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Via9.4 COMPLETED. Number of Results = 0 (0)
+
+Metal10.2::<1> = EXT metal10 < 0.8
+Metal10.1::<1> = INT metal10 < 0.8
+----------------------------------
+Metal10.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+Metal10.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 124 OF 350  ELAPSED TIME = 12
+
+Layer Metal10.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal10.1 COMPLETED. Number of Results = 0 (0)
+
+Layer Metal10.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal10.2 COMPLETED. Number of Results = 0 (0)
+
+Metal10.3::<1> = ENC metal10 via9 < 0.0025
+------------------------------------------
+Metal10.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 125 OF 350  ELAPSED TIME = 12
+
+Layer Metal10.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal10.3 COMPLETED. Number of Results = 0 (0)
+
+L111 = SIZE metal1 BY 0.045 UNDEROVER
+-------------------------------------
+L111 (HIER TYP=1 CFG=0 HGC=2 FGC=2 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 126 OF 350  ELAPSED TIME = 12
+
+L112 = L111 AND metal1
+----------------------
+L112 (HIER TYP=1 CFG=1 HGC=2 FGC=2 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 127 OF 350  ELAPSED TIME = 12
+
+Layer L111 DELETED -- LVHEAP = 1/5/5
+
+L113 = metal1 COINCIDENT EDGE L112
+----------------------------------
+L113 (HIER-PMF TYP=2 CFG=1 HGC=13 FGC=13 HEC=13 FEC=13 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 128 OF 350  ELAPSED TIME = 12
+
+Layer L112 DELETED -- LVHEAP = 1/5/5
+
+L114 = LENGTH L113 >= 0.3
+-------------------------
+L114 (HIER-PMF TYP=2 CFG=1 HGC=4 FGC=4 HEC=4 FEC=4 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 129 OF 350  ELAPSED TIME = 12
+
+Layer L113 DELETED -- LVHEAP = 1/5/5
+
+Metal1.5::<1> = EXT L114 < 0.09
+-------------------------------
+Metal1.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 130 OF 350  ELAPSED TIME = 12
+
+Layer L114 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal1.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.5 COMPLETED. Number of Results = 0 (0)
+
+L115 = SIZE metal1 BY 0.135 UNDEROVER
+-------------------------------------
+L115 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 131 OF 350  ELAPSED TIME = 12
+
+L116 = L115 AND metal1
+----------------------
+L116 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 132 OF 350  ELAPSED TIME = 12
+
+Layer L115 DELETED -- LVHEAP = 1/5/5
+
+L117 = metal1 COINCIDENT EDGE L116
+----------------------------------
+L117 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 133 OF 350  ELAPSED TIME = 12
+
+Layer L116 DELETED -- LVHEAP = 1/5/5
+
+L118 = LENGTH L117 >= 0.9
+-------------------------
+L118 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 134 OF 350  ELAPSED TIME = 12
+
+Layer L117 DELETED -- LVHEAP = 1/5/5
+
+Metal1.6::<1> = EXT L118 < 0.27
+-------------------------------
+Metal1.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 135 OF 350  ELAPSED TIME = 12
+
+Layer L118 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal1.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.6 COMPLETED. Number of Results = 0 (0)
+
+L119 = SIZE metal1 BY 0.25 UNDEROVER
+------------------------------------
+L119 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 136 OF 350  ELAPSED TIME = 12
+
+L120 = L119 AND metal1
+----------------------
+L120 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 137 OF 350  ELAPSED TIME = 12
+
+Layer L119 DELETED -- LVHEAP = 1/5/5
+
+L121 = metal1 COINCIDENT EDGE L120
+----------------------------------
+L121 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 138 OF 350  ELAPSED TIME = 12
+
+Layer L120 DELETED -- LVHEAP = 1/5/5
+
+L122 = LENGTH L121 >= 1.8
+-------------------------
+L122 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 139 OF 350  ELAPSED TIME = 12
+
+Layer L121 DELETED -- LVHEAP = 1/5/5
+
+Metal1.7::<1> = EXT L122 < 0.5
+------------------------------
+Metal1.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 140 OF 350  ELAPSED TIME = 12
+
+Layer L122 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal1.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.7 COMPLETED. Number of Results = 0 (0)
+
+L123 = SIZE metal1 BY 0.45 UNDEROVER
+------------------------------------
+L123 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 141 OF 350  ELAPSED TIME = 12
+
+L124 = L123 AND metal1
+----------------------
+L124 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 142 OF 350  ELAPSED TIME = 12
+
+Layer L123 DELETED -- LVHEAP = 1/5/5
+
+L125 = metal1 COINCIDENT EDGE L124
+----------------------------------
+L125 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 143 OF 350  ELAPSED TIME = 12
+
+Layer L124 DELETED -- LVHEAP = 1/5/5
+
+L126 = LENGTH L125 >= 2.7
+-------------------------
+L126 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 144 OF 350  ELAPSED TIME = 12
+
+Layer L125 DELETED -- LVHEAP = 1/5/5
+
+Metal1.8::<1> = EXT L126 < 0.9
+------------------------------
+Metal1.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 145 OF 350  ELAPSED TIME = 12
+
+Layer L126 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal1.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.8 COMPLETED. Number of Results = 0 (0)
+
+L127 = SIZE metal1 BY 0.75 UNDEROVER
+------------------------------------
+L127 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 146 OF 350  ELAPSED TIME = 12
+
+L128 = L127 AND metal1
+----------------------
+L128 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 147 OF 350  ELAPSED TIME = 12
+
+Layer L127 DELETED -- LVHEAP = 1/5/5
+
+L129 = metal1 COINCIDENT EDGE L128
+----------------------------------
+L129 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 148 OF 350  ELAPSED TIME = 12
+
+Layer L128 DELETED -- LVHEAP = 1/5/5
+
+L130 = LENGTH L129 >= 4
+-----------------------
+L130 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 149 OF 350  ELAPSED TIME = 12
+
+Layer L129 DELETED -- LVHEAP = 1/5/5
+
+Metal1.9::<1> = EXT L130 < 1.5
+------------------------------
+Metal1.9::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 150 OF 350  ELAPSED TIME = 12
+
+Layer L130 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal1.9::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal1.9 COMPLETED. Number of Results = 0 (0)
+
+L211 = SIZE metal2 BY 0.045 UNDEROVER
+-------------------------------------
+L211 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 151 OF 350  ELAPSED TIME = 12
+
+L212 = L211 AND metal2
+----------------------
+L212 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 152 OF 350  ELAPSED TIME = 12
+
+Layer L211 DELETED -- LVHEAP = 1/5/5
+
+L213 = metal2 COINCIDENT EDGE L212
+----------------------------------
+L213 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 153 OF 350  ELAPSED TIME = 12
+
+Layer L212 DELETED -- LVHEAP = 1/5/5
+
+L214 = LENGTH L213 >= 0.3
+-------------------------
+L214 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 154 OF 350  ELAPSED TIME = 12
+
+Layer L213 DELETED -- LVHEAP = 1/5/5
+
+Metal2.5::<1> = EXT L214 < 0.09
+-------------------------------
+Metal2.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 155 OF 350  ELAPSED TIME = 12
+
+Layer L214 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal2.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.5 COMPLETED. Number of Results = 0 (0)
+
+L215 = SIZE metal2 BY 0.135 UNDEROVER
+-------------------------------------
+L215 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 156 OF 350  ELAPSED TIME = 12
+
+L216 = L215 AND metal2
+----------------------
+L216 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 157 OF 350  ELAPSED TIME = 12
+
+Layer L215 DELETED -- LVHEAP = 1/5/5
+
+L217 = metal2 COINCIDENT EDGE L216
+----------------------------------
+L217 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 158 OF 350  ELAPSED TIME = 12
+
+Layer L216 DELETED -- LVHEAP = 1/5/5
+
+L218 = LENGTH L217 >= 0.9
+-------------------------
+L218 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 159 OF 350  ELAPSED TIME = 12
+
+Layer L217 DELETED -- LVHEAP = 1/5/5
+
+Metal2.6::<1> = EXT L218 < 0.27
+-------------------------------
+Metal2.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 160 OF 350  ELAPSED TIME = 12
+
+Layer L218 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal2.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.6 COMPLETED. Number of Results = 0 (0)
+
+L219 = SIZE metal2 BY 0.25 UNDEROVER
+------------------------------------
+L219 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 161 OF 350  ELAPSED TIME = 12
+
+L220 = L219 AND metal2
+----------------------
+L220 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 162 OF 350  ELAPSED TIME = 12
+
+Layer L219 DELETED -- LVHEAP = 1/5/5
+
+L221 = metal2 COINCIDENT EDGE L220
+----------------------------------
+L221 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 163 OF 350  ELAPSED TIME = 12
+
+Layer L220 DELETED -- LVHEAP = 1/5/5
+
+L222 = LENGTH L221 >= 1.8
+-------------------------
+L222 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 164 OF 350  ELAPSED TIME = 12
+
+Layer L221 DELETED -- LVHEAP = 1/5/5
+
+Metal2.7::<1> = EXT L222 < 0.5
+------------------------------
+Metal2.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 165 OF 350  ELAPSED TIME = 12
+
+Layer L222 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal2.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.7 COMPLETED. Number of Results = 0 (0)
+
+L223 = SIZE metal2 BY 0.45 UNDEROVER
+------------------------------------
+L223 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 166 OF 350  ELAPSED TIME = 12
+
+L224 = L223 AND metal2
+----------------------
+L224 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 167 OF 350  ELAPSED TIME = 12
+
+Layer L223 DELETED -- LVHEAP = 1/5/5
+
+L225 = metal2 COINCIDENT EDGE L224
+----------------------------------
+L225 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 168 OF 350  ELAPSED TIME = 12
+
+Layer L224 DELETED -- LVHEAP = 1/5/5
+
+L226 = LENGTH L225 >= 2.7
+-------------------------
+L226 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 169 OF 350  ELAPSED TIME = 12
+
+Layer L225 DELETED -- LVHEAP = 1/5/5
+
+Metal2.8::<1> = EXT L226 < 0.9
+------------------------------
+Metal2.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 170 OF 350  ELAPSED TIME = 12
+
+Layer L226 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal2.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.8 COMPLETED. Number of Results = 0 (0)
+
+L227 = SIZE metal2 BY 0.75 UNDEROVER
+------------------------------------
+L227 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 171 OF 350  ELAPSED TIME = 12
+
+L228 = L227 AND metal2
+----------------------
+L228 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 172 OF 350  ELAPSED TIME = 12
+
+Layer L227 DELETED -- LVHEAP = 1/5/5
+
+L229 = metal2 COINCIDENT EDGE L228
+----------------------------------
+L229 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 173 OF 350  ELAPSED TIME = 12
+
+Layer L228 DELETED -- LVHEAP = 1/5/5
+
+L230 = LENGTH L229 >= 4
+-----------------------
+L230 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 174 OF 350  ELAPSED TIME = 12
+
+Layer L229 DELETED -- LVHEAP = 1/5/5
+
+Metal2.9::<1> = EXT L230 < 1.5
+------------------------------
+Metal2.9::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 175 OF 350  ELAPSED TIME = 12
+
+Layer L230 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal2.9::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal2.9 COMPLETED. Number of Results = 0 (0)
+
+L311 = SIZE metal3 BY 0.045 UNDEROVER
+-------------------------------------
+L311 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 176 OF 350  ELAPSED TIME = 12
+
+L312 = L311 AND metal3
+----------------------
+L312 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 177 OF 350  ELAPSED TIME = 12
+
+Layer L311 DELETED -- LVHEAP = 1/5/5
+
+L313 = metal3 COINCIDENT EDGE L312
+----------------------------------
+L313 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 178 OF 350  ELAPSED TIME = 12
+
+Layer L312 DELETED -- LVHEAP = 1/5/5
+
+L314 = LENGTH L313 >= 0.3
+-------------------------
+L314 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 179 OF 350  ELAPSED TIME = 12
+
+Layer L313 DELETED -- LVHEAP = 1/5/5
+
+Metal3.5::<1> = EXT L314 < 0.09
+-------------------------------
+Metal3.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 180 OF 350  ELAPSED TIME = 12
+
+Layer L314 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal3.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.5 COMPLETED. Number of Results = 0 (0)
+
+L315 = SIZE metal3 BY 0.135 UNDEROVER
+-------------------------------------
+L315 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 181 OF 350  ELAPSED TIME = 12
+
+L316 = L315 AND metal3
+----------------------
+L316 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 182 OF 350  ELAPSED TIME = 12
+
+Layer L315 DELETED -- LVHEAP = 1/5/5
+
+L317 = metal3 COINCIDENT EDGE L316
+----------------------------------
+L317 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 183 OF 350  ELAPSED TIME = 12
+
+Layer L316 DELETED -- LVHEAP = 1/5/5
+
+L318 = LENGTH L317 >= 0.9
+-------------------------
+L318 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 184 OF 350  ELAPSED TIME = 12
+
+Layer L317 DELETED -- LVHEAP = 1/5/5
+
+Metal3.6::<1> = EXT L318 < 0.27
+-------------------------------
+Metal3.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 185 OF 350  ELAPSED TIME = 12
+
+Layer L318 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal3.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.6 COMPLETED. Number of Results = 0 (0)
+
+L319 = SIZE metal3 BY 0.25 UNDEROVER
+------------------------------------
+L319 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 186 OF 350  ELAPSED TIME = 12
+
+L320 = L319 AND metal3
+----------------------
+L320 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 187 OF 350  ELAPSED TIME = 12
+
+Layer L319 DELETED -- LVHEAP = 1/5/5
+
+L321 = metal3 COINCIDENT EDGE L320
+----------------------------------
+L321 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 188 OF 350  ELAPSED TIME = 12
+
+Layer L320 DELETED -- LVHEAP = 1/5/5
+
+L322 = LENGTH L321 >= 1.8
+-------------------------
+L322 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 189 OF 350  ELAPSED TIME = 12
+
+Layer L321 DELETED -- LVHEAP = 1/5/5
+
+Metal3.7::<1> = EXT L322 < 0.5
+------------------------------
+Metal3.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 190 OF 350  ELAPSED TIME = 12
+
+Layer L322 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal3.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.7 COMPLETED. Number of Results = 0 (0)
+
+L323 = SIZE metal3 BY 0.45 UNDEROVER
+------------------------------------
+L323 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 191 OF 350  ELAPSED TIME = 12
+
+L324 = L323 AND metal3
+----------------------
+L324 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 192 OF 350  ELAPSED TIME = 12
+
+Layer L323 DELETED -- LVHEAP = 1/5/5
+
+L325 = metal3 COINCIDENT EDGE L324
+----------------------------------
+L325 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 193 OF 350  ELAPSED TIME = 12
+
+Layer L324 DELETED -- LVHEAP = 1/5/5
+
+L326 = LENGTH L325 >= 2.7
+-------------------------
+L326 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 194 OF 350  ELAPSED TIME = 12
+
+Layer L325 DELETED -- LVHEAP = 1/5/5
+
+Metal3.8::<1> = EXT L326 < 0.9
+------------------------------
+Metal3.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 195 OF 350  ELAPSED TIME = 12
+
+Layer L326 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal3.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.8 COMPLETED. Number of Results = 0 (0)
+
+L327 = SIZE metal3 BY 0.75 UNDEROVER
+------------------------------------
+L327 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 196 OF 350  ELAPSED TIME = 12
+
+L328 = L327 AND metal3
+----------------------
+L328 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 197 OF 350  ELAPSED TIME = 12
+
+Layer L327 DELETED -- LVHEAP = 1/5/5
+
+L329 = metal3 COINCIDENT EDGE L328
+----------------------------------
+L329 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 198 OF 350  ELAPSED TIME = 12
+
+Layer L328 DELETED -- LVHEAP = 1/5/5
+
+L330 = LENGTH L329 >= 4
+-----------------------
+L330 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 199 OF 350  ELAPSED TIME = 12
+
+Layer L329 DELETED -- LVHEAP = 1/5/5
+
+Metal3.9::<1> = EXT L330 < 1.5
+------------------------------
+Metal3.9::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 200 OF 350  ELAPSED TIME = 12
+
+Layer L330 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal3.9::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal3.9 COMPLETED. Number of Results = 0 (0)
+
+L415 = SIZE metal4 BY 0.135 UNDEROVER
+-------------------------------------
+L415 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 201 OF 350  ELAPSED TIME = 12
+
+L416 = L415 AND metal4
+----------------------
+L416 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 202 OF 350  ELAPSED TIME = 12
+
+Layer L415 DELETED -- LVHEAP = 1/5/5
+
+L417 = metal4 COINCIDENT EDGE L416
+----------------------------------
+L417 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 203 OF 350  ELAPSED TIME = 12
+
+Layer L416 DELETED -- LVHEAP = 1/5/5
+
+L418 = LENGTH L417 >= 0.9
+-------------------------
+L418 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 204 OF 350  ELAPSED TIME = 12
+
+Layer L417 DELETED -- LVHEAP = 1/5/5
+
+Metal4.5::<1> = EXT L418 < 0.27
+-------------------------------
+Metal4.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 205 OF 350  ELAPSED TIME = 12
+
+Layer L418 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal4.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.5 COMPLETED. Number of Results = 0 (0)
+
+L419 = SIZE metal4 BY 0.25 UNDEROVER
+------------------------------------
+L419 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 206 OF 350  ELAPSED TIME = 12
+
+L420 = L419 AND metal4
+----------------------
+L420 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 207 OF 350  ELAPSED TIME = 12
+
+Layer L419 DELETED -- LVHEAP = 1/5/5
+
+L421 = metal4 COINCIDENT EDGE L420
+----------------------------------
+L421 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 208 OF 350  ELAPSED TIME = 12
+
+Layer L420 DELETED -- LVHEAP = 1/5/5
+
+L422 = LENGTH L421 >= 1.8
+-------------------------
+L422 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 209 OF 350  ELAPSED TIME = 12
+
+Layer L421 DELETED -- LVHEAP = 1/5/5
+
+Metal4.6::<1> = EXT L422 < 0.5
+------------------------------
+Metal4.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 210 OF 350  ELAPSED TIME = 12
+
+Layer L422 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal4.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.6 COMPLETED. Number of Results = 0 (0)
+
+L423 = SIZE metal4 BY 0.45 UNDEROVER
+------------------------------------
+L423 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 211 OF 350  ELAPSED TIME = 12
+
+L424 = L423 AND metal4
+----------------------
+L424 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 212 OF 350  ELAPSED TIME = 12
+
+Layer L423 DELETED -- LVHEAP = 1/5/5
+
+L425 = metal4 COINCIDENT EDGE L424
+----------------------------------
+L425 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 213 OF 350  ELAPSED TIME = 12
+
+Layer L424 DELETED -- LVHEAP = 1/5/5
+
+L426 = LENGTH L425 >= 2.7
+-------------------------
+L426 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 214 OF 350  ELAPSED TIME = 12
+
+Layer L425 DELETED -- LVHEAP = 1/5/5
+
+Metal4.7::<1> = EXT L426 < 0.9
+------------------------------
+Metal4.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 215 OF 350  ELAPSED TIME = 12
+
+Layer L426 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal4.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.7 COMPLETED. Number of Results = 0 (0)
+
+L427 = SIZE metal4 BY 0.75 UNDEROVER
+------------------------------------
+L427 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 216 OF 350  ELAPSED TIME = 12
+
+L428 = L427 AND metal4
+----------------------
+L428 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 217 OF 350  ELAPSED TIME = 12
+
+Layer L427 DELETED -- LVHEAP = 1/5/5
+
+L429 = metal4 COINCIDENT EDGE L428
+----------------------------------
+L429 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 218 OF 350  ELAPSED TIME = 12
+
+Layer L428 DELETED -- LVHEAP = 1/5/5
+
+L430 = LENGTH L429 >= 4
+-----------------------
+L430 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 219 OF 350  ELAPSED TIME = 12
+
+Layer L429 DELETED -- LVHEAP = 1/5/5
+
+Metal4.8::<1> = EXT L430 < 1.5
+------------------------------
+Metal4.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 220 OF 350  ELAPSED TIME = 12
+
+Layer L430 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal4.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal4.8 COMPLETED. Number of Results = 0 (0)
+
+L515 = SIZE metal5 BY 0.135 UNDEROVER
+-------------------------------------
+L515 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 221 OF 350  ELAPSED TIME = 12
+
+L516 = L515 AND metal5
+----------------------
+L516 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 222 OF 350  ELAPSED TIME = 12
+
+Layer L515 DELETED -- LVHEAP = 1/5/5
+
+L517 = metal5 COINCIDENT EDGE L516
+----------------------------------
+L517 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 223 OF 350  ELAPSED TIME = 12
+
+Layer L516 DELETED -- LVHEAP = 1/5/5
+
+L518 = LENGTH L517 >= 0.9
+-------------------------
+L518 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 224 OF 350  ELAPSED TIME = 12
+
+Layer L517 DELETED -- LVHEAP = 1/5/5
+
+Metal5.5::<1> = EXT L518 < 0.27
+-------------------------------
+Metal5.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 225 OF 350  ELAPSED TIME = 12
+
+Layer L518 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal5.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.5 COMPLETED. Number of Results = 0 (0)
+
+L519 = SIZE metal5 BY 0.25 UNDEROVER
+------------------------------------
+L519 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 226 OF 350  ELAPSED TIME = 12
+
+L520 = L519 AND metal5
+----------------------
+L520 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 227 OF 350  ELAPSED TIME = 12
+
+Layer L519 DELETED -- LVHEAP = 1/5/5
+
+L521 = metal5 COINCIDENT EDGE L520
+----------------------------------
+L521 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 228 OF 350  ELAPSED TIME = 12
+
+Layer L520 DELETED -- LVHEAP = 1/5/5
+
+L522 = LENGTH L521 >= 1.8
+-------------------------
+L522 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 229 OF 350  ELAPSED TIME = 12
+
+Layer L521 DELETED -- LVHEAP = 1/5/5
+
+Metal5.6::<1> = EXT L522 < 0.5
+------------------------------
+Metal5.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 230 OF 350  ELAPSED TIME = 12
+
+Layer L522 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal5.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.6 COMPLETED. Number of Results = 0 (0)
+
+L523 = SIZE metal5 BY 0.45 UNDEROVER
+------------------------------------
+L523 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 231 OF 350  ELAPSED TIME = 12
+
+L524 = L523 AND metal5
+----------------------
+L524 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 232 OF 350  ELAPSED TIME = 12
+
+Layer L523 DELETED -- LVHEAP = 1/5/5
+
+L525 = metal5 COINCIDENT EDGE L524
+----------------------------------
+L525 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 233 OF 350  ELAPSED TIME = 12
+
+Layer L524 DELETED -- LVHEAP = 1/5/5
+
+L526 = LENGTH L525 >= 2.7
+-------------------------
+L526 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 234 OF 350  ELAPSED TIME = 12
+
+Layer L525 DELETED -- LVHEAP = 1/5/5
+
+Metal5.7::<1> = EXT L526 < 0.9
+------------------------------
+Metal5.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 235 OF 350  ELAPSED TIME = 12
+
+Layer L526 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal5.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.7 COMPLETED. Number of Results = 0 (0)
+
+L527 = SIZE metal5 BY 0.75 UNDEROVER
+------------------------------------
+L527 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 236 OF 350  ELAPSED TIME = 12
+
+L528 = L527 AND metal5
+----------------------
+L528 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 237 OF 350  ELAPSED TIME = 12
+
+Layer L527 DELETED -- LVHEAP = 1/5/5
+
+L529 = metal5 COINCIDENT EDGE L528
+----------------------------------
+L529 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 238 OF 350  ELAPSED TIME = 12
+
+Layer L528 DELETED -- LVHEAP = 1/5/5
+
+L530 = LENGTH L529 >= 4
+-----------------------
+L530 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 239 OF 350  ELAPSED TIME = 12
+
+Layer L529 DELETED -- LVHEAP = 1/5/5
+
+Metal5.8::<1> = EXT L530 < 1.5
+------------------------------
+Metal5.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 240 OF 350  ELAPSED TIME = 12
+
+Layer L530 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal5.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal5.8 COMPLETED. Number of Results = 0 (0)
+
+L615 = SIZE metal6 BY 0.135 UNDEROVER
+-------------------------------------
+L615 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 241 OF 350  ELAPSED TIME = 12
+
+L616 = L615 AND metal6
+----------------------
+L616 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 242 OF 350  ELAPSED TIME = 12
+
+Layer L615 DELETED -- LVHEAP = 1/5/5
+
+L617 = metal6 COINCIDENT EDGE L616
+----------------------------------
+L617 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 243 OF 350  ELAPSED TIME = 12
+
+Layer L616 DELETED -- LVHEAP = 1/5/5
+
+L618 = LENGTH L617 >= 0.9
+-------------------------
+L618 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 244 OF 350  ELAPSED TIME = 12
+
+Layer L617 DELETED -- LVHEAP = 1/5/5
+
+Metal6.5::<1> = EXT L618 < 0.27
+-------------------------------
+Metal6.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 245 OF 350  ELAPSED TIME = 12
+
+Layer L618 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal6.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.5 COMPLETED. Number of Results = 0 (0)
+
+L619 = SIZE metal6 BY 0.25 UNDEROVER
+------------------------------------
+L619 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 246 OF 350  ELAPSED TIME = 12
+
+L620 = L619 AND metal6
+----------------------
+L620 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 247 OF 350  ELAPSED TIME = 12
+
+Layer L619 DELETED -- LVHEAP = 1/5/5
+
+L621 = metal6 COINCIDENT EDGE L620
+----------------------------------
+L621 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 248 OF 350  ELAPSED TIME = 12
+
+Layer L620 DELETED -- LVHEAP = 1/5/5
+
+L622 = LENGTH L621 >= 1.8
+-------------------------
+L622 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 249 OF 350  ELAPSED TIME = 12
+
+Layer L621 DELETED -- LVHEAP = 1/5/5
+
+Metal6.6::<1> = EXT L622 < 0.5
+------------------------------
+Metal6.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 250 OF 350  ELAPSED TIME = 12
+
+Layer L622 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal6.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.6 COMPLETED. Number of Results = 0 (0)
+
+L623 = SIZE metal6 BY 0.45 UNDEROVER
+------------------------------------
+L623 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 251 OF 350  ELAPSED TIME = 12
+
+L624 = L623 AND metal6
+----------------------
+L624 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 252 OF 350  ELAPSED TIME = 12
+
+Layer L623 DELETED -- LVHEAP = 1/5/5
+
+L625 = metal6 COINCIDENT EDGE L624
+----------------------------------
+L625 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 253 OF 350  ELAPSED TIME = 12
+
+Layer L624 DELETED -- LVHEAP = 1/5/5
+
+L626 = LENGTH L625 >= 2.7
+-------------------------
+L626 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 254 OF 350  ELAPSED TIME = 12
+
+Layer L625 DELETED -- LVHEAP = 1/5/5
+
+Metal6.7::<1> = EXT L626 < 0.9
+------------------------------
+Metal6.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 255 OF 350  ELAPSED TIME = 12
+
+Layer L626 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal6.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.7 COMPLETED. Number of Results = 0 (0)
+
+L627 = SIZE metal6 BY 0.75 UNDEROVER
+------------------------------------
+L627 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 256 OF 350  ELAPSED TIME = 12
+
+L628 = L627 AND metal6
+----------------------
+L628 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 257 OF 350  ELAPSED TIME = 12
+
+Layer L627 DELETED -- LVHEAP = 1/5/5
+
+L629 = metal6 COINCIDENT EDGE L628
+----------------------------------
+L629 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 258 OF 350  ELAPSED TIME = 12
+
+Layer L628 DELETED -- LVHEAP = 1/5/5
+
+L630 = LENGTH L629 >= 4
+-----------------------
+L630 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 259 OF 350  ELAPSED TIME = 12
+
+Layer L629 DELETED -- LVHEAP = 1/5/5
+
+Metal6.8::<1> = EXT L630 < 1.5
+------------------------------
+Metal6.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 260 OF 350  ELAPSED TIME = 12
+
+Layer L630 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal6.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal6.8 COMPLETED. Number of Results = 0 (0)
+
+L719 = SIZE metal7 BY 0.25 UNDEROVER
+------------------------------------
+L719 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 261 OF 350  ELAPSED TIME = 12
+
+L720 = L719 AND metal7
+----------------------
+L720 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 262 OF 350  ELAPSED TIME = 12
+
+Layer L719 DELETED -- LVHEAP = 1/5/5
+
+L721 = metal7 COINCIDENT EDGE L720
+----------------------------------
+L721 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 263 OF 350  ELAPSED TIME = 12
+
+Layer L720 DELETED -- LVHEAP = 1/5/5
+
+L722 = LENGTH L721 >= 1.8
+-------------------------
+L722 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 264 OF 350  ELAPSED TIME = 12
+
+Layer L721 DELETED -- LVHEAP = 1/5/5
+
+Metal7.5::<1> = EXT L722 < 0.5
+------------------------------
+Metal7.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 265 OF 350  ELAPSED TIME = 12
+
+Layer L722 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal7.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.5 COMPLETED. Number of Results = 0 (0)
+
+L723 = SIZE metal7 BY 0.45 UNDEROVER
+------------------------------------
+L723 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 266 OF 350  ELAPSED TIME = 12
+
+L724 = L723 AND metal7
+----------------------
+L724 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 267 OF 350  ELAPSED TIME = 12
+
+Layer L723 DELETED -- LVHEAP = 1/5/5
+
+L725 = metal7 COINCIDENT EDGE L724
+----------------------------------
+L725 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 268 OF 350  ELAPSED TIME = 12
+
+Layer L724 DELETED -- LVHEAP = 1/5/5
+
+L726 = LENGTH L725 >= 2.7
+-------------------------
+L726 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 269 OF 350  ELAPSED TIME = 12
+
+Layer L725 DELETED -- LVHEAP = 1/5/5
+
+Metal7.6::<1> = EXT L726 < 0.9
+------------------------------
+Metal7.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 270 OF 350  ELAPSED TIME = 12
+
+Layer L726 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal7.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.6 COMPLETED. Number of Results = 0 (0)
+
+L727 = SIZE metal7 BY 0.75 UNDEROVER
+------------------------------------
+L727 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 271 OF 350  ELAPSED TIME = 12
+
+L728 = L727 AND metal7
+----------------------
+L728 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 272 OF 350  ELAPSED TIME = 12
+
+Layer L727 DELETED -- LVHEAP = 1/5/5
+
+L729 = metal7 COINCIDENT EDGE L728
+----------------------------------
+L729 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 273 OF 350  ELAPSED TIME = 12
+
+Layer L728 DELETED -- LVHEAP = 1/5/5
+
+L730 = LENGTH L729 >= 4
+-----------------------
+L730 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 274 OF 350  ELAPSED TIME = 12
+
+Layer L729 DELETED -- LVHEAP = 1/5/5
+
+Metal7.7::<1> = EXT L730 < 1.5
+------------------------------
+Metal7.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 275 OF 350  ELAPSED TIME = 12
+
+Layer L730 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal7.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal7.7 COMPLETED. Number of Results = 0 (0)
+
+L819 = SIZE metal8 BY 0.25 UNDEROVER
+------------------------------------
+L819 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 276 OF 350  ELAPSED TIME = 12
+
+L820 = L819 AND metal8
+----------------------
+L820 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 277 OF 350  ELAPSED TIME = 12
+
+Layer L819 DELETED -- LVHEAP = 1/5/5
+
+L821 = metal8 COINCIDENT EDGE L820
+----------------------------------
+L821 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 278 OF 350  ELAPSED TIME = 12
+
+Layer L820 DELETED -- LVHEAP = 1/5/5
+
+L822 = LENGTH L821 >= 1.8
+-------------------------
+L822 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 279 OF 350  ELAPSED TIME = 12
+
+Layer L821 DELETED -- LVHEAP = 1/5/5
+
+Metal8.5::<1> = EXT L822 < 0.5
+------------------------------
+Metal8.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 280 OF 350  ELAPSED TIME = 12
+
+Layer L822 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal8.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.5 COMPLETED. Number of Results = 0 (0)
+
+L823 = SIZE metal8 BY 0.45 UNDEROVER
+------------------------------------
+L823 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 281 OF 350  ELAPSED TIME = 12
+
+L824 = L823 AND metal8
+----------------------
+L824 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 282 OF 350  ELAPSED TIME = 12
+
+Layer L823 DELETED -- LVHEAP = 1/5/5
+
+L825 = metal8 COINCIDENT EDGE L824
+----------------------------------
+L825 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 283 OF 350  ELAPSED TIME = 12
+
+Layer L824 DELETED -- LVHEAP = 1/5/5
+
+L826 = LENGTH L825 >= 2.7
+-------------------------
+L826 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 284 OF 350  ELAPSED TIME = 12
+
+Layer L825 DELETED -- LVHEAP = 1/5/5
+
+Metal8.6::<1> = EXT L826 < 0.9
+------------------------------
+Metal8.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 285 OF 350  ELAPSED TIME = 12
+
+Layer L826 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal8.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.6 COMPLETED. Number of Results = 0 (0)
+
+L827 = SIZE metal8 BY 0.75 UNDEROVER
+------------------------------------
+L827 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 286 OF 350  ELAPSED TIME = 12
+
+L828 = L827 AND metal8
+----------------------
+L828 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 287 OF 350  ELAPSED TIME = 12
+
+Layer L827 DELETED -- LVHEAP = 1/5/5
+
+L829 = metal8 COINCIDENT EDGE L828
+----------------------------------
+L829 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 288 OF 350  ELAPSED TIME = 12
+
+Layer L828 DELETED -- LVHEAP = 1/5/5
+
+L830 = LENGTH L829 >= 4
+-----------------------
+L830 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 289 OF 350  ELAPSED TIME = 12
+
+Layer L829 DELETED -- LVHEAP = 1/5/5
+
+Metal8.7::<1> = EXT L830 < 1.5
+------------------------------
+Metal8.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 290 OF 350  ELAPSED TIME = 12
+
+Layer L830 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal8.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal8.7 COMPLETED. Number of Results = 0 (0)
+
+L923 = SIZE metal9 BY 0.45 UNDEROVER
+------------------------------------
+L923 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 291 OF 350  ELAPSED TIME = 12
+
+L924 = L923 AND metal9
+----------------------
+L924 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 292 OF 350  ELAPSED TIME = 12
+
+Layer L923 DELETED -- LVHEAP = 1/5/5
+
+L925 = metal9 COINCIDENT EDGE L924
+----------------------------------
+L925 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 293 OF 350  ELAPSED TIME = 12
+
+Layer L924 DELETED -- LVHEAP = 1/5/5
+
+L926 = LENGTH L925 >= 2.7
+-------------------------
+L926 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 294 OF 350  ELAPSED TIME = 12
+
+Layer L925 DELETED -- LVHEAP = 1/5/5
+
+Metal9.5::<1> = EXT L926 < 0.9
+------------------------------
+Metal9.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 295 OF 350  ELAPSED TIME = 12
+
+Layer L926 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal9.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal9.5 COMPLETED. Number of Results = 0 (0)
+
+L927 = SIZE metal9 BY 0.75 UNDEROVER
+------------------------------------
+L927 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 296 OF 350  ELAPSED TIME = 12
+
+L928 = L927 AND metal9
+----------------------
+L928 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 297 OF 350  ELAPSED TIME = 12
+
+Layer L927 DELETED -- LVHEAP = 1/5/5
+
+L929 = metal9 COINCIDENT EDGE L928
+----------------------------------
+L929 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 298 OF 350  ELAPSED TIME = 12
+
+Layer L928 DELETED -- LVHEAP = 1/5/5
+
+L930 = LENGTH L929 >= 4
+-----------------------
+L930 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 299 OF 350  ELAPSED TIME = 12
+
+Layer L929 DELETED -- LVHEAP = 1/5/5
+
+Metal9.6::<1> = EXT L930 < 1.5
+------------------------------
+Metal9.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 300 OF 350  ELAPSED TIME = 12
+
+Layer L930 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal9.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal9.6 COMPLETED. Number of Results = 0 (0)
+
+L1023 = SIZE metal10 BY 0.45 UNDEROVER
+--------------------------------------
+L1023 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 301 OF 350  ELAPSED TIME = 12
+
+L1024 = L1023 AND metal10
+-------------------------
+L1024 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 302 OF 350  ELAPSED TIME = 12
+
+Layer L1023 DELETED -- LVHEAP = 1/5/5
+
+L1025 = metal10 COINCIDENT EDGE L1024
+-------------------------------------
+L1025 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 303 OF 350  ELAPSED TIME = 12
+
+Layer L1024 DELETED -- LVHEAP = 1/5/5
+
+L1026 = LENGTH L1025 >= 2.7
+---------------------------
+L1026 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 304 OF 350  ELAPSED TIME = 12
+
+Layer L1025 DELETED -- LVHEAP = 1/5/5
+
+Metal10.5::<1> = EXT L1026 < 0.9
+--------------------------------
+Metal10.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 305 OF 350  ELAPSED TIME = 12
+
+Layer L1026 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal10.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal10.5 COMPLETED. Number of Results = 0 (0)
+
+L1027 = SIZE metal10 BY 0.75 UNDEROVER
+--------------------------------------
+L1027 (HIER TYP=1 CFG=0 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 306 OF 350  ELAPSED TIME = 12
+
+L1028 = L1027 AND metal10
+-------------------------
+L1028 (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 307 OF 350  ELAPSED TIME = 12
+
+Layer L1027 DELETED -- LVHEAP = 1/5/5
+
+L1029 = metal10 COINCIDENT EDGE L1028
+-------------------------------------
+L1029 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 308 OF 350  ELAPSED TIME = 12
+
+Layer L1028 DELETED -- LVHEAP = 1/5/5
+
+L1030 = LENGTH L1029 >= 4
+-------------------------
+L1030 (HIER-PMF TYP=2 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 309 OF 350  ELAPSED TIME = 12
+
+Layer L1029 DELETED -- LVHEAP = 1/5/5
+
+Metal10.6::<1> = EXT L1030 < 1.5
+--------------------------------
+Metal10.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 310 OF 350  ELAPSED TIME = 12
+
+Layer L1030 DELETED -- LVHEAP = 1/5/5
+
+Layer Metal10.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Metal10.6 COMPLETED. Number of Results = 0 (0)
+
+Grid.1::<1> = OFFGRID active 5
+------------------------------
+Grid.1::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 311 OF 350  ELAPSED TIME = 12
+
+Layer Grid.1::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.1 COMPLETED. Number of Results = 0 (0)
+
+Grid.2::<1> = OFFGRID implant 5
+-------------------------------
+Grid.2::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 312 OF 350  ELAPSED TIME = 12
+
+Layer implant DELETED -- LVHEAP = 1/5/5
+
+Layer Grid.2::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.2 COMPLETED. Number of Results = 0 (0)
+
+Grid.3::<1> = OFFGRID well 5
+----------------------------
+Grid.3::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 313 OF 350  ELAPSED TIME = 12
+
+Layer well DELETED -- LVHEAP = 1/5/5
+
+Layer Grid.3::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.3 COMPLETED. Number of Results = 0 (0)
+
+Grid.4::<1> = OFFGRID contact 5
+-------------------------------
+Grid.4::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 314 OF 350  ELAPSED TIME = 12
+
+Layer Grid.4::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.4 COMPLETED. Number of Results = 0 (0)
+
+Grid.5::<1> = OFFGRID poly 5
+----------------------------
+Grid.5::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 315 OF 350  ELAPSED TIME = 12
+
+Layer Grid.5::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.5 COMPLETED. Number of Results = 0 (0)
+
+Grid.6::<1> = OFFGRID metal1 5
+------------------------------
+Grid.6::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 316 OF 350  ELAPSED TIME = 12
+
+Layer Grid.6::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.6 COMPLETED. Number of Results = 0 (0)
+
+Grid.7::<1> = OFFGRID via1 5
+----------------------------
+Grid.7::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 317 OF 350  ELAPSED TIME = 12
+
+Layer Grid.7::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.7 COMPLETED. Number of Results = 0 (0)
+
+Grid.8::<1> = OFFGRID metal2 5
+------------------------------
+Grid.8::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 318 OF 350  ELAPSED TIME = 12
+
+Layer Grid.8::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.8 COMPLETED. Number of Results = 0 (0)
+
+Grid.9::<1> = OFFGRID via2 5
+----------------------------
+Grid.9::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 319 OF 350  ELAPSED TIME = 12
+
+Layer Grid.9::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.9 COMPLETED. Number of Results = 0 (0)
+
+Grid.10::<1> = OFFGRID metal3 5
+-------------------------------
+Grid.10::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 320 OF 350  ELAPSED TIME = 12
+
+Layer Grid.10::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.10 COMPLETED. Number of Results = 0 (0)
+
+Grid.11::<1> = OFFGRID via3 5
+-----------------------------
+Grid.11::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 321 OF 350  ELAPSED TIME = 12
+
+Layer Grid.11::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.11 COMPLETED. Number of Results = 0 (0)
+
+Grid.12::<1> = OFFGRID metal4 5
+-------------------------------
+Grid.12::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 322 OF 350  ELAPSED TIME = 12
+
+Layer Grid.12::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.12 COMPLETED. Number of Results = 0 (0)
+
+Grid.13::<1> = OFFGRID via4 5
+-----------------------------
+Grid.13::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 323 OF 350  ELAPSED TIME = 12
+
+Layer Grid.13::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.13 COMPLETED. Number of Results = 0 (0)
+
+Grid.14::<1> = OFFGRID metal5 5
+-------------------------------
+Grid.14::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 324 OF 350  ELAPSED TIME = 12
+
+Layer Grid.14::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.14 COMPLETED. Number of Results = 0 (0)
+
+Grid.15::<1> = OFFGRID via5 5
+-----------------------------
+Grid.15::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 325 OF 350  ELAPSED TIME = 12
+
+Layer Grid.15::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.15 COMPLETED. Number of Results = 0 (0)
+
+Grid.16::<1> = OFFGRID metal6 5
+-------------------------------
+Grid.16::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 326 OF 350  ELAPSED TIME = 12
+
+Layer Grid.16::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.16 COMPLETED. Number of Results = 0 (0)
+
+Grid.17::<1> = OFFGRID via6 5
+-----------------------------
+Grid.17::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 327 OF 350  ELAPSED TIME = 12
+
+Layer Grid.17::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.17 COMPLETED. Number of Results = 0 (0)
+
+Grid.18::<1> = OFFGRID metal7 5
+-------------------------------
+Grid.18::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 328 OF 350  ELAPSED TIME = 12
+
+Layer Grid.18::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.18 COMPLETED. Number of Results = 0 (0)
+
+Grid.19::<1> = OFFGRID via7 5
+-----------------------------
+Grid.19::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 329 OF 350  ELAPSED TIME = 12
+
+Layer Grid.19::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.19 COMPLETED. Number of Results = 0 (0)
+
+Grid.20::<1> = OFFGRID metal8 5
+-------------------------------
+Grid.20::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 330 OF 350  ELAPSED TIME = 12
+
+Layer Grid.20::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.20 COMPLETED. Number of Results = 0 (0)
+
+Grid.21::<1> = OFFGRID via8 5
+-----------------------------
+Grid.21::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 331 OF 350  ELAPSED TIME = 12
+
+Layer Grid.21::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.21 COMPLETED. Number of Results = 0 (0)
+
+Grid.22::<1> = OFFGRID metal9 5
+-------------------------------
+Grid.22::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 332 OF 350  ELAPSED TIME = 12
+
+Layer Grid.22::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.22 COMPLETED. Number of Results = 0 (0)
+
+Grid.23::<1> = OFFGRID via9 5
+-----------------------------
+Grid.23::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 333 OF 350  ELAPSED TIME = 12
+
+Layer Grid.23::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.23 COMPLETED. Number of Results = 0 (0)
+
+Grid.24::<1> = OFFGRID metal10 5
+--------------------------------
+Grid.24::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 334 OF 350  ELAPSED TIME = 12
+
+Layer Grid.24::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.24 COMPLETED. Number of Results = 0 (0)
+
+vtg = OR vtg
+------------
+vtg (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 335 OF 350  ELAPSED TIME = 12
+
+Original Layer vtg DELETED -- LVHEAP = 1/5/5
+
+Grid.25::<1> = OFFGRID vtg 5
+----------------------------
+Grid.25::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 336 OF 350  ELAPSED TIME = 12
+
+Layer vtg DELETED -- LVHEAP = 1/5/5
+
+Layer Grid.25::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.25 COMPLETED. Number of Results = 0 (0)
+
+vth = OR vth
+------------
+vth (HIER TYP=1 CFG=1 HGC=2 FGC=2 HEC=8 FEC=8 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 337 OF 350  ELAPSED TIME = 12
+
+Original Layer vth DELETED -- LVHEAP = 1/5/5
+
+Grid.26::<1> = OFFGRID vth 5
+----------------------------
+Grid.26::<1> (HIER TYP=3 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 338 OF 350  ELAPSED TIME = 12
+
+Layer vth DELETED -- LVHEAP = 1/5/5
+
+Layer Grid.26::<1> DELETED -- LVHEAP = 1/5/5
+
+DRC RuleCheck Grid.26 COMPLETED. Number of Results = 0 (0)
+
+diode = contact AND active
+--------------------------
+diode (HIER TYP=1 CFG=3 HGC=7 FGC=7 HEC=28 FEC=28 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 339 OF 350  ELAPSED TIME = 12
+
+Layer active DELETED -- LVHEAP = 1/5/5
+
+CONNECT started.  LVHEAP = 1/5/5  ELAPSED TIME = 12
+
+CONNECT poly gate ...
+CONNECT metal1 poly BY contact ...
+CONNECT metal1 diode ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer contact DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+Antenna.poly::<1> = NET AREA RATIO poly gate diode > 100
+                                   [(AREA(poly)*!AREA(diode))/AREA(gate)]
+-------------------------------------------------------------------------
+Antenna.poly::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 340 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.poly::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.poly COMPLETED. Number of Results = 0 (0)
+
+Antenna.metal1::<1> = NET AREA RATIO metal1 poly gate diode > 300
+                                     [((AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+------------------------------------------------------------------------------------------
+Antenna.metal1::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 341 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal1::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal1 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal2 metal1 BY via1 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via1 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+Antenna.metal2::<1> = NET AREA RATIO metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+------------------------------------------------------------------------------------------
+Antenna.metal2::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 342 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal2::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal2 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal3 metal2 BY via2 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via2 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+Antenna.metal3::<1> = NET AREA RATIO metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+-------------------------------------------------------------------------------------------------------
+Antenna.metal3::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 343 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal3::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal3 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal4 metal3 BY via3 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via3 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+Antenna.metal4::<1> = NET AREA RATIO metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+--------------------------------------------------------------------------------------------------------------------
+Antenna.metal4::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 344 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal4::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal4 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal5 metal4 BY via4 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via4 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+Antenna.metal5::<1> = NET AREA RATIO metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+---------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal5::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 345 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal5::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal5 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal6 metal5 BY via5 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via5 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+HIERARCHICAL CONNECTIVITY marked on layer metal6
+
+Antenna.metal6::<1> = NET AREA RATIO metal6 metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal5)+AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal6::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 346 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal6::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal6 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal7 metal6 BY via6 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via6 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+HIERARCHICAL CONNECTIVITY marked on layer metal6
+
+HIERARCHICAL CONNECTIVITY marked on layer metal7
+
+Antenna.metal7::<1> = NET AREA RATIO metal7 metal6 metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal6)+AREA(metal5)+AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal7::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 347 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal7::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal7 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal8 metal7 BY via7 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via7 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+HIERARCHICAL CONNECTIVITY marked on layer metal6
+
+HIERARCHICAL CONNECTIVITY marked on layer metal7
+
+HIERARCHICAL CONNECTIVITY marked on layer metal8
+
+Antenna.metal8::<1> = NET AREA RATIO metal8 metal7 metal6 metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal7)+AREA(metal6)+AREA(metal5)+AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal8::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 348 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal8::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal8 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal9 metal8 BY via8 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via8 DELETED -- LVHEAP = 2/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+HIERARCHICAL CONNECTIVITY marked on layer metal6
+
+HIERARCHICAL CONNECTIVITY marked on layer metal7
+
+HIERARCHICAL CONNECTIVITY marked on layer metal8
+
+HIERARCHICAL CONNECTIVITY marked on layer metal9
+
+Antenna.metal9::<1> = NET AREA RATIO metal9 metal8 metal7 metal6 metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                     [((AREA(metal8)+AREA(metal7)+AREA(metal6)+AREA(metal5)+AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal9::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  OPS COMPLETE = 349 OF 350  ELAPSED TIME = 12
+
+Layer Antenna.metal9::<1> DELETED -- LVHEAP = 2/5/5
+
+DRC RuleCheck Antenna.metal9 COMPLETED. Number of Results = 0 (0)
+
+CONNECT started.  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+CONNECT metal10 metal9 BY via9 ...
+
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 2/5/5  ELAPSED TIME = 12
+
+NETS = 12 (0)  EPINS = 0 (0)
+
+Layer via9 DELETED -- LVHEAP = 1/5/5
+
+HIERARCHICAL CONNECTIVITY marked on layer poly
+
+HIERARCHICAL CONNECTIVITY marked on layer gate
+
+HIERARCHICAL CONNECTIVITY marked on layer metal1
+
+HIERARCHICAL CONNECTIVITY marked on layer diode
+
+HIERARCHICAL CONNECTIVITY marked on layer metal2
+
+HIERARCHICAL CONNECTIVITY marked on layer metal3
+
+HIERARCHICAL CONNECTIVITY marked on layer metal4
+
+HIERARCHICAL CONNECTIVITY marked on layer metal5
+
+HIERARCHICAL CONNECTIVITY marked on layer metal6
+
+HIERARCHICAL CONNECTIVITY marked on layer metal7
+
+HIERARCHICAL CONNECTIVITY marked on layer metal8
+
+HIERARCHICAL CONNECTIVITY marked on layer metal9
+
+HIERARCHICAL CONNECTIVITY marked on layer metal10
+
+Antenna.metal10::<1> = NET AREA RATIO metal10 metal9 metal8 metal7 metal6 metal5 metal4 metal3 metal2 metal1 poly gate diode > 300
+                                      [((AREA(metal9)+AREA(metal8)+AREA(metal7)+AREA(metal6)+AREA(metal5)+AREA(metal4)+AREA(metal3)+AREA(metal2)+AREA(metal1)+AREA(poly))*!AREA(diode))/AREA(gate)]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Antenna.metal10::<1> (HIER TYP=1 CFG=1 HGC=0 FGC=0 HEC=0 FEC=0 IGC=0 VHC=F VPC=F)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/5/5  OPS COMPLETE = 350 OF 350  ELAPSED TIME = 12
+
+Layer metal10 DELETED -- LVHEAP = 1/5/5
+
+Layer metal9 DELETED -- LVHEAP = 1/5/5
+
+Layer metal8 DELETED -- LVHEAP = 1/5/5
+
+Layer metal7 DELETED -- LVHEAP = 1/5/5
+
+Layer metal6 DELETED -- LVHEAP = 1/5/5
+
+Layer metal5 DELETED -- LVHEAP = 1/5/5
+
+Layer metal4 DELETED -- LVHEAP = 1/5/5
+
+Layer metal3 DELETED -- LVHEAP = 1/5/5
+
+Layer metal2 DELETED -- LVHEAP = 1/5/5
+
+Layer metal1 DELETED -- LVHEAP = 1/5/5
+
+Layer poly DELETED -- LVHEAP = 1/5/5
+
+Layer gate DELETED -- LVHEAP = 1/5/5
+
+Layer diode DELETED -- LVHEAP = 1/5/5
+
+Layer Antenna.metal10::<1> DELETED -- LVHEAP = 1/5/5
+
+WRITE to ASCII DRC Results Database nand_gate.drc.results COMPLETED
+
+DRC RuleCheck Antenna.metal10 COMPLETED. Number of Results = 0 (0)
+
+Cumulative ONE-LAYER BOOLEAN Time: CPU = 0  REAL = 0
+Cumulative TWO-LAYER BOOLEAN Time: CPU = 0  REAL = 0
+Cumulative SIZE Time: CPU = 0  REAL = 0
+Cumulative EDGE TOPOLOGICAL Time: CPU = 0  REAL = 0
+Cumulative EDGE MEASUREMENT Time: CPU = 0  REAL = 0
+Cumulative ONE-LAYER DRC Time: CPU = 0  REAL = 0
+Cumulative TWO-LAYER DRC Time: CPU = 0  REAL = 0
+Cumulative NET AREA (RATIO) Time: CPU = 0  REAL = 0
+Cumulative MISCELLANEOUS Time: CPU = 0  REAL = 0
+Cumulative CONNECT Time: CPU = 0  REAL = 0
+Cumulative RDB Time: CPU = 0  REAL = 0
+
+--- CALIBRE::DRC-H EXECUTIVE MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+--- TOTAL RULECHECKS EXECUTED = 167
+--- TOTAL RESULTS GENERATED = 0 (0)
+--- DRC RESULTS DATABASE FILE = nand_gate.drc.results (ASCII)
+
+--- CALIBRE::DRC-H COMPLETED - Wed Dec 13 20:57:20 2017
+--- TOTAL CPU TIME = 0  REAL TIME = 6
+--- PROCESSOR COUNT = 1
+--- SUMMARY REPORT FILE = nand_gate.drc.summary
+

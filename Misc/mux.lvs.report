@@ -1,0 +1,469 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         mux.lvs.report
+LAYOUT NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/mux.sp ('mux')
+SOURCE NAME:              /home/DREXEL/rm885/NCSU_FreePDK45/mux.src.net ('mux')
+RULE FILE:                /home/DREXEL/rm885/NCSU_FreePDK45/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Fri Dec 15 10:12:15 2017
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      mux                           mux
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         mux
+SOURCE CELL NAME:         mux
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         6    *
+
+ Nets:              19        12    *
+
+ Instances:          7         7         MN (4 pins)
+                     7         7         MP (4 pins)
+                ------    ------
+ Total Inst:        14        14
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         6    *
+
+ Nets:              16         9    *
+
+ Instances:          1         1         _invv (4 pins)
+                     3         3         _nand2v (5 pins)
+                ------    ------
+ Total Inst:         4         4
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net OUT                                                   OUT
+       --- 3 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nand2b):in1                                             ** missing connection **
+         M10(2.300,0.895):g
+         M3(2.300,0.212):g
+       
+       
+       (_invb):out                                               ** missing connection **
+         M2(1.635,0.275):d
+         M9(1.635,0.843):d
+       
+       
+       ** missing connection **                                  (_nand2v):out
+                                                                   XI2/MM2:d
+                                                                   XI2/MM3:d
+                                                                   XI2/MM1:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 2                                                     net10
+       --- 1 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI2/MM3:g
+                                                                   XI2/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 9                                                     net11
+       --- 1 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI2/MM2:g
+                                                                   XI2/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 5                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 6                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net 15                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net 16                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net 17                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net 18                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net 19                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net 20                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    ** no similar net **                                      net12
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 13    5 on net: 5                                               ** missing port **
+ 14    6 on net: 6                                               ** missing port **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 15    M9(1.635,0.843)  MP(PMOS_VTH)                             XI3/MM1  MP(PMOS_VTH)
+         g: B                                                      g: SEL
+         d: VDD!                                                   d: VDD!
+         s: OUT                                                    ** OUT **
+         b: 18                                                     ** no similar net **
+         ** no similar net **                                      s: net12
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    M2(1.635,0.275)  MN(NMOS_VTH)                             XI3/MM0  MN(NMOS_VTH)
+         g: B                                                      g: SEL
+         d: GND!                                                   d: GND!
+         s: OUT                                                    ** OUT **
+         b: 15                                                     ** no similar net **
+         ** no similar net **                                      s: net12
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    M3(2.300,0.212)  MN(NMOS_VTH)                             XI2/MM0  MN(NMOS_VTH)
+         d: GND!                                                   d: GND!
+         g: OUT                                                    ** OUT **
+         b: 16                                                     ** no similar net **
+         ** 2 **                                                   g: net10
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    M4(2.490,0.212)  MN(NMOS_VTH)                             XI2/MM1  MN(NMOS_VTH)
+         g: 5                                                      ** no similar net **
+         d: 6                                                      ** no similar net **
+         b: 16                                                     ** no similar net **
+         ** 9 **                                                   g: net11
+         ** OUT **                                                 d: OUT
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    M10(2.300,0.895)  MP(PMOS_VTH)                            XI2/MM3  MP(PMOS_VTH)
+         g: OUT                                                    s: OUT
+         d: VDD!                                                   d: VDD!
+         s: 6                                                      ** no similar net **
+         b: 19                                                     ** no similar net **
+         ** 2 **                                                   g: net10
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    M11(2.490,0.895)  MP(PMOS_VTH)                            XI2/MM2  MP(PMOS_VTH)
+         d: VDD!                                                   d: VDD!
+         g: 5                                                      ** no similar net **
+         s: 6                                                      ** no similar net **
+         b: 19                                                     ** no similar net **
+         ** 9 **                                                   g: net11
+         ** OUT **                                                 s: OUT
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    M6(3.305,0.212)  MN(NMOS_VTH)                             XI0/MM0  MN(NMOS_VTH)
+         g: 8                                                      g: IN1
+         d: 9                                                      ** net11 **
+         b: 17                                                     ** no similar net **
+         ** GND! **                                                d: GND!
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    M13(3.305,0.895)  MP(PMOS_VTH)                            XI0/MM3  MP(PMOS_VTH)
+         g: 8                                                      g: IN1
+         s: 9                                                      s: net11
+         d: VDD!                                                   d: VDD!
+         b: 20                                                     ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               6          6            2            0
+
+   Nets:                8          8            8            1
+
+   Instances:           1          1            0            0    _invv
+                        3          3            0            0    _nand2v
+                  -------    -------    ---------    ---------
+   Total Inst:          4          4            0            0
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        A B
+   Nets:         A B
+
+
+o Initial Correspondence Points:
+
+   Ports:        OUT GND! VDD!
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invv)
+         in: B                                                     in: SEL
+         sup1: VDD!                                                sup1: VDD!
+         sup2: GND!                                                sup2: GND!
+         out: OUT                                                  ** OUT **
+         ** no similar net **                                      out: net12
+
+       Devices: 
+         M9(1.635,0.843)  MP(PMOS_VTH)                             XI3/MM1  MP(PMOS_VTH) 
+         M2(1.635,0.275)  MN(NMOS_VTH)                             XI3/MM0  MN(NMOS_VTH) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2b)                                                 (_nand2v)
+         sup1: VDD!                                                sup1: VDD!
+         sup2: GND!                                                sup2: GND!
+         in1: OUT                                                  ** OUT **
+         in2: 5                                                    ** no similar net **
+         out: 6                                                    ** no similar net **
+         ** 2 **                                                   in1: net10
+         ** 9 **                                                   in2: net11
+         ** OUT **                                                 out: OUT
+
+       Devices: 
+         M3(2.300,0.212)  MN(NMOS_VTH)                             XI2/MM0  MN(NMOS_VTH) 
+         M4(2.490,0.212)  MN(NMOS_VTH)                             XI2/MM1  MN(NMOS_VTH) 
+         M10(2.300,0.895)  MP(PMOS_VTH)                            XI2/MM3  MP(PMOS_VTH) 
+         M11(2.490,0.895)  MP(PMOS_VTH)                            XI2/MM2  MP(PMOS_VTH) 
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

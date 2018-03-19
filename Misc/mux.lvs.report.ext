@@ -1,0 +1,48 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         mux.lvs.report.ext
+LAYOUT NAME:              mux.calibre.db ('mux')
+CREATION TIME:            Fri Dec 15 10:11:28 2017
+CURRENT DIRECTORY:        /home/DREXEL/rm885/NCSU_FreePDK45
+USER NAME:                rm885
+CALIBRE VERSION:          v2015.3_25.16    Tue Sep 1 14:37:32 PDT 2015
+
+
+
+Extraction Errors and Warnings for cell "mux"
+---------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  4
+          (1)  name  "a"  at location  (2.255,0.6725)  on layer  11 "metal1"
+          (2)  name  "Out"  at location  (1.7625,0.6)  on layer  11 "metal1"
+          The name "a" was assigned to the net.
+
+WARNING:  Open circuit - Same name on different nets:
+          Name:  "a"
+          (1)  at location  (0.84,0.67)  on layer  11 "metal1"  on net id  1
+          (2)  at location  (2.255,0.6725)  on layer  11 "metal1"  on net id  4
+          (3)  at location  (3.075,0.68)  on layer  11 "metal1"  on net id  6
+          The name was assigned to net 1 .
+
+WARNING:  Open circuit - Same name on different nets:
+          Name:  "b"
+          (1)  at location  (1.16,0.7075)  on layer  11 "metal1"  on net id  3
+          (2)  at location  (2.5825,0.705)  on layer  11 "metal1"  on net id  5
+          (3)  at location  (3.4025,0.71)  on layer  11 "metal1"  on net id  8
+          The name was assigned to net 3 .
+
+
+WARNING: Top level port name "a" on net 4 at location (2.255,0.6725) already used on net 1; ignored.
+WARNING: Top level port name "b" on net 5 at location (2.5825,0.705) already used on net 3; ignored.
+WARNING: Top level port name "a" on net 6 at location (3.075,0.68) already used on net 1; ignored.
+WARNING: Top level port name "b" on net 8 at location (3.4025,0.71) already used on net 3; ignored.

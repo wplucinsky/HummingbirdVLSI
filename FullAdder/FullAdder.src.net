@@ -1,0 +1,87 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: FullAdder
+* View Name:     schematic
+* Netlisted on:  Mar 17 13:30:28 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
+
+*.PIN VSS!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    AND2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2_X1 A1 A2 ZN
+*.PININFO A1:I A2:I ZN:O
+MM_i_2 net_0 A1 ZN_neg VSS! NM W=2.1E-07 L=5E-08
+MM_i_3 VSS! A2 net_0 VSS! NM W=2.1E-07 L=5E-08
+MM_i_0 ZN ZN_neg VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_5 VDD! A2 ZN_neg VDD! PM W=3.15E-07 L=5E-08
+MM_i_4 ZN_neg A1 VDD! VDD! PM W=3.15E-07 L=5E-08
+MM_i_1 ZN ZN_neg VDD! VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    OR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2_X1 A1 A2 ZN
+*.PININFO A1:I A2:I ZN:O
+MM_i_2 ZN_neg A1 VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_3 VSS! A2 ZN_neg VSS! NM W=2.1E-07 L=5E-08
+MM_i_0 ZN ZN_neg VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_4 net_0 A1 ZN_neg VDD! PM W=3.15E-07 L=5E-08
+MM_i_5 VDD! A2 net_0 VDD! PM W=3.15E-07 L=5E-08
+MM_i_1 ZN ZN_neg VDD! VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B Z
+*.PININFO A:I B:I Z:O
+MM_i_19 net_001 A Z VSS! NM W=4.15E-07 L=5E-08
+MM_i_24 VSS! B net_001 VSS! NM W=4.15E-07 L=5E-08
+MM_i_0 net_000 A VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_13 Z net_000 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 VSS! B net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_30 net_002 A net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_35 VDD! B net_002 VDD! PM W=3.15E-07 L=5E-08
+MM_i_41 net_003 net_000 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_47 Z A net_003 VDD! PM W=6.3E-07 L=5E-08
+MM_i_53 net_003 B Z VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    FullAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FullAdder A B Cin Cout Sum
+*.PININFO A:I B:I Cin:I Cout:O Sum:O
+XI57 Cin xor1_out and2_or / AND2_X1
+XI56 A B and1_or / AND2_X1
+XI58 and2_or and1_or Cout / OR2_X1
+XI54 A B xor1_out / XOR2_X1
+XI55 xor1_out Cin Sum / XOR2_X1
+.ENDS
+

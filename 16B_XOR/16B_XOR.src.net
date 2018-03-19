@@ -1,0 +1,74 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Hummingbird
+* Top Cell Name: 16B_XOR
+* View Name:     schematic
+* Netlisted on:  Mar 18 17:31:36 2018
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL VSS!
++        VDD!
+
+*.PIN VSS!
+*+    VDD!
+
+************************************************************************
+* Library Name: NangateOpenCellLibrary
+* Cell Name:    XOR2_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2_X1 A B Z
+*.PININFO A:I B:I Z:O
+MM_i_19 net_001 A Z VSS! NM W=4.15E-07 L=5E-08
+MM_i_24 VSS! B net_001 VSS! NM W=4.15E-07 L=5E-08
+MM_i_0 net_000 A VSS! VSS! NM W=2.1E-07 L=5E-08
+MM_i_13 Z net_000 VSS! VSS! NM W=4.15E-07 L=5E-08
+MM_i_7 VSS! B net_000 VSS! NM W=2.1E-07 L=5E-08
+MM_i_30 net_002 A net_000 VDD! PM W=3.15E-07 L=5E-08
+MM_i_35 VDD! B net_002 VDD! PM W=3.15E-07 L=5E-08
+MM_i_41 net_003 net_000 VDD! VDD! PM W=6.3E-07 L=5E-08
+MM_i_47 Z A net_003 VDD! PM W=6.3E-07 L=5E-08
+MM_i_53 net_003 B Z VDD! PM W=6.3E-07 L=5E-08
+.ENDS
+
+************************************************************************
+* Library Name: Hummingbird
+* Cell Name:    16B_XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 16B_XOR O<0> O<1> O<2> O<3> O<4> O<5> O<6> O<7> O<8> O<9> O<10> O<11> 
++ O<12> O<13> O<14> O<15> a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> a<8> a<9> 
++ a<10> a<11> a<12> a<13> a<14> a<15> b<0> b<1> b<2> b<3> b<4> b<5> b<6> b<7> 
++ b<8> b<9> b<10> b<11> b<12> b<13> b<14> b<15>
+*.PININFO a<0>:I a<1>:I a<2>:I a<3>:I a<4>:I a<5>:I a<6>:I a<7>:I a<8>:I 
+*.PININFO a<9>:I a<10>:I a<11>:I a<12>:I a<13>:I a<14>:I a<15>:I b<0>:I b<1>:I 
+*.PININFO b<2>:I b<3>:I b<4>:I b<5>:I b<6>:I b<7>:I b<8>:I b<9>:I b<10>:I 
+*.PININFO b<11>:I b<12>:I b<13>:I b<14>:I b<15>:I O<0>:O O<1>:O O<2>:O O<3>:O 
+*.PININFO O<4>:O O<5>:O O<6>:O O<7>:O O<8>:O O<9>:O O<10>:O O<11>:O O<12>:O 
+*.PININFO O<13>:O O<14>:O O<15>:O
+XI15 a<15> b<15> O<15> / XOR2_X1
+XI14 a<14> b<14> O<14> / XOR2_X1
+XI13 a<13> b<13> O<13> / XOR2_X1
+XI12 a<12> b<12> O<12> / XOR2_X1
+XI11 a<11> b<11> O<11> / XOR2_X1
+XI10 a<10> b<10> O<10> / XOR2_X1
+XI9 a<9> b<9> O<9> / XOR2_X1
+XI8 a<8> b<8> O<8> / XOR2_X1
+XI7 a<7> b<7> O<7> / XOR2_X1
+XI6 a<6> b<6> O<6> / XOR2_X1
+XI5 a<5> b<5> O<5> / XOR2_X1
+XI4 a<4> b<4> O<4> / XOR2_X1
+XI3 a<3> b<3> O<3> / XOR2_X1
+XI2 a<2> b<2> O<2> / XOR2_X1
+XI1 a<1> b<1> O<1> / XOR2_X1
+XI0 a<0> b<0> O<0> / XOR2_X1
+.ENDS
+

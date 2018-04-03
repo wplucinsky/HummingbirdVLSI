@@ -1,6 +1,5 @@
 # HummingbirdVLSI
-This project aims to implement the [Hummingbird Cryptographic Algorithm](https://github.com/wplucinsky/HummingbirdVLSI/blob/master/HummingbirdAlgorithm.pdf) which was created at the University of Waterloo [1].  My team implemented only the encryption module due to time constraints. 
-
+This project aims to implement the [Hummingbird Cryptographic Algorithm](https://github.com/wplucinsky/HummingbirdVLSI/blob/master/HummingbirdAlgorithm.pdf) which was created at the University of Waterloo [1] for Drexel University's ECEC 472 - Custom VLSI Design class.  My team implemented only the encryption module, seen below, due to time constraints. 
 
 ![Encryption](https://github.com/wplucinsky/HummingbirdVLSI/blob/master/encryption.png)
 
